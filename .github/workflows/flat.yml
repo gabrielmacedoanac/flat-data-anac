@@ -80,51 +80,51 @@ jobs:
         with:
           http_url: https://sistemas.anac.gov.br/dadosabertos/Seguranca%20Operacional/Ocorrencia/V_OCORRENCIA_AMPLA.json
           downloaded_filename: safety-ocorrencias.json
-      - name: Fetch data
-        uses: githubocto/flat@v3
-        with:
-          http_url: https://sistemas.anac.gov.br/dadosabertos/Voos%20e%20opera%C3%A7%C3%B5es%20a%C3%A9reas/Dados%20do%20consumidor.gov/DadosDoConsumidor2020.json
-          downloaded_filename: consumidor-gov-2020.json
-      - name: Fetch data
-        uses: githubocto/flat@v3
-        with:
-          http_url: https://sistemas.anac.gov.br/dadosabertos/Voos%20e%20opera%C3%A7%C3%B5es%20a%C3%A9reas/Dados%20do%20consumidor.gov/DadosDoConsumidor2019.json
-          downloaded_filename: consumidor-gov-2019.json
-      - name: Fetch data
-        uses: githubocto/flat@v3
-        with:
-          http_url: https://sistemas.anac.gov.br/dadosabertos/Voos%20e%20opera%C3%A7%C3%B5es%20a%C3%A9reas/Dados%20Estat%C3%ADsticos%20do%20Transporte%20A%C3%A9reo/Dados_Estatisticos.csv
-          downloaded_filename: dados-estatisticos-transporte-aereo.json        
+#      - name: Fetch data
+#        uses: githubocto/flat@v3
+#        with:
+#          http_url: https://sistemas.anac.gov.br/dadosabertos/Voos%20e%20opera%C3%A7%C3%B5es%20a%C3%A9reas/Dados%20do%20consumidor.gov/DadosDoConsumidor2020.json
+#          downloaded_filename: consumidor-gov-2020.json
+#      - name: Fetch data
+#        uses: githubocto/flat@v3
+#        with:
+#          http_url: https://sistemas.anac.gov.br/dadosabertos/Voos%20e%20opera%C3%A7%C3%B5es%20a%C3%A9reas/Dados%20do%20consumidor.gov/DadosDoConsumidor2019.json
+#          downloaded_filename: consumidor-gov-2019.json
+#      - name: Fetch data
+#        uses: githubocto/flat@v3
+#        with:
+#          http_url: https://sistemas.anac.gov.br/dadosabertos/Voos%20e%20opera%C3%A7%C3%B5es%20a%C3%A9reas/Dados%20Estat%C3%ADsticos%20do%20Transporte%20A%C3%A9reo/Dados_Estatisticos.csv
+#          downloaded_filename: dados-estatisticos-transporte-aereo.json        
       - name: Fetch data
         uses: githubocto/flat@v3
         with:
           http_url: https://sistemas.anac.gov.br/dadosabertos/fiscalizacao/Lista%20de%20processos%20administrativos%20sancionadores/ListaDeProcessosAdministrativosSancionadores.json
           downloaded_filename: processos-administrativos-sancionadores.json
-#       - name: Fetch data
-#         uses: githubocto/flat@v3
-#         with:
-#           http_url: https://sistemas.anac.gov.br/dadosabertos/fiscalizacao/Opera%C3%A7%C3%B5es%20de%20fiscaliza%C3%A7%C3%A3o/fiscalizacoes.json
-#           downloaded_filename: fiscalizacoes.json
-#       - name: Fetch data
-#         uses: githubocto/flat@v3
-#         with:
-#           http_url: https://sistemas.anac.gov.br/dadosabertos/regulamentacao/cesc-condicao-especial/cesc-condicao-especial.json
-#           downloaded_filename: condicao-especial.json
-#       - name: Fetch data
-#         uses: githubocto/flat@v3
-#         with:
-#           http_url: https://sistemas.anac.gov.br/dadosabertos/regulamentacao/iac-e-is/is.json
-#           downloaded_filename: is.json
-#       - name: Fetch data
-#         uses: githubocto/flat@v3
-#         with:
-#           http_url: https://sistemas.anac.gov.br/dadosabertos/regulamentacao/iac-e-is/iac.json
-#           downloaded_filename: iac.json
-#       - name: Fetch data
-#         uses: githubocto/flat@v3
-#         with:
-#           http_url: https://sistemas.anac.gov.br/dadosabertos/regulamentacao/rbha-e-rbac/rbac.json
-#           downloaded_filename: rbac.json
+      - name: Fetch data
+        uses: githubocto/flat@v3
+        with:
+          http_url: https://sistemas.anac.gov.br/dadosabertos/fiscalizacao/Opera%C3%A7%C3%B5es%20de%20fiscaliza%C3%A7%C3%A3o/fiscalizacoes.json
+          downloaded_filename: fiscalizacoes.json
+      - name: Fetch data
+        uses: githubocto/flat@v3
+        with:
+          http_url: https://sistemas.anac.gov.br/dadosabertos/regulamentacao/cesc-condicao-especial/cesc-condicao-especial.json
+          downloaded_filename: condicao-especial.json
+      - name: Fetch data
+        uses: githubocto/flat@v3
+        with:
+          http_url: https://sistemas.anac.gov.br/dadosabertos/regulamentacao/iac-e-is/is.json
+          downloaded_filename: is.json
+      - name: Fetch data
+        uses: githubocto/flat@v3
+        with:
+          http_url: https://sistemas.anac.gov.br/dadosabertos/regulamentacao/iac-e-is/iac.json
+          downloaded_filename: iac.json
+      - name: Fetch data
+        uses: githubocto/flat@v3
+        with:
+          http_url: https://sistemas.anac.gov.br/dadosabertos/regulamentacao/rbha-e-rbac/rbac.json
+          downloaded_filename: rbac.json
 #       - name: Fetch data
 #         uses: githubocto/flat@v3
 #         with:
