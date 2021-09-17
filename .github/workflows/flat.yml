@@ -45,17 +45,16 @@ jobs:
         with:
           http_url: https://sistemas.anac.gov.br/dadosabertos/Gestao%20Interna/Manifestacoes%20de%20Usuarios/ManifestacaoDeUsuarios.json
           downloaded_filename: manifestacoes-de-usuarios.json
-#        
-#       - name: Fetch data
-#         uses: githubocto/flat@v3
-#         with:
-#           http_url: https://sistemas.anac.gov.br/dadosabertos/Gestao%20Interna/Pesquisa%20de%20Servi%C3%A7os/PesquisaServicos.json
-#           downloaded_filename: pesquisa-de-servicos.json
-#       - name: Fetch data
-#         uses: githubocto/flat@v3
-#         with:
-#           http_url: https://sistemas.anac.gov.br/dadosabertos/Gestao%20Interna/Lista%20de%20TFAC/Lista_TFAC.json
-#           downloaded_filename: tfac-lista.json
+      - name: Fetch data
+        uses: githubocto/flat@v3
+        with:
+          http_url: https://sistemas.anac.gov.br/dadosabertos/Gestao%20Interna/Pesquisa%20de%20Servi%C3%A7os/PesquisaServicos.json
+          downloaded_filename: pesquisa-de-servicos.json
+      - name: Fetch data
+        uses: githubocto/flat@v3
+        with:
+          http_url: https://sistemas.anac.gov.br/dadosabertos/Gestao%20Interna/Lista%20de%20TFAC/Lista_TFAC.json
+          downloaded_filename: tfac-lista.json
 #       - name: Fetch data
 #         uses: githubocto/flat@v3
 #         with:
