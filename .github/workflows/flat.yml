@@ -55,31 +55,31 @@ jobs:
         with:
           http_url: https://sistemas.anac.gov.br/dadosabertos/Gestao%20Interna/Lista%20de%20TFAC/Lista_TFAC.json
           downloaded_filename: tfac-lista.json
-#       - name: Fetch data
-#         uses: githubocto/flat@v3
-#         with:
-#           http_url: https://sistemas.anac.gov.br/dadosabertos/Organiza%C3%A7%C3%B5es%20de%20Forma%C3%A7%C3%A3o/Escolas%20da%20Avia%C3%A7%C3%A3o%20Civil/Escolas.json
-#           downloaded_filename: escolas.json
-#       - name: Fetch data
-#         uses: githubocto/flat@v3
-#         with:
-#           http_url: https://sistemas.anac.gov.br/dadosabertos/Organiza%C3%A7%C3%B5es%20de%20Forma%C3%A7%C3%A3o/Escolas%20da%20Avia%C3%A7%C3%A3o%20Civil/Cursos.json
-#           downloaded_filename: cursos.json
-#       - name: Fetch data
-#         uses: githubocto/flat@v3
-#         with:
-#           http_url: https://sistemas.anac.gov.br/dadosabertos/Organiza%C3%A7%C3%B5es%20de%20Manuten%C3%A7%C3%A3o/Oficinas%20de%20Manuten%C3%A7%C3%A3o/OrganizacoesDeManutencao.json
-#           downloaded_filename: oficinas.json
-#       - name: Fetch data
-#         uses: githubocto/flat@v3
-#         with:
-#           http_url: https://sistemas.anac.gov.br/dadosabertos/Pessoal%20da%20Avia%C3%A7%C3%A3o%20Civil/Profissionais%20Credenciados/ProfissionaisCredenciados.json
-#           downloaded_filename: profissionais-credenciados.json
-#       - name: Fetch data
-#         uses: githubocto/flat@v3
-#         with:
-#           http_url: https://sistemas.anac.gov.br/dadosabertos/Seguranca%20Operacional/Ocorrencia/V_OCORRENCIA_AMPLA.json
-#           downloaded_filename: safety-ocorrencias.json
+      - name: Fetch data
+        uses: githubocto/flat@v3
+        with:
+          http_url: https://sistemas.anac.gov.br/dadosabertos/Organiza%C3%A7%C3%B5es%20de%20Forma%C3%A7%C3%A3o/Escolas%20da%20Avia%C3%A7%C3%A3o%20Civil/Escolas.json
+          downloaded_filename: escolas.json
+      - name: Fetch data
+        uses: githubocto/flat@v3
+        with:
+          http_url: https://sistemas.anac.gov.br/dadosabertos/Organiza%C3%A7%C3%B5es%20de%20Forma%C3%A7%C3%A3o/Escolas%20da%20Avia%C3%A7%C3%A3o%20Civil/Cursos.json
+          downloaded_filename: cursos.json
+      - name: Fetch data
+        uses: githubocto/flat@v3
+        with:
+          http_url: https://sistemas.anac.gov.br/dadosabertos/Organiza%C3%A7%C3%B5es%20de%20Manuten%C3%A7%C3%A3o/Oficinas%20de%20Manuten%C3%A7%C3%A3o/OrganizacoesDeManutencao.json
+          downloaded_filename: oficinas.json
+      - name: Fetch data
+        uses: githubocto/flat@v3
+        with:
+          http_url: https://sistemas.anac.gov.br/dadosabertos/Pessoal%20da%20Avia%C3%A7%C3%A3o%20Civil/Profissionais%20Credenciados/ProfissionaisCredenciados.json
+          downloaded_filename: profissionais-credenciados.json
+      - name: Fetch data
+        uses: githubocto/flat@v3
+        with:
+          http_url: https://sistemas.anac.gov.br/dadosabertos/Seguranca%20Operacional/Ocorrencia/V_OCORRENCIA_AMPLA.json
+          downloaded_filename: safety-ocorrencias.json
 #       - name: Fetch data
 #         uses: githubocto/flat@v3
 #         with:
