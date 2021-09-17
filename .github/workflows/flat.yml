@@ -125,13 +125,13 @@ jobs:
         with:
           http_url: https://sistemas.anac.gov.br/dadosabertos/regulamentacao/rbha-e-rbac/rbac.json
           downloaded_filename: rbac.json
-#       - name: Fetch data
-#         uses: githubocto/flat@v3
-#         with:
-#           http_url: https://sistemas.anac.gov.br/dadosabertos/regulamentacao/rbha-e-rbac/rbha.json
-#           downloaded_filename: rbha.json
-#       - name: Fetch data
-#         uses: githubocto/flat@v3
-#         with:
-#           http_url: https://sistemas.anac.gov.br/dadosabertos/regulamentacao/planos-e-programas/planos-e-programas.json
-#           downloaded_filename: planos-e-programas.json           
+      - name: Fetch data
+        uses: githubocto/flat@v3
+        with:
+          http_url: https://sistemas.anac.gov.br/dadosabertos/regulamentacao/rbha-e-rbac/rbha.json
+          downloaded_filename: rbha.json
+      - name: Fetch data
+        uses: githubocto/flat@v3
+        with:
+          http_url: https://sistemas.anac.gov.br/dadosabertos/regulamentacao/planos-e-programas/planos-e-programas.json
+          downloaded_filename: planos-e-programas.json
