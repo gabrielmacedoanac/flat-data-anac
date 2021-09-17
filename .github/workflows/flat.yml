@@ -34,18 +34,18 @@ jobs:
         uses: githubocto/flat@v3
         with:
           http_url: https://sistemas.anac.gov.br/dadosabertos/Aerodromos/Lista%20de%20aer%C3%B3dromos%20privados/Aerodromos%20Privados/AerodromosPrivados.json
-          downloaded_filename: aerodromos-privados.json        
-       - name: Fetch data
-         uses: githubocto/flat@v3
-         with:
-           http_url: https://sistemas.anac.gov.br/dadosabertos/Aerodromos/Lista%20de%20aer%C3%B3dromos%20p%C3%BAblicos/AerodromosPublicos.json
-           downloaded_filename: aerodromos-publicos.json
-       - name: Fetch data
-         uses: githubocto/flat@v3
-         with:
-           http_url: https://sistemas.anac.gov.br/dadosabertos/Gestao%20Interna/Manifestacoes%20de%20Usuarios/ManifestacaoDeUsuarios.json
-           downloaded_filename: manifestacoes-de-usuarios.json
-########        
+          downloaded_filename: aerodromos-privados.json
+      - name: Fetch data
+        uses: githubocto/flat@v3
+        with:
+          http_url: https://sistemas.anac.gov.br/dadosabertos/Aerodromos/Lista%20de%20aer%C3%B3dromos%20p%C3%BAblicos/AerodromosPublicos.json
+          downloaded_filename: aerodromos-publicos.json
+      - name: Fetch data
+        uses: githubocto/flat@v3
+        with:
+          http_url: https://sistemas.anac.gov.br/dadosabertos/Gestao%20Interna/Manifestacoes%20de%20Usuarios/ManifestacaoDeUsuarios.json
+          downloaded_filename: manifestacoes-de-usuarios.json
+#        
 #       - name: Fetch data
 #         uses: githubocto/flat@v3
 #         with:
