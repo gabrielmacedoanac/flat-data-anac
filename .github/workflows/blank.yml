@@ -1,0 +1,32 @@
+# This is a basic workflow to help you get started with Actions
+
+name: flat-data-anac
+
+# Wokflow para baixar dados abertos da ANAC a cada hora
+on:
+  workflow_dispatch: {}
+  push:
+    paths:
+      - .github/workflows/flat.yml
+  schedule:
+    - cron: 0 * * * *
+jobs:
+  scheduled:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup deno
+        uses: denoland/setup-deno@main
+        with:
+          deno-version: v1.x
+      - name: Check out repo
+        uses: actions/checkout@v2
+      - name: Fetch data
+        uses: githubocto/flat@v3
+        with:
+          http_url: https://sistemas.anac.gov.br/dadosabertos/Aeronaves/drones%20cadastrados/SISANT.json
+          downloaded_filename: drones.json
+      - name: Fetch data
+        uses: githubocto/flat@v3
+        with:
+          http_url: https://sistemas.anac.gov.br/dadosabertos/Aeronaves/RAB/dados_aeronaves.json
+          downloaded_filename: aeronaves.json
