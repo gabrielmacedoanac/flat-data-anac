@@ -20,21 +20,21 @@ jobs:
         uses: actions/checkout@v2
         
 # URL dos dados a serem baixados (http_url) e on nomes dos arquivos (downloaded_filename)        
-#      - name: Fetch data
-#        uses: githubocto/flat@v3
-#        with:
-#          http_url: https://sistemas.anac.gov.br/dadosabertos/Aeronaves/drones%20cadastrados/SISANT.json
-#          downloaded_filename: drones.json
-#      - name: Fetch data
-#        uses: githubocto/flat@v3
-#        with:
-#          http_url: https://sistemas.anac.gov.br/dadosabertos/Aeronaves/RAB/dados_aeronaves.json
-#          downloaded_filename: aeronaves.json
-#      - name: Fetch data
-#        uses: githubocto/flat@v3
-#        with:
-#          http_url: https://sistemas.anac.gov.br/dadosabertos/Aerodromos/Lista%20de%20aer%C3%B3dromos%20privados/Aerodromos%20Privados/AerodromosPrivados.json
-#          downloaded_filename: aerodromos-privados.json
+      - name: Fetch data
+        uses: githubocto/flat@v3
+        with:
+          http_url: https://sistemas.anac.gov.br/dadosabertos/Aeronaves/drones%20cadastrados/SISANT.json
+          downloaded_filename: drones.json
+      - name: Fetch data
+        uses: githubocto/flat@v3
+        with:
+          http_url: https://sistemas.anac.gov.br/dadosabertos/Aeronaves/RAB/dados_aeronaves.json
+          downloaded_filename: aeronaves.json
+      - name: Fetch data
+        uses: githubocto/flat@v3
+        with:
+          http_url: https://sistemas.anac.gov.br/dadosabertos/Aerodromos/Lista%20de%20aer%C3%B3dromos%20privados/Aerodromos%20Privados/AerodromosPrivados.json
+          downloaded_filename: aerodromos-privados.json
       - name: Fetch data
         uses: githubocto/flat@v3
         with:
@@ -115,21 +115,21 @@ jobs:
         with:
           http_url: https://sistemas.anac.gov.br/dadosabertos/regulamentacao/iac-e-is/is.json
           downloaded_filename: is.json
-#      - name: Fetch data
-#        uses: githubocto/flat@v3
-#        with:
-#          http_url: https://sistemas.anac.gov.br/dadosabertos/regulamentacao/iac-e-is/iac.json
-#          downloaded_filename: iac.json
+      - name: Fetch data
+        uses: githubocto/flat@v3
+        with:
+          http_url: https://sistemas.anac.gov.br/dadosabertos/regulamentacao/iac-e-is/iac.json
+          downloaded_filename: iac.json
       - name: Fetch data
         uses: githubocto/flat@v3
         with:
           http_url: https://sistemas.anac.gov.br/dadosabertos/regulamentacao/rbha-e-rbac/rbac.json
           downloaded_filename: rbac.json
-#      - name: Fetch data
-#        uses: githubocto/flat@v3
-#        with:
-#          http_url: https://sistemas.anac.gov.br/dadosabertos/regulamentacao/rbha-e-rbac/rbha.json
-#          downloaded_filename: rbha.json
+      - name: Fetch data
+        uses: githubocto/flat@v3
+        with:
+          http_url: https://sistemas.anac.gov.br/dadosabertos/regulamentacao/rbha-e-rbac/rbha.json
+          downloaded_filename: rbha.json
 #      - name: Fetch data
 #        uses: githubocto/flat@v3
 #        with:
