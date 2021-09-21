@@ -1,4 +1,4 @@
-# Wokflow para baixar dados abertos da ANAC a cada dia (08 UTC)
+# Wokflow para baixar dados abertos da ANAC uma vez por dia, de segunda a sexta, às 08 UTC
 
 name: flat-data-anac
 on:
