@@ -20,11 +20,11 @@ jobs:
         uses: actions/checkout@v2
         
 # URL dos dados a serem baixados (http_url) e on nomes dos arquivos (downloaded_filename)        
-      - name: Fetch data
-        uses: githubocto/flat@v3
-        with:
-          http_url: https://sistemas.anac.gov.br/dadosabertos/Aeronaves/drones%20cadastrados/SISANT.json
-          downloaded_filename: drones.json
+#      - name: Fetch data
+#        uses: githubocto/flat@v3
+#        with:
+#          http_url: https://sistemas.anac.gov.br/dadosabertos/Aeronaves/drones%20cadastrados/SISANT.json
+#          downloaded_filename: drones.json
       - name: Fetch data
         uses: githubocto/flat@v3
         with:
