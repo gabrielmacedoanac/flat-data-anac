@@ -546,19 +546,6 @@
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-161@@download/arquivo_norma/RBAC161EMD03 - Retificado.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-161@@download/anexo_norma/CEF RBAC nº 161.pdf"
   }, 
   {
-    "ementa": "Manutenção, manutenção preventiva, reconstrução e alteração.", 
-    "norma": "RBAC 43 EMD 05", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "09/03/2021", 
-    "outros": "", 
-    "tipo_normatico": "RBAC", 
-    "publicacao": "15/03/2021", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 26 de maio de 2021.", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-43-emd-05@@download/arquivo_norma/RBAC43EMD05.pdf"
-  }, 
-  {
     "ementa": "Operações de transporte aéreo público com aviões com configuração máxima certificada de assentos para passageiros de até 19 assentos e capacidade máxima de carga paga de até 3.400 kg (7.500 lb), ou helicópteros.", 
     "norma": "RBAC 135 EMD 11", 
     "tornada_sem_efeito": "", 
@@ -572,17 +559,30 @@
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-135-emd-11@@download/arquivo_norma/RBAC135EMD11.pdf"
   }, 
   {
-    "ementa": "Manutenção, manutenção preventiva, reconstrução e alteração.", 
-    "norma": "RBAC 43 EMD 04", 
+    "ementa": "Certificação de produto e artigo aeronáuticos.", 
+    "norma": "RBAC 21 EMD 08", 
     "tornada_sem_efeito": "", 
     "alterada": "", 
-    "data": "02/08/2019", 
+    "data": "14/06/2021", 
     "outros": "", 
     "tipo_normatico": "RBAC", 
-    "publicacao": "07/08/2019", 
+    "publicacao": "14/06/2021", 
     "revogada": "", 
-    "em_vigor": "", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-43@@download/arquivo_norma/RBAC43EMD04.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-43@@download/anexo_norma/CEF RBAC nº 43.pdf"
+    "em_vigor": "Em vigor em 1º de julho de 2021.", 
+    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-21@@download/arquivo_norma/RBAC21EMD08.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-21@@download/anexo_norma/CEF RBAC 21.pdf"
+  }, 
+  {
+    "ementa": "Manutenção, manutenção preventiva, reconstrução e alteração.", 
+    "norma": "RBAC 43 EMD 05", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "09/03/2021", 
+    "outros": "", 
+    "tipo_normatico": "RBAC", 
+    "publicacao": "15/03/2021", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 26 de maio de 2021.", 
+    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-43@@download/arquivo_norma/RBAC43EMD05.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-43@@download/anexo_norma/CEF RBAC nº 43.pdf"
   }, 
   {
     "ementa": "Requisitos de ruído para aeronave.", 
@@ -609,32 +609,6 @@
     "revogada": "", 
     "em_vigor": "Em vigor em 1º de julho de 2021.", 
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-e-94-emd-01@@download/arquivo_norma/RBACE94EMD01.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-e-94-emd-01@@download/anexo_norma/CEF RBAC-E 94.pdf"
-  }, 
-  {
-    "ementa": "Certificação de Produto e Artigo Aeronáuticos.", 
-    "norma": "RBAC 21 EMD 08", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "14/06/2021", 
-    "outros": "", 
-    "tipo_normatico": "RBAC", 
-    "publicacao": "14/06/2021", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 1º de julho de 2021.", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-21-emd-08@@download/arquivo_norma/RBAC21EMD08.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-21-emd-08@@download/anexo_norma/CEF RBAC 21.pdf"
-  }, 
-  {
-    "ementa": "Aeronavegabilidade continuada e melhorias na segurança para aviões categoria transporte.", 
-    "norma": "RBAC 26 EMD 03", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "14/06/2021", 
-    "outros": "", 
-    "tipo_normatico": "CE/SC", 
-    "publicacao": "14/06/2021.", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 1º de julho de 2021.", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-26-emd-03@@download/arquivo_norma/RBAC26EMD03.pdf"
   }, 
   {
     "ementa": "Requisitos gerais de operação para aeronaves civis.", 
@@ -686,6 +660,32 @@
     "publicacao": "29/09/2021", 
     "revogada": "", 
     "em_vigor": "Em vigor em 1º de novembro de 2021.", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-67-emd-05@@download/arquivo_norma/RBAC67EMD05.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-67-emd-05@@download/anexo_norma/CEF RBAC 67.pdf"
+    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-67-emd-05@@download/arquivo_norma/RBAC67EMD05.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-67-emd-05@@download/anexo_norma/CEF RBAC67.pdf"
+  }, 
+  {
+    "ementa": "Aeronavegabilidade continuada e melhorias na segurança para aviões categoria transporte.", 
+    "norma": "RBAC 26 EMD 03", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "14/06/2021", 
+    "outros": "", 
+    "tipo_normatico": "RBAC", 
+    "publicacao": "14/06/2021", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 1º de julho de 2021.", 
+    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-26@@download/arquivo_norma/RBAC26EMD03.pdf"
+  }, 
+  {
+    "ementa": "Programa Nacional de Instrução em Segurança da Aviação Civil Contra Atos de Interferência Ilícita - PNIAVSEC", 
+    "norma": "RBAC 110 EMD 01", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "07/10/2021", 
+    "outros": "", 
+    "tipo_normatico": "RBAC", 
+    "publicacao": "08/10/2021", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 1º de novembro de 2022.", 
+    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-110-emd-01@@download/arquivo_norma/RBAC110EMD01.pdf"
   }
 ]
