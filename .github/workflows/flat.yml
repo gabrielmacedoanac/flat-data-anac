@@ -40,11 +40,11 @@ jobs:
         with:
           http_url:  https://sistemas.anac.gov.br/dadosabertos/Aeronaves/Empresas%20Brasileiras%20Certificadas%20para%20fabrica%C3%A7%C3%A3o%20de%20Produtos%20Aeron%C3%A1uticos/EmpresasBrasileirasCertificadas.json
           downloaded_filename: produtos-aeronauticos-empresas-brasileiras-certificadas.json
-      - name: Fetch data
-        uses: githubocto/flat@v3
-        with:
-          http_url: https://sistemas.anac.gov.br/dadosabertos/Aeronaves/drones%20cadastrados/SISANT.json
-          downloaded_filename: drones.json
+#      - name: Fetch data
+#        uses: githubocto/flat@v3
+#        with:
+#          http_url: https://sistemas.anac.gov.br/dadosabertos/Aeronaves/drones%20cadastrados/SISANT.json
+#          downloaded_filename: drones.json
       - name: Fetch data
         uses: githubocto/flat@v3
         with:
