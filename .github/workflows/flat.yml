@@ -45,11 +45,11 @@ jobs:
         with:
           http_url: https://sistemas.anac.gov.br/dadosabertos/Aeronaves/drones%20cadastrados/SISANT.json
           downloaded_filename: drones.json
-#      - name: Fetch data
-#        uses: githubocto/flat@v3
-#        with:
-#          http_url: https://sistemas.anac.gov.br/dadosabertos/Aeronaves/RAB/dados_aeronaves.json
-#          downloaded_filename: aeronaves.json
+      - name: Fetch data
+        uses: githubocto/flat@v3
+        with:
+          http_url: https://sistemas.anac.gov.br/dadosabertos/Aeronaves/RAB/dados_aeronaves.json
+          downloaded_filename: aeronaves.json
       - name: Fetch data
         uses: githubocto/flat@v3
         with:
