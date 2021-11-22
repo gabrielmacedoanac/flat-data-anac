@@ -2334,7 +2334,7 @@
     "data": "15/10/2021", 
     "outros": "", 
     "tipo_normatico": "IS", 
-    "publicacao": "15/10/2021.", 
+    "publicacao": "15/10/2021", 
     "revogada": "", 
     "em_vigor": "Em vigor em 1º de dezembro de 2021.", 
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-183-005a@@download/arquivo_norma/IS183-005A.pdf"
@@ -2347,7 +2347,7 @@
     "data": "29/10/2021", 
     "outros": "", 
     "tipo_normatico": "IS", 
-    "publicacao": "29/10/2021.", 
+    "publicacao": "29/10/2021", 
     "revogada": "", 
     "em_vigor": "Em vigor em 1º de dezembro de 2021.", 
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-183-002f@@download/arquivo_norma/IS 183-002F.pdf"
@@ -2360,9 +2360,48 @@
     "data": "12/11/2021", 
     "outros": "", 
     "tipo_normatico": "IS", 
-    "publicacao": "12/11/2021.", 
+    "publicacao": "12/11/2021", 
     "revogada": "", 
     "em_vigor": "Em vigor em 1º de dezembro de 2021.", 
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-21-001a@@download/arquivo_norma/IS 21-001A.pdf"
+  }, 
+  {
+    "ementa": "Segurança da aviação contra atos de interferência ilícita – operador de aeródromo.", 
+    "norma": "IS 107-001F", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "19/11/2021", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "19/11/2021", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 1º de dezembro de 2021.", 
+    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-107-001f@@download/arquivo_norma/IS107-001F.pdf"
+  }, 
+  {
+    "ementa": "Orientações gerais para a implantação dos programas de prevenção do uso indevido de substâncias psicoativas na aviação civil.", 
+    "norma": "IS 120-002D", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "19/11/2021", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "19/11/2021", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 1º de dezembro de 2021.", 
+    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-120-002d@@download/arquivo_norma/IS120-002D.pdf"
+  }, 
+  {
+    "ementa": "Procedimentos para o lançamento de endossos nos registros de voo de pilotos.", 
+    "norma": "IS 61-006I", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "19/11/2021", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "19/11/2021", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 1º de dezembro de 2021.", 
+    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-61-006i@@download/arquivo_norma/IS61-006I.pdf"
   }
 ]
