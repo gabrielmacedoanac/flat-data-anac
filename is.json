@@ -313,16 +313,16 @@
   }, 
   {
     "ementa": "Extintores de incêndio portáteis.", 
-    "norma": "IS 20-003A", 
+    "norma": "IS 20-003B", 
     "tornada_sem_efeito": "", 
     "alterada": "", 
-    "data": "30/05/2014", 
+    "data": "06/10/2021", 
     "outros": "", 
     "tipo_normatico": "IS", 
-    "publicacao": "30/05/2014", 
+    "publicacao": "08/10/2021", 
     "revogada": "", 
-    "em_vigor": "", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-20-003@@download/arquivo_norma/IS20-003A.pdf"
+    "em_vigor": "Em vigor em 1º de novembro de 2021.", 
+    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-20-003@@download/arquivo_norma/IS20-003B.pdf"
   }, 
   {
     "ementa": "Certificação de aeronavegabilidade de planadores e motoplanadores. ", 
@@ -429,17 +429,17 @@
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-67-001@@download/arquivo_norma/IS67-001A.pdf"
   }, 
   {
-    "ementa": "Instruções para obtenção e revalidação de um Certificado Médico Aeronáutico (CMA).", 
-    "norma": "IS 67-002B", 
+    "ementa": "Instruções para obtenção, revalidação e convalidação de um Certificado Médico Aeronáutico (CMA) e interposição de recurso.", 
+    "norma": "IS 67-002C", 
     "tornada_sem_efeito": "", 
     "alterada": "", 
-    "data": "22/05/2015", 
+    "data": "29/09/2021", 
     "outros": "", 
     "tipo_normatico": "IS", 
-    "publicacao": "22/05/2015", 
+    "publicacao": "08/10/2021", 
     "revogada": "", 
-    "em_vigor": "", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-67-002@@download/arquivo_norma/IS67-002B.pdf"
+    "em_vigor": "Em vigor em 1º de novembro de 2021.", 
+    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-67-002@@download/arquivo_norma/IS67-002C.pdf"
   }, 
   {
     "ementa": "Guia médico - meios aceitáveis de cumprimento do RBAC nº 67.", 
@@ -2301,32 +2301,6 @@
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-91-013@@download/arquivo_norma/IS91-013A.pdf"
   }, 
   {
-    "ementa": "Extintores de incêndio portáteis.", 
-    "norma": "IS 20-003B", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "08/10/2021", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "08/10/2021", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 1º de novembro de 2021.", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-20-003b@@download/arquivo_norma/IS20-003B.pdf"
-  }, 
-  {
-    "ementa": "Instruções para obtenção, revalidação e convalidação de um Certificado Médico Aeronáutico (CMA) e interposição de recurso.", 
-    "norma": "IS 67-002C", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "08/10/2021", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "08/10/2021", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 1º de novembro de 2021.", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-67-002c@@download/arquivo_norma/IS67-002C.pdf"
-  }, 
-  {
     "ementa": "Processo de credenciamento de pessoa física para atuação em processos de aeronavegabilidade continuada no âmbito da SPO.", 
     "norma": "IS 183-005A", 
     "tornada_sem_efeito": "", 
@@ -2358,12 +2332,12 @@
     "tornada_sem_efeito": "", 
     "alterada": "", 
     "data": "12/11/2021", 
-    "outros": "", 
+    "outros": "Retificado no Boletim de Pessoal e Serviço - BPS v.16, nº 47, de 26 de novembro de 2021.", 
     "tipo_normatico": "IS", 
     "publicacao": "12/11/2021", 
     "revogada": "", 
     "em_vigor": "Em vigor em 1º de dezembro de 2021.", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-21-001a@@download/arquivo_norma/IS 21-001A.pdf"
+    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-21-001a@@download/arquivo_norma/IS 21-001A - Retificado.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-21-001a@@download/anexo_norma/IS 21-001A.pdf"
   }, 
   {
     "ementa": "Segurança da aviação contra atos de interferência ilícita – operador de aeródromo.", 
@@ -2393,15 +2367,41 @@
   }, 
   {
     "ementa": "Procedimentos para o lançamento de endossos nos registros de voo de pilotos.", 
-    "norma": "IS 61-006I", 
+    "norma": "IS 61-006J", 
     "tornada_sem_efeito": "", 
     "alterada": "", 
-    "data": "19/11/2021", 
+    "data": "26/11/2021", 
     "outros": "", 
     "tipo_normatico": "IS", 
-    "publicacao": "19/11/2021", 
+    "publicacao": "26/11/2021", 
     "revogada": "", 
-    "em_vigor": "Em vigor em 1º de dezembro de 2021.", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-61-006i@@download/arquivo_norma/IS61-006I.pdf"
+    "em_vigor": "Em vigor em 26 de novembro de 2021.", 
+    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-61-006i@@download/arquivo_norma/IS61-006J.pdf"
+  }, 
+  {
+    "ementa": "Segurança da aviação contra atos de interferência ilícita – operador de aeródromo.", 
+    "norma": "IS 107-001G", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "23/11/2021", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "23/11/2021", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 1º de dezembro de 2022.", 
+    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-107-001g@@download/arquivo_norma/IS107-001G.pdf"
+  }, 
+  {
+    "ementa": "Procedimentos para autorização para operações de helicópteros com carga externa segundo o RBAC nº 133.", 
+    "norma": "IS133-001A", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "26/11/2021", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "26/11/2021", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 3 de janeiro de 2022.", 
+    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is133-001a@@download/arquivo_norma/IS133-001A.pdf"
   }
 ]

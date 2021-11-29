@@ -611,19 +611,6 @@
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-154-emd-07@@download/arquivo_norma/RBAC154EMD07.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-154-emd-07@@download/anexo_norma/Perguntas e Respostas  RBAC nº 154  Emenda nº 07.pdf"
   }, 
   {
-    "ementa": "Requisitos para concessão de certificados médicos aeronáuticos, para o cadastro e credenciamento de médicos, credenciamento de clínicas e para o convênio com entidades públicas.", 
-    "norma": "RBAC 67 EMD 05", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "28/09/2021", 
-    "outros": "", 
-    "tipo_normatico": "RBAC", 
-    "publicacao": "29/09/2021", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 1º de novembro de 2021.", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-67-emd-05@@download/arquivo_norma/RBAC67EMD05.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-67-emd-05@@download/anexo_norma/CEF RBAC67.pdf"
-  }, 
-  {
     "ementa": "Aeronavegabilidade continuada e melhorias na segurança para aviões categoria transporte.", 
     "norma": "RBAC 26 EMD 03", 
     "tornada_sem_efeito": "", 
@@ -660,7 +647,7 @@
     "publicacao": "09/11/2021", 
     "revogada": "", 
     "em_vigor": "Em vigor em 1º de dezembro de 2021.", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-107-emd-5@@download/arquivo_norma/RBAC107EMD05_vigência 01-12-2021.pdf"
+    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-107-emd-5@@download/arquivo_norma/RBAC107EMD05_vigência 01-12-2021.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-107-emd-5@@download/anexo_norma/CEF RBAC nº 107.pdf"
   }, 
   {
     "ementa": "Segurança da Aviação Civil Contra Atos de Interferência Ilícita – Operador de Aeródromo.", 
@@ -673,6 +660,45 @@
     "publicacao": "09/11/2021", 
     "revogada": "", 
     "em_vigor": "Em vigor em 1º de dezembro de 2022.", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-107-emd-6@@download/arquivo_norma/RBAC107EMD06_vigência 01-12-2022.pdf"
+    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-107-emd-6@@download/arquivo_norma/RBAC107EMD06_vigência 01-12-2022.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-107-emd-6@@download/anexo_norma/CEF RBAC nº 107.pdf"
+  }, 
+  {
+    "ementa": "OPERAÇÃO AERODESPORTIVA EM AERONAVES SEM CERTIFICADO DE AERONAVEGABILIDADE.", 
+    "norma": "RBAC 103 EMD 01", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "22/11/2021", 
+    "outros": "", 
+    "tipo_normatico": "RBAC", 
+    "publicacao": "22/11/2021", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 1º de dezembro de 2021.", 
+    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-103-emd-01@@download/arquivo_norma/RBAC103EMD01.pdf"
+  }, 
+  {
+    "ementa": "REQUISITOS PARA DRENAGEM DE COMBUSTÍVEL E EMISSÕES DE MOTORES DE AERONAVES.", 
+    "norma": "RBAC 34 EMD 07", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "22/11/2021", 
+    "outros": "", 
+    "tipo_normatico": "RBAC", 
+    "publicacao": "22/11/2021", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 1º de dezembro de 2021.", 
+    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-34-emd-07@@download/arquivo_norma/RBAC34EMD07.pdf"
+  }, 
+  {
+    "ementa": "Requisitos para concessão de certificados médicos aeronáuticos, para o cadastro e credenciamento de médicos, credenciamento de clínicas e para o convênio com entidades públicas.", 
+    "norma": "RBAC 67 EMD 05", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "28/09/2021", 
+    "outros": "", 
+    "tipo_normatico": "RBAC", 
+    "publicacao": "29/09/2021", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 1º de novembro de 2021.", 
+    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-67@@download/arquivo_norma/RBAC67EMD05.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-67@@download/anexo_norma/CEF RBAC67.pdf"
   }
 ]
