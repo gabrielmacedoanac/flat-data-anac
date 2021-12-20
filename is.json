@@ -178,7 +178,7 @@
     "tipo_normatico": "IS", 
     "publicacao": "19/11/2021", 
     "revogada": "", 
-    "em_vigor": "", 
+    "em_vigor": "Em vigor em 1º de dezembro de 2021.", 
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-120-002@@download/arquivo_norma/IS120-002D.pdf"
   }, 
   {
@@ -2364,5 +2364,31 @@
     "revogada": "", 
     "em_vigor": "Em vigor em 3 de janeiro de 2022.", 
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-133-001@@download/arquivo_norma/IS133-001A.pdf"
+  }, 
+  {
+    "ementa": "Processo de certificação de empresa de transporte aéreo regida pelo RBAC nº 135.", 
+    "norma": "IS 119-004H", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "14/12/2021", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "17/12/2021", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 3 de janeiro de 2022.", 
+    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-119-004-1@@download/arquivo_norma/IS119-004H.pdf"
+  }, 
+  {
+    "ementa": "Processo de autorização de empresas de serviço aéreo público especializado.", 
+    "norma": "IS 91-007C", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "15/12/2021", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "17/12/2021", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 3 de janeiro de 2022.", 
+    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-91-007c@@download/arquivo_norma/IS91-007C.pdf"
   }
 ]
