@@ -169,17 +169,17 @@
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-175-007@@download/arquivo_norma/IS175-007D.pdf"
   }, 
   {
-    "ementa": "Orientações gerais para a implantação dos programas de prevenção de uso indevido de substâncias psicoativas na aviação civil.", 
-    "norma": "IS 120-002C", 
+    "ementa": "Orientações gerais para a implantação dos programas de prevenção do uso indevido de substâncias psicoativas na aviação civil.", 
+    "norma": "IS 120-002D", 
     "tornada_sem_efeito": "", 
     "alterada": "", 
-    "data": "22/12/2017", 
+    "data": "19/11/2021", 
     "outros": "", 
     "tipo_normatico": "IS", 
-    "publicacao": "22/12/2017", 
+    "publicacao": "19/11/2021", 
     "revogada": "", 
-    "em_vigor": "", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-120-002@@download/arquivo_norma/IS120-002C.pdf"
+    "em_vigor": "Em vigor em 1º de dezembro de 2021.", 
+    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-120-002@@download/arquivo_norma/IS120-002D.pdf"
   }, 
   {
     "ementa": "Execução de Ensaios em Voo para Avaliação de Desempenho de Equipamentos de Comunicação em VHF (VHF-COMM) instalados em Aeronaves certificadas segundo o RBAC 23.", 
@@ -1105,17 +1105,17 @@
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-65-001@@download/arquivo_norma/IS65-001D.pdf"
   }, 
   {
-    "ementa": "Processo de Credenciamento de Pessoa Física na SAR e orientações de atuação para os Profissionais Credenciados.", 
-    "norma": "IS 183-002E", 
+    "ementa": "Processo de credenciamento de pessoa física na SAR e de examinador de MMA, e orientações de atuação para os profissionais credenciados", 
+    "norma": "IS 183-002F", 
     "tornada_sem_efeito": "", 
     "alterada": "", 
-    "data": "17/07/2020", 
+    "data": "22/10/2021", 
     "outros": "", 
     "tipo_normatico": "IS", 
-    "publicacao": "17/07/2020", 
+    "publicacao": "29/10/2021", 
     "revogada": "", 
-    "em_vigor": "", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-183-002@@download/arquivo_norma/IS183-002E.pdf"
+    "em_vigor": "Em vigor em 1º de dezembro de 2021.", 
+    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-183-002@@download/arquivo_norma/IS 183-002F.pdf"
   }, 
   {
     "ementa": "Orientações relativas à instalação de DGPS em aeronaves agrícolas.", 
@@ -1262,7 +1262,7 @@
   }, 
   {
     "ementa": "Segurança da aviação contra atos de interferência ilícita - operador de aeródromo.", 
-    "norma": "IS 107-001E", 
+    "norma": "IS 107-001F", 
     "tornada_sem_efeito": "", 
     "alterada": "", 
     "data": "23/03/2021", 
@@ -1270,8 +1270,8 @@
     "tipo_normatico": "IS", 
     "publicacao": "23/03/2021", 
     "revogada": "", 
-    "em_vigor": "Em vigor em 30 de março de 2021.", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-107-001@@download/arquivo_norma/IS107-001E.pdf"
+    "em_vigor": "Em vigor em 1º de dezembro de 2021.", 
+    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-107-001@@download/arquivo_norma/IS107-001F.pdf"
   }, 
   {
     "ementa": "Segurança da aviação contra atos de interferência ilícita – operador aéreo.", 
@@ -2301,76 +2301,11 @@
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-91-013@@download/arquivo_norma/IS91-013A.pdf"
   }, 
   {
-    "ementa": "Processo de credenciamento de pessoa física para atuação em processos de aeronavegabilidade continuada no âmbito da SPO.", 
-    "norma": "IS 183-005A", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "15/10/2021", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "15/10/2021", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 1º de dezembro de 2021.", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-183-005a@@download/arquivo_norma/IS183-005A.pdf"
-  }, 
-  {
-    "ementa": "Processo de credenciamento de pessoa física na SAR e de examinador de MMA, e orientações de atuação para os profissionais credenciados.", 
-    "norma": "IS 183-002F", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "29/10/2021", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "29/10/2021", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 1º de dezembro de 2021.", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-183-002f@@download/arquivo_norma/IS 183-002F.pdf"
-  }, 
-  {
-    "ementa": "Orientações sobre certificação de tipo.", 
-    "norma": "IS 21-001A", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "12/11/2021", 
-    "outros": "Retificado no Boletim de Pessoal e Serviço - BPS v.16, nº 47, de 26 de novembro de 2021.", 
-    "tipo_normatico": "IS", 
-    "publicacao": "12/11/2021", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 1º de dezembro de 2021.", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-21-001a@@download/arquivo_norma/IS 21-001A - Retificado.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-21-001a@@download/anexo_norma/IS 21-001A.pdf"
-  }, 
-  {
-    "ementa": "Segurança da aviação contra atos de interferência ilícita – operador de aeródromo.", 
-    "norma": "IS 107-001F", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "19/11/2021", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "19/11/2021", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 1º de dezembro de 2021.", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-107-001f@@download/arquivo_norma/IS107-001F.pdf"
-  }, 
-  {
-    "ementa": "Orientações gerais para a implantação dos programas de prevenção do uso indevido de substâncias psicoativas na aviação civil.", 
-    "norma": "IS 120-002D", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "19/11/2021", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "19/11/2021", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 1º de dezembro de 2021.", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-120-002d@@download/arquivo_norma/IS120-002D.pdf"
-  }, 
-  {
     "ementa": "Procedimentos para o lançamento de endossos nos registros de voo de pilotos.", 
     "norma": "IS 61-006J", 
     "tornada_sem_efeito": "", 
     "alterada": "", 
-    "data": "26/11/2021", 
+    "data": "22/11/2021", 
     "outros": "", 
     "tipo_normatico": "IS", 
     "publicacao": "26/11/2021", 
@@ -2383,7 +2318,7 @@
     "norma": "IS 107-001G", 
     "tornada_sem_efeito": "", 
     "alterada": "", 
-    "data": "23/11/2021", 
+    "data": "17/11/2021", 
     "outros": "", 
     "tipo_normatico": "IS", 
     "publicacao": "23/11/2021", 
@@ -2392,16 +2327,81 @@
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-107-001g@@download/arquivo_norma/IS107-001G.pdf"
   }, 
   {
-    "ementa": "Procedimentos para autorização para operações de helicópteros com carga externa segundo o RBAC nº 133.", 
-    "norma": "IS133-001A", 
+    "ementa": "Processo de credenciamento de pessoa física para atuação em processos de aeronavegabilidade continuada no âmbito da SPO.", 
+    "norma": "183-005A", 
     "tornada_sem_efeito": "", 
     "alterada": "", 
-    "data": "26/11/2021", 
+    "data": "13/10/2021", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "15/10/2021", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 1º de dezembro de 2021.", 
+    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/183-005@@download/arquivo_norma/IS183-005A.pdf"
+  }, 
+  {
+    "ementa": "Orientações sobre certificação de tipo.", 
+    "norma": "IS 21-001A", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "04/11/2021", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "12/11/2021", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 1º de dezembro de 2021.", 
+    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-21-001@@download/arquivo_norma/IS 21-001A - Retificado.pdf"
+  }, 
+  {
+    "ementa": "Procedimentos para autorização para operações de helicópteros com carga externa segundo o RBAC nº 133.", 
+    "norma": "IS 133-001A", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "18/11/2021", 
     "outros": "", 
     "tipo_normatico": "IS", 
     "publicacao": "26/11/2021", 
     "revogada": "", 
     "em_vigor": "Em vigor em 3 de janeiro de 2022.", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is133-001a@@download/arquivo_norma/IS133-001A.pdf"
+    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-133-001@@download/arquivo_norma/IS133-001A.pdf"
+  }, 
+  {
+    "ementa": "Processo de certificação de empresa de transporte aéreo regida pelo RBAC nº 135.", 
+    "norma": "IS 119-004H", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "14/12/2021", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "17/12/2021", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 3 de janeiro de 2022.", 
+    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-119-004-1@@download/arquivo_norma/IS119-004H.pdf"
+  }, 
+  {
+    "ementa": "Processo de autorização de empresas de serviço aéreo público especializado.", 
+    "norma": "IS 91-007C", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "15/12/2021", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "17/12/2021", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 3 de janeiro de 2022.", 
+    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-91-007c@@download/arquivo_norma/IS91-007C.pdf"
+  }, 
+  {
+    "ementa": "Projeto de sistemas de desaceleração de aeronaves.", 
+    "norma": "IS 154.209-001A", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "21/12/2021", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "24/12/2021", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 3 de janeiro de 2022.", 
+    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-154-209-001@@download/arquivo_norma/IS154.209-001A.pdf"
   }
 ]

@@ -127,7 +127,33 @@
     "publicacao": "12/02/2021", 
     "revogada": "", 
     "em_vigor": "Em vigor em 1º de março de 2021.", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-120@@download/arquivo_norma/RBAC120EMD03.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-120@@download/anexo_norma/CEF RBAC 120.pdf"
+    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-120@@download/arquivo_norma/RBAC120EMD03.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-120@@download/anexo_norma/CEF RBAC nº 120.pdf"
+  }, 
+  {
+    "ementa": "Requisitos gerais para aeronaves não tripuladas de uso civil.", 
+    "norma": "RBAC-E 94 EMD 01", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "01/06/2021", 
+    "outros": "", 
+    "tipo_normatico": "RBAC", 
+    "publicacao": "07/06/2021", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 1º de julho de 2021.", 
+    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-e-94@@download/arquivo_norma/RBACE94EMD01.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-e-94@@download/anexo_norma/CEF RBAC-E 94.pdf"
+  }, 
+  {
+    "ementa": "Projeto de aeródromos.", 
+    "norma": "RBAC 154 EMD 07", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "11/06/2021", 
+    "outros": "", 
+    "tipo_normatico": "RBAC", 
+    "publicacao": "16/06/2021", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 1º de julho de 2021.", 
+    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-154@@download/arquivo_norma/RBAC154EMD07.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-154@@download/anexo_norma/Perguntas e Respostas RBAC154-EMD05.pdf"
   }, 
   {
     "ementa": "Requisitos de aeronavegabilidade: aviões categoria normal.", 
@@ -170,16 +196,16 @@
   }, 
   {
     "ementa": "Operação Aerodesportiva em Aeronaves sem Certificado de Aeronavegabilidade.", 
-    "norma": "RBAC 103 EMD 00", 
+    "norma": "RBAC 103 EMD 01", 
     "tornada_sem_efeito": "", 
     "alterada": "", 
-    "data": "08/06/2018", 
-    "outros": "Retificado no Diário Oficial da União de 20 de junho de 2018, Seção 1, página 54.", 
+    "data": "22/11/2021", 
+    "outros": "", 
     "tipo_normatico": "RBAC", 
-    "publicacao": "08/06/2018", 
+    "publicacao": "22/11/2022", 
     "revogada": "", 
-    "em_vigor": "", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-103@@download/arquivo_norma/RBAC103_EMD00 - Retificado.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-103@@download/anexo_norma/CEF RBAC 103.pdf"
+    "em_vigor": "Em vigor em 1º de dezembro de 2021.", 
+    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-103@@download/arquivo_norma/RBAC103EMD01.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-103@@download/anexo_norma/CEF RBAC 103.pdf"
   }, 
   {
     "ementa": "Credenciamento de pessoas.\r\n", 
@@ -234,19 +260,6 @@
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-045@@download/arquivo_norma/RBAC45EMD04.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-045@@download/anexo_norma/CEF RBAC 45.pdf"
   }, 
   {
-    "ementa": "Segurança da aviação civil contra atos de interferência ilícita – Operador de aeródromo.", 
-    "norma": "RBAC 107 EMD 04", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "07/06/2021", 
-    "outros": "", 
-    "tipo_normatico": "RBAC", 
-    "publicacao": "14/06/2021", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 2 de agosto de 2021.", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-107@@download/arquivo_norma/RBAC107EMD04.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-107@@download/anexo_norma/CEF RBAC 107.pdf"
-  }, 
-  {
     "ementa": "Segurança da aviação civil contra atos de interferência ilícita - Operador aéreo.", 
     "norma": "RBAC 108 EMD 04", 
     "tornada_sem_efeito": "", 
@@ -273,17 +286,17 @@
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-011@@download/arquivo_norma/RBAC11EMD03.pdf"
   }, 
   {
-    "ementa": "Requisitos para drenagem de combustível e emissões de escapamento de aviões com motores a turbina.", 
-    "norma": "RBAC 034 EMD 06", 
+    "ementa": "Requisitos para drenagem de combustível e emissões de motores de aeronaves.", 
+    "norma": "RBAC 034 EMD 07", 
     "tornada_sem_efeito": "", 
     "alterada": "", 
-    "data": "18/12/2018", 
+    "data": "22/11/2021", 
     "outros": "", 
     "tipo_normatico": "RBAC", 
-    "publicacao": "18/12/2018", 
+    "publicacao": "22/11/2021", 
     "revogada": "", 
-    "em_vigor": "Em vigor em 17 de fevereiro de 2019.", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-034@@download/arquivo_norma/RBAC34EMD06.pdf"
+    "em_vigor": "Em vigor em 1º de dezembro de 2021.", 
+    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-034@@download/arquivo_norma/RBAC34EMD07.pdf"
   }, 
   {
     "ementa": "Requisitos para emissões de CO2 de aviões.", 
@@ -559,19 +572,6 @@
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-36@@download/arquivo_norma/RBAC36EMD31.pdf"
   }, 
   {
-    "ementa": "Requisitos gerais para aeronaves não tripuladas de uso civil", 
-    "norma": "RBAC-E 94 EMD 01", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "01/06/2021", 
-    "outros": "", 
-    "tipo_normatico": "RBAC", 
-    "publicacao": "07/06/2021", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 1º de julho de 2021.", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-e-94-emd-01@@download/arquivo_norma/RBACE94EMD01.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-e-94-emd-01@@download/anexo_norma/CEF RBAC-E 94.pdf"
-  }, 
-  {
     "ementa": "Requisitos gerais de operação para aeronaves civis.", 
     "norma": "RBAC 91 EMD 03", 
     "tornada_sem_efeito": "", 
@@ -582,7 +582,7 @@
     "publicacao": "14/06/2021", 
     "revogada": "", 
     "em_vigor": "Em vigor em 1º de julho de 2021.", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-91-emd-03@@download/arquivo_norma/RBAC91EMD03.pdf"
+    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-91-emd-03@@download/arquivo_norma/RBAC91EMD03.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-91-emd-03@@download/anexo_norma/CEF RBAC 91.pdf"
   }, 
   {
     "ementa": "Operações de transporte aéreo público com aviões com configuração máxima certificada de assentos para passageiros de mais 19 assentos ou capacidade máxima de carga paga acima de 3.400 kg.", 
@@ -596,19 +596,6 @@
     "revogada": "", 
     "em_vigor": "Em vigor em 1º de julho de 2021.", 
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-121-emd-14@@download/arquivo_norma/RBAC121EMD14.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-121-emd-14@@download/anexo_norma/CEF RBAC 121.pdf"
-  }, 
-  {
-    "ementa": "Projeto de Aeródromos.", 
-    "norma": "RBAC 154 EMD 07", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "16/06/2021", 
-    "outros": "", 
-    "tipo_normatico": "RBAC", 
-    "publicacao": "16/06/2021.", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 1º de julho de 2021.", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-154-emd-07@@download/arquivo_norma/RBAC154EMD07.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-154-emd-07@@download/anexo_norma/Perguntas e Respostas  RBAC nº 154  Emenda nº 07.pdf"
   }, 
   {
     "ementa": "Aeronavegabilidade continuada e melhorias na segurança para aviões categoria transporte.", 
@@ -647,7 +634,7 @@
     "publicacao": "09/11/2021", 
     "revogada": "", 
     "em_vigor": "Em vigor em 1º de dezembro de 2021.", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-107-emd-5@@download/arquivo_norma/RBAC107EMD05_vigência 01-12-2021.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-107-emd-5@@download/anexo_norma/CEF RBAC nº 107.pdf"
+    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-107-emd-5@@download/arquivo_norma/RBAC107EMD05_vigência 01-12-2021.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-107-emd-5@@download/anexo_norma/CEF RBAC 107.zip"
   }, 
   {
     "ementa": "Segurança da Aviação Civil Contra Atos de Interferência Ilícita – Operador de Aeródromo.", 
@@ -660,33 +647,7 @@
     "publicacao": "09/11/2021", 
     "revogada": "", 
     "em_vigor": "Em vigor em 1º de dezembro de 2022.", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-107-emd-6@@download/arquivo_norma/RBAC107EMD06_vigência 01-12-2022.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-107-emd-6@@download/anexo_norma/CEF RBAC nº 107.pdf"
-  }, 
-  {
-    "ementa": "OPERAÇÃO AERODESPORTIVA EM AERONAVES SEM CERTIFICADO DE AERONAVEGABILIDADE.", 
-    "norma": "RBAC 103 EMD 01", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "22/11/2021", 
-    "outros": "", 
-    "tipo_normatico": "RBAC", 
-    "publicacao": "22/11/2021", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 1º de dezembro de 2021.", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-103-emd-01@@download/arquivo_norma/RBAC103EMD01.pdf"
-  }, 
-  {
-    "ementa": "REQUISITOS PARA DRENAGEM DE COMBUSTÍVEL E EMISSÕES DE MOTORES DE AERONAVES.", 
-    "norma": "RBAC 34 EMD 07", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "22/11/2021", 
-    "outros": "", 
-    "tipo_normatico": "RBAC", 
-    "publicacao": "22/11/2021", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 1º de dezembro de 2021.", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-34-emd-07@@download/arquivo_norma/RBAC34EMD07.pdf"
+    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-107-emd-6@@download/arquivo_norma/RBAC107EMD06_vigência 01-12-2022.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-107-emd-6@@download/anexo_norma/CEF RBAC 107.zip"
   }, 
   {
     "ementa": "Requisitos para concessão de certificados médicos aeronáuticos, para o cadastro e credenciamento de médicos, credenciamento de clínicas e para o convênio com entidades públicas.", 
@@ -700,5 +661,18 @@
     "revogada": "", 
     "em_vigor": "Em vigor em 1º de novembro de 2021.", 
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-67@@download/arquivo_norma/RBAC67EMD05.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-67@@download/anexo_norma/CEF RBAC67.pdf"
+  }, 
+  {
+    "ementa": "Requisitos gerais para aeronaves não tripuladas de uso civil", 
+    "norma": "RBAC-E 94 EMD 02", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "30/11/2021", 
+    "outros": "", 
+    "tipo_normatico": "RBAC", 
+    "publicacao": "02/12/2021", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 1º de junho de 2022.", 
+    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-e-94-emd-02@@download/arquivo_norma/RBACE94EMD02.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-e-94-emd-02@@download/anexo_norma/CEF RBAC-E 94.pdf"
   }
 ]
