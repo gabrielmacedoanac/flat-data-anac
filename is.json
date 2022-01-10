@@ -1300,17 +1300,17 @@
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-21-008@@download/arquivo_norma/IS21-008B.pdf"
   }, 
   {
-    "ementa": "Processo de autorização de empresas de serviço aéreo público.", 
-    "norma": "IS 91-007B", 
+    "ementa": "Processo de autorização de empresas de serviço aéreo público especializado.", 
+    "norma": "IS 91-007C", 
     "tornada_sem_efeito": "", 
     "alterada": "", 
-    "data": "26/04/2019", 
+    "data": "15/12/2021", 
     "outros": "", 
     "tipo_normatico": "IS", 
-    "publicacao": "26/04/2019", 
+    "publicacao": "17/12/2021", 
     "revogada": "", 
-    "em_vigor": "", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-91-007@@download/arquivo_norma/IS91-007B.pdf"
+    "em_vigor": "Em vigor em 3 de janeiro de 2022.", 
+    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-91-007@@download/arquivo_norma/IS91-007C.pdf"
   }, 
   {
     "ementa": "Certificação de organizações de manutenção domésticas.", 
@@ -1821,16 +1821,16 @@
   }, 
   {
     "ementa": "Processo de certificação de empresa de transporte aéreo regida pelo RBAC nº 135.", 
-    "norma": "IS 119-004G", 
+    "norma": "IS 119-004H", 
     "tornada_sem_efeito": "", 
     "alterada": "", 
-    "data": "19/06/2020", 
+    "data": "14/12/2021", 
     "outros": "", 
     "tipo_normatico": "IS", 
-    "publicacao": "19/06/2020", 
+    "publicacao": "17/12/2021", 
     "revogada": "", 
-    "em_vigor": "Em vigor em 1º de julho de 2020.", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-119-004@@download/arquivo_norma/IS119-004G.pdf"
+    "em_vigor": "Em vigor em 3 de janeiro de 2022.", 
+    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-119-004@@download/arquivo_norma/IS119-004H.pdf"
   }, 
   {
     "ementa": "Padrões para a realização de exames de proficiência de pilotos.", 
@@ -2327,19 +2327,6 @@
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-107-001g@@download/arquivo_norma/IS107-001G.pdf"
   }, 
   {
-    "ementa": "Processo de credenciamento de pessoa física para atuação em processos de aeronavegabilidade continuada no âmbito da SPO.", 
-    "norma": "183-005A", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "13/10/2021", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "15/10/2021", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 1º de dezembro de 2021.", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/183-005@@download/arquivo_norma/IS183-005A.pdf"
-  }, 
-  {
     "ementa": "Orientações sobre certificação de tipo.", 
     "norma": "IS 21-001A", 
     "tornada_sem_efeito": "", 
@@ -2366,32 +2353,6 @@
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-133-001@@download/arquivo_norma/IS133-001A.pdf"
   }, 
   {
-    "ementa": "Processo de certificação de empresa de transporte aéreo regida pelo RBAC nº 135.", 
-    "norma": "IS 119-004H", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "14/12/2021", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "17/12/2021", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 3 de janeiro de 2022.", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-119-004-1@@download/arquivo_norma/IS119-004H.pdf"
-  }, 
-  {
-    "ementa": "Processo de autorização de empresas de serviço aéreo público especializado.", 
-    "norma": "IS 91-007C", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "15/12/2021", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "17/12/2021", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 3 de janeiro de 2022.", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-91-007c@@download/arquivo_norma/IS91-007C.pdf"
-  }, 
-  {
     "ementa": "Projeto de sistemas de desaceleração de aeronaves.", 
     "norma": "IS 154.209-001A", 
     "tornada_sem_efeito": "", 
@@ -2403,5 +2364,44 @@
     "revogada": "", 
     "em_vigor": "Em vigor em 3 de janeiro de 2022.", 
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-154-209-001@@download/arquivo_norma/IS154.209-001A.pdf"
+  }, 
+  {
+    "ementa": "Operação de veículos ultraleves e balões livres tripulados sob o RBAC nº 103.", 
+    "norma": "IS 103-001C", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "23/12/2021", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "31/12/2021", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 1º de fevereiro de 2022.", 
+    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-103-001c@@download/arquivo_norma/IS103-001C.pdf"
+  }, 
+  {
+    "ementa": "Procedimentos para a aprovação de produtos aeronáuticos civis importados.\r\nProcedures for Approval of Imported Civil Aeronautical Products.", 
+    "norma": "IS 21-010C", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "29/12/2021", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "31/12/2021", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 1º de fevereiro de 2022.", 
+    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-21-010c@@download/arquivo_norma/IS 21-010C.pdf"
+  }, 
+  {
+    "ementa": "Processo de credenciamento de pessoa física para atuação em processos de aeronavegabilidade continuada no âmbito da SPO.", 
+    "norma": "IS 183-005A", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "13/10/2021", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "15/10/2021", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 1º de dezembro de 2021.", 
+    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-183-005@@download/arquivo_norma/IS183-005A.pdf"
   }
 ]
