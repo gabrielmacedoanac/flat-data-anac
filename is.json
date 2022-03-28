@@ -144,16 +144,16 @@
   }, 
   {
     "ementa": "Procedimentos para a aprovação de produtos aeronáu-ticos civis importados. / Procedures for approval of imported civil aeronautical products.", 
-    "norma": "IS 21-010B", 
+    "norma": "IS 21-010C", 
     "tornada_sem_efeito": "", 
     "alterada": "", 
-    "data": "26/04/2013", 
+    "data": "29/12/2021", 
     "outros": "", 
     "tipo_normatico": "IS", 
-    "publicacao": "26/04/2013", 
+    "publicacao": "31/12/2021", 
     "revogada": "", 
-    "em_vigor": "", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-21-010@@download/arquivo_norma/IS21-010B.zip"
+    "em_vigor": "Em vigor em 1º de fevereiro de 2022.", 
+    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-21-010@@download/arquivo_norma/IS 21-010C.pdf"
   }, 
   {
     "ementa": "Programa de treinamento de artigos perigosos - PTAP.", 
@@ -559,19 +559,6 @@
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-120-001@@download/arquivo_norma/IS120-001B.pdf"
   }, 
   {
-    "ementa": "Procedimentos para elaboração, revisão e utilização do guia de rota.", 
-    "norma": "IS 121-001B", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "22/01/2021", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "22/01/2021", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 1º de fevereiro de 2021.", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-121-001@@download/arquivo_norma/IS121-001B.pdf"
-  }, 
-  {
     "ementa": "Programa de reporte voluntário de empresa aérea certificada de acordo com o RBAC nº 121. ", 
     "norma": "IS 121.1225-001A", 
     "tornada_sem_efeito": "", 
@@ -596,19 +583,6 @@
     "revogada": "", 
     "em_vigor": "", 
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-137-003@@download/arquivo_norma/IS137-003A.pdf"
-  }, 
-  {
-    "ementa": "Uso de etanol em aeronaves agrícolas.", 
-    "norma": "IS 137.201-001D", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "15/09/2021", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "24/09/2021", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 1º de outubro de 2021.", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-137-201-001@@download/arquivo_norma/IS 137.201-001D.pdf"
   }, 
   {
     "ementa": "Instruções para elaboração do Manual Geral de Manutenção (MGM) - táxis aéreos operando exclusivamente aeronaves com configuração máxima para passageiros igual ou inferior a 9 (nove) assentos.", 
@@ -661,6 +635,19 @@
     "revogada": "", 
     "em_vigor": "", 
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-145-010@@download/arquivo_norma/IS145-010B.pdf"
+  }, 
+  {
+    "ementa": "Uso de etanol em aeronaves agrícolas.", 
+    "norma": "IS 137.201-001E", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "13/01/2022", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "25/01/2022", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 1º de fevereiro de 2022.", 
+    "anexos": ""
   }, 
   {
     "ementa": "Qualificação e Autorização em Ensaios não destrutivos na manutenção de produto aeronáutico ", 
@@ -1080,16 +1067,16 @@
   }, 
   {
     "ementa": "Operação de veículos ultraleves e balões livres tripulados sob o RBAC nº 103.", 
-    "norma": "IS 103-001B", 
+    "norma": "IS 103-001C", 
     "tornada_sem_efeito": "", 
     "alterada": "", 
-    "data": "03/08/2018", 
+    "data": "23/12/2021", 
     "outros": "", 
     "tipo_normatico": "IS", 
-    "publicacao": "03/08/2018.", 
+    "publicacao": "31/12/2021", 
     "revogada": "", 
-    "em_vigor": "", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-103-001@@download/arquivo_norma/IS103-001B.pdf"
+    "em_vigor": "Em vigor em 1º de fevereiro de 2022.", 
+    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-103-001@@download/arquivo_norma/IS103-001C.pdf"
   }, 
   {
     "ementa": "Procedimentos para concessão de licença e de habilitação e para recadastramento de mecânicos de manutenção aeronáutica.", 
@@ -1129,19 +1116,6 @@
     "revogada": "", 
     "em_vigor": "", 
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-137-002@@download/arquivo_norma/IS137-002C.pdf"
-  }, 
-  {
-    "ementa": "Processo de credenciamento de pessoa jurídica para aplicação do exame de proficiência linguística da ANAC.", 
-    "norma": "IS 183-001D", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "13/11/2018", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "14/11/2018", 
-    "revogada": "", 
-    "em_vigor": "", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-183-001@@download/arquivo_norma/IS183-001D.pdf"
   }, 
   {
     "ementa": "Orientações relativas a equipamentos dispersores.", 
@@ -2275,19 +2249,6 @@
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-120-016@@download/arquivo_norma/IS120-016A.pdf"
   }, 
   {
-    "ementa": "Lista de Equipamentos Mínimos (MEL) e operação com equipamentos e instrumentos inoperantes.", 
-    "norma": "IS 91-012A", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "26/08/2021", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "03/09/2021", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 1º de outubro de 2021.", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-91-012@@download/arquivo_norma/IS91-012A.pdf"
-  }, 
-  {
     "ementa": "Processo de emissão de especificações administrativas para administradores de programa de propriedade compartilhada de aeronaves regidos pela Subparte K do RBAC nº 91.", 
     "norma": "IS 91-013A", 
     "tornada_sem_efeito": "", 
@@ -2366,32 +2327,6 @@
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-154-209-001@@download/arquivo_norma/IS154.209-001A.pdf"
   }, 
   {
-    "ementa": "Operação de veículos ultraleves e balões livres tripulados sob o RBAC nº 103.", 
-    "norma": "IS 103-001C", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "23/12/2021", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "31/12/2021", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 1º de fevereiro de 2022.", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-103-001c@@download/arquivo_norma/IS103-001C.pdf"
-  }, 
-  {
-    "ementa": "Procedimentos para a aprovação de produtos aeronáuticos civis importados.\r\nProcedures for Approval of Imported Civil Aeronautical Products.", 
-    "norma": "IS 21-010C", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "29/12/2021", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "31/12/2021", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 1º de fevereiro de 2022.", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-21-010c@@download/arquivo_norma/IS 21-010C.pdf"
-  }, 
-  {
     "ementa": "Processo de credenciamento de pessoa física para atuação em processos de aeronavegabilidade continuada no âmbito da SPO.", 
     "norma": "IS 183-005A", 
     "tornada_sem_efeito": "", 
@@ -2403,5 +2338,161 @@
     "revogada": "", 
     "em_vigor": "Em vigor em 1º de dezembro de 2021.", 
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-183-005@@download/arquivo_norma/IS183-005A.pdf"
+  }, 
+  {
+    "ementa": "Estações de linha para operações segundo o RBAC nº 121", 
+    "norma": "IS 121-013A", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "24/01/2022", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "28/01/2022", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 1º de abril de 2022", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Lista de Equipamentos Mínimos (MEL) e operação com equipamentos e instrumentos inoperantes", 
+    "norma": "IS 91-012B", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "03/02/2022", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "07/02/2022", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 2 de março de 2022", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Operações prolongadas (ETOPS) e operações em áreas polares sob o RBAC nº 121", 
+    "norma": "IS 121-012A", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "09/02/2022", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "15/02/2022", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 2 de março de 2022", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Procedimentos para elaboração, revisão e utilização do guia de rota", 
+    "norma": "IS 121-001C", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "09/02/2022", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "15/02/2022", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 2 de março de 2022", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Lista Mestra de Equipamentos Mínimos (MMEL)", 
+    "norma": "IS 21-003A", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "14/02/2022", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "21/02/2022", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 2 de março de 2022", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Procedimentos para elaboração, revisão e utilização do Manual de Comissários de Voo (MCmsV) de operadores aéreos regidos pelo RBAC nº 121", 
+    "norma": "IS 121-014A", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "18/02/2022", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "21/02/2022", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 2 de março de 2022", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Processo de credenciamento de pessoa jurídica e profissional qualificado para aplicação do exame de proficiência linguística da ANAC", 
+    "norma": "IS 183-001E", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "14/02/2022", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "23/02/2022", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 2 de março de 2022", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Procedimentos para implementação de um Programa de Acompanhamento e Análise de Dados de Voo (PAADV)", 
+    "norma": "IS 119-008A", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "22/02/2022", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "25/02/2022", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 1º de abril de 2022", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Procedimentos para demonstrações de evacuação de emergência e amerissagem", 
+    "norma": "IS 121-015A", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "22/02/2022", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "03/03/2022", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 1º de abril de 2022", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Aprovação da elevação do fator empregado para cálculo do comprimento efetivo de pista requerido em pousos de aviões para operações conduzidas segundo o RBAC nº 91 – Subparte K e RBAC nº 135", 
+    "norma": "IS 91-014A", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "04/03/2022", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "09/03/2022", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 1º de abril de 2022", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Aprovação de projeto de embalagem para transporte aéreo de artigos perigosos e aprovação de produção", 
+    "norma": "IS 175-012B", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "15/03/2022", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "23/03/2022", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 1º de abril de 2022", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Processo de credenciamento de pessoa física para atuação em processos de aeronavegabilidade continuada no âmbito da SPO", 
+    "norma": "IS 183-005B", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "24/03/2022", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "BPS V.17, Nº 12, 21 A 25/03/2022", 
+    "revogada": "", 
+    "em_vigor": "", 
+    "anexos": ""
   }
 ]

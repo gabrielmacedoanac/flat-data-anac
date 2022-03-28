@@ -299,19 +299,6 @@
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-034@@download/arquivo_norma/RBAC34EMD07.pdf"
   }, 
   {
-    "ementa": "Requisitos para emissões de CO2 de aviões.", 
-    "norma": "RBAC 038 EMD 00", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "18/12/2018", 
-    "outros": "", 
-    "tipo_normatico": "RBAC", 
-    "publicacao": "18/12/2018", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 17 de fevereiro de 2019.", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-038@@download/arquivo_norma/RBAC38EMD00.pdf"
-  }, 
-  {
     "ementa": "Certificação e Requisitos Operacionais: Centros de treinamento de aviação civil.", 
     "norma": "RBAC 142 EMD 03", 
     "tornada_sem_efeito": "", 
@@ -674,5 +661,18 @@
     "revogada": "", 
     "em_vigor": "Em vigor em 1º de dezembro de 2021.", 
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-107@@download/arquivo_norma/RBAC107EMD05.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-107@@download/anexo_norma/CEF RBAC 107 - Emenda 05.pdf"
+  }, 
+  {
+    "ementa": "Requisitos para Emissões de CO2 de Aviões", 
+    "norma": "RBAC 38 EMD 01", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "03/02/2022", 
+    "outros": "", 
+    "tipo_normatico": "RBAC", 
+    "publicacao": "08/02/2022", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 1º de março de 2022", 
+    "anexos": ""
   }
 ]
