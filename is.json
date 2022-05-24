@@ -143,17 +143,17 @@
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-43.1-001@@download/arquivo_norma/IS43.1-001A.pdf"
   }, 
   {
-    "ementa": "Procedimentos para a aprovação de produtos aeronáu-ticos civis importados. / Procedures for approval of imported civil aeronautical products.", 
-    "norma": "IS 21-010C", 
+    "ementa": "Procedimentos para a aprovação de produtos aeronáuticos civis estrangeiros e importação de quaisquer produtos aeronáuticos civis. | Procedures for approval of foreign civil aeronautical products and import of any civil aeronautical product.", 
+    "norma": "IS 21-010D", 
     "tornada_sem_efeito": "", 
     "alterada": "", 
-    "data": "29/12/2021", 
+    "data": "23/03/2022", 
     "outros": "", 
     "tipo_normatico": "IS", 
-    "publicacao": "31/12/2021", 
+    "publicacao": "25/03/2022", 
     "revogada": "", 
-    "em_vigor": "Em vigor em 1º de fevereiro de 2022.", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-21-010@@download/arquivo_norma/IS 21-010C.pdf"
+    "em_vigor": "Em vigor em 1º de abril de 2022.", 
+    "anexos": ""
   }, 
   {
     "ementa": "Programa de treinamento de artigos perigosos - PTAP.", 
@@ -544,19 +544,6 @@
     "revogada": "", 
     "em_vigor": "", 
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-119-003@@download/arquivo_norma/IS119-003A.pdf"
-  }, 
-  {
-    "ementa": "Programa de manutenção de empresas de transporte aéreo.", 
-    "norma": "IS 120-001B", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "03/01/2014", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "03/01/2014", 
-    "revogada": "", 
-    "em_vigor": "", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-120-001@@download/arquivo_norma/IS120-001B.pdf"
   }, 
   {
     "ementa": "Programa de reporte voluntário de empresa aérea certificada de acordo com o RBAC nº 121. ", 
@@ -999,19 +986,6 @@
     "revogada": "", 
     "em_vigor": "", 
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-121-010@@download/arquivo_norma/IS121-010A.pdf"
-  }, 
-  {
-    "ementa": "Diretrizes Interpretativas aplicáveis às normas de âmbito da Superintendência de Padrões Operacionais.", 
-    "norma": "IS 00-004H", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "09/04/2021", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "09/03/2021", 
-    "revogada": "", 
-    "em_vigor": "", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-00-004@@download/arquivo_norma/IS00-004H.pdf"
   }, 
   {
     "ementa": "Instruções para preenchimento completo e adequado do Conhecimento de Transporte eletrônico - CT-e - e do Manifesto de Documentos Fiscais eletrônico - MDF-e.", 
@@ -1794,19 +1768,6 @@
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-145-151-001@@download/arquivo_norma/IS145.151-001E.pdf"
   }, 
   {
-    "ementa": "Processo de certificação de empresa de transporte aéreo regida pelo RBAC nº 135.", 
-    "norma": "IS 119-004H", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "14/12/2021", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "17/12/2021", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 3 de janeiro de 2022.", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-119-004@@download/arquivo_norma/IS119-004H.pdf"
-  }, 
-  {
     "ementa": "Padrões para a realização de exames de proficiência de pilotos.", 
     "norma": "IS 00-002G", 
     "tornada_sem_efeito": "", 
@@ -2232,7 +2193,7 @@
     "tipo_normatico": "IS", 
     "publicacao": "13/08/2021", 
     "revogada": "", 
-    "em_vigor": "Em vigor em 1º de setembro de 2021.", 
+    "em_vigor": "Em vigor em 1º de março de 2022.", 
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-110-11-001@@download/arquivo_norma/IS110.11-001A.pdf"
   }, 
   {
@@ -2479,7 +2440,7 @@
     "tipo_normatico": "IS", 
     "publicacao": "23/03/2022", 
     "revogada": "", 
-    "em_vigor": "Em vigor em 1º de abril de 2022", 
+    "em_vigor": "Em vigor em 1º de abril de 2022, exceto as seções 5.2, 5.3 e 5.4, que serão aplicáveis somente a partir de 2 de maio de 2022.", 
     "anexos": ""
   }, 
   {
@@ -2493,6 +2454,162 @@
     "publicacao": "BPS V.17, Nº 12, 21 A 25/03/2022", 
     "revogada": "", 
     "em_vigor": "", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Operação aeromédica realizada por operadores aéreos regidos pelo RBAC nº 135.", 
+    "norma": "IS 135-005A", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "23/03/2022", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "25/03/2022", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 1º de abril de 2022.", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Diretrizes Interpretativas aplicáveis às normas de âmbito da Superintendência de Padrões Operacionais", 
+    "norma": "IS 00-004I", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "23/03/2022", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "25/03/2022", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 1º de abril de 2022.", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Procedimentos para realização do voo de avaliação operacional.", 
+    "norma": "IS 119-009A", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "23/03/2022", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "25/03/2022", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 1º de abril de 2022.", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Processo de certificação de empresa de transporte aéreo regida pelo RBAC nº 135.", 
+    "norma": "IS 119-004I", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "23/03/2022", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "25/03/2022", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 1º de abril de 2022.", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Procedimentos para a aprovação de operações no Espaço Aéreo NAT - HLA (North Atlantic High Level Airspace).", 
+    "norma": "IS 91-006B", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "06/04/2022", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "14/04/2022", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 2 de maio de 2022", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Processo de credenciamento de pessoa física na SAR e de examinador de MMA, e orientações de atuação para os profissionais credenciados", 
+    "norma": "IS 183-002G", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "26/04/2022", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "03/05/2022", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 1º de junho de 2022", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Procedimentos para o lançamento de endossos nos registros de voo de pilotos", 
+    "norma": "IS 61-006K", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "03/05/2022", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "05/05/2022", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 1º de junho de 2022", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Procedimentos para reconstituição de Diários de Bordo, Cadernetas e restauração da condição aeronavegável", 
+    "norma": "IS 91-015A", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "05/05/2022", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "12/05/2022", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 1º de junho de 2022", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Diretrizes Interpretativas aplicáveis às normas de âmbito da Superintendência de Pessoal da Aviação Civil", 
+    "norma": "IS 00-011B", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "10/05/2022", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "13/05/2022", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 1º de junho de 2022", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Padrões mínimos de desempenho para testes AVSEC de operadores de aeródromos", 
+    "norma": "IS 107-002A", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "20/05/2022", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "20/05/2022", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 1º de junho de 2022", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Segurança da aviação contra atos de interferência ilícita – operador aéreo", 
+    "norma": "IS 108-001F", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "20/05/2022", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "20/05/2022", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 1º de junho de 2022", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Segurança da aviação contra atos de interferência ilícita – operador de aeródromo", 
+    "norma": "IS 107-001H", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "20/05/2022", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "20/05/2022", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 1º de junho de 2022", 
     "anexos": ""
   }
 ]
