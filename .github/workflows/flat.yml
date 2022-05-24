@@ -128,30 +128,30 @@ jobs:
       - name: Fetch data
         uses: githubocto/flat@v3
         with:
-          http_url: https://sistemas.anac.gov.br/dadosabertos/regulamentacao/cesc-condicao-especial/cesc-condicao-especial.json
+          http_url: https://sistemas.anac.gov.br/dadosabertos/regulamentacao/Normas%20Publicadas/cesc-condicao-especial/cesc-condicao-especial.json
           downloaded_filename: condicao-especial.json
       - name: Fetch data
         uses: githubocto/flat@v3
         with:
-          http_url: https://sistemas.anac.gov.br/dadosabertos/regulamentacao/iac-e-is/is.json
+          http_url: https://sistemas.anac.gov.br/dadosabertos/regulamentacao/Normas%20Publicadas/iac-e-is/is.json
           downloaded_filename: is.json
       - name: Fetch data
         uses: githubocto/flat@v3
         with:
-          http_url: https://sistemas.anac.gov.br/dadosabertos/regulamentacao/iac-e-is/iac.json
+          http_url: https://sistemas.anac.gov.br/dadosabertos/regulamentacao/Normas%20Publicadas/iac-e-is/iac.json
           downloaded_filename: iac.json
       - name: Fetch data
         uses: githubocto/flat@v3
         with:
-          http_url: https://sistemas.anac.gov.br/dadosabertos/regulamentacao/rbha-e-rbac/rbac.json
+          http_url: https://sistemas.anac.gov.br/dadosabertos/regulamentacao/Normas%20Publicadas/rbha-e-rbac/rbac.json
           downloaded_filename: rbac.json
       - name: Fetch data
         uses: githubocto/flat@v3
         with:
-          http_url: https://sistemas.anac.gov.br/dadosabertos/regulamentacao/rbha-e-rbac/rbha.json
+          http_url: https://sistemas.anac.gov.br/dadosabertos/regulamentacao/Normas%20Publicadas/rbha-e-rbac/rbha.json
           downloaded_filename: rbha.json
       - name: Fetch data
         uses: githubocto/flat@v3
         with:
-          http_url: https://sistemas.anac.gov.br/dadosabertos/regulamentacao/planos-e-programas/planos-e-programas.json
+          http_url: https://sistemas.anac.gov.br/dadosabertos/regulamentacao/Normas%20Publicadas/planos-e-programas/planos-e-programas.json
           downloaded_filename: planos-e-programas.json
