@@ -897,17 +897,17 @@
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-121-009@@download/arquivo_norma/IS121-009A.pdf"
   }, 
   {
-    "ementa": "Procedimentos para a aprovação de operações no Espaço Aéreo NAT – HLA (North Atlantic High Level Airspace).", 
-    "norma": "IS 91-006A", 
+    "ementa": "Procedimentos para a aprovação de operações no Espaço Aéreo NAT - HLA (North Atlantic High Level Airspace)", 
+    "norma": "IS 91-006B", 
     "tornada_sem_efeito": "", 
     "alterada": "", 
-    "data": "11/05/2018", 
+    "data": "06/04/2022", 
     "outros": "", 
     "tipo_normatico": "IS", 
-    "publicacao": "11/05/2018", 
+    "publicacao": "14/04/2022", 
     "revogada": "", 
-    "em_vigor": "", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-91-006@@download/arquivo_norma/IS 91-006A.pdf"
+    "em_vigor": "Em vigor em 2 de maio de 2022", 
+    "anexos": ""
   }, 
   {
     "ementa": "Operação de aeronaves sob contratos de intercâmbio.", 
@@ -986,6 +986,19 @@
     "revogada": "", 
     "em_vigor": "", 
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-121-010@@download/arquivo_norma/IS121-010A.pdf"
+  }, 
+  {
+    "ementa": "Diretrizes Interpretativas aplicáveis às normas de âmbito da Superintendência de Padrões Operacionais", 
+    "norma": "IS 00-004I", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "23/03/2022", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "25/03/2022", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 1º de abril de 2022", 
+    "anexos": ""
   }, 
   {
     "ementa": "Instruções para preenchimento completo e adequado do Conhecimento de Transporte eletrônico - CT-e - e do Manifesto de Documentos Fiscais eletrônico - MDF-e.", 
@@ -1734,7 +1747,7 @@
     "tornada_sem_efeito": "", 
     "alterada": "", 
     "data": "15/06/2020", 
-    "outros": "", 
+    "outros": "Retificado no Diário Oficial da União de 26 de maio de 2022, Seção 1, pág.35", 
     "tipo_normatico": "IS", 
     "publicacao": "15/06/2020", 
     "revogada": "", 
@@ -1766,6 +1779,19 @@
     "revogada": "", 
     "em_vigor": "Em vigor em 1º de julho de 2020.", 
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-145-151-001@@download/arquivo_norma/IS145.151-001E.pdf"
+  }, 
+  {
+    "ementa": "Processo de certificação de empresa de transporte aéreo regida pelo RBAC nº 135", 
+    "norma": "IS 119-004I", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "23/03/2022", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "25/03/2022", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 1º de abril de 2022.", 
+    "anexos": ""
   }, 
   {
     "ementa": "Padrões para a realização de exames de proficiência de pilotos.", 
@@ -2015,17 +2041,17 @@
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-154-201-001@@download/arquivo_norma/IS154.201-001A.pdf"
   }, 
   {
-    "ementa": "Aprovação de projeto de embalagem para transporte aéreo de artigos perigosos e aprovação de produção.", 
-    "norma": "IS 175-012A", 
+    "ementa": "Aprovação de projeto de embalagem para transporte aéreo de artigos perigosos e aprovação de produção", 
+    "norma": "IS 175-012B", 
     "tornada_sem_efeito": "", 
     "alterada": "", 
-    "data": "25/03/2021", 
-    "outros": "As seções 5.2, 5.3 e 5.4 da IS nº 175-012A serão aplicáveis somente a partir de 1º de abril de 2022.", 
+    "data": "15/03/2022", 
+    "outros": "", 
     "tipo_normatico": "IS", 
-    "publicacao": "29/03/2021", 
+    "publicacao": "23/03/2022", 
     "revogada": "", 
-    "em_vigor": "Em vigor em 3 de maio de 2021.", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-175-012@@download/arquivo_norma/IS 175-012A - Retificado.pdf"
+    "em_vigor": "Em vigor em 1º de abril de 2022, exceto as seções 5.2, 5.3 e 5.4, que serão aplicáveis somente a partir de 2 de maio de 2022", 
+    "anexos": ""
   }, 
   {
     "ementa": "Identificação dos perigos, monitoramento e implementação de técnicas de manejo de fauna.", 
@@ -2431,19 +2457,6 @@
     "anexos": ""
   }, 
   {
-    "ementa": "Aprovação de projeto de embalagem para transporte aéreo de artigos perigosos e aprovação de produção", 
-    "norma": "IS 175-012B", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "15/03/2022", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "23/03/2022", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 1º de abril de 2022, exceto as seções 5.2, 5.3 e 5.4, que serão aplicáveis somente a partir de 2 de maio de 2022.", 
-    "anexos": ""
-  }, 
-  {
     "ementa": "Processo de credenciamento de pessoa física para atuação em processos de aeronavegabilidade continuada no âmbito da SPO", 
     "norma": "IS 183-005B", 
     "tornada_sem_efeito": "", 
@@ -2470,19 +2483,6 @@
     "anexos": ""
   }, 
   {
-    "ementa": "Diretrizes Interpretativas aplicáveis às normas de âmbito da Superintendência de Padrões Operacionais", 
-    "norma": "IS 00-004I", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "23/03/2022", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "25/03/2022", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 1º de abril de 2022.", 
-    "anexos": ""
-  }, 
-  {
     "ementa": "Procedimentos para realização do voo de avaliação operacional.", 
     "norma": "IS 119-009A", 
     "tornada_sem_efeito": "", 
@@ -2493,32 +2493,6 @@
     "publicacao": "25/03/2022", 
     "revogada": "", 
     "em_vigor": "Em vigor em 1º de abril de 2022.", 
-    "anexos": ""
-  }, 
-  {
-    "ementa": "Processo de certificação de empresa de transporte aéreo regida pelo RBAC nº 135.", 
-    "norma": "IS 119-004I", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "23/03/2022", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "25/03/2022", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 1º de abril de 2022.", 
-    "anexos": ""
-  }, 
-  {
-    "ementa": "Procedimentos para a aprovação de operações no Espaço Aéreo NAT - HLA (North Atlantic High Level Airspace).", 
-    "norma": "IS 91-006B", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "06/04/2022", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "14/04/2022", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 2 de maio de 2022", 
     "anexos": ""
   }, 
   {
@@ -2610,6 +2584,19 @@
     "publicacao": "20/05/2022", 
     "revogada": "", 
     "em_vigor": "Em vigor em 1º de junho de 2022", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Segurança da aviação contra atos de interferência ilícita – operador de aeródromo", 
+    "norma": "IS 107-001I", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "17/05/2022", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "23/05/2022", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 1º de dezembro de 2022.", 
     "anexos": ""
   }
 ]
