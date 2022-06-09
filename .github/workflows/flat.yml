@@ -165,8 +165,3 @@ jobs:
         with:
           http_url: https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json
           downloaded_filename: known_exploited_vulnerabilities.json
-      - name: Fetch data
-        uses: githubocto/flat@v3
-        with:
-          http_url: https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.csv
-          downloaded_filename: known_exploited_vulnerabilities.csv
