@@ -100,6 +100,11 @@ jobs:
         with:
           http_url: https://sistemas.anac.gov.br/dadosabertos/Seguranca%20Operacional/Ocorrencia/V_OCORRENCIA_AMPLA.json
           downloaded_filename: safety-ocorrencias.json
+      - name: Fetch data
+        uses: githubocto/flat@v3
+        with:
+          http_url: https://sistemas.anac.gov.br/dadosabertos/Seguranca%20Operacional/Ocorrencia/V_OCORRENCIA_AMPLA.csv
+          downloaded_filename: safety-ocorrencias.cdv
 # muito grande     - name: Fetch data
 #        uses: githubocto/flat@v3
 #        with:
