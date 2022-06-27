@@ -2285,7 +2285,7 @@
     "publicacao": "12/11/2021", 
     "revogada": "", 
     "em_vigor": "Em vigor em 1º de dezembro de 2021.", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-21-001@@download/arquivo_norma/IS 21-001A - Retificado.pdf"
+    "anexos": ""
   }, 
   {
     "ementa": "Procedimentos para autorização para operações de helicópteros com carga externa segundo o RBAC nº 133.", 
@@ -2623,6 +2623,19 @@
     "publicacao": "20/05/2022", 
     "revogada": "", 
     "em_vigor": "Em vigor em 1º de junho de 2022", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Treinamento requerido para concessão e revalidação de habilitação de tipo", 
+    "norma": "IS 61-005C", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "03/05/2022", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "24/06/2022", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 1º de julho de 2022", 
     "anexos": ""
   }
 ]
