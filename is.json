@@ -196,16 +196,16 @@
   }, 
   {
     "ementa": "Emissão de Certificado de Autorização de Voo Experimental para Aeronaves Remotamente Pilotadas", 
-    "norma": "IS E94.503-001B", 
+    "norma": "IS E94.503-001C", 
     "tornada_sem_efeito": "", 
     "alterada": "", 
-    "data": "20/09/2021", 
+    "data": "24/05/2022", 
     "outros": "", 
     "tipo_normatico": "IS", 
-    "publicacao": "24/09/2021", 
+    "publicacao": "26/05/2022", 
     "revogada": "", 
-    "em_vigor": "Em vigor em 1º de outubro de 2021.", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-e94-503-001@@download/arquivo_norma/IS E94.503-001B.pdf"
+    "em_vigor": "Em vigor em 1º de junho de 2022", 
+    "anexos": ""
   }, 
   {
     "ementa": "Autorização de Projeto de Sistema de Aeronave Remotamente Pilotada - RPAS - Requisitos Técnicos", 
@@ -1066,30 +1066,17 @@
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-103-001@@download/arquivo_norma/IS103-001C.pdf"
   }, 
   {
-    "ementa": "Procedimentos para concessão de licença e de habilitação e para recadastramento de mecânicos de manutenção aeronáutica.", 
-    "norma": "IS 65-001D", 
+    "ementa": "Procedimentos para concessão de licença e de habilitação e para recadastramento de mecânicos de manutenção aeronáutica", 
+    "norma": "IS 65-001E", 
     "tornada_sem_efeito": "", 
     "alterada": "", 
-    "data": "29/06/2021", 
+    "data": "29/06/2022", 
     "outros": "", 
     "tipo_normatico": "IS", 
-    "publicacao": "02/07/2021", 
+    "publicacao": "07/06/2022", 
     "revogada": "", 
-    "em_vigor": "Em vigor em 2 de agosto de 2021.", 
+    "em_vigor": "Em vigor em 1º de julho de 2022", 
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-65-001@@download/arquivo_norma/IS65-001D.pdf"
-  }, 
-  {
-    "ementa": "Processo de credenciamento de pessoa física na SAR e de examinador de MMA, e orientações de atuação para os profissionais credenciados", 
-    "norma": "IS 183-002F", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "22/10/2021", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "29/10/2021", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 1º de dezembro de 2021.", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-183-002@@download/arquivo_norma/IS 183-002F.pdf"
   }, 
   {
     "ementa": "Orientações relativas à instalação de DGPS em aeronaves agrícolas.", 
@@ -1105,6 +1092,19 @@
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-137-002@@download/arquivo_norma/IS137-002C.pdf"
   }, 
   {
+    "ementa": "Processo de credenciamento de pessoa física na SAR e de examinador de MMA, e orientações de atuação para os profissionais credenciados", 
+    "norma": "IS 183-002G", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "26/04/2022", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "03/05/2022", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 1º de junho de 2022", 
+    "anexos": ""
+  }, 
+  {
     "ementa": "Orientações relativas a equipamentos dispersores.", 
     "norma": "IS 137-001C", 
     "tornada_sem_efeito": "", 
@@ -1118,17 +1118,17 @@
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-137-001@@download/arquivo_norma/IS137-001C.pdf"
   }, 
   {
-    "ementa": "Treinamento requerido para concessão e revalidação de habilitação de tipo.", 
-    "norma": "IS 61-005B", 
+    "ementa": "Treinamento requerido para concessão e revalidação de habilitação de tipo", 
+    "norma": "IS 61-005C", 
     "tornada_sem_efeito": "", 
     "alterada": "", 
-    "data": "01/11/2018", 
+    "data": "03/05/2022", 
     "outros": "", 
     "tipo_normatico": "IS", 
-    "publicacao": "01/11/2018", 
+    "publicacao": "24/06/2022", 
     "revogada": "", 
-    "em_vigor": "", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-61-005@@download/arquivo_norma/IS61-005B.pdf"
+    "em_vigor": "Em vigor em 1º de julho de 2022", 
+    "anexos": ""
   }, 
   {
     "ementa": "Procedimentos para realização de inspeção de rampa em operadores aéreos no território brasileiro.", 
@@ -1222,30 +1222,30 @@
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-43-012@@download/arquivo_norma/IS43-012B.pdf"
   }, 
   {
-    "ementa": "Segurança da aviação contra atos de interferência ilícita - operador de aeródromo.", 
-    "norma": "IS 107-001F", 
+    "ementa": "Segurança da aviação contra atos de interferência ilícita – operador de aeródromo", 
+    "norma": "IS 107-001H", 
     "tornada_sem_efeito": "", 
     "alterada": "", 
-    "data": "23/03/2021", 
-    "outros": "<p><a href=\"/assuntos/setor-regulado/aerodromos/avsec/instrucoes-para-solicitacao-de-acesso-a-documento-sigiloso\" target=\"_blank\">Instru&ccedil;&otilde;es para solicita&ccedil;&atilde;o de acesso a Documento Sigiloso</a></p>", 
+    "data": "17/05/2022", 
+    "outros": "<p><a href=\"/assuntos/setor-regulado/aerodromos/avsec/instrucoes-para-solicitacao-de-acesso-a-documento-sigiloso\" target=\"_blank\">Instruções para solicitação de acesso a Documento Sigiloso</a></p>", 
     "tipo_normatico": "IS", 
-    "publicacao": "23/03/2021", 
+    "publicacao": "20/05/2022", 
     "revogada": "", 
-    "em_vigor": "Em vigor em 1º de dezembro de 2021.", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-107-001@@download/arquivo_norma/IS107-001F.pdf"
+    "em_vigor": "Em vigor em 1º de junho de 2022", 
+    "anexos": ""
   }, 
   {
-    "ementa": "Segurança da aviação contra atos de interferência ilícita – operador aéreo.", 
-    "norma": "IS 108-001E", 
+    "ementa": "Segurança da aviação contra atos de interferência ilícita – operador aéreo", 
+    "norma": "IS 108-001F", 
     "tornada_sem_efeito": "", 
     "alterada": "", 
-    "data": "20/07/2021", 
+    "data": "20/05/2022", 
     "outros": "", 
     "tipo_normatico": "IS", 
-    "publicacao": "23/07/2021", 
+    "publicacao": "20/05/2022", 
     "revogada": "", 
-    "em_vigor": "Em vigor em 2 de agosto de 2021.", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-108-001@@download/arquivo_norma/IS108-001E.pdf"
+    "em_vigor": "Em vigor em 1º de junho de 2022", 
+    "anexos": ""
   }, 
   {
     "ementa": "Aprovação de aeronavegabilidade para exportação.", 
@@ -1989,17 +1989,17 @@
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-21-005@@download/arquivo_norma/IS21-005A.pdf"
   }, 
   {
-    "ementa": "Diretrizes Interpretativas aplicáveis às normas de âmbito da Superintendência de Pessoal da Aviação Civil.", 
-    "norma": "IS 00-011A", 
+    "ementa": "Diretrizes Interpretativas aplicáveis às normas de âmbito da Superintendência de Pessoal da Aviação Civil", 
+    "norma": "IS 00-011B", 
     "tornada_sem_efeito": "", 
     "alterada": "", 
-    "data": "05/11/2020", 
+    "data": "10/05/2022", 
     "outros": "", 
     "tipo_normatico": "IS", 
-    "publicacao": "06/11/2020", 
+    "publicacao": "13/05/2022", 
     "revogada": "", 
-    "em_vigor": "", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-00-011@@download/arquivo_norma/IS00-011A.pdf"
+    "em_vigor": "Em vigor em 1º de junho de 2022", 
+    "anexos": ""
   }, 
   {
     "ementa": "Procedimentos para autorização de operadores aéreos para uso de dados de desempenho específicos para pistas com pavimento antiderrapante.", 
@@ -2262,20 +2262,7 @@
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-61-006i@@download/arquivo_norma/IS61-006J.pdf"
   }, 
   {
-    "ementa": "Segurança da aviação contra atos de interferência ilícita – operador de aeródromo.", 
-    "norma": "IS 107-001G", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "17/11/2021", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "23/11/2021", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 1º de dezembro de 2022.", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-107-001g@@download/arquivo_norma/IS107-001G.pdf"
-  }, 
-  {
-    "ementa": "Orientações sobre certificação de tipo.", 
+    "ementa": "Orientações sobre certificação de tipo", 
     "norma": "IS 21-001A", 
     "tornada_sem_efeito": "", 
     "alterada": "", 
@@ -2496,19 +2483,6 @@
     "anexos": ""
   }, 
   {
-    "ementa": "Processo de credenciamento de pessoa física na SAR e de examinador de MMA, e orientações de atuação para os profissionais credenciados", 
-    "norma": "IS 183-002G", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "26/04/2022", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "03/05/2022", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 1º de junho de 2022", 
-    "anexos": ""
-  }, 
-  {
     "ementa": "Procedimentos para o lançamento de endossos nos registros de voo de pilotos", 
     "norma": "IS 61-006K", 
     "tornada_sem_efeito": "", 
@@ -2535,47 +2509,8 @@
     "anexos": ""
   }, 
   {
-    "ementa": "Diretrizes Interpretativas aplicáveis às normas de âmbito da Superintendência de Pessoal da Aviação Civil", 
-    "norma": "IS 00-011B", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "10/05/2022", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "13/05/2022", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 1º de junho de 2022", 
-    "anexos": ""
-  }, 
-  {
     "ementa": "Padrões mínimos de desempenho para testes AVSEC de operadores de aeródromos", 
     "norma": "IS 107-002A", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "20/05/2022", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "20/05/2022", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 1º de junho de 2022", 
-    "anexos": ""
-  }, 
-  {
-    "ementa": "Segurança da aviação contra atos de interferência ilícita – operador aéreo", 
-    "norma": "IS 108-001F", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "20/05/2022", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "20/05/2022", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 1º de junho de 2022", 
-    "anexos": ""
-  }, 
-  {
-    "ementa": "Segurança da aviação contra atos de interferência ilícita – operador de aeródromo", 
-    "norma": "IS 107-001H", 
     "tornada_sem_efeito": "", 
     "alterada": "", 
     "data": "20/05/2022", 
@@ -2597,45 +2532,6 @@
     "publicacao": "23/05/2022", 
     "revogada": "", 
     "em_vigor": "Em vigor em 1º de dezembro de 2022.", 
-    "anexos": ""
-  }, 
-  {
-    "ementa": "Procedimentos para concessão de licença e de habilitação e para recadastramento de mecânicos de manutenção aeronáutica", 
-    "norma": "IS 65-001E", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "02/06/2022", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "07/06/2022", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 1º de julho de 2022", 
-    "anexos": ""
-  }, 
-  {
-    "ementa": "Emissão de Certificado de Autorização de Voo Experimental para Aeronaves Remotamente Pilotadas", 
-    "norma": "IS E94.503-001C", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "20/05/2022", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "20/05/2022", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 1º de junho de 2022", 
-    "anexos": ""
-  }, 
-  {
-    "ementa": "Treinamento requerido para concessão e revalidação de habilitação de tipo", 
-    "norma": "IS 61-005C", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "03/05/2022", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "24/06/2022", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 1º de julho de 2022", 
     "anexos": ""
   }
 ]

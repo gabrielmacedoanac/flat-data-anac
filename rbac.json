@@ -39,6 +39,19 @@
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-139@@download/arquivo_norma/RBAC139EMD05.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-139@@download/anexo_norma/Perguntas e Respostas RBAC139_EMD05.pdf"
   }, 
   {
+    "ementa": "Operações de transporte aéreo público com aviões com configuração máxima certificada de assentos para passageiros de mais 19 assentos ou capacidade máxima de carga paga acima de 3.400 kg", 
+    "norma": "RBAC 121 EMD 15", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "25/04/2022", 
+    "outros": "", 
+    "tipo_normatico": "RBAC", 
+    "publicacao": "28/04/2022", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 1º de junho de 2022", 
+    "anexos": ", https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-121@@download/anexo_norma/CEF RBAC 121.pdf"
+  }, 
+  {
     "ementa": "Programa Nacional de Instrução em Segurança da Aviação Civil Contra Atos de Interferência Ilícita - PNIAVSEC.", 
     "norma": "RBAC 110 EMD 00", 
     "tornada_sem_efeito": "", 
@@ -50,6 +63,19 @@
     "revogada": "", 
     "em_vigor": "", 
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-110@@download/arquivo_norma/RBAC110EMD00.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-110@@download/anexo_norma/CEF RBAC nº 110.pdf"
+  }, 
+  {
+    "ementa": "Requisitos gerais de operação para aeronaves civis", 
+    "norma": "RBAC 91 EMD 03", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "11/06/2021", 
+    "outros": "", 
+    "tipo_normatico": "RBAC", 
+    "publicacao": "12/02/2021", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 1º de julho 2021.", 
+    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-91@@download/arquivo_norma/rbac91emd03.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-91@@download/anexo_norma/CEF RBAC 91.pdf"
   }, 
   {
     "ementa": "Programa de prevenção do risco associado ao uso indevido de substâncias psicoativas na aviação civil.", 
@@ -195,25 +221,25 @@
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-045@@download/arquivo_norma/RBAC45EMD04.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-045@@download/anexo_norma/CEF RBAC 45.pdf"
   }, 
   {
-    "ementa": "Segurança da aviação civil contra atos de interferência ilícita - Operador aéreo.", 
-    "norma": "RBAC 108 EMD 04", 
+    "ementa": "Segurança da Aviação Civil Contra Atos de Interferência Ilícita – Operador Aéreo", 
+    "norma": "RBAC 108 EMD 05", 
     "tornada_sem_efeito": "", 
     "alterada": "", 
-    "data": "12/07/2021", 
+    "data": "04/05/2022", 
     "outros": "", 
     "tipo_normatico": "RBAC", 
-    "publicacao": "12/07/2021", 
+    "publicacao": "06/05/2022", 
     "revogada": "", 
-    "em_vigor": "Em vigor em 2 de agosto de 2021.", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-108@@download/arquivo_norma/RBAC108EMD04.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-108@@download/anexo_norma/CEF RBAC 108.pdf"
+    "em_vigor": "Em vigor em 1º de junho de 2022", 
+    "anexos": ", https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-108@@download/anexo_norma/CEF RBAC 108.pdf"
   }, 
   {
     "ementa": "Regras Gerais para petição de emissão, alteração, revogação e isenção de cumprimento de regra.", 
     "norma": "RBAC 11 EMD 03", 
     "tornada_sem_efeito": "", 
     "alterada": "", 
-    "data": "24/03/2020", 
-    "outros": "", 
+    "data": "20/03/2020", 
+    "outros": "Documento substituído em 07.07.2022 por conter erros na versão publicada em 24.03.2020", 
     "tipo_normatico": "RBAC", 
     "publicacao": "24/03/2020", 
     "revogada": "", 
@@ -494,32 +520,6 @@
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-36@@download/arquivo_norma/RBAC36EMD31.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-36@@download/anexo_norma/RBAC36EMD31 - Portugues.pdf"
   }, 
   {
-    "ementa": "Requisitos gerais de operação para aeronaves civis.", 
-    "norma": "RBAC 91 EMD 03", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "14/06/2021", 
-    "outros": "", 
-    "tipo_normatico": "RBAC", 
-    "publicacao": "14/06/2021", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 1º de julho de 2021.", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-91-emd-03@@download/arquivo_norma/RBAC91EMD03.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-91-emd-03@@download/anexo_norma/CEF RBAC 91.pdf"
-  }, 
-  {
-    "ementa": "Operações de transporte aéreo público com aviões com configuração máxima certificada de assentos para passageiros de mais 19 assentos ou capacidade máxima de carga paga acima de 3.400 kg.", 
-    "norma": "RBAC 121 EMD 14", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "14/06/2021", 
-    "outros": "", 
-    "tipo_normatico": "RBAC", 
-    "publicacao": "14/06/2021", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 1º de julho de 2021.", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-121-emd-14@@download/arquivo_norma/RBAC121EMD14.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-121-emd-14@@download/anexo_norma/CEF RBAC 121.pdf"
-  }, 
-  {
     "ementa": "Aeronavegabilidade continuada e melhorias na segurança para aviões categoria transporte.", 
     "norma": "RBAC 26 EMD 03", 
     "tornada_sem_efeito": "", 
@@ -559,64 +559,12 @@
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-67@@download/arquivo_norma/RBAC67EMD05.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-67@@download/anexo_norma/CEF RBAC67.pdf"
   }, 
   {
-    "ementa": "Segurança da Aviação Civil Contra Atos de Interferência Ilícita – Operador de Aeródromo.", 
-    "norma": "RBAC 107 EMD 05", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "05/11/2021", 
-    "outros": "", 
-    "tipo_normatico": "RBAC", 
-    "publicacao": "09/11/2021", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 1º de dezembro de 2021.", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-107@@download/arquivo_norma/RBAC107EMD05.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-107@@download/anexo_norma/CEF RBAC 107 - Emenda 05.pdf"
-  }, 
-  {
-    "ementa": "Requisitos para Emissões de CO2 de Aviões", 
-    "norma": "RBAC 38 EMD 01", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "03/02/2022", 
-    "outros": "", 
-    "tipo_normatico": "RBAC", 
-    "publicacao": "08/02/2022", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 1º de março de 2022", 
-    "anexos": ""
-  }, 
-  {
-    "ementa": "Operações de transporte aéreo público com aviões com configuração máxima certificada de assentos para passageiros de mais 19 assentos ou capacidade máxima de carga paga acima de 3.400 kg", 
-    "norma": "RBAC 121 EMD 15", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "25/04/2022", 
-    "outros": "", 
-    "tipo_normatico": "RBAC", 
-    "publicacao": "28/04/2022", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 1º de junho de 2022", 
-    "anexos": ""
-  }, 
-  {
     "ementa": "Segurança da Aviação Civil Contra Atos de Interferência Ilícita – Operador de Aeródromo", 
     "norma": "RBAC 107 EMD 07", 
     "tornada_sem_efeito": "", 
     "alterada": "", 
     "data": "04/05/2022", 
     "outros": "<a class=\"external-link\" href=\"https://www.anac.gov.br/assuntos/legislacao/legislacao-1/boletim-de-pessoal/2022/bps-v-17-no-18-02-a-06-05-2022/rbac-107-emd-07\" target=\"_blank\" title=\"\">Versão em vigor em 01.12.2022 - com as alterações contidas na Emenda nº 06</a>\r\n\r\n<a class=\"external-link\" href=\"https://www.anac.gov.br/assuntos/legislacao/legislacao-1/boletim-de-pessoal/2022/bps-v-17-no-20-16-a-20-05-2022/portaria-8071/visualizar_ato_normativo\" target=\"_blank\" title=\"\">Compêndio de Elementos de Fiscalização - CEF\r\n\r\n<a class=\"external-link\" href=\"https://www.anac.gov.br/assuntos/legislacao/legislacao-1/boletim-de-pessoal/2022/bps-v-17-no-21-23-a-27-05-2022/portaria-8072/visualizar_ato_normativo\" target=\"_blank\" title=\"\">Compêndio de Elementos de Fiscalização - CEF - em vigor em 1º de dezembro de 2022", 
-    "tipo_normatico": "RBAC", 
-    "publicacao": "06/05/2022", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 1º de junho de 2022", 
-    "anexos": ""
-  }, 
-  {
-    "ementa": "Segurança da Aviação Civil Contra Atos de Interferência Ilícita – Operador Aéreo", 
-    "norma": "RBAC 108 EMD 05", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "04/05/2022", 
-    "outros": "<a class=\"external-link\" href=\"https://www.anac.gov.br/assuntos/legislacao/legislacao-1/boletim-de-pessoal/2022/bps-v-17-no-20-16-a-20-05-2022/portaria-8073/visualizar_ato_normativo\" target=\"_blank\" title=\"\">Compêndio de Elementos de Fiscalização - CEF", 
     "tipo_normatico": "RBAC", 
     "publicacao": "06/05/2022", 
     "revogada": "", 
@@ -674,5 +622,18 @@
     "revogada": "", 
     "em_vigor": "Em vigor em 1º de junho de 2022", 
     "anexos": ", https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-33@@download/anexo_norma/Anexo 14 CFR Part 33 Amdt. 34.pdf"
+  }, 
+  {
+    "ementa": "Requisitos para emissões de CO2 de aviões", 
+    "norma": "RBAC 38", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "03/02/2022", 
+    "outros": "", 
+    "tipo_normatico": "RBAC", 
+    "publicacao": "08/02/2022", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 1º de março 2022", 
+    "anexos": ""
   }
 ]
