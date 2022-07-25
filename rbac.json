@@ -1,18 +1,5 @@
 [
   {
-    "ementa": "Requisitos de aeronavegabilidade: balões livres tripulados.", 
-    "norma": "RBAC 031 EMD 07", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "16/10/2015", 
-    "outros": "", 
-    "tipo_normatico": "RBAC", 
-    "publicacao": "", 
-    "revogada": "", 
-    "em_vigor": "", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-031@@download/arquivo_norma/RBAC31EMD07.pdf"
-  }, 
-  {
     "ementa": "Diretrizes de aeronavegabilidade ", 
     "norma": "RBAC 039 EMD 00", 
     "tornada_sem_efeito": "", 
@@ -24,19 +11,6 @@
     "revogada": "", 
     "em_vigor": "", 
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-039@@download/arquivo_norma/RBAC 39.pdf"
-  }, 
-  {
-    "ementa": "Certificação operacional de aeroportos.", 
-    "norma": "RBAC 139 EMD 05", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "17/12/2015", 
-    "outros": "", 
-    "tipo_normatico": "RBAC", 
-    "publicacao": "", 
-    "revogada": "", 
-    "em_vigor": "", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-139@@download/arquivo_norma/RBAC139EMD05.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-139@@download/anexo_norma/Perguntas e Respostas RBAC139_EMD05.pdf"
   }, 
   {
     "ementa": "Operações de transporte aéreo público com aviões com configuração máxima certificada de assentos para passageiros de mais 19 assentos ou capacidade máxima de carga paga acima de 3.400 kg", 
@@ -687,5 +661,31 @@
     "revogada": "", 
     "em_vigor": "Em vigor em 1º de agosto de 2022", 
     "anexos": ""
+  }, 
+  {
+    "ementa": "Certificação operacional de aeroportos.", 
+    "norma": "RBAC 139 EMD 05", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "17/12/2015", 
+    "outros": "", 
+    "tipo_normatico": "RBAC", 
+    "publicacao": "", 
+    "revogada": "", 
+    "em_vigor": "", 
+    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-139@@download/arquivo_norma/RBAC139EMD05.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-139@@download/anexo_norma/Perguntas e Respostas RBAC139_EMD05.pdf"
+  }, 
+  {
+    "ementa": "Requisitos de aeronavegabilidade: balões livres tripulados.", 
+    "norma": "RBAC 031 EMD 07", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "16/10/2015", 
+    "outros": "", 
+    "tipo_normatico": "RBAC", 
+    "publicacao": "", 
+    "revogada": "", 
+    "em_vigor": "", 
+    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-031@@download/arquivo_norma/RBAC31EMD07.pdf"
   }
 ]
