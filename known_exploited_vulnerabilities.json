@@ -1,8 +1,8 @@
 {
   "title": "CISA Catalog of Known Exploited Vulnerabilities",
-  "catalogVersion": "2022.08.04",
-  "dateReleased": "2022-08-04T14:48:10.1010Z",
-  "count": 790,
+  "catalogVersion": "2022.08.09",
+  "dateReleased": "2022-08-09T13:17:48.4848Z",
+  "count": 792,
   "vulnerabilities": [
     {
       "cveID": "CVE-2021-27104",
@@ -8693,6 +8693,28 @@
       "requiredAction": "Apply updates per vendor instructions.",
       "dueDate": "2022-08-25",
       "notes": "https://wiki.zimbra.com/wiki/Zimbra_Releases/9.0.0/P24.1#Security_Fixes"
+    },
+    {
+      "cveID": "CVE-2022-34713",
+      "vendorProject": "Microsoft ",
+      "product": "Windows",
+      "vulnerabilityName": "Microsoft Windows Support Diagnostic Tool (MSDT) Remote Code Execution Vulnerability",
+      "dateAdded": "2022-08-09",
+      "shortDescription": "A remote code execution vulnerability exists when Microsoft Windows MSDT is called using the URL protocol from a calling application.",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "dueDate": "2022-08-30",
+      "notes": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-34713"
+    },
+    {
+      "cveID": "CVE-2022-30333",
+      "vendorProject": "RARLAB",
+      "product": "UnRAR",
+      "vulnerabilityName": "RARLAB UnRAR Directory Traversal Vulnerability",
+      "dateAdded": "2022-08-09",
+      "shortDescription": "RARLAB UnRAR on Linux and UNIX contains a directory traversal vulnerability, allowing an attacker to write to files during an extract (unpack) operation.",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "dueDate": "2022-08-30",
+      "notes": "Vulnerability updated with version 6.12. Accessing link will download update information: https://www.rarlab.com/rar/rarlinux-x32-612.tar.gz "
     }
   ]
 }
