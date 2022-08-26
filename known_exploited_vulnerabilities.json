@@ -1,8 +1,8 @@
 {
     "title":  "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion":  "2022.08.22",
-    "dateReleased":  "2022-08-22T09:21:24.5046Z",
-    "count":  802,
+    "catalogVersion":  "2022.08.25",
+    "dateReleased":  "2022-08-25T12:52:06.9774Z",
+    "count":  812,
     "vulnerabilities":  [
                             {
                                 "cveID":  "CVE-2021-27104",
@@ -8825,6 +8825,116 @@
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2022-09-12",
                                 "notes":  "https://security.paloaltonetworks.com/CVE-2022-0028"
+                            },
+                            {
+                                "cveID":  "CVE-2022-26352",
+                                "vendorProject":  "dotCMS",
+                                "product":  "dotCMS",
+                                "vulnerabilityName":  "dotCMS Unrestricted Upload of File Vulnerability",
+                                "dateAdded":  "2022-08-25",
+                                "shortDescription":  "dotCMS ContentResource API contains an unrestricted upload of file with a dangerous type vulnerability that allows for directory traversal, in which the file is saved outside of the intended storage location. Exploitation allows for remote code execution.",
+                                "requiredAction":  "Apply updates per vendor instructions.",
+                                "dueDate":  "2022-09-15",
+                                "notes":  "https://www.dotcms.com/security/SI-62"
+                            },
+                            {
+                                "cveID":  "CVE-2022-24706",
+                                "vendorProject":  "Apache",
+                                "product":  "CouchDB",
+                                "vulnerabilityName":  "Apache CouchDB Insecure Default Initialization of Resource Vulnerability",
+                                "dateAdded":  "2022-08-25",
+                                "shortDescription":  "Apache CouchDB contains an insecure default initialization of resource vulnerability which can allow an attacker to escalate to administrative privileges.",
+                                "requiredAction":  "Apply updates per vendor instructions.",
+                                "dueDate":  "2022-09-15",
+                                "notes":  "https://lists.apache.org/thread/w24wo0h8nlctfps65txvk0oc5hdcnv00"
+                            },
+                            {
+                                "cveID":  "CVE-2022-24112",
+                                "vendorProject":  "Apache",
+                                "product":  "APISIX",
+                                "vulnerabilityName":  "Apache APISIX Authentication Bypass Vulnerability",
+                                "dateAdded":  "2022-08-25",
+                                "shortDescription":  "Apache APISIX contains an authentication bypass vulnerability that allows for remote code execution.",
+                                "requiredAction":  "Apply updates per vendor instructions.",
+                                "dueDate":  "2022-09-15",
+                                "notes":  "https://lists.apache.org/thread/lcdqywz8zy94mdysk7p3gfdgn51jmt94"
+                            },
+                            {
+                                "cveID":  "CVE-2022-22963",
+                                "vendorProject":  "VMware Tanzu",
+                                "product":  "Spring Cloud",
+                                "vulnerabilityName":  "VMware Tanzu Spring Cloud Function Remote Code Execution Vulnerability",
+                                "dateAdded":  "2022-08-25",
+                                "shortDescription":  "When using routing functionality in VMware Tanzu\u0027s Spring Cloud Function, it is possible for a user to provide a specially crafted SpEL as a routing-expression that may result in remote code execution and access to local resources.",
+                                "requiredAction":  "Apply updates per vendor instructions.",
+                                "dueDate":  "2022-09-15",
+                                "notes":  "https://tanzu.vmware.com/security/cve-2022-22963"
+                            },
+                            {
+                                "cveID":  "CVE-2022-2294",
+                                "vendorProject":  "WebRTC",
+                                "product":  "WebRTC",
+                                "vulnerabilityName":  "WebRTC Heap Buffer Overflow Vulnerability",
+                                "dateAdded":  "2022-08-25",
+                                "shortDescription":  "WebRTC, an open-source project providing web browsers with real-time communication, contains a heap buffer overflow vulnerability which allows an attacker to perform shellcode execution. This vulnerability impacts web browsers using WebRTC including but not limited to Google Chrome.",
+                                "requiredAction":  "Apply updates per vendor instructions.",
+                                "dueDate":  "2022-09-15",
+                                "notes":  "https://groups.google.com/g/discuss-webrtc/c/5KBtZx2gvcQ"
+                            },
+                            {
+                                "cveID":  "CVE-2021-39226",
+                                "vendorProject":  "Grafana Labs",
+                                "product":  "Grafana",
+                                "vulnerabilityName":  "Grafana Authentication Bypass Vulnerability",
+                                "dateAdded":  "2022-08-25",
+                                "shortDescription":  "Grafana contains an authentication bypass vulnerability that allows authenticated and unauthenticated users to view and delete all snapshot data, potentially resulting in complete snapshot data loss.",
+                                "requiredAction":  "Apply updates per vendor instructions.",
+                                "dueDate":  "2022-09-15",
+                                "notes":  "https://grafana.com/blog/2021/10/05/grafana-7.5.11-and-8.1.6-released-with-critical-security-fix/"
+                            },
+                            {
+                                "cveID":  "CVE-2021-38406",
+                                "vendorProject":  "Delta Electronics",
+                                "product":  "DOPSoft 2",
+                                "vulnerabilityName":  "Delta Electronics DOPSoft 2 Improper Input Validation Vulnerability",
+                                "dateAdded":  "2022-08-25",
+                                "shortDescription":  "Delta Electronics DOPSoft 2 lacks proper validation of user-supplied data when parsing specific project files (improper input validation) resulting in an out-of-bounds write that allows for code execution.",
+                                "requiredAction":  "The impacted product is end-of-life and should be disconnected if still in use.",
+                                "dueDate":  "2022-09-15",
+                                "notes":  "https://www.cisa.gov/uscert/ics/advisories/icsa-21-252-02"
+                            },
+                            {
+                                "cveID":  "CVE-2021-31010",
+                                "vendorProject":  "Apple",
+                                "product":  "iOS, macOS, watchOS",
+                                "vulnerabilityName":  "Apple iOS, macOS, watchOS Sanbox Bypass Vulnerability",
+                                "dateAdded":  "2022-08-25",
+                                "shortDescription":  "In affected versions of Apple iOS, macOS, and watchOS, a sandboxed process may be able to circumvent sandbox restrictions.",
+                                "requiredAction":  "Apply updates per vendor instructions.",
+                                "dueDate":  "2022-09-15",
+                                "notes":  "https://support.apple.com/en-us/HT212804, https://support.apple.com/en-us/HT212805, https://support.apple.com/en-us/HT212806, https://support.apple.com/en-us/HT212807, https://support.apple.com/en-us/HT212824"
+                            },
+                            {
+                                "cveID":  "CVE-2020-36193",
+                                "vendorProject":  "PEAR",
+                                "product":  "Archive_Tar",
+                                "vulnerabilityName":  "PEAR Archive_Tar Improper Link Resolution Vulnerability",
+                                "dateAdded":  "2022-08-25",
+                                "shortDescription":  "PEAR Archive_Tar Tar.php allows write operations with directory traversal due to inadequate checking of symbolic links. PEAR stands for PHP Extension and Application Repository and it is an open-source framework and distribution system for reusable PHP components with known usage in third-party products such as Drupal Core and Red Hat Linux.",
+                                "requiredAction":  "Apply updates per vendor instructions.",
+                                "dueDate":  "2022-09-15",
+                                "notes":  "https://github.com/pear/Archive_Tar/commit/cde460582ff389404b5b3ccb59374e9b389de916, https://www.drupal.org/sa-core-2021-001, https://access.redhat.com/security/cve/cve-2020-36193"
+                            },
+                            {
+                                "cveID":  "CVE-2020-28949",
+                                "vendorProject":  "PEAR",
+                                "product":  "Archive_Tar",
+                                "vulnerabilityName":  "PEAR Archive_Tar Deserialization of Untrusted Data Vulnerability",
+                                "dateAdded":  "2022-08-25",
+                                "shortDescription":  "PEAR Archive_Tar allows an unserialization attack because phar: is blocked but PHAR: is not blocked. PEAR stands for PHP Extension and Application Repository and it is an open-source framework and distribution system for reusable PHP components with known usage in third-party products such as Drupal Core and Red Hat Linux.",
+                                "requiredAction":  "Apply updates per vendor instructions.",
+                                "dueDate":  "2022-09-15",
+                                "notes":  "https://pear.php.net/bugs/bug.php?id=27002, https://www.drupal.org/sa-core-2020-013, https://access.redhat.com/security/cve/cve-2020-28949"
                             }
                         ]
 }
