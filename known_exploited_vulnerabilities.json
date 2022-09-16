@@ -1,8 +1,8 @@
 {
     "title":  "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion":  "2022.09.14",
-    "dateReleased":  "2022-09-14T09:52:05.9230Z",
-    "count":  826,
+    "catalogVersion":  "2022.09.15",
+    "dateReleased":  "2022-09-15T16:52:47.3789Z",
+    "count":  832,
     "vulnerabilities":  [
                             {
                                 "cveID":  "CVE-2021-27104",
@@ -2912,23 +2912,23 @@
                                 "cveID":  "CVE-2021-36742",
                                 "vendorProject":  "Trend Micro",
                                 "product":  "Trend Micro Multiple Products",
-                                "vulnerabilityName":  "Trend Micro Systems Multiple Products Buffer Overflow - Arbitrary File Upload",
+                                "vulnerabilityName":  "Trend Micro Systems Multiple Products Improper Input Validation Vulnerability",
                                 "dateAdded":  "2021-11-03",
-                                "shortDescription":  "An improper input validation vulnerability in Trend Micro Apex One, Apex One as a Service, OfficeScan XG and Worry-Free Business Security 10.0 SP1 allows a local attacker to escalate privileges on affected installations. Please note: an attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.",
+                                "shortDescription":  "An improper input validation vulnerability in Trend Micro Apex One, Apex One as a Service, OfficeScan XG and Worry-Free Business Security allows a local attacker to escalate privileges.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2021-11-17",
-                                "notes":  ""
+                                "notes":  "https://success.trendmicro.com/dcx/s/solution/000287819?language=en_US, https://success.trendmicro.com/dcx/s/solution/000287820?language=en_US"
                             },
                             {
                                 "cveID":  "CVE-2021-36741",
                                 "vendorProject":  "Trend Micro",
                                 "product":  "Trend Micro Multiple Products",
-                                "vulnerabilityName":  "Trend Micro Systems Multiple Products Buffer Overflow - Arbitrary File Upload",
+                                "vulnerabilityName":  "Trend Micro Systems Multiple Products Improper Input Validation Vulnerability",
                                 "dateAdded":  "2021-11-03",
-                                "shortDescription":  "An improper input validation vulnerability in Trend Micro Apex One, Apex One as a Service, OfficeScan XG, and Worry-Free Business Security 10.0 SP1 allows a remote attached to upload arbitrary files on affected installations. Please note: an attacker must first obtain the ability to logon to the product\u0027s management console in order to exploit this vulnerability.",
+                                "shortDescription":  "An improper input validation vulnerability in Trend Micro Apex One, Apex One as a Service, OfficeScan XG, and Worry-Free Business Security allows for upload of arbitrary files.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2021-11-17",
-                                "notes":  ""
+                                "notes":  "https://success.trendmicro.com/dcx/s/solution/000287819?language=en_US, https://success.trendmicro.com/dcx/s/solution/000287820?language=en_US"
                             },
                             {
                                 "cveID":  "CVE-2019-20085",
@@ -9089,6 +9089,72 @@
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2022-10-05",
                                 "notes":  "https://support.apple.com/en-us/HT213445, https://support.apple.com/en-us/HT213444"
+                            },
+                            {
+                                "cveID":  "CVE-2022-40139",
+                                "vendorProject":  "Trend Micro",
+                                "product":  "Apex One and Apex One as a Service",
+                                "vulnerabilityName":  "Trend Micro Apex One and Apex One as a Service Improper Validation Vulnerability",
+                                "dateAdded":  "2022-09-15",
+                                "shortDescription":  "Trend Micro Apex One and Apex One as a Service contain an improper validation of rollback mechanism components that could lead to remote code execution.",
+                                "requiredAction":  "Apply updates per vendor instructions.",
+                                "dueDate":  "2022-10-06",
+                                "notes":  "https://success.trendmicro.com/dcx/s/solution/000291528?language=en_US"
+                            },
+                            {
+                                "cveID":  "CVE-2013-6282",
+                                "vendorProject":  "Linux",
+                                "product":  "Kernel",
+                                "vulnerabilityName":  "Linux Kernel Improper Input Validation Vulnerability",
+                                "dateAdded":  "2022-09-15",
+                                "shortDescription":  "The get_user and put_user API functions of the Linux kernel fail to validate the target address when being used on ARM v6k/v7 platforms. This allows an application to read and write kernel memory which could lead to privilege escalation.",
+                                "requiredAction":  "Apply updates per vendor instructions.",
+                                "dueDate":  "2022-10-06",
+                                "notes":  "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=8404663f81d212918ff85f493649a7991209fa04"
+                            },
+                            {
+                                "cveID":  "CVE-2013-2597",
+                                "vendorProject":  "Code Aurora",
+                                "product":  "ACDB Audio Driver",
+                                "vulnerabilityName":  "Code Aurora ACDB Audio Driver Stack-based Buffer Overflow Vulnerability",
+                                "dateAdded":  "2022-09-15",
+                                "shortDescription":  "The Code Aurora audio calibration database (acdb) audio driver contains a stack-based buffer overflow vulnerability which allows for privilege escalation. Code Aurora is used in third-party products such as Qualcomm and Android.",
+                                "requiredAction":  "Apply updates per vendor instructions.",
+                                "dueDate":  "2022-10-06",
+                                "notes":  "https://web.archive.org/web/20161226013354/https:/www.codeaurora.org/news/security-advisories/stack-based-buffer-overflow-acdb-audio-driver-cve-2013-2597"
+                            },
+                            {
+                                "cveID":  "CVE-2013-2596",
+                                "vendorProject":  "Linux",
+                                "product":  "Kernel",
+                                "vulnerabilityName":  "Linux Kernel Integer Overflow Vulnerability",
+                                "dateAdded":  "2022-09-15",
+                                "shortDescription":  "Linux kernel fb_mmap function in drivers/video/fbmem.c contains an integer overflow vulnerability which allows for privilege escalation.",
+                                "requiredAction":  "Apply updates per vendor instructions.",
+                                "dueDate":  "2022-10-06",
+                                "notes":  "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=fc9bbca8f650e5f738af8806317c0a041a48ae4a"
+                            },
+                            {
+                                "cveID":  "CVE-2013-2094",
+                                "vendorProject":  "Linux",
+                                "product":  "Kernel",
+                                "vulnerabilityName":  "Linux Kernel Privilege Escalation Vulnerability",
+                                "dateAdded":  "2022-09-15",
+                                "shortDescription":  "Linux kernel fails to check all 64 bits of attr.config passed by user space, resulting to out-of-bounds access of the perf_swevent_enabled array in sw_perf_event_destroy(). Explotation allows for privilege escalation.",
+                                "requiredAction":  "Apply updates per vendor instructions.",
+                                "dueDate":  "2022-10-06",
+                                "notes":  "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=8176cced706b5e5d15887584150764894e94e02f"
+                            },
+                            {
+                                "cveID":  "CVE-2010-2568",
+                                "vendorProject":  "Microsoft",
+                                "product":  "Windows",
+                                "vulnerabilityName":  "Microsoft Windows Remote Code Execution Vulnerability",
+                                "dateAdded":  "2022-09-15",
+                                "shortDescription":  "Microsoft Windows incorrectly parses shortcuts in such a way that malicious code may be executed when the operating system displays the icon of a malicious shortcut file. An attacker who successfully exploited this vulnerability could execute code as the logged-on user.",
+                                "requiredAction":  "Apply updates per vendor instructions.",
+                                "dueDate":  "2022-10-06",
+                                "notes":  "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2010/ms10-046"
                             }
                         ]
 }
