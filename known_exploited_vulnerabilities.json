@@ -1,8 +1,8 @@
 {
     "title":  "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion":  "2022.09.22",
-    "dateReleased":  "2022-09-22T14:26:03.8991Z",
-    "count":  833,
+    "catalogVersion":  "2022.09.23",
+    "dateReleased":  "2022-09-23T15:01:31.9825Z",
+    "count":  834,
     "vulnerabilities":  [
                             {
                                 "cveID":  "CVE-2021-27104",
@@ -9166,6 +9166,17 @@
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2022-10-13",
                                 "notes":  "https://www.manageengine.com/products/passwordmanagerpro/advisory/cve-2022-35405.html"
+                            },
+                            {
+                                "cveID":  "CVE-2022-3236",
+                                "vendorProject":  "Sophos",
+                                "product":  "Firewall",
+                                "vulnerabilityName":  "Sophos Firewall Code Injection Vulnerability",
+                                "dateAdded":  "2022-09-23",
+                                "shortDescription":  "A code injection vulnerability in the User Portal and Webadmin of Sophos Firewall allows for remote code execution.",
+                                "requiredAction":  "Apply updates per vendor instructions.",
+                                "dueDate":  "2022-10-14",
+                                "notes":  "https://www.sophos.com/en-us/security-advisories/sophos-sa-20220923-sfos-rce"
                             }
                         ]
 }
