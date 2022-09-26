@@ -1,16 +1,16 @@
 [
   {
-    "ementa": "Diretrizes de aeronavegabilidade ", 
-    "norma": "RBAC 039 EMD 00", 
+    "ementa": "Sistemas de oxigênio dos lavatórios.", 
+    "norma": "RBAC-E 111 EMD 00", 
     "tornada_sem_efeito": "", 
     "alterada": "", 
-    "data": "02/03/2011", 
+    "data": "16/03/2012", 
     "outros": "", 
-    "tipo_normatico": "RBAC", 
+    "tipo_normatico": "RBAC-E", 
     "publicacao": "", 
     "revogada": "", 
     "em_vigor": "", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-039@@download/arquivo_norma/RBAC 39.pdf"
+    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-e-111@@download/arquivo_norma/RBAC-E111EMD00.pdf"
   }, 
   {
     "ementa": "Operações de transporte aéreo público com aviões com configuração máxima certificada de assentos para passageiros de mais 19 assentos ou capacidade máxima de carga paga acima de 3.400 kg", 
@@ -71,7 +71,7 @@
     "alterada": "", 
     "data": "30/11/2021", 
     "outros": "Retificado no Diário Oficial da União de 10 de maio de 2022, Seção 1, pág.81.", 
-    "tipo_normatico": "RBAC", 
+    "tipo_normatico": "RBAC-E", 
     "publicacao": "02/12/2021", 
     "revogada": "", 
     "em_vigor": "Em vigor em 1º de junho de 2022", 
@@ -338,7 +338,7 @@
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-141@@download/arquivo_norma/RBAC141EMD01.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-141@@download/anexo_norma/CEF RBAC 141.pdf"
   }, 
   {
-    "ementa": "Licenças, habilitações e certificados para pilotos.", 
+    "ementa": "Licenças, habilitações e certificados para pilotos", 
     "norma": "RBAC 61 EMD 13", 
     "tornada_sem_efeito": "", 
     "alterada": "", 
@@ -481,7 +481,7 @@
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-43@@download/arquivo_norma/RBAC43EMD05.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-43@@download/anexo_norma/CEF RBAC nº 43.pdf"
   }, 
   {
-    "ementa": "Requisitos de ruído para aeronave.", 
+    "ementa": "Requisitos de ruído para aeronave", 
     "norma": "RBAC 36 EMD 31", 
     "tornada_sem_efeito": "", 
     "alterada": "", 
@@ -674,5 +674,18 @@
     "revogada": "", 
     "em_vigor": "Em vigor em 3 de outubro de 2022", 
     "anexos": ", https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-135-emd-12@@download/anexo_norma/_CEF RBAC nº 135.pdf"
+  }, 
+  {
+    "ementa": "Diretrizes de aeronavegabilidade", 
+    "norma": "RBAC 039 EMD 00", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "01/01/2012", 
+    "outros": "", 
+    "tipo_normatico": "RBAC", 
+    "publicacao": "", 
+    "revogada": "", 
+    "em_vigor": "", 
+    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-039@@download/arquivo_norma/RBAC 39.pdf"
   }
 ]
