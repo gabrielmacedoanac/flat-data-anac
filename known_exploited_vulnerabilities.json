@@ -1,8 +1,8 @@
 {
     "title":  "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion":  "2022.09.30",
-    "dateReleased":  "2022-09-30T10:02:00.1378Z",
-    "count":  837,
+    "catalogVersion":  "2022.10.11",
+    "dateReleased":  "2022-10-11T17:23:34.4730Z",
+    "count":  839,
     "vulnerabilities":  [
                             {
                                 "cveID":  "CVE-2021-27104",
@@ -9210,6 +9210,28 @@
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2022-10-21",
                                 "notes":  "https://jira.atlassian.com/browse/BSERV-13438"
+                            },
+                            {
+                                "cveID":  "CVE-2022-40684",
+                                "vendorProject":  "Fortinet",
+                                "product":  "Multiple Products",
+                                "vulnerabilityName":  "Fortinet Multiple Products Authentication Bypass Vulnerability",
+                                "dateAdded":  "2022-10-11",
+                                "shortDescription":  "Fortinet FortiOS, FortiProxy, and FortiSwitchManager contain an authentication bypass vulnerability that could allow an unauthenticated attacker to perform operations on the administrative interface via specially crafted HTTP or HTTPS requests.",
+                                "requiredAction":  "Apply updates per vendor instructions.",
+                                "dueDate":  "2022-11-01",
+                                "notes":  "https://www.fortiguard.com/psirt/FG-IR-22-377"
+                            },
+                            {
+                                "cveID":  "CVE-2022-41033",
+                                "vendorProject":  "Microsoft",
+                                "product":  "Windows COM+ Event System Service",
+                                "vulnerabilityName":  "Microsoft Windows COM+ Event System Service Privilege Escalation Vulnerability",
+                                "dateAdded":  "2022-10-11",
+                                "shortDescription":  "Microsoft Windows COM+ Event System Service contains an unspecified vulnerability that allows for privilege escalation.",
+                                "requiredAction":  "Apply updates per vendor instructions.",
+                                "dueDate":  "2022-11-01",
+                                "notes":  "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2022-41033"
                             }
                         ]
 }
