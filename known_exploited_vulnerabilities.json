@@ -1,8 +1,8 @@
 {
     "title":  "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion":  "2022.10.24",
-    "dateReleased":  "2022-10-24T12:52:36.9054Z",
-    "count":  847,
+    "catalogVersion":  "2022.10.25",
+    "dateReleased":  "2022-10-25T12:56:48.6456Z",
+    "count":  848,
     "vulnerabilities":  [
                             {
                                 "cveID":  "CVE-2021-27104",
@@ -9320,6 +9320,17 @@
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2022-11-14",
                                 "notes":  "https://www.gigabyte.com/Support/Security/1801"
+                            },
+                            {
+                                "cveID":  "CVE-2022-42827",
+                                "vendorProject":  "Apple",
+                                "product":  "iOS and iPadOS",
+                                "vulnerabilityName":  "Apple iOS and iPadOS Out-of-Bounds Write Vulnerability",
+                                "dateAdded":  "2022-10-25",
+                                "shortDescription":  "Apple iOS and iPadOS kernel contain an out-of-bounds write vulnerability which can allow an application to perform code execution with kernel privileges.",
+                                "requiredAction":  "Apply updates per vendor instructions.",
+                                "dueDate":  "2022-11-15",
+                                "notes":  "https://support.apple.com/en-us/HT213489"
                             }
                         ]
 }
