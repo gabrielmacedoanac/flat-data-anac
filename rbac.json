@@ -137,7 +137,7 @@
     "data": "22/11/2021", 
     "outros": "", 
     "tipo_normatico": "RBAC", 
-    "publicacao": "22/11/2022", 
+    "publicacao": "22/11/2021", 
     "revogada": "", 
     "em_vigor": "Em vigor em 1º de dezembro de 2021.", 
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-103@@download/arquivo_norma/RBAC103EMD01.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-103@@download/anexo_norma/CEF RBAC 103.pdf"
@@ -169,17 +169,17 @@
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-035@@download/arquivo_norma/RBAC35EMD10.pdf"
   }, 
   {
-    "ementa": "Operação de empresas estrangeiras que têm por objetivo o transporte aéreo público no Brasil (Operations of foreign air carriers within Brazil engaged in common carriage).", 
-    "norma": "RBAC 129 EMD 01", 
+    "ementa": "Operação de empresas estrangeiras que têm por objetivo o serviço de transporte aéreo internacional no Brasil / operations of foreign air carriers within brazil engaged in common carriage", 
+    "norma": "RBAC 129 EMD 02", 
     "tornada_sem_efeito": "", 
     "alterada": "", 
-    "data": "31/08/2018", 
+    "data": "21/09/2022", 
     "outros": "", 
     "tipo_normatico": "RBAC", 
-    "publicacao": "31/08/2018.", 
+    "publicacao": "26/09/2022", 
     "revogada": "", 
-    "em_vigor": "", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-129@@download/arquivo_norma/RBAC129EMD01.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-129@@download/anexo_norma/CEF RBAC nº 129.pdf"
+    "em_vigor": "Em vigor em 3 de outubro de 2022", 
+    "anexos": ", https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-129@@download/anexo_norma/CEF RBAC nº 129.pdf"
   }, 
   {
     "ementa": "Marcas de Identificação, de Nacionalidade e de Matrícula.", 
@@ -377,8 +377,21 @@
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-137@@download/arquivo_norma/RBAC137EMD04.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-137@@download/anexo_norma/CEF RBAC 137.pdf"
   }, 
   {
+    "ementa": "Operações de transporte aéreo público com aviões com configuração máxima certificada de assentos para passageiros de até 19 assentos e capacidade máxima de carga paga de até 3.400 kg (7.500 lb), ou helicópteros", 
+    "norma": "RBAC 135 EMD 12", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "25/08/2022", 
+    "outros": "", 
+    "tipo_normatico": "RBAC", 
+    "publicacao": "30/08/2022", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 3 de outubro de 2022", 
+    "anexos": ", https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-135@@download/anexo_norma/CEF - RBAC 135.pdf"
+  }, 
+  {
     "ementa": "Definições, regras de redação e unidades de medida para uso nos normativos da ANAC", 
-    "norma": "RBAC 01 EMD 10", 
+    "norma": "RBAC 01 EMD 11", 
     "tornada_sem_efeito": "", 
     "alterada": "", 
     "data": "13/07/2022", 
@@ -386,7 +399,7 @@
     "tipo_normatico": "RBAC", 
     "publicacao": "15/07/2022", 
     "revogada": "", 
-    "em_vigor": "Em vigor em 1º de agosto de 2022", 
+    "em_vigor": "Em vigor em 1º de outubro de 2022", 
     "anexos": ""
   }, 
   {
@@ -442,30 +455,17 @@
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-161@@download/arquivo_norma/RBAC161EMD03 - Retificado.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-161@@download/anexo_norma/CEF RBAC nº 161.pdf"
   }, 
   {
-    "ementa": "Operações de transporte aéreo público com aviões com configuração máxima certificada de assentos para passageiros de até 19 assentos e capacidade máxima de carga paga de até 3.400 kg (7.500 lb), ou helicópteros.", 
-    "norma": "RBAC 135 EMD 11", 
+    "ementa": "Certificação de produto e artigo aeronáuticos", 
+    "norma": "RBAC 21 EMD 09", 
     "tornada_sem_efeito": "", 
     "alterada": "", 
-    "data": "09/03/2021", 
+    "data": "13/07/2022", 
     "outros": "", 
     "tipo_normatico": "RBAC", 
-    "publicacao": "15/03/2021", 
+    "publicacao": "15/07/2022", 
     "revogada": "", 
-    "em_vigor": "Em vigor em 26 de maio de 2021.", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-135-emd-11@@download/arquivo_norma/RBAC135EMD11.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-135-emd-11@@download/anexo_norma/ CEF RBAC nº 135.pdf"
-  }, 
-  {
-    "ementa": "Certificação de produto e artigo aeronáuticos.", 
-    "norma": "RBAC 21 EMD 08", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "14/06/2021", 
-    "outros": "", 
-    "tipo_normatico": "RBAC", 
-    "publicacao": "14/06/2021", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 1º de julho de 2021.", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-21@@download/arquivo_norma/RBAC21EMD08.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-21@@download/anexo_norma/CEF RBAC 21.pdf"
+    "em_vigor": "Em vigor em 1º de outubro de 2022", 
+    "anexos": ", https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-21@@download/anexo_norma/CEF RBAC 21.pdf"
   }, 
   {
     "ementa": "Manutenção, manutenção preventiva, reconstrução e alteração.", 
@@ -517,7 +517,7 @@
     "publicacao": "08/10/2021", 
     "revogada": "", 
     "em_vigor": "Em vigor em 1º de novembro de 2022.", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-110-emd-01@@download/arquivo_norma/RBAC110EMD01.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-110-emd-01@@download/anexo_norma/CEF RBAC nº 110.pdf"
+    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-110-emd-01@@download/arquivo_norma/RBAC110EMD01.pdf"
   }, 
   {
     "ementa": "Requisitos para concessão de certificados médicos aeronáuticos, para o cadastro e credenciamento de médicos, credenciamento de clínicas e para o convênio com entidades públicas.", 
@@ -611,43 +611,17 @@
     "anexos": ""
   }, 
   {
-    "ementa": "Definições, regras de redação e unidades de medida para uso nos normativos da ANAC", 
-    "norma": "RBAC 01 EMD 11", 
+    "ementa": "Certificação Operacional de Aeroportos", 
+    "norma": "RBAC 139 EMD 06", 
     "tornada_sem_efeito": "", 
     "alterada": "", 
-    "data": "13/07/2022", 
-    "outros": "", 
+    "data": "21/09/2022", 
+    "outros": "<a class=\"external-link\" href=\"https://www.anac.gov.br/assuntos/legislacao/legislacao-1/portarias/2022/portaria-9386\" target=\"_blank\" title=\"\">Compêndio de Elementos de Fiscalização - CEF", 
     "tipo_normatico": "RBAC", 
-    "publicacao": "15/07/2022", 
+    "publicacao": "26/09/2022", 
     "revogada": "", 
-    "em_vigor": "Em vigor em 1º de outubro de 2022", 
-    "anexos": ""
-  }, 
-  {
-    "ementa": "Certificação de Produto e Artigo Aeronáuticos", 
-    "norma": "RBAC 21 EMD 09", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "13/07/2022", 
-    "outros": "", 
-    "tipo_normatico": "RBAC", 
-    "publicacao": "15/07/2022", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 1º de outubro de 2022", 
-    "anexos": ""
-  }, 
-  {
-    "ementa": "Certificação operacional de aeroportos.", 
-    "norma": "RBAC 139 EMD 05", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "17/12/2015", 
-    "outros": "", 
-    "tipo_normatico": "RBAC", 
-    "publicacao": "", 
-    "revogada": "", 
-    "em_vigor": "", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-139@@download/arquivo_norma/RBAC139EMD05.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-139@@download/anexo_norma/Perguntas e Respostas RBAC139_EMD05.pdf"
+    "em_vigor": "Em vigor em 3 de outubro de 2022", 
+    "anexos": ", https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-139@@download/anexo_norma/Perguntas e Respostas RBAC139_EMD05.pdf"
   }, 
   {
     "ementa": "Requisitos de aeronavegabilidade: balões livres tripulados.", 
@@ -663,19 +637,6 @@
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-031@@download/arquivo_norma/RBAC31EMD07.pdf"
   }, 
   {
-    "ementa": "Operações de transporte aéreo público com aviões com configuração máxima certificada de assentos para passageiros de até 19 assentos e capacidade máxima de carga paga de até 3.400 kg (7.500 lb), ou helicópteros", 
-    "norma": "RBAC 135 EMD 12", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "25/08/2022", 
-    "outros": "", 
-    "tipo_normatico": "RBAC", 
-    "publicacao": "30/08/2022", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 3 de outubro de 2022", 
-    "anexos": ", https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-135-emd-12@@download/anexo_norma/_CEF RBAC nº 135.pdf"
-  }, 
-  {
     "ementa": "Diretrizes de aeronavegabilidade", 
     "norma": "RBAC 039 EMD 00", 
     "tornada_sem_efeito": "", 
@@ -687,31 +648,5 @@
     "revogada": "", 
     "em_vigor": "", 
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-039@@download/arquivo_norma/RBAC 39.pdf"
-  }, 
-  {
-    "ementa": "Certificação Operacional de Aeroportos", 
-    "norma": "RBAC 139 EMD 06", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "21/09/2022", 
-    "outros": "<a class=\"external-link\" href=\"https://www.anac.gov.br/assuntos/legislacao/legislacao-1/portarias/2022/portaria-9386\" target=\"_blank\" title=\"\">Compêndio de Elementos de Fiscalização - CEF", 
-    "tipo_normatico": "RBAC", 
-    "publicacao": "26/09/2022", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 3 de outubro de 2022", 
-    "anexos": ""
-  }, 
-  {
-    "ementa": "Operação de empresas estrangeiras que têm por objetivo o serviço de transporte aéreo internacional no Brasil / operations of foreign air carriers within brazil engaged in common carriage", 
-    "norma": "RBAC 129 EMD 02", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "21/09/2022", 
-    "outros": "", 
-    "tipo_normatico": "RBAC", 
-    "publicacao": "26/09/2022", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 3 de outubro de 2022", 
-    "anexos": ""
   }
 ]
