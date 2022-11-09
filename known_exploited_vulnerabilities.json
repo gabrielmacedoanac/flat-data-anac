@@ -1,8 +1,8 @@
 {
     "title":  "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion":  "2022.10.28",
-    "dateReleased":  "2022-10-28T14:25:58.7960Z",
-    "count":  849,
+    "catalogVersion":  "2022.11.08",
+    "dateReleased":  "2022-11-08T16:26:42.3718Z",
+    "count":  856,
     "vulnerabilities":  [
                             {
                                 "cveID":  "CVE-2021-27104",
@@ -9342,6 +9342,83 @@
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2022-11-18",
                                 "notes":  "https://chromereleases.googleblog.com/2022/10/stable-channel-update-for-desktop_27.html"
+                            },
+                            {
+                                "cveID":  "CVE-2022-41091",
+                                "vendorProject":  "Microsoft",
+                                "product":  "Windows",
+                                "vulnerabilityName":  "Microsoft Windows Mark of the Web (MOTW) Security Feature Bypass Vulnerability",
+                                "dateAdded":  "2022-11-08",
+                                "shortDescription":  "Microsoft Windows Mark of the Web (MOTW) contains a security feature bypass vulnerability resulting in a limited loss of integrity and availability of security features.",
+                                "requiredAction":  "Apply updates per vendor instructions.",
+                                "dueDate":  "2022-11-29",
+                                "notes":  "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-41091"
+                            },
+                            {
+                                "cveID":  "CVE-2022-41073",
+                                "vendorProject":  "Microsoft",
+                                "product":  "Windows",
+                                "vulnerabilityName":  "Microsoft Windows Print Spooler Privilege Escalation Vulnerability",
+                                "dateAdded":  "2022-11-08",
+                                "shortDescription":  "Microsoft Windows Print Spooler contains an unspecified vulnerability which allows an attacker to gain SYSTEM-level privileges.",
+                                "requiredAction":  "Apply updates per vendor instructions.",
+                                "dueDate":  "2022-11-29",
+                                "notes":  "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-41073"
+                            },
+                            {
+                                "cveID":  "CVE-2022-41125",
+                                "vendorProject":  "Microsoft",
+                                "product":  "Windows",
+                                "vulnerabilityName":  "Microsoft Windows CNG Key Isolation Service Privilege Escalation Vulnerability",
+                                "dateAdded":  "2022-11-08",
+                                "shortDescription":  "Microsoft Windows Cryptographic Next Generation (CNG) Key Isolation Service contains an unspecified vulnerability which allows an attacker to gain SYSTEM-level privileges.",
+                                "requiredAction":  "Apply updates per vendor instructions.",
+                                "dueDate":  "2022-11-29",
+                                "notes":  "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-41125"
+                            },
+                            {
+                                "cveID":  "CVE-2022-41128",
+                                "vendorProject":  "Microsoft",
+                                "product":  "Windows",
+                                "vulnerabilityName":  "Microsoft Windows Scripting Languages Remote Code Execution Vulnerability",
+                                "dateAdded":  "2022-11-08",
+                                "shortDescription":  "Microsoft Windows contains an unspecified vulnerability in the JScript9 scripting language which allows for remote code execution.",
+                                "requiredAction":  "Apply updates per vendor instructions.",
+                                "dueDate":  "2022-11-29",
+                                "notes":  "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-41128"
+                            },
+                            {
+                                "cveID":  "CVE-2021-25337",
+                                "vendorProject":  "Samsung",
+                                "product":  "Mobile Devices",
+                                "vulnerabilityName":  "Samsung Mobile Devices Improper Access Control Vulnerability",
+                                "dateAdded":  "2022-11-08",
+                                "shortDescription":  "Samsung mobile devices contain an improper access control vulnerability in clipboard service which allows untrusted applications to read or write arbitrary files. This vulnerability was chained with CVE-2021-25369 and CVE-2021-25370.",
+                                "requiredAction":  "Apply updates per vendor instructions.",
+                                "dueDate":  "2022-11-29",
+                                "notes":  "https://googleprojectzero.blogspot.com/2022/11/a-very-powerful-clipboard-samsung-in-the-wild-exploit-chain.html"
+                            },
+                            {
+                                "cveID":  "CVE-2021-25369",
+                                "vendorProject":  "Samsung",
+                                "product":  "Mobile Devices",
+                                "vulnerabilityName":  "Samsung Mobile Devices Improper Access Control Vulnerability",
+                                "dateAdded":  "2022-11-08",
+                                "shortDescription":  "Samsung mobile devices using Mali GPU contains an improper access control vulnerability in sec_log file. Exploitation of the vulnerability exposes sensitive kernel information to the userspace. This vulnerability was chained with CVE-2021-25337 and CVE-2021-25370.",
+                                "requiredAction":  "Apply updates per vendor instructions.",
+                                "dueDate":  "2022-11-29",
+                                "notes":  "https://googleprojectzero.blogspot.com/2022/11/a-very-powerful-clipboard-samsung-in-the-wild-exploit-chain.html"
+                            },
+                            {
+                                "cveID":  "CVE-2021-25370",
+                                "vendorProject":  "Samsung",
+                                "product":  "Mobile Devices",
+                                "vulnerabilityName":  "Samsung Mobile Devices Memory Corruption Vulnerability",
+                                "dateAdded":  "2022-11-08",
+                                "shortDescription":  "Samsung mobile devices using Mali GPU contain an incorrect implementation handling file descriptor in dpu driver. This incorrect implementation results in memory corruption, leading to kernel panic. This vulnerability was chained with CVE-2021-25337 and CVE-2021-25369.",
+                                "requiredAction":  "Apply updates per vendor instructions.",
+                                "dueDate":  "2022-11-29",
+                                "notes":  "https://googleprojectzero.blogspot.com/2022/11/a-very-powerful-clipboard-samsung-in-the-wild-exploit-chain.html"
                             }
                         ]
 }
