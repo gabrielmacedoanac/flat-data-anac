@@ -1,7 +1,7 @@
 {
     "title":  "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion":  "2022.11.08",
-    "dateReleased":  "2022-11-08T16:26:42.3718Z",
+    "catalogVersion":  "2022.11.09",
+    "dateReleased":  "2022-11-09T08:12:16.5641Z",
     "count":  856,
     "vulnerabilities":  [
                             {
@@ -9396,7 +9396,7 @@
                                 "shortDescription":  "Samsung mobile devices contain an improper access control vulnerability in clipboard service which allows untrusted applications to read or write arbitrary files. This vulnerability was chained with CVE-2021-25369 and CVE-2021-25370.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2022-11-29",
-                                "notes":  "https://googleprojectzero.blogspot.com/2022/11/a-very-powerful-clipboard-samsung-in-the-wild-exploit-chain.html"
+                                "notes":  "https://security.samsungmobile.com/securityUpdate.smsb"
                             },
                             {
                                 "cveID":  "CVE-2021-25369",
@@ -9407,7 +9407,7 @@
                                 "shortDescription":  "Samsung mobile devices using Mali GPU contains an improper access control vulnerability in sec_log file. Exploitation of the vulnerability exposes sensitive kernel information to the userspace. This vulnerability was chained with CVE-2021-25337 and CVE-2021-25370.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2022-11-29",
-                                "notes":  "https://googleprojectzero.blogspot.com/2022/11/a-very-powerful-clipboard-samsung-in-the-wild-exploit-chain.html"
+                                "notes":  "https://security.samsungmobile.com/securityUpdate.smsb"
                             },
                             {
                                 "cveID":  "CVE-2021-25370",
@@ -9418,7 +9418,7 @@
                                 "shortDescription":  "Samsung mobile devices using Mali GPU contain an incorrect implementation handling file descriptor in dpu driver. This incorrect implementation results in memory corruption, leading to kernel panic. This vulnerability was chained with CVE-2021-25337 and CVE-2021-25369.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2022-11-29",
-                                "notes":  "https://googleprojectzero.blogspot.com/2022/11/a-very-powerful-clipboard-samsung-in-the-wild-exploit-chain.html"
+                                "notes":  "https://security.samsungmobile.com/securityUpdate.smsb"
                             }
                         ]
 }
