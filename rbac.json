@@ -26,17 +26,17 @@
     "anexos": ", https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-121@@download/anexo_norma/CEF RBAC 121.pdf"
   }, 
   {
-    "ementa": "Programa Nacional de Instrução em Segurança da Aviação Civil Contra Atos de Interferência Ilícita - PNIAVSEC.", 
-    "norma": "RBAC 110 EMD 00", 
+    "ementa": "Programa Nacional de Instrução em Segurança da Aviação Civil Contra Atos de Interferência Ilícita - PNIAVSEC", 
+    "norma": "RBAC 110 EMD 01", 
     "tornada_sem_efeito": "", 
     "alterada": "", 
-    "data": "17/07/2015", 
+    "data": "07/10/2021", 
     "outros": "<a class=\"external-link\" href=\"https://www.anac.gov.br/assuntos/legislacao/legislacao-1/portarias/2022/portaria-8844\" target=\"_blank\" title=\"\">Compêndio de Elementos de Fiscalização - CEF - em vigor em 1º de setembro de 2022", 
     "tipo_normatico": "RBAC", 
-    "publicacao": "", 
+    "publicacao": "08/10/2021", 
     "revogada": "", 
-    "em_vigor": "", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-110@@download/arquivo_norma/RBAC110EMD00.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-110@@download/anexo_norma/CEF RBAC nº 110.pdf"
+    "em_vigor": "Em vigor em 1º de novembro de 2022", 
+    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-110@@download/arquivo_norma/RBAC110EMD01.pdf"
   }, 
   {
     "ementa": "Requisitos gerais de operação para aeronaves civis", 
@@ -505,19 +505,6 @@
     "revogada": "", 
     "em_vigor": "Em vigor em 1º de julho de 2021.", 
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-26@@download/arquivo_norma/RBAC26EMD03.pdf"
-  }, 
-  {
-    "ementa": "Programa Nacional de Instrução em Segurança da Aviação Civil Contra Atos de Interferência Ilícita - PNIAVSEC", 
-    "norma": "RBAC 110 EMD 01", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "07/10/2021", 
-    "outros": "<a class=\"external-link\" href=\"https://www.anac.gov.br/assuntos/legislacao/legislacao-1/portarias/2022/portaria-8844\" target=\"_blank\" title=\"\">Compêndio de Elementos de Fiscalização - CEF - em vigor em 1º de setembro de 2022", 
-    "tipo_normatico": "RBAC", 
-    "publicacao": "08/10/2021", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 1º de novembro de 2022.", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-110-emd-01@@download/arquivo_norma/RBAC110EMD01.pdf"
   }, 
   {
     "ementa": "Requisitos para concessão de certificados médicos aeronáuticos, para o cadastro e credenciamento de médicos, credenciamento de clínicas e para o convênio com entidades públicas.", 
