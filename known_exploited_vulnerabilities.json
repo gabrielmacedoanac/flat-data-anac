@@ -1,8 +1,8 @@
 {
     "title":  "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion":  "2022.11.09",
-    "dateReleased":  "2022-11-09T08:12:16.5641Z",
-    "count":  856,
+    "catalogVersion":  "2022.11.14",
+    "dateReleased":  "2022-11-14T15:43:02.9949Z",
+    "count":  857,
     "vulnerabilities":  [
                             {
                                 "cveID":  "CVE-2021-27104",
@@ -9419,6 +9419,17 @@
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2022-11-29",
                                 "notes":  "https://security.samsungmobile.com/securityUpdate.smsb"
+                            },
+                            {
+                                "cveID":  "CVE-2022-41049",
+                                "vendorProject":  "Microsoft",
+                                "product":  "Windows",
+                                "vulnerabilityName":  "Microsoft Windows Mark of the Web (MOTW) Security Feature Bypass Vulnerability",
+                                "dateAdded":  "2022-11-14",
+                                "shortDescription":  "Microsoft Windows Mark of the Web (MOTW) contains a security feature bypass vulnerability resulting in a limited loss of integrity and availability of security features.",
+                                "requiredAction":  "Apply updates per vendor instructions.",
+                                "dueDate":  "2022-12-05",
+                                "notes":  "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2022-41049"
                             }
                         ]
 }
