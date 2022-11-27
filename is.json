@@ -585,19 +585,6 @@
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-135-21-001@@download/arquivo_norma/IS 135.21-001A.pdf"
   }, 
   {
-    "ementa": "Procedimentos para comunicação da relação de alunos de cursos homologados em escolas de aviação civil. ", 
-    "norma": "IS 141-001C", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "26/06/2015", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "26/06/2015", 
-    "revogada": "", 
-    "em_vigor": "", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-141-001@@download/arquivo_norma/IS141-001C.pdf"
-  }, 
-  {
     "ementa": "Situações em que deve ocorrer a análise e aceitação dos Manuais de Procedimentos de Inspeção (MPI) de empresas certificadas RBHA 145.", 
     "norma": "IS 145-003B", 
     "tornada_sem_efeito": "", 
@@ -634,6 +621,19 @@
     "publicacao": "25/01/2022", 
     "revogada": "", 
     "em_vigor": "Em vigor em 1º de fevereiro de 2022.", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Procedimentos para a comunicação da relação de alunos matriculados e instrutores pelos Centros de Instrução de Aviação Civil - CIAC", 
+    "norma": "IS 141-001D", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "17/10/2022", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "21/10/2022", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 1º de novembro de 2022", 
     "anexos": ""
   }, 
   {
@@ -1053,17 +1053,17 @@
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-61-007@@download/arquivo_norma/IS61-007A.pdf"
   }, 
   {
-    "ementa": "Operação de veículos ultraleves e balões livres tripulados sob o RBAC nº 103.", 
-    "norma": "IS 103-001C", 
+    "ementa": "Operação de veículos ultraleves e balões livres tripulados sob o RBAC nº 103", 
+    "norma": "IS 103-001D", 
     "tornada_sem_efeito": "", 
     "alterada": "", 
-    "data": "23/12/2021", 
+    "data": "04/10/2022", 
     "outros": "", 
     "tipo_normatico": "IS", 
-    "publicacao": "31/12/2021", 
+    "publicacao": "05/10/2022", 
     "revogada": "", 
-    "em_vigor": "Em vigor em 1º de fevereiro de 2022.", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-103-001@@download/arquivo_norma/IS103-001C.pdf"
+    "em_vigor": "Em vigor em 1º de novembro de 2022", 
+    "anexos": ""
   }, 
   {
     "ementa": "Procedimentos para concessão de licença e de habilitação e para recadastramento de mecânicos de manutenção aeronáutica", 
@@ -2634,32 +2634,6 @@
     "outros": "", 
     "tipo_normatico": "IS", 
     "publicacao": "30/09/2022", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 1º de novembro de 2022", 
-    "anexos": ""
-  }, 
-  {
-    "ementa": "Operação de veículos ultraleves e balões livres tripulados sob o RBAC nº 103", 
-    "norma": "IS 103-001D", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "04/10/2022", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "05/10/2022", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 1º de novembro de 2022", 
-    "anexos": ""
-  }, 
-  {
-    "ementa": "Procedimentos para a comunicação da relação de alunos matriculados e instrutores pelos Centros de Instrução de Aviação Civil - CIAC", 
-    "norma": "IS 141-001D", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "17/10/2022", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "21/10/2022", 
     "revogada": "", 
     "em_vigor": "Em vigor em 1º de novembro de 2022", 
     "anexos": ""
