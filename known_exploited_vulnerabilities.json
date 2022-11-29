@@ -1,8 +1,8 @@
 {
     "title":  "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion":  "2022.11.18",
-    "dateReleased":  "2022-11-18T16:45:56.3707Z",
-    "count":  857,
+    "catalogVersion":  "2022.11.28",
+    "dateReleased":  "2022-11-28T15:51:10.4403Z",
+    "count":  859,
     "vulnerabilities":  [
                             {
                                 "cveID":  "CVE-2021-27104",
@@ -9430,6 +9430,28 @@
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2022-12-09",
                                 "notes":  "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2022-41049"
+                            },
+                            {
+                                "cveID":  "CVE-2021-35587",
+                                "vendorProject":  "Oracle",
+                                "product":  "Fusion Middleware",
+                                "vulnerabilityName":  "Oracle Fusion Middleware Unspecified Vulnerability",
+                                "dateAdded":  "2022-11-28",
+                                "shortDescription":  "Oracle Fusion Middleware Access Manager allows an unauthenticated attacker with network access via HTTP to takeover the Access Manager product.",
+                                "requiredAction":  "Apply updates per vendor instructions.",
+                                "dueDate":  "2022-12-19",
+                                "notes":  "https://www.oracle.com/security-alerts/cpujan2022.html"
+                            },
+                            {
+                                "cveID":  "CVE-2022-4135",
+                                "vendorProject":  "Google",
+                                "product":  "Chrome",
+                                "vulnerabilityName":  "Google Chrome Heap Buffer Overflow Vulnerability",
+                                "dateAdded":  "2022-11-28",
+                                "shortDescription":  "Google Chrome GPU contains a heap buffer overflow vulnerability that allows a remote attacker who has compromised the renderer process to potentially perform a sandbox escape via a crafted HTML page.",
+                                "requiredAction":  "",
+                                "dueDate":  "2022-12-19",
+                                "notes":  "https://chromereleases.googleblog.com/2022/11/stable-channel-update-for-desktop_24.html"
                             }
                         ]
 }
