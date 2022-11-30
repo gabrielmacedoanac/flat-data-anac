@@ -4,15 +4,15 @@
     <title>MPR ANAC/SAR</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>.
-        * {
+    <style>
+        # {
           box-sizing: border-box;
         }
         
         #myInput {
           background-position: 5px;
           background-repeat: no-repeat;
-          width: 100%;
+          width: 98%;
           font-size: 16px;
           padding: 8px;
           border: 1px solid #ddd;
@@ -26,7 +26,13 @@
           font-size: 12px;
         }
         
-        #myTable th, #myTable td {
+        #myTable th {
+          text-align: left;
+          padding: 8px;
+          background-color: #e4e4e4;
+        }
+
+        #myTable td {
           text-align: left;
           padding: 8px;
         }
@@ -35,8 +41,12 @@
           border-bottom: 1px solid #ddd;
         }
         
-        #myTable tr.header, #myTable tr:hover {
-          background-color: #f1f1f1;
+        #myTable tr.header {
+          background-color: #2b7ef1;
+        }
+
+        #myTable tr:hover {
+          background-color: #e4e4e4;
         }
     </style>
   </head>
@@ -451,7 +461,7 @@
     </tbody>
 </table>
 </div>
-
+</body>
 <script>
 function myFunction() {
   var input, filter, table, tr, td, i, txtValue;
@@ -475,5 +485,4 @@ function myFunction() {
 // Tip: Remove toUpperCase() if you want to perform a case-sensitive search.
 // Tip: Change tr[i].getElementsByTagName('td')[0] to [1] if you want to search for "Country" (index 1) instead of "Name" (index 0).
 </script>
-
-</body></html>
+</html>
