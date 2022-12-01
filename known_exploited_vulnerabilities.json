@@ -1,7 +1,7 @@
 {
     "title":  "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion":  "2022.11.28",
-    "dateReleased":  "2022-11-28T15:51:10.4403Z",
+    "catalogVersion":  "2022.11.30",
+    "dateReleased":  "2022-11-30T08:38:16.8033Z",
     "count":  859,
     "vulnerabilities":  [
                             {
@@ -9445,11 +9445,11 @@
                             {
                                 "cveID":  "CVE-2022-4135",
                                 "vendorProject":  "Google",
-                                "product":  "Chrome",
-                                "vulnerabilityName":  "Google Chrome Heap Buffer Overflow Vulnerability",
+                                "product":  "Chromium",
+                                "vulnerabilityName":  "Google Chromium Heap Buffer Overflow Vulnerability",
                                 "dateAdded":  "2022-11-28",
-                                "shortDescription":  "Google Chrome GPU contains a heap buffer overflow vulnerability that allows a remote attacker who has compromised the renderer process to potentially perform a sandbox escape via a crafted HTML page.",
-                                "requiredAction":  "",
+                                "shortDescription":  "Google Chromium GPU contains a heap buffer overflow vulnerability that allows a remote attacker who has compromised the renderer process to potentially perform a sandbox escape via a crafted HTML page. This vulnerability affects web browsers that utilize Chromium, including Google Chrome and Microsoft Edge.",
+                                "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2022-12-19",
                                 "notes":  "https://chromereleases.googleblog.com/2022/11/stable-channel-update-for-desktop_24.html"
                             }
