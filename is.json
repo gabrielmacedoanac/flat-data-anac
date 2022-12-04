@@ -1223,15 +1223,15 @@
   }, 
   {
     "ementa": "Segurança da aviação contra atos de interferência ilícita – operador de aeródromo", 
-    "norma": "IS 107-001H", 
+    "norma": "IS 107-001I", 
     "tornada_sem_efeito": "", 
     "alterada": "", 
     "data": "17/05/2022", 
     "outros": "<p><a href=\"/assuntos/setor-regulado/aerodromos/avsec/instrucoes-para-solicitacao-de-acesso-a-documento-sigiloso\" target=\"_blank\">Instruções para solicitação de acesso a Documento Sigiloso</a></p>", 
     "tipo_normatico": "IS", 
-    "publicacao": "20/05/2022", 
+    "publicacao": "23/05/2022", 
     "revogada": "", 
-    "em_vigor": "Em vigor em 1º de junho de 2022", 
+    "em_vigor": "Em vigor em 1º de dezembro de 2022", 
     "anexos": ""
   }, 
   {
@@ -1677,19 +1677,6 @@
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-154-001@@download/arquivo_norma/Anexo IV - IS154-001A.pdf"
   }, 
   {
-    "ementa": "Processo de exame de proficiência linguística de pilotos e averbação de proficiência linguística com base em licença estrangeira em processo de convalidação.", 
-    "norma": "IS 61-003B", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "22/05/2020", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "22/05/2020", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 1º de junho de 2020.", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-61-003-1@@download/arquivo_norma/IS-61-003B.pdf"
-  }, 
-  {
     "ementa": "Treinamento de Gerenciamento de Recursos de Equipes (Corporate Resource Management - CRM).", 
     "norma": "IS 00-010A", 
     "tornada_sem_efeito": "", 
@@ -1820,17 +1807,17 @@
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-00-008@@download/arquivo_norma/IS00-008D.pdf"
   }, 
   {
-    "ementa": "Caderneta Individual de Voo Digital – CIV Digital.", 
-    "norma": "IS 61-001D", 
+    "ementa": "Caderneta Individual de Voo Digital – CIV Digital", 
+    "norma": "IS 61-001E", 
     "tornada_sem_efeito": "", 
     "alterada": "", 
-    "data": "22/06/2020", 
+    "data": "10/11/2022", 
     "outros": "", 
     "tipo_normatico": "IS", 
-    "publicacao": "22/06/2020", 
+    "publicacao": "17/11/2022", 
     "revogada": "", 
-    "em_vigor": "Em vigor em 1º de julho de 2020.", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-61-001@@download/arquivo_norma/IS61-001D.pdf"
+    "em_vigor": "Em vigor em 1º de dezembro de 2022", 
+    "anexos": ""
   }, 
   {
     "ementa": "Procedimentos para o lançamento de endossos nos registros de voo de pilotos.", 
@@ -2379,19 +2366,6 @@
     "anexos": ""
   }, 
   {
-    "ementa": "Processo de credenciamento de pessoa jurídica e profissional qualificado para aplicação do exame de proficiência linguística da ANAC", 
-    "norma": "IS 183-001E", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "14/02/2022", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "23/02/2022", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 2 de março de 2022", 
-    "anexos": ""
-  }, 
-  {
     "ementa": "Procedimentos para implementação de um Programa de Acompanhamento e Análise de Dados de Voo (PAADV)", 
     "norma": "IS 119-008A", 
     "tornada_sem_efeito": "", 
@@ -2506,19 +2480,6 @@
     "publicacao": "20/05/2022", 
     "revogada": "", 
     "em_vigor": "Em vigor em 1º de junho de 2022", 
-    "anexos": ""
-  }, 
-  {
-    "ementa": "Segurança da aviação contra atos de interferência ilícita – operador de aeródromo", 
-    "norma": "IS 107-001I", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "17/05/2022", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "23/05/2022", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 1º de dezembro de 2022.", 
     "anexos": ""
   }, 
   {
@@ -2665,19 +2626,6 @@
     "anexos": ""
   }, 
   {
-    "ementa": "Processo de credenciamento de pessoa jurídica e profissional qualificado para aplicação do exame de proficiência linguística da ANAC", 
-    "norma": "IS 183-001F", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "10/11/2022", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "17/11/2022", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 1º de dezembro de 2022", 
-    "anexos": ""
-  }, 
-  {
     "ementa": "Processo de exame de proficiência linguística de pilotos e averbação de proficiência linguística com base em licença estrangeira em processo de convalidação", 
     "norma": "IS 61-003C", 
     "tornada_sem_efeito": "", 
@@ -2691,8 +2639,8 @@
     "anexos": ""
   }, 
   {
-    "ementa": "Caderneta Individual de Voo Digital – CIV Digital", 
-    "norma": "IS 61-001E", 
+    "ementa": "Processo de credenciamento de pessoa jurídica e profissional qualificado para aplicação do exame de proficiência linguística da ANAC", 
+    "norma": "IS 183-001F", 
     "tornada_sem_efeito": "", 
     "alterada": "", 
     "data": "10/11/2022", 
