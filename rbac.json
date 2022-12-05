@@ -273,17 +273,17 @@
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-117@@download/arquivo_norma/RBAC117EMD00.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-117@@download/anexo_norma/ CEF RBAC nº 117.pdf"
   }, 
   {
-    "ementa": "Requisitos para operações especiais de aviação pública.", 
-    "norma": "RBAC 90 EMD 00", 
+    "ementa": "Requisitos para Operações Especiais de Aviação Pública", 
+    "norma": "RBAC 90 EMD 01", 
     "tornada_sem_efeito": "", 
     "alterada": "", 
-    "data": "12/04/2019", 
+    "data": "09/11/2022", 
     "outros": "", 
     "tipo_normatico": "RBAC", 
-    "publicacao": "12/04/2019", 
+    "publicacao": "16/11/2022", 
     "revogada": "", 
-    "em_vigor": "Em vigor em 11 de julho de 2019.", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-90@@download/arquivo_norma/RBAC90EMD00.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-90@@download/anexo_norma/ CEF RBAC nº 90.pdf"
+    "em_vigor": "Em vigor em 1º de dezembro de 2022", 
+    "anexos": ", https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-90@@download/anexo_norma/ CEF RBAC nº 90.pdf"
   }, 
   {
     "ementa": "Salto de paraquedas.", 
@@ -382,7 +382,7 @@
     "tornada_sem_efeito": "", 
     "alterada": "", 
     "data": "25/08/2022", 
-    "outros": "", 
+    "outros": "Retificado no DOU de 02/12/2022, Seção 1, pág. 155", 
     "tipo_normatico": "RBAC", 
     "publicacao": "30/08/2022", 
     "revogada": "", 
@@ -635,18 +635,5 @@
     "revogada": "", 
     "em_vigor": "", 
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-039@@download/arquivo_norma/RBAC 39.pdf"
-  }, 
-  {
-    "ementa": "Requisitos para Operações Especiais de Aviação Pública", 
-    "norma": "RBAC 90 EMD 01", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "09/11/2022", 
-    "outros": "", 
-    "tipo_normatico": "RBAC", 
-    "publicacao": "16/11/2022", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 1º de dezembro de 2022", 
-    "anexos": ""
   }
 ]
