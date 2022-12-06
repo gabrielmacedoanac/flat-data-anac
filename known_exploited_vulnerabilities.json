@@ -1,8 +1,8 @@
 {
     "title":  "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion":  "2022.11.30",
-    "dateReleased":  "2022-11-30T08:38:16.8033Z",
-    "count":  859,
+    "catalogVersion":  "2022.12.05",
+    "dateReleased":  "2022-12-05T13:01:13.0137Z",
+    "count":  860,
     "vulnerabilities":  [
                             {
                                 "cveID":  "CVE-2021-27104",
@@ -9452,6 +9452,17 @@
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2022-12-19",
                                 "notes":  "https://chromereleases.googleblog.com/2022/11/stable-channel-update-for-desktop_24.html"
+                            },
+                            {
+                                "cveID":  "CVE-2022-4262",
+                                "vendorProject":  "Google",
+                                "product":  "Chromium V8 Engine",
+                                "vulnerabilityName":  "Google Chromium V8 Type Confusion Vulnerability",
+                                "dateAdded":  "2022-12-05",
+                                "shortDescription":  "Google Chromium V8 contains a type confusion vulnerability. Specific impacts from exploitation are not available at this time.",
+                                "requiredAction":  "Apply updates per vendor instructions.",
+                                "dueDate":  "2022-12-26",
+                                "notes":  "https://chromereleases.googleblog.com/2022/12/stable-channel-update-for-desktop.html"
                             }
                         ]
 }
