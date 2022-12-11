@@ -2412,7 +2412,7 @@
     "data": "24/03/2022", 
     "outros": "", 
     "tipo_normatico": "IS", 
-    "publicacao": "BPS V.17, Nº 12, 21 A 25/03/2022", 
+    "publicacao": "24/03/2022", 
     "revogada": "", 
     "em_vigor": "", 
     "anexos": ""
@@ -2649,6 +2649,32 @@
     "publicacao": "17/11/2022", 
     "revogada": "", 
     "em_vigor": "Em vigor em 1º de dezembro de 2022", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Verificação de Aeronavegabilidade", 
+    "norma": "IS 91.403-001D", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "25/11/2022", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "06/12/2022", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 2 de janeiro de 2023", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Procedimentos relativos à operação de empresas estrangeiras de transporte aéreo no Brasil", 
+    "norma": "IS 129-001C", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "20/11/2022", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "08/12/2022", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 2 de janeiro de 2023", 
     "anexos": ""
   }
 ]
