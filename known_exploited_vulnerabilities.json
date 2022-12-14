@@ -1,8 +1,8 @@
 {
     "title":  "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion":  "2022.12.05",
-    "dateReleased":  "2022-12-05T13:01:13.0137Z",
-    "count":  860,
+    "catalogVersion":  "2022.12.13",
+    "dateReleased":  "2022-12-13T13:22:53.9777Z",
+    "count":  865,
     "vulnerabilities":  [
                             {
                                 "cveID":  "CVE-2021-27104",
@@ -9463,6 +9463,61 @@
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2022-12-26",
                                 "notes":  "https://chromereleases.googleblog.com/2022/12/stable-channel-update-for-desktop.html"
+                            },
+                            {
+                                "cveID":  "CVE-2022-42475",
+                                "vendorProject":  "Fortinet",
+                                "product":  "FortiOS",
+                                "vulnerabilityName":  "Fortinet FortiOS Heap-Based Buffer Overflow Vulnerability",
+                                "dateAdded":  "2022-12-13",
+                                "shortDescription":  "Multiple versions of Fortinet FortiOS SSL-VPN contain a heap-based buffer overflow vulnerability which can allow an unauthenticated, remote attacker to execute arbitrary code or commands via specifically crafted requests.",
+                                "requiredAction":  "Apply updates per vendor instructions.",
+                                "dueDate":  "2023-01-03",
+                                "notes":  "https://www.fortiguard.com/psirt/FG-IR-22-398"
+                            },
+                            {
+                                "cveID":  "CVE-2022-44698",
+                                "vendorProject":  "Microsoft",
+                                "product":  "Defender",
+                                "vulnerabilityName":  "Microsoft Defender SmartScreen Security Feature Bypass Vulnerability",
+                                "dateAdded":  "2022-12-13",
+                                "shortDescription":  "Microsoft Defender SmartScreen contains a security feature bypass vulnerability that could allow an attacker to evade Mark of the Web (MOTW) defenses via a specially crafted malicious file.",
+                                "requiredAction":  "Apply updates per vendor instructions.",
+                                "dueDate":  "2023-01-03",
+                                "notes":  "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-44698"
+                            },
+                            {
+                                "cveID":  "CVE-2022-27518",
+                                "vendorProject":  "Citrix",
+                                "product":  "Application Delivery Controller (ADC) and Gateway",
+                                "vulnerabilityName":  "Citrix Application Delivery Controller (ADC) and Gateway Authentication Bypass Vulnerability",
+                                "dateAdded":  "2022-12-13",
+                                "shortDescription":  "Citrix Application Delivery Controller (ADC) and Gateway, when configured with SAML SP or IdP configuration, contain an authentication bypass vulnerability which allows an attacker to execute code as administrator.",
+                                "requiredAction":  "Apply updates per vendor instructions.",
+                                "dueDate":  "2023-01-03",
+                                "notes":  "https://www.citrix.com/blogs/2022/12/13/critical-security-update-now-available-for-citrix-adc-citrix-gateway/"
+                            },
+                            {
+                                "cveID":  "CVE-2022-26500",
+                                "vendorProject":  "Veeam",
+                                "product":  "Backup \u0026 Replication",
+                                "vulnerabilityName":  "Veeam Backup \u0026 Replication Remote Code Execution Vulnerability",
+                                "dateAdded":  "2022-12-13",
+                                "shortDescription":  "The Veeam Distribution Service in the Backup \u0026 Replication application allows unauthenticated users to access internal API functions. A remote attacker can send input to the internal API which may lead to uploading and executing of malicious code.",
+                                "requiredAction":  "Apply updates per vendor instructions.",
+                                "dueDate":  "2023-01-03",
+                                "notes":  "https://www.veeam.com/kb4288"
+                            },
+                            {
+                                "cveID":  "CVE-2022-26501",
+                                "vendorProject":  "Veeam",
+                                "product":  "Backup \u0026 Replication",
+                                "vulnerabilityName":  "Veeam Backup \u0026 Replication Remote Code Execution Vulnerability",
+                                "dateAdded":  "2022-12-13",
+                                "shortDescription":  "The Veeam Distribution Service in the Backup \u0026 Replication application allows unauthenticated users to access internal API functions. A remote attacker can send input to the internal API which may lead to uploading and executing of malicious code.",
+                                "requiredAction":  "Apply updates per vendor instructions.",
+                                "dueDate":  "2023-01-03",
+                                "notes":  "https://www.veeam.com/kb4288"
                             }
                         ]
 }
