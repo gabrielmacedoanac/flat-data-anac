@@ -1,7 +1,7 @@
 {
     "title":  "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion":  "2022.12.29",
-    "dateReleased":  "2022-12-29T15:25:12.2418Z",
+    "catalogVersion":  "2023.01.09",
+    "dateReleased":  "2023-01-09T15:56:40.3004Z",
     "count":  868,
     "vulnerabilities":  [
                             {
@@ -1718,7 +1718,7 @@
                                 "shortDescription":  "Windows Print Spooler Remote Code Execution Vulnerability",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2021-07-20",
-                                "notes":  ""
+                                "notes":  "Reference CISA\u0027s ED 21-04 (https://www.cisa.gov/emergency-directive-21-04) for further guidance and requirements."
                             },
                             {
                                 "cveID":  "CVE-2021-31207",
@@ -1773,7 +1773,7 @@
                                 "shortDescription":  "A remote code execution vulnerability exists in Windows Domain Name System servers when they fail to properly handle requests.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2020-07-24",
-                                "notes":  ""
+                                "notes":  "Reference CISA\u0027s ED 20-03 (https://www.cisa.gov/emergency-directive-20-03) for further guidance and requirements."
                             },
                             {
                                 "cveID":  "CVE-2021-26411",
@@ -2037,7 +2037,7 @@
                                 "shortDescription":  "A privilege escalation vulnerability exists when an attacker establishes a vulnerable Netlogon secure channel connection to a domain controller, using the Netlogon Remote Protocol (MS-NRPC), aka \u0027Netlogon Elevation of Privilege Vulnerability\u0027.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2020-09-21",
-                                "notes":  ""
+                                "notes":  "Reference CISA\u0027s ED 20-03 (https://www.cisa.gov/emergency-directive-20-03) for further guidance and requirements."
                             },
                             {
                                 "cveID":  "CVE-2021-26855",
@@ -2048,7 +2048,7 @@
                                 "shortDescription":  "Microsoft Exchange Server Remote Code Execution Vulnerability. This CVE ID is unique from CVE-2021-26412, CVE-2021-26854, CVE-2021-26857, CVE-2021-26858, CVE-2021-27065, CVE-2021-27078.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2021-04-16",
-                                "notes":  ""
+                                "notes":  "Reference CISA\u0027s ED 21-02 (https://www.cisa.gov/emergency-directive-21-02) for further guidance and requirements."
                             },
                             {
                                 "cveID":  "CVE-2021-26858",
@@ -2059,7 +2059,7 @@
                                 "shortDescription":  "Microsoft Exchange Server Remote Code Execution Vulnerability. This CVE ID is unique from CVE-2021-26412, CVE-2021-26854, CVE-2021-26855, CVE-2021-26857, CVE-2021-27065, CVE-2021-27078.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2021-04-16",
-                                "notes":  ""
+                                "notes":  "Reference CISA\u0027s ED 21-02 (https://www.cisa.gov/emergency-directive-21-02) for further guidance and requirements."
                             },
                             {
                                 "cveID":  "CVE-2021-27065",
@@ -2070,7 +2070,7 @@
                                 "shortDescription":  "Microsoft Exchange Server Remote Code Execution Vulnerability. This CVE ID is unique from CVE-2021-26412, CVE-2021-26854, CVE-2021-26855, CVE-2021-26857, CVE-2021-26858, CVE-2021-27078.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2021-04-16",
-                                "notes":  ""
+                                "notes":  "Reference CISA\u0027s ED 21-02 (https://www.cisa.gov/emergency-directive-21-02) for further guidance and requirements."
                             },
                             {
                                 "cveID":  "CVE-2020-1054",
@@ -2114,7 +2114,7 @@
                                 "shortDescription":  "A spoofing vulnerability exists in the way Windows CryptoAPI (Crypt32.dll) validates Elliptic Curve Cryptography (ECC) certificates. An attacker could exploit the vulnerability by using a spoofed code-signing certificate to sign a malicious executable, making it appear the file was from a trusted, legitimate source, aka \u0027Windows CryptoAPI Spoofing Vulnerability\u0027.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2020-01-29",
-                                "notes":  ""
+                                "notes":  "Reference CISA\u0027s ED 20-02 (https://www.cisa.gov/emergency-directive-20-02) for further guidance and requirements."
                             },
                             {
                                 "cveID":  "CVE-2019-0604",
@@ -2158,7 +2158,7 @@
                                 "shortDescription":  "Microsoft Exchange Server Remote Code Execution Vulnerability. This CVE ID is unique from CVE-2021-26412, CVE-2021-26854, CVE-2021-26855, CVE-2021-26858, CVE-2021-27065, CVE-2021-27078.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2021-04-16",
-                                "notes":  ""
+                                "notes":  "Reference CISA\u0027s ED 21-02 (https://www.cisa.gov/emergency-directive-21-02) for further guidance and requirements."
                             },
                             {
                                 "cveID":  "CVE-2020-1147",
@@ -2400,7 +2400,7 @@
                                 "shortDescription":  "Vulnerability to an authentication bypass vulnerability exposed by the Windows File Share Browser and Pulse Secure Collaboration features of Pulse Connect Secure that can allow an unauthenticated user to perform remote arbitrary code execution on the Pulse Connect Secure gateway.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2021-04-23",
-                                "notes":  ""
+                                "notes":  "Reference CISA\u0027s ED 21-03 (https://www.cisa.gov/emergency-directive-21-03) for further guidance and requirements."
                             },
                             {
                                 "cveID":  "CVE-2020-8243",
@@ -2411,7 +2411,7 @@
                                 "shortDescription":  "A vulnerability in the Pulse Connect Secure \u003c 9.1R8.2 admin web interface could allow an authenticated attacker to upload custom template to perform an arbitrary code execution.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2021-04-23",
-                                "notes":  ""
+                                "notes":  "Reference CISA\u0027s ED 21-03 (https://www.cisa.gov/emergency-directive-21-03) for further guidance and requirements."
                             },
                             {
                                 "cveID":  "CVE-2021-22900",
@@ -2422,7 +2422,7 @@
                                 "shortDescription":  "A vulnerability allowed multiple unrestricted uploads in Pulse Connect Secure before 9.1R11.4 that could lead to an authenticated administrator to perform a file write via a maliciously crafted archive upload in the administrator web interface.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2021-04-23",
-                                "notes":  ""
+                                "notes":  "Reference CISA\u0027s ED 21-03 (https://www.cisa.gov/emergency-directive-21-03) for further guidance and requirements."
                             },
                             {
                                 "cveID":  "CVE-2021-22894",
@@ -2433,7 +2433,7 @@
                                 "shortDescription":  "A buffer overflow vulnerability exists in Pulse Connect Secure before 9.1R11.4 allows a remote authenticated attacker to execute arbitrary code as the root user via maliciously crafted meeting room.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2021-04-23",
-                                "notes":  ""
+                                "notes":  "Reference CISA\u0027s ED 21-03 (https://www.cisa.gov/emergency-directive-21-03) for further guidance and requirements."
                             },
                             {
                                 "cveID":  "CVE-2020-8260",
@@ -2444,7 +2444,7 @@
                                 "shortDescription":  "A vulnerability in the Pulse Connect Secure \u003c 9.1R9 admin web interface could allow an authenticated attacker to perform an arbitrary code execution using uncontrolled gzip extraction.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2021-04-23",
-                                "notes":  ""
+                                "notes":  "Reference CISA\u0027s ED 21-03 (https://www.cisa.gov/emergency-directive-21-03) for further guidance and requirements."
                             },
                             {
                                 "cveID":  "CVE-2021-22899",
@@ -2455,18 +2455,18 @@
                                 "shortDescription":  "Allows a remote authenticated attacker to perform remote code execution via Windows Resource Profiles Feature.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2021-04-23",
-                                "notes":  ""
+                                "notes":  "Reference CISA\u0027s ED 21-03 (https://www.cisa.gov/emergency-directive-21-03) for further guidance and requirements."
                             },
                             {
                                 "cveID":  "CVE-2019-11510",
                                 "vendorProject":  "Pulse Secure",
                                 "product":  "Pulse Connect Secure",
-                                "vulnerabilityName":  "Pulse Connect Secure VPN arbitrary file reading vulnerability (COVID-19-CTI list)",
+                                "vulnerabilityName":  "Pulse Connect Secure VPN Arbitrary File Reading Vulnerability (COVID-19-CTI List)",
                                 "dateAdded":  "2021-11-03",
                                 "shortDescription":  "An unauthenticated remote attacker can send a specially crafted URI to perform an arbitrary file reading vulnerability.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2021-04-23",
-                                "notes":  ""
+                                "notes":  "Reference CISA\u0027s ED 21-03 (https://www.cisa.gov/emergency-directive-21-03) for further guidance and requirements."
                             },
                             {
                                 "cveID":  "CVE-2019-11539",
@@ -9533,7 +9533,7 @@
                             {
                                 "cveID":  "CVE-2018-5430",
                                 "vendorProject":  "TIBCO",
-                                "product":  "JasperReports Server",
+                                "product":  "JasperReports",
                                 "vulnerabilityName":  "TIBCO JasperReports Server Information Disclosure Vulnerability",
                                 "dateAdded":  "2022-12-29",
                                 "shortDescription":  "TIBCO JasperReports Server contain a vulnerability which may allow any authenticated user read-only access to the contents of the web application, including key configuration files.",
@@ -9544,7 +9544,7 @@
                             {
                                 "cveID":  "CVE-2018-18809",
                                 "vendorProject":  "TIBCO",
-                                "product":  "JasperReports Library",
+                                "product":  "JasperReports",
                                 "vulnerabilityName":  "TIBCO JasperReports Library Directory Traversal Vulnerability",
                                 "dateAdded":  "2022-12-29",
                                 "shortDescription":  "TIBCO JasperReports Library contains a directory-traversal vulnerability that may allow web server users to access contents of the host system.",
