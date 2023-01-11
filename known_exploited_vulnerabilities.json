@@ -1,8 +1,8 @@
 {
     "title":  "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion":  "2023.01.09",
-    "dateReleased":  "2023-01-09T15:56:40.3004Z",
-    "count":  868,
+    "catalogVersion":  "2023.01.10",
+    "dateReleased":  "2023-01-10T13:26:48.2163Z",
+    "count":  870,
     "vulnerabilities":  [
                             {
                                 "cveID":  "CVE-2021-27104",
@@ -9551,6 +9551,28 @@
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2023-01-19",
                                 "notes":  "https://www.tibco.com/support/advisories/2019/03/tibco-security-advisory-march-6-2019-tibco-jasperreports-library-2018-18809"
+                            },
+                            {
+                                "cveID":  "CVE-2022-41080",
+                                "vendorProject":  "Microsoft",
+                                "product":  "Exchange Server",
+                                "vulnerabilityName":  "Microsoft Exchange Server Privilege Escalation Vulnerability",
+                                "dateAdded":  "2023-01-10",
+                                "shortDescription":  "Microsoft Exchange Server contains an unspecified vulnerability that allows for privilege escalation. This vulnerability is chainable with CVE-2022-41082, which allows for remote code execution.",
+                                "requiredAction":  "Apply updates per vendor instructions.",
+                                "dueDate":  "2023-01-31",
+                                "notes":  "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2022-41080"
+                            },
+                            {
+                                "cveID":  "CVE-2023-21674",
+                                "vendorProject":  "Microsoft",
+                                "product":  "Windows",
+                                "vulnerabilityName":  "Microsoft Windows Advanced Local Procedure Call (ALPC) Privilege Escalation Vulnerability",
+                                "dateAdded":  "2023-01-10",
+                                "shortDescription":  "Microsoft Windows Advanced Local Procedure Call (ALPC) contains an unspecified vulnerability that allows for privilege escalation.",
+                                "requiredAction":  "Apply updates per vendor instructions.",
+                                "dueDate":  "2023-01-31",
+                                "notes":  "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2023-21674"
                             }
                         ]
 }
