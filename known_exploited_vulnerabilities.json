@@ -1,8 +1,8 @@
 {
     "title":  "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion":  "2023.01.10",
-    "dateReleased":  "2023-01-10T13:26:48.2163Z",
-    "count":  870,
+    "catalogVersion":  "2023.01.17",
+    "dateReleased":  "2023-01-17T13:21:13.4741Z",
+    "count":  871,
     "vulnerabilities":  [
                             {
                                 "cveID":  "CVE-2021-27104",
@@ -9573,6 +9573,17 @@
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2023-01-31",
                                 "notes":  "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2023-21674"
+                            },
+                            {
+                                "cveID":  "CVE-2022-44877",
+                                "vendorProject":  "CWP",
+                                "product":  "Control Web Panel",
+                                "vulnerabilityName":  "CWP Control Web Panel OS Command Injection Vulnerability",
+                                "dateAdded":  "2023-01-17",
+                                "shortDescription":  "CWP Control Web Panel (formerly CentOS Web Panel) contains an OS command injection vulnerability that allows remote attackers to execute commands via shell metacharacters in the login parameter.",
+                                "requiredAction":  "Apply updates per vendor instructions.",
+                                "dueDate":  "2023-02-07",
+                                "notes":  "https://control-webpanel.com/changelog#1669855527714-450fb335-6194"
                             }
                         ]
 }
