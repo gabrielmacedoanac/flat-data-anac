@@ -1,0 +1,4 @@
+﻿buscar;substituir
+certificad\w+ suplementar\w+ de tip\w+;cst
+regulament\w+ brasileir\w+ d\w+ aviação civil;rbac
+regulament\w+ brasileir\w+ d\w+ homologa\w+ aeronáutic\w+;rbha
