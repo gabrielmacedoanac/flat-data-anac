@@ -1,4 +1,25 @@
-﻿buscar;substituir
-certificad\w+ suplementar\w+ de tip\w+;cst
-regulament\w+ brasileir\w+ d\w+ aviação civil;rbac
-regulament\w+ brasileir\w+ d\w+ homologa\w+ aeronáutic\w+;rbha
+buscar,substituir
+regulament\w+ brasileir\w+ d\w+ aviação civil,rbac
+regulament\w+ brasileir\w+ d\w+ homologa\w+ aeronáutic\w+,rbha
+[0-9]{1,13}\.[0-9]{1,15},
+rbac,
+rbha,
+decret\w+,decreto
+decis\w+,decisão
+crm,
+cnpj,
+cpf,
+portari\w+,portaria
+isen\w+,insenção
+cumpriment\w+ alternativ\w+,cumprimento alternativo
+n[i|í]ve\w+ equivalent\w+ d\w+ seguran\w+,elos
+condiç\w+ especia\w+,condição especial
+diretri\w+ d\w+ aeronavegabilidade,diretriz de aeronavegabilidade
+certificad\w+ suplementar\w+ de tip\w+,cst
+embraer,
+alter\w+,alteração
+modific\w+,modificação
+regulamento brasileiro de aviação civil,rbac
+regulamentos brasileiros de aviação civil,rbac
+regulamentos brasileiros da aviação civil,rbac
+regulamento brasileiro da aviação civil,rbac
