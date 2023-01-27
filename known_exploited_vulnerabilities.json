@@ -1,8 +1,8 @@
 {
     "title":  "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion":  "2023.01.23",
-    "dateReleased":  "2023-01-23T09:53:46.6991Z",
-    "count":  872,
+    "catalogVersion":  "2023.01.26",
+    "dateReleased":  "2023-01-26T10:12:13.3202Z",
+    "count":  873,
     "vulnerabilities":  [
                             {
                                 "cveID":  "CVE-2021-27104",
@@ -9595,6 +9595,17 @@
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2023-02-13",
                                 "notes":  "https://www.manageengine.com/security/advisory/CVE/cve-2022-47966.html"
+                            },
+                            {
+                                "cveID":  "CVE-2017-11357",
+                                "vendorProject":  "Telerik",
+                                "product":  "User Interface (UI) for ASP.NET AJAX",
+                                "vulnerabilityName":  "Telerik UI for ASP.NET AJAX Insecure Direct Object Reference Vulnerability",
+                                "dateAdded":  "2023-01-26",
+                                "shortDescription":  "Telerik UI for ASP.NET AJAX contains an insecure direct object reference vulnerability in RadAsyncUpload that can result in file uploads in a limited location and/or remote code execution.",
+                                "requiredAction":  "Apply updates per vendor instructions.",
+                                "dueDate":  "2023-02-16",
+                                "notes":  "https://docs.telerik.com/devtools/aspnet-ajax/knowledge-base/asyncupload-insecure-direct-object-reference"
                             }
                         ]
 }
