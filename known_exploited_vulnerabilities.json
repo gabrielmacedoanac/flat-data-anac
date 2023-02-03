@@ -1,8 +1,8 @@
 {
     "title":  "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion":  "2023.01.26",
-    "dateReleased":  "2023-01-26T10:12:13.3202Z",
-    "count":  873,
+    "catalogVersion":  "2023.02.02",
+    "dateReleased":  "2023-02-02T11:04:21.9522Z",
+    "count":  875,
     "vulnerabilities":  [
                             {
                                 "cveID":  "CVE-2021-27104",
@@ -9606,6 +9606,28 @@
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2023-02-16",
                                 "notes":  "https://docs.telerik.com/devtools/aspnet-ajax/knowledge-base/asyncupload-insecure-direct-object-reference"
+                            },
+                            {
+                                "cveID":  "CVE-2022-21587",
+                                "vendorProject":  "Oracle",
+                                "product":  "E-Business Suite",
+                                "vulnerabilityName":  "Oracle E-Business Suite Unspecified Vulnerability",
+                                "dateAdded":  "2023-02-02",
+                                "shortDescription":  "Oracle E-Business Suite contains an unspecified vulnerability that allows an unauthenticated attacker with network access via HTTP to compromise Oracle Web Applications Desktop Integrator.",
+                                "requiredAction":  "Apply updates per vendor instructions.",
+                                "dueDate":  "2023-02-23",
+                                "notes":  "https://www.oracle.com/security-alerts/cpuoct2022.html"
+                            },
+                            {
+                                "cveID":  "CVE-2023-22952",
+                                "vendorProject":  "SugarCRM",
+                                "product":  "Multiple Products",
+                                "vulnerabilityName":  "Multiple SugarCRM Products Remote Code Execution Vulnerability",
+                                "dateAdded":  "2023-02-02",
+                                "shortDescription":  "Multiple SugarCRM products contain a remote code execution vulnerability in the EmailTemplates. Using a specially crafted request, custom PHP code can be injected through the EmailTemplates.",
+                                "requiredAction":  "Apply updates per vendor instructions.",
+                                "dueDate":  "2023-02-23",
+                                "notes":  "https://support.sugarcrm.com/Resources/Security/sugarcrm-sa-2023-001/"
                             }
                         ]
 }
