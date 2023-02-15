@@ -1,8 +1,8 @@
 {
     "title":  "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion":  "2023.02.10",
-    "dateReleased":  "2023-02-10T09:55:57.6374Z",
-    "count":  878,
+    "catalogVersion":  "2023.02.14",
+    "dateReleased":  "2023-02-14T13:41:10.2726Z",
+    "count":  882,
     "vulnerabilities":  [
                             {
                                 "cveID":  "CVE-2021-27104",
@@ -9661,6 +9661,50 @@
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2023-03-03",
                                 "notes":  "Fortra users must have an account in order to login and access the patch. https://my.goanywhere.com/webclient/DownloadProductFiles.xhtml"
+                            },
+                            {
+                                "cveID":  "CVE-2023-21715",
+                                "vendorProject":  "Microsoft",
+                                "product":  "Office",
+                                "vulnerabilityName":  "Microsoft Office Security Feature Bypass Vulnerability",
+                                "dateAdded":  "2023-02-14",
+                                "shortDescription":  "Microsoft Office contains a security feature bypass vulnerability which allows for a local, authenticated attack on a targeted system.",
+                                "requiredAction":  "Apply updates per vendor instructions.",
+                                "dueDate":  "2023-03-07",
+                                "notes":  "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2023-21715"
+                            },
+                            {
+                                "cveID":  "CVE-2023-23376",
+                                "vendorProject":  "Microsoft",
+                                "product":  "Windows",
+                                "vulnerabilityName":  "Microsoft Windows Common Log File System (CLFS) Driver Privilege Escalation Vulnerability",
+                                "dateAdded":  "2023-02-14",
+                                "shortDescription":  "Microsoft Windows Common Log File System (CLFS) driver contains an unspecified vulnerability which allows for privilege escalation.",
+                                "requiredAction":  "Apply updates per vendor instructions.",
+                                "dueDate":  "2023-03-07",
+                                "notes":  "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2023-23376"
+                            },
+                            {
+                                "cveID":  "CVE-2023-23529",
+                                "vendorProject":  "Apple",
+                                "product":  "Multiple Products",
+                                "vulnerabilityName":  "Apple Multiple Products WebKit Type Confusion Vulnerability",
+                                "dateAdded":  "2023-02-14",
+                                "shortDescription":  "WebKit in Apple iOS, MacOS, Safari and iPadOS contains a type confusion vulnerability that may lead to code execution.",
+                                "requiredAction":  "Apply updates per vendor instructions.",
+                                "dueDate":  "2023-03-07",
+                                "notes":  "https://support.apple.com/en-us/HT213635, https://support.apple.com/en-us/HT213633, https://support.apple.com/en-us/HT213638"
+                            },
+                            {
+                                "cveID":  "CVE-2023-21823",
+                                "vendorProject":  "Microsoft",
+                                "product":  "Windows",
+                                "vulnerabilityName":  "Microsoft Windows Graphic Component Privilege Escalation Vulnerability",
+                                "dateAdded":  "2023-02-14",
+                                "shortDescription":  "Microsoft Windows Graphic Component contains an unspecified vulnerability which allows for privilege escalation.",
+                                "requiredAction":  "Apply updates per vendor instructions.",
+                                "dueDate":  "2023-03-07",
+                                "notes":  "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2023-21823"
                             }
                         ]
 }
