@@ -1,7 +1,7 @@
 {
     "title":  "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion":  "2023.02.14",
-    "dateReleased":  "2023-02-14T13:41:10.2726Z",
+    "catalogVersion":  "2023.02.15",
+    "dateReleased":  "2023-02-15T08:22:28.1679Z",
     "count":  882,
     "vulnerabilities":  [
                             {
@@ -9666,9 +9666,9 @@
                                 "cveID":  "CVE-2023-21715",
                                 "vendorProject":  "Microsoft",
                                 "product":  "Office",
-                                "vulnerabilityName":  "Microsoft Office Security Feature Bypass Vulnerability",
+                                "vulnerabilityName":  "Microsoft Office Publisher Security Feature Bypass Vulnerability",
                                 "dateAdded":  "2023-02-14",
-                                "shortDescription":  "Microsoft Office contains a security feature bypass vulnerability which allows for a local, authenticated attack on a targeted system.",
+                                "shortDescription":  "Microsoft Office Publisher contains a security feature bypass vulnerability which allows for a local, authenticated attack on a targeted system.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2023-03-07",
                                 "notes":  "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2023-21715"
