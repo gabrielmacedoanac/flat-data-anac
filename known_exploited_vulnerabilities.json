@@ -1,8 +1,8 @@
 {
     "title":  "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion":  "2023.02.15",
-    "dateReleased":  "2023-02-15T08:22:28.1679Z",
-    "count":  882,
+    "catalogVersion":  "2023.02.16",
+    "dateReleased":  "2023-02-16T10:04:35.8284Z",
+    "count":  883,
     "vulnerabilities":  [
                             {
                                 "cveID":  "CVE-2021-27104",
@@ -9705,6 +9705,17 @@
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2023-03-07",
                                 "notes":  "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2023-21823"
+                            },
+                            {
+                                "cveID":  "CVE-2022-46169",
+                                "vendorProject":  "Cacti",
+                                "product":  "Cacti",
+                                "vulnerabilityName":  "Cacti Command Injection Vulnerability",
+                                "dateAdded":  "2023-02-16",
+                                "shortDescription":  "Cacti contains a command injection vulnerability that allows an unauthenticated user to execute code.",
+                                "requiredAction":  "Apply updates per vendor instructions",
+                                "dueDate":  "2023-03-09",
+                                "notes":  "https://github.com/Cacti/cacti/security/advisories/GHSA-6p93-p743-35gf"
                             }
                         ]
 }
