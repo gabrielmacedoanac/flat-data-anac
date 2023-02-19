@@ -1742,19 +1742,6 @@
     "anexos": ""
   }, 
   {
-    "ementa": "Procedimentos para o lançamento de endossos nos registros de voo de pilotos.", 
-    "norma": "IS 61-006H", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "13/11/2020", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "13/11/2020", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 1º de julho de 2020.", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-61-006-1@@download/arquivo_norma/IS61-006H.pdf"
-  }, 
-  {
     "ementa": "Instruções para Preenchimento do Formulário F-400-04 (SEGVOO 001).", 
     "norma": "IS 43.9-001B", 
     "tornada_sem_efeito": "", 
@@ -2119,19 +2106,6 @@
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-91-013@@download/arquivo_norma/IS91-013A.pdf"
   }, 
   {
-    "ementa": "Procedimentos para o lançamento de endossos nos registros de voo de pilotos.", 
-    "norma": "IS 61-006J", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "22/11/2021", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "26/11/2021", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 26 de novembro de 2021.", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-61-006i@@download/arquivo_norma/IS61-006J.pdf"
-  }, 
-  {
     "ementa": "Orientações sobre certificação de tipo", 
     "norma": "IS 21-001A", 
     "tornada_sem_efeito": "", 
@@ -2337,19 +2311,6 @@
     "publicacao": "25/03/2022", 
     "revogada": "", 
     "em_vigor": "Em vigor em 1º de abril de 2022.", 
-    "anexos": ""
-  }, 
-  {
-    "ementa": "Procedimentos para o lançamento de endossos nos registros de voo de pilotos", 
-    "norma": "IS 61-006K", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "03/05/2022", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "05/05/2022", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 1º de junho de 2022", 
     "anexos": ""
   }, 
   {
@@ -2675,6 +2636,19 @@
     "publicacao": "10/01/2023", 
     "revogada": "", 
     "em_vigor": "Em vigor em 1º de fevereiro de 2023", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Caderneta Individual de Voo Digital – CIV Digital", 
+    "norma": "IS 61-001F", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "14/02/2023", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "17/02/2023", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 1º de março de 2023", 
     "anexos": ""
   }
 ]
