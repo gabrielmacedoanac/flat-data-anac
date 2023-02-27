@@ -2145,19 +2145,6 @@
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-154-209-001@@download/arquivo_norma/IS154.209-001A.pdf"
   }, 
   {
-    "ementa": "Processo de credenciamento de pessoa física para atuação em processos de aeronavegabilidade continuada no âmbito da SPO.", 
-    "norma": "IS 183-005A", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "13/10/2021", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "15/10/2021", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 1º de dezembro de 2021.", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-183-005@@download/arquivo_norma/IS183-005A.pdf"
-  }, 
-  {
     "ementa": "Estações de linha para operações segundo o RBAC nº 121", 
     "norma": "IS 121-013A", 
     "tornada_sem_efeito": "", 
@@ -2284,7 +2271,7 @@
     "tipo_normatico": "IS", 
     "publicacao": "24/03/2022", 
     "revogada": "", 
-    "em_vigor": "", 
+    "em_vigor": "Em vigor em 1º abril de 2022", 
     "anexos": ""
   }, 
   {
@@ -2650,5 +2637,109 @@
     "revogada": "", 
     "em_vigor": "Em vigor em 1º de março de 2023", 
     "anexos": ""
+  }, 
+  {
+    "ementa": "Treinamento requerido para concessão e revalidação de habilitação de tipo", 
+    "norma": "IS 61-005D", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "15/02/2023", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "22/02/2023", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 3 de abril de 2023", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Procedimentos para o lançamento de endossos nos registros de voo de pilotos", 
+    "norma": "IS 61-006M", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "16/02/2023", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "22/02/2023", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 1º de março de 2023", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Procedimentos para autorização do uso de comunicação por enlace de dados controlador-piloto (CPDLC) e de vigilância dependente automática-contrato (ADS-C)", 
+    "norma": "IS 91-010B", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "17/02/2023", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "23/02/2023", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 1º de março de 2023", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Aprovação de aproximação por instrumento utilizando créditos operacionais mediante o uso de um EFVS - Enhanced Flight Vision System", 
+    "norma": "IS 91-011B", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "17/02/2023", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "23/02/2023", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 1º de março de 2023", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Procedimentos para a aprovação de operações no Espaço Aéreo NAT - HLA (North Atlantic High Level Airspace)", 
+    "norma": "IS 91-006C", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "17/02/2023", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "23/02/2023", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 1º de março de 2023", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Aprovação operacional para operação em espaço aéreo com separação vertical mínima reduzida (RVSM)", 
+    "norma": "IS 91-005E", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "17/02/2023", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "23/02/2023", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 1º de março de 2023", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Aprovação operacional de navegação baseada em desempenho (PBN)", 
+    "norma": "IS 91-001G", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "17/02/2023", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "23/02/2023", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 1º de março de 2023", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Programas de Instrução e Manual de Instruções e Procedimentos", 
+    "norma": "IS 141-007C", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "16/02/2023", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "24/02/2023", 
+    "revogada": "", 
+    "em_vigor": "", 
+    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-141-007c@@download/arquivo_norma/IS 141-007C.pdf"
   }
 ]
