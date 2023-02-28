@@ -1,8 +1,8 @@
 {
     "title":  "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion":  "2023.02.21",
-    "dateReleased":  "2023-02-21T12:01:48.3924Z",
-    "count":  886,
+    "catalogVersion":  "2023.02.27",
+    "dateReleased":  "2023-02-27T09:52:01.2907Z",
+    "count":  887,
     "vulnerabilities":  [
                             {
                                 "cveID":  "CVE-2021-27104",
@@ -9749,6 +9749,17 @@
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2023-03-14",
                                 "notes":  "https://www.mitel.com/support/security-advisories/mitel-product-security-advisory-22-0007"
+                            },
+                            {
+                                "cveID":  "CVE-2022-36537",
+                                "vendorProject":  "ZK Framework",
+                                "product":  "AuUploader",
+                                "vulnerabilityName":  "ZK Framework AuUploader Unspecified Vulnerability",
+                                "dateAdded":  "2023-02-27",
+                                "shortDescription":  "ZK Framework AuUploader servlets contain an unspecified vulnerability that could allow an attacker to retrieve the content of a file located in the web context. The ZK Framework is an open-source Java framework. This vulnerability can impact multiple products, including but not limited to ConnectWise R1Soft Server Backup Manager.",
+                                "requiredAction":  "Apply updates per vendor instructions.",
+                                "dueDate":  "2023-03-20",
+                                "notes":  "https://tracker.zkoss.org/browse/ZK-5150"
                             }
                         ]
 }
