@@ -325,19 +325,6 @@
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-175@@download/arquivo_norma/RBAC175EMD03.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-175@@download/anexo_norma/CEF RBAC 175.pdf"
   }, 
   {
-    "ementa": "Certificação e requisitos operacionais: Centros de Instrução de Aviação Civil.", 
-    "norma": "RBAC 141 EMD 01", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "06/03/2020", 
-    "outros": "", 
-    "tipo_normatico": "RBAC", 
-    "publicacao": "06/03/2020", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 1º de abril de 2020.", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-141@@download/arquivo_norma/RBAC141EMD01.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-141@@download/anexo_norma/CEF RBAC 141.pdf"
-  }, 
-  {
     "ementa": "Licenças, habilitações e certificados para pilotos", 
     "norma": "RBAC 61 EMD 13", 
     "tornada_sem_efeito": "", 
@@ -673,7 +660,7 @@
     "publicacao": "31/01/2023", 
     "revogada": "", 
     "em_vigor": "Em vigor em 1º de março de 2023", 
-    "anexos": ", https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-141-emd-02@@download/anexo_norma/CEF RBAC 141.pdf"
+    "anexos": ", https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-141@@download/anexo_norma/CEF RBAC 141.pdf"
   }, 
   {
     "ementa": "Licenças, habilitações e certificados para pilotos", 
@@ -687,5 +674,44 @@
     "revogada": "", 
     "em_vigor": "Em vigor em 3 de abril de 2023", 
     "anexos": ", https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-61-emd-14@@download/anexo_norma/_CEF RBAC 61.pdf"
+  }, 
+  {
+    "ementa": "Licenças e Habilitações para Comissários e Mecânicos de Voo", 
+    "norma": "RBAC 63 EMD 00", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "28/02/2023", 
+    "outros": "", 
+    "tipo_normatico": "RBAC", 
+    "publicacao": "02/03/2023", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 1º de janeiro de 2024", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Operações de transporte aéreo público com aviões com configuração máxima certificada de assentos para passageiros de mais 19 assentos ou capacidade máxima de carga paga acima de 3.400 kg", 
+    "norma": "RBAC 121 EMD 17", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "28/02/2023", 
+    "outros": "", 
+    "tipo_normatico": "RBAC", 
+    "publicacao": "02/03/2023", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 1º de janeiro de 2024", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Certificação e requisitos operacionais: Centros de Instrução de Aviação Civil", 
+    "norma": "RBAC 141 EMD 03", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "28/02/2023", 
+    "outros": "", 
+    "tipo_normatico": "RBAC", 
+    "publicacao": "02/03/2023", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 1º de janeiro de 2024", 
+    "anexos": ""
   }
 ]
