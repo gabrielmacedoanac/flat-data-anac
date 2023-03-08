@@ -1,8 +1,8 @@
 {
     "title":  "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion":  "2023.02.27",
-    "dateReleased":  "2023-02-27T09:52:01.2907Z",
-    "count":  887,
+    "catalogVersion":  "2023.03.07",
+    "dateReleased":  "2023-03-07T09:54:27.3697Z",
+    "count":  890,
     "vulnerabilities":  [
                             {
                                 "cveID":  "CVE-2021-27104",
@@ -9760,6 +9760,39 @@
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2023-03-20",
                                 "notes":  "https://tracker.zkoss.org/browse/ZK-5150"
+                            },
+                            {
+                                "cveID":  "CVE-2022-28810",
+                                "vendorProject":  "Zoho",
+                                "product":  "ManageEngine",
+                                "vulnerabilityName":  "Zoho ManageEngine ADSelfService Plus Remote Code Execution Vulnerability",
+                                "dateAdded":  "2023-03-07",
+                                "shortDescription":  "Multiple Zoho ManageEngine ADSelfService Plus contains an unspecified vulnerability allowing for remote code execution when performing a password change or reset.",
+                                "requiredAction":  "Apply updates per vendor instructions.",
+                                "dueDate":  "2023-03-28",
+                                "notes":  "https://www.manageengine.com/products/self-service-password/advisory/CVE-2022-28810.html"
+                            },
+                            {
+                                "cveID":  "CVE-2022-33891",
+                                "vendorProject":  "Apache",
+                                "product":  "Spark",
+                                "vulnerabilityName":  "Apache Spark Command Injection Vulnerability",
+                                "dateAdded":  "2023-03-07",
+                                "shortDescription":  "Apache Spark contains a command injection vulnerability via Spark User Interface (UI) when Access Control Lists (ACLs) are enabled.",
+                                "requiredAction":  "Apply updates per vendor instructions.",
+                                "dueDate":  "2023-03-28",
+                                "notes":  "https://lists.apache.org/thread/p847l3kopoo5bjtmxrcwk21xp6tjxqlc"
+                            },
+                            {
+                                "cveID":  "CVE-2022-35914",
+                                "vendorProject":  "Teclib",
+                                "product":  "GLPI",
+                                "vulnerabilityName":  "Teclib GLPI Remote Code Execution Vulnerability",
+                                "dateAdded":  "2023-03-07",
+                                "shortDescription":  "Teclib GLPI contains a remote code execution vulnerability in the third-party library, htmlawed.",
+                                "requiredAction":  "Apply updates per vendor instructions.",
+                                "dueDate":  "2023-03-28",
+                                "notes":  "https://glpi-project.org/fr/glpi-10-0-3-disponible/, http://www.bioinformatics.org/phplabware/sourceer/sourceer.php?\u0026Sfs=htmLawedTest.php\u0026Sl=.%2Finternal_utilities%2FhtmLawed."
                             }
                         ]
 }
