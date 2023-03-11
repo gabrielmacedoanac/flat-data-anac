@@ -1,8 +1,8 @@
 {
     "title":  "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion":  "2023.03.07",
-    "dateReleased":  "2023-03-07T09:54:27.3697Z",
-    "count":  890,
+    "catalogVersion":  "2023.03.10",
+    "dateReleased":  "2023-03-10T10:01:35.4236Z",
+    "count":  892,
     "vulnerabilities":  [
                             {
                                 "cveID":  "CVE-2021-27104",
@@ -9793,6 +9793,28 @@
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2023-03-28",
                                 "notes":  "https://glpi-project.org/fr/glpi-10-0-3-disponible/, http://www.bioinformatics.org/phplabware/sourceer/sourceer.php?\u0026Sfs=htmLawedTest.php\u0026Sl=.%2Finternal_utilities%2FhtmLawed."
+                            },
+                            {
+                                "cveID":  "CVE-2021-39144",
+                                "vendorProject":  "XStream",
+                                "product":  "XStream",
+                                "vulnerabilityName":  "XStream Remote Code Execution Vulnerability",
+                                "dateAdded":  "2023-03-10",
+                                "shortDescription":  "XStream contains a remote code execution vulnerability that allows an attacker to manipulate the processed input stream and replace or inject objects, that result in execution of a local command on the server. This vulnerability can affect multiple products including but not limited to VMware Cloud Foundation.",
+                                "requiredAction":  "Apply updates per vendor instructions.",
+                                "dueDate":  "2023-03-31",
+                                "notes":  "https://www.vmware.com/security/advisories/VMSA-2022-0027.html, https://x-stream.github.io/CVE-2021-39144.html"
+                            },
+                            {
+                                "cveID":  "CVE-2020-5741",
+                                "vendorProject":  "Plex",
+                                "product":  "Media Server",
+                                "vulnerabilityName":  "Plex Media Server Remote Code Execution Vulnerability",
+                                "dateAdded":  "2023-03-10",
+                                "shortDescription":  "Plex Media Server contains a remote code execution vulnerability that allows an attacker with access to the server administrator's Plex account to upload a malicious file via the Camera Upload feature and have the media server execute it.",
+                                "requiredAction":  "Apply updates per vendor instructions.",
+                                "dueDate":  "2023-03-31",
+                                "notes":  "https://forums.plex.tv/t/security-regarding-cve-2020-5741/586819"
                             }
                         ]
 }
