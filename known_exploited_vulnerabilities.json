@@ -1,8 +1,8 @@
 {
     "title":  "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion":  "2023.03.10",
-    "dateReleased":  "2023-03-10T10:01:35.4236Z",
-    "count":  892,
+    "catalogVersion":  "2023.03.14",
+    "dateReleased":  "2023-03-14T15:10:28.8567Z",
+    "count":  895,
     "vulnerabilities":  [
                             {
                                 "cveID":  "CVE-2021-27104",
@@ -9800,7 +9800,7 @@
                                 "product":  "XStream",
                                 "vulnerabilityName":  "XStream Remote Code Execution Vulnerability",
                                 "dateAdded":  "2023-03-10",
-                                "shortDescription":  "XStream contains a remote code execution vulnerability that allows an attacker to manipulate the processed input stream and replace or inject objects, that result in execution of a local command on the server. This vulnerability can affect multiple products including but not limited to VMware Cloud Foundation.",
+                                "shortDescription":  "XStream contains a remote code execution vulnerability that allows an attacker to manipulate the processed input stream and replace or inject objects that result in the execution of a local command on the server. This vulnerability can affect multiple products, including but not limited to VMware Cloud Foundation.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2023-03-31",
                                 "notes":  "https://www.vmware.com/security/advisories/VMSA-2022-0027.html, https://x-stream.github.io/CVE-2021-39144.html"
@@ -9815,6 +9815,39 @@
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2023-03-31",
                                 "notes":  "https://forums.plex.tv/t/security-regarding-cve-2020-5741/586819"
+                            },
+                            {
+                                "cveID":  "CVE-2023-23397",
+                                "vendorProject":  "Microsoft",
+                                "product":  "Office",
+                                "vulnerabilityName":  "Microsoft Office Outlook Privilege Escalation Vulnerability",
+                                "dateAdded":  "2023-03-14",
+                                "shortDescription":  "Microsoft Office Outlook contains a privilege escalation vulnerability that allows for a NTLM Relay attack against another service to authenticate as the user.",
+                                "requiredAction":  "Apply updates per vendor instructions.",
+                                "dueDate":  "2023-04-04",
+                                "notes":  "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2023-23397"
+                            },
+                            {
+                                "cveID":  "CVE-2023-24880",
+                                "vendorProject":  "Microsoft",
+                                "product":  "Windows",
+                                "vulnerabilityName":  "Microsoft Windows SmartScreen Security Feature Bypass Vulnerability",
+                                "dateAdded":  "2023-03-14",
+                                "shortDescription":  "Microsoft Windows SmartScreen contains a security feature bypass vulnerability that could allow an attacker to evade Mark of the Web (MOTW) defenses via a specially crafted malicious file.",
+                                "requiredAction":  "Apply updates per vendor instructions.",
+                                "dueDate":  "2023-04-04",
+                                "notes":  "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2023-24880"
+                            },
+                            {
+                                "cveID":  "CVE-2022-41328",
+                                "vendorProject":  "Fortinet",
+                                "product":  "FortiOS",
+                                "vulnerabilityName":  "Fortinet FortiOS Path Traversal Vulnerability",
+                                "dateAdded":  "2023-03-14",
+                                "shortDescription":  "Fortinet FortiOS contains a path traversal vulnerability that may allow a local privileged attacker to read and write files via crafted CLI commands.",
+                                "requiredAction":  "Apply updates per vendor instructions.",
+                                "dueDate":  "2023-04-04",
+                                "notes":  "https://www.fortiguard.com/psirt/FG-IR-22-369"
                             }
                         ]
 }
