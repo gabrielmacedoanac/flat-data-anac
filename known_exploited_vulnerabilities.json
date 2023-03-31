@@ -1,8 +1,8 @@
 {
     "title":  "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion":  "2023.03.15",
-    "dateReleased":  "2023-03-15T16:36:14.2321Z",
-    "count":  896,
+    "catalogVersion":  "2023.03.30",
+    "dateReleased":  "2023-03-30T10:03:09.6033Z",
+    "count":  906,
     "vulnerabilities":  [
                             {
                                 "cveID":  "CVE-2021-27104",
@@ -9825,7 +9825,7 @@
                                 "shortDescription":  "Microsoft Office Outlook contains a privilege escalation vulnerability that allows for a NTLM Relay attack against another service to authenticate as the user.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2023-04-04",
-                                "notes":  "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2023-23397, https://msrc.microsoft.com/blog/2023/03/microsoft-mitigates-outlook-elevation-of-privilege-vulnerability/"
+                                "notes":  "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2023-23397, https://msrc.microsoft.com/blog/2023/03/microsoft-mitigates-outlook-elevation-of-privilege-vulnerability/,"
                             },
                             {
                                 "cveID":  "CVE-2023-24880",
@@ -9859,6 +9859,116 @@
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2023-04-05",
                                 "notes":  "https://helpx.adobe.com/security/products/coldfusion/apsb23-25.html"
+                            },
+                            {
+                                "cveID":  "CVE-2013-3163",
+                                "vendorProject":  "Microsoft",
+                                "product":  "Internet Explorer",
+                                "vulnerabilityName":  "Microsoft Internet Explorer Memory Corruption Vulnerability",
+                                "dateAdded":  "2023-03-30",
+                                "shortDescription":  "Microsoft Internet Explorer contains a memory corruption vulnerability that allows remote attackers to execute code or cause a denial of service via a crafted website.",
+                                "requiredAction":  "The impacted product is end-of-life and should be disconnected if still in use.",
+                                "dueDate":  "2023-04-20",
+                                "notes":  "https://learn.microsoft.com/en-us/security-updates/securitybulletins/2013/ms13-055"
+                            },
+                            {
+                                "cveID":  "CVE-2014-1776",
+                                "vendorProject":  "Microsoft",
+                                "product":  "Internet Explorer",
+                                "vulnerabilityName":  "Microsoft Internet Explorer Memory Corruption Vulnerability",
+                                "dateAdded":  "2023-03-30",
+                                "shortDescription":  "Microsoft Internet Explorer contains a memory corruption vulnerability that allows remote attackers to execute code in the context of the current user.",
+                                "requiredAction":  "The impacted product is end-of-life and should be disconnected if still in use.",
+                                "dueDate":  "2023-04-20",
+                                "notes":  "https://learn.microsoft.com/en-us/security-updates/SecurityBulletins/2014/ms14-021?redirectedfrom=MSDN"
+                            },
+                            {
+                                "cveID":  "CVE-2017-7494",
+                                "vendorProject":  "Samba",
+                                "product":  "Samba",
+                                "vulnerabilityName":  "Samba Remote Code Execution Vulnerability",
+                                "dateAdded":  "2023-03-30",
+                                "shortDescription":  "Samba contains a remote code execution vulnerability, allowing a malicious client to upload a shared library to a writable share and then cause the server to load and execute it.",
+                                "requiredAction":  "Apply updates per vendor instructions.",
+                                "dueDate":  "2023-04-20",
+                                "notes":  "https://www.samba.org/samba/security/CVE-2017-7494.html"
+                            },
+                            {
+                                "cveID":  "CVE-2022-42948",
+                                "vendorProject":  "Fortra",
+                                "product":  "Cobalt Strike",
+                                "vulnerabilityName":  "Fortra Cobalt Strike User Interface Remote Code Execution Vulnerability",
+                                "dateAdded":  "2023-03-30",
+                                "shortDescription":  "Fortra Cobalt Strike User Interface contains an unspecified vulnerability rooted in Java Swing that may allow remote code execution.",
+                                "requiredAction":  "Apply updates per vendor instructions.",
+                                "dueDate":  "2023-04-20",
+                                "notes":  "https://www.cobaltstrike.com/blog/out-of-band-update-cobalt-strike-4-7-2/"
+                            },
+                            {
+                                "cveID":  "CVE-2022-39197",
+                                "vendorProject":  "Fortra",
+                                "product":  "Cobalt Strike",
+                                "vulnerabilityName":  "Fortra Cobalt Strike Teamserver Cross-Site Scripting (XSS) Vulnerability",
+                                "dateAdded":  "2023-03-30",
+                                "shortDescription":  "Fortra Cobalt Strike contains a cross-site scripting (XSS) vulnerability in Teamserver that would allow an attacker to set a malformed username in the Beacon configuration, allowing them to execute code remotely.",
+                                "requiredAction":  "Apply updates per vendor instructions.",
+                                "dueDate":  "2023-04-20",
+                                "notes":  "https://www.cobaltstrike.com/blog/out-of-band-update-cobalt-strike-4-7-1/"
+                            },
+                            {
+                                "cveID":  "CVE-2021-30900",
+                                "vendorProject":  "Apple",
+                                "product":  "iOS, iPadOS, and macOS",
+                                "vulnerabilityName":  "Apple iOS, iPadOS, and macOS Out-of-Bounds Write Vulnerability",
+                                "dateAdded":  "2023-03-30",
+                                "shortDescription":  "Apple GPU drivers, included in iOS, iPadOS, and macOS, contain an out-of-bounds write vulnerability that may allow a malicious application to execute code with kernel privileges.",
+                                "requiredAction":  "Apply updates per vendor instructions.",
+                                "dueDate":  "2023-04-20",
+                                "notes":  "https://support.apple.com/en-us/HT21286, https://support.apple.com/en-us/HT212868, https://support.apple.com/kb/HT212872"
+                            },
+                            {
+                                "cveID":  "CVE-2022-38181",
+                                "vendorProject":  "Arm",
+                                "product":  "Mali Graphics Processing Unit (GPU)",
+                                "vulnerabilityName":  "Arm Mali GPU Kernel Driver Use-After-Free Vulnerability",
+                                "dateAdded":  "2023-03-30",
+                                "shortDescription":  "Arm Mali GPU Kernel Driver contains a use-after-free vulnerability that may allow a non-privileged user to gain root privilege and/or disclose information.",
+                                "requiredAction":  "Apply updates per vendor instructions.",
+                                "dueDate":  "2023-04-20",
+                                "notes":  "https://developer.arm.com/Arm%20Security%20Center/Mali%20GPU%20Driver%20Vulnerabilities"
+                            },
+                            {
+                                "cveID":  "CVE-2023-0266",
+                                "vendorProject":  "Linux",
+                                "product":  "Kernel",
+                                "vulnerabilityName":  "Linux Kernel Use-After-Free Vulnerability",
+                                "dateAdded":  "2023-03-30",
+                                "shortDescription":  "Linux kernel contains a use-after-free vulnerability that allows for privilege escalation to gain ring0 access from the system user.",
+                                "requiredAction":  "Apply updates per vendor instructions.",
+                                "dueDate":  "2023-04-20",
+                                "notes":  "https://git.kernel.org/pub/scm/linux/kernel/git/stable/stable-queue.git/tree/queue-5.10/alsa-pcm-move-rwsem-lock-inside-snd_ctl_elem_read-to-prevent-uaf.patch?id=72783cf35e6c55bca84c4bb7b776c58152856fd4"
+                            },
+                            {
+                                "cveID":  "CVE-2022-3038",
+                                "vendorProject":  "Google",
+                                "product":  "Chrome",
+                                "vulnerabilityName":  "Google Chrome Use-After-Free Vulnerability",
+                                "dateAdded":  "2023-03-30",
+                                "shortDescription":  "Google Chrome contains a use-after-free vulnerability that allows a remote attacker to potentially exploit heap corruption.",
+                                "requiredAction":  "Apply updates per vendor instructions.",
+                                "dueDate":  "2023-04-20",
+                                "notes":  "https://chromereleases.googleblog.com/2022/08/stable-channel-update-for-desktop_30.html"
+                            },
+                            {
+                                "cveID":  "CVE-2022-22706",
+                                "vendorProject":  "Arm",
+                                "product":  "Mali Graphics Processing Unit (GPU)",
+                                "vulnerabilityName":  "Arm Mali GPU Kernel Driver Unspecified Vulnerability",
+                                "dateAdded":  "2023-03-30",
+                                "shortDescription":  "Arm Mali GPU Kernel Driver contains an unspecified vulnerability that allows a non-privileged user to achieve write access to read-only memory pages.",
+                                "requiredAction":  "Apply updates per vendor instructions.",
+                                "dueDate":  "2023-04-20",
+                                "notes":  "https://developer.arm.com/Arm%20Security%20Center/Mali%20GPU%20Driver%20Vulnerabilities"
                             }
                         ]
 }
