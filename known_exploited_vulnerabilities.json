@@ -1,8 +1,8 @@
 {
     "title":  "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion":  "2023.03.30",
-    "dateReleased":  "2023-03-30T10:03:09.6033Z",
-    "count":  906,
+    "catalogVersion":  "2023.03.31",
+    "dateReleased":  "2023-03-31T13:09:14.3053Z",
+    "count":  905,
     "vulnerabilities":  [
                             {
                                 "cveID":  "CVE-2021-27104",
@@ -3836,12 +3836,12 @@
                                 "cveID":  "CVE-2014-1776",
                                 "vendorProject":  "Microsoft",
                                 "product":  "Internet Explorer",
-                                "vulnerabilityName":  "Microsoft Internet Explorer Use-After-Free Vulnerability",
+                                "vulnerabilityName":  "Microsoft Internet Explorer Memory Corruption Vulnerability",
                                 "dateAdded":  "2022-01-28",
-                                "shortDescription":  "Microsoft Internet Explorer 6 - 11 contains a use-after-free vulnerability which can allow for arbitrary code execution or denial of service.",
+                                "shortDescription":  "Microsoft Internet Explorer contains a memory corruption vulnerability that allows remote attackers to execute code in the context of the current user.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2022-07-28",
-                                "notes":  ""
+                                "notes":  "https://learn.microsoft.com/en-us/security-updates/SecurityBulletins/2014/ms14-021?redirectedfrom=MSDN"
                             },
                             {
                                 "cveID":  "CVE-2014-6271",
@@ -9811,7 +9811,7 @@
                                 "product":  "Media Server",
                                 "vulnerabilityName":  "Plex Media Server Remote Code Execution Vulnerability",
                                 "dateAdded":  "2023-03-10",
-                                "shortDescription":  "Plex Media Server contains a remote code execution vulnerability that allows an attacker with access to the server administrator\u0027s Plex account to upload a malicious file via the Camera Upload feature and have the media server execute it.",
+                                "shortDescription":  "Plex Media Server contains a remote code execution vulnerability that allows an attacker with access to the server administrator's Plex account to upload a malicious file via the Camera Upload feature and have the media server execute it.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2023-03-31",
                                 "notes":  "https://forums.plex.tv/t/security-regarding-cve-2020-5741/586819"
@@ -9870,17 +9870,6 @@
                                 "requiredAction":  "The impacted product is end-of-life and should be disconnected if still in use.",
                                 "dueDate":  "2023-04-20",
                                 "notes":  "https://learn.microsoft.com/en-us/security-updates/securitybulletins/2013/ms13-055"
-                            },
-                            {
-                                "cveID":  "CVE-2014-1776",
-                                "vendorProject":  "Microsoft",
-                                "product":  "Internet Explorer",
-                                "vulnerabilityName":  "Microsoft Internet Explorer Memory Corruption Vulnerability",
-                                "dateAdded":  "2023-03-30",
-                                "shortDescription":  "Microsoft Internet Explorer contains a memory corruption vulnerability that allows remote attackers to execute code in the context of the current user.",
-                                "requiredAction":  "The impacted product is end-of-life and should be disconnected if still in use.",
-                                "dueDate":  "2023-04-20",
-                                "notes":  "https://learn.microsoft.com/en-us/security-updates/SecurityBulletins/2014/ms14-021?redirectedfrom=MSDN"
                             },
                             {
                                 "cveID":  "CVE-2017-7494",
