@@ -1053,19 +1053,6 @@
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-137-001@@download/arquivo_norma/IS137-001C.pdf"
   }, 
   {
-    "ementa": "Treinamento requerido para concessão e revalidação de habilitação de tipo", 
-    "norma": "IS 61-005C", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "03/05/2022", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "24/06/2022", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 1º de julho de 2022", 
-    "anexos": ""
-  }, 
-  {
     "ementa": "Procedimentos para realização de inspeção de rampa em operadores aéreos no território brasileiro.", 
     "norma": "IS 00-009C", 
     "tornada_sem_efeito": "", 
@@ -1129,19 +1116,6 @@
     "revogada": "", 
     "em_vigor": "", 
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-175-010@@download/arquivo_norma/IS175-010C.pdf"
-  }, 
-  {
-    "ementa": "Treinamento de artigos perigosos para pessoal envolvido com processos relacionados ao transporte de passageiros, de carga aérea e de artigos perigosos por aeronaves civis.", 
-    "norma": "IS 175-002G", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "29/07/2021", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "30/07/2021", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 1º de setembro de 2021.", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-175-002@@download/arquivo_norma/IS175-002G.pdf"
   }, 
   {
     "ementa": "Manutenção preventiva por pilotos.", 
@@ -1677,19 +1651,6 @@
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-00-002@@download/arquivo_norma/IS00-002G.pdf"
   }, 
   {
-    "ementa": "Orientações e procedimentos para solicitação de licenças e habilitações e para a interação com a ANAC.", 
-    "norma": "IS 00-008D", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "22/06/2021", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "25/06/2021", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 2 de agosto de 2021.", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-00-008@@download/arquivo_norma/IS00-008D.pdf"
-  }, 
-  {
     "ementa": "Instruções para Preenchimento do Formulário F-400-04 (SEGVOO 001).", 
     "norma": "IS 43.9-001B", 
     "tornada_sem_efeito": "", 
@@ -1974,19 +1935,6 @@
     "revogada": "", 
     "em_vigor": "Em vigor em 1º de julho de 2021.", 
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-154-002@@download/arquivo_norma/IS154-002A.pdf"
-  }, 
-  {
-    "ementa": "Processo de credenciamento de instrutores de artigos perigosos.", 
-    "norma": "IS 175-013A", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "29/07/2021", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "30/07/2021", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 1º de setembro de 2021.", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-175-013@@download/arquivo_norma/IS175-013A.pdf"
   }, 
   {
     "ementa": "Critérios psicofísicos para desempenho de atividades AVSEC.", 
@@ -2522,19 +2470,6 @@
     "anexos": ""
   }, 
   {
-    "ementa": "Caderneta Individual de Voo Digital – CIV Digital", 
-    "norma": "IS 61-001F", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "14/02/2023", 
-    "outros": "Retificado no Diário Oficial da União de 1º de março de 2023, Seção 1, pág.50", 
-    "tipo_normatico": "IS", 
-    "publicacao": "17/02/2023", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 1º de março de 2023", 
-    "anexos": ""
-  }, 
-  {
     "ementa": "Treinamento requerido para concessão e revalidação de habilitação de tipo", 
     "norma": "IS 61-005D", 
     "tornada_sem_efeito": "", 
@@ -2714,6 +2649,19 @@
     "publicacao": "31/08/2023", 
     "revogada": "", 
     "em_vigor": "", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Manutenção realizada por empresas de transporte aéreo", 
+    "norma": "IS 120-016B", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "30/03/2023", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "04/04/2023", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 2 de maio de 2023", 
     "anexos": ""
   }
 ]
