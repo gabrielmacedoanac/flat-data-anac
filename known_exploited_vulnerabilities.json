@@ -1,8 +1,8 @@
 {
     "title":  "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion":  "2023.04.10",
-    "dateReleased":  "2023-04-10T09:51:10.0688Z",
-    "count":  913,
+    "catalogVersion":  "2023.04.11",
+    "dateReleased":  "2023-04-11T13:20:07.3701Z",
+    "count":  914,
     "vulnerabilities":  [
                             {
                                 "cveID":  "CVE-2021-27104",
@@ -10046,6 +10046,17 @@
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2023-05-01",
                                 "notes":  "https://support.apple.com/en-us/HT213720, https://support.apple.com/en-us/HT213721"
+                            },
+                            {
+                                "cveID":  "CVE-2023-28252",
+                                "vendorProject":  "Microsoft",
+                                "product":  "Windows",
+                                "vulnerabilityName":  "Microsoft Windows Common Log File System (CLFS) Driver Privilege Escalation Vulnerability",
+                                "dateAdded":  "2023-04-11",
+                                "shortDescription":  "Microsoft Windows Common Log File System (CLFS) driver contains an unspecified vulnerability that allows for privilege escalation.",
+                                "requiredAction":  "Apply updates per vendor instructions.",
+                                "dueDate":  "2023-05-02",
+                                "notes":  "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2023-28252"
                             }
                         ]
 }
