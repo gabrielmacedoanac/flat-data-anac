@@ -1,7 +1,7 @@
 {
     "title":  "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion":  "2023.04.11",
-    "dateReleased":  "2023-04-11T13:20:07.3701Z",
+    "catalogVersion":  "2023.04.12",
+    "dateReleased":  "2023-04-12T11:35:19.8163Z",
     "count":  914,
     "vulnerabilities":  [
                             {
@@ -117,10 +117,10 @@
                             {
                                 "cveID":  "CVE-2019-2215",
                                 "vendorProject":  "Android",
-                                "product":  "Android OS",
-                                "vulnerabilityName":  "Android \"AbstractEmu\" Root Access Vulnerabilities",
+                                "product":  "Kernel",
+                                "vulnerabilityName":  "Android Kernel Use-After-Free Vulnerability",
                                 "dateAdded":  "2021-11-03",
-                                "shortDescription":  "",
+                                "shortDescription":  "Android Kernel contains a use-after-free vulnerability in binder.c which allows for privilege escalation from an application to the Linux Kernel. This vulnerability was observed chained with CVE-2020-0041 and CVE-2020-0069 under exploit chain \"AbstractEmu.\"",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2022-05-03",
                                 "notes":  ""
@@ -128,21 +128,21 @@
                             {
                                 "cveID":  "CVE-2020-0041",
                                 "vendorProject":  "Android",
-                                "product":  "Android OS",
-                                "vulnerabilityName":  "Android \"AbstractEmu\" Root Access Vulnerabilities",
+                                "product":  "Kernel",
+                                "vulnerabilityName":  "Android Kernel Out-of-Bounds Write Vulnerability",
                                 "dateAdded":  "2021-11-03",
-                                "shortDescription":  "",
+                                "shortDescription":  "Android Kernel binder_transaction of binder.c contains an out-of-bounds write vulnerability due to an incorrect bounds check that could allow for local privilege escalation. This vulnerability was observed chained with CVE-2019-2215 and CVE-2020-0069 under exploit chain \"AbstractEmu.\"",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2022-05-03",
                                 "notes":  ""
                             },
                             {
                                 "cveID":  "CVE-2020-0069",
-                                "vendorProject":  "Android",
-                                "product":  "Android OS",
-                                "vulnerabilityName":  "Android \"AbstractEmu\" Root Access Vulnerabilities",
+                                "vendorProject":  "MediaTek",
+                                "product":  "Multiple Chipsets",
+                                "vulnerabilityName":  "Mediatek Multiple Chipsets Insufficient Input Validation Vulnerability",
                                 "dateAdded":  "2021-11-03",
-                                "shortDescription":  "",
+                                "shortDescription":  "Multiple MediaTek chipsets contain an insufficient input validation vulnerability and have missing SELinux restrictions in the Command Queue drivers ioctl handlers. This causes an out-of-bounds write leading to privilege escalation. This vulnerability was observed chained with CVE-2019-2215 and CVE-2020-0041 under exploit chain \"AbstractEmu.\"",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2022-05-03",
                                 "notes":  ""
@@ -293,10 +293,10 @@
                             {
                                 "cveID":  "CVE-2021-30807",
                                 "vendorProject":  "Apple",
-                                "product":  "iOS and macOS",
-                                "vulnerabilityName":  "Apple iOS and macOS Memory Corruption Vulnerability",
+                                "product":  "Multiple Products",
+                                "vulnerabilityName":  "Apple Multiple Products Memory Corruption Vulnerability",
                                 "dateAdded":  "2021-11-03",
-                                "shortDescription":  "",
+                                "shortDescription":  "Apple iOS, iPadOS, macOS, and watchOS, contain a memory corruption vulnerability in�IOMobileFrameBuffer�that may allow an application to execute code with kernel privileges.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2021-11-17",
                                 "notes":  ""
@@ -1162,10 +1162,10 @@
                             {
                                 "cveID":  "CVE-2021-38000",
                                 "vendorProject":  "Google",
-                                "product":  "Chromium V8 Engine",
-                                "vulnerabilityName":  "Google Chromium V8 Insufficient Input Validation Vulnerability",
+                                "product":  "Chromium",
+                                "vulnerabilityName":  "Google Chromium Improper Input Validation Vulnerability",
                                 "dateAdded":  "2021-11-03",
-                                "shortDescription":  "",
+                                "shortDescription":  "Google Chromium Intents contains an improper input validation vulnerability that allows a remote attacker to navigate to a malicious URL via a crafted HTML page.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2021-11-17",
                                 "notes":  ""
@@ -1174,9 +1174,9 @@
                                 "cveID":  "CVE-2021-38003",
                                 "vendorProject":  "Google",
                                 "product":  "Chromium V8 Engine",
-                                "vulnerabilityName":  "Google Chromium V8 Incorrect Implementation Vulnerability",
+                                "vulnerabilityName":  "Google Chromium V8 Engine Memory Corruption Vulnerability",
                                 "dateAdded":  "2021-11-03",
-                                "shortDescription":  "",
+                                "shortDescription":  "Google Chromium V8 Engine contains a memory corruption vulnerability due to a bug in JSON.stringify.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2021-11-17",
                                 "notes":  ""
@@ -9853,9 +9853,9 @@
                                 "cveID":  "CVE-2023-26360",
                                 "vendorProject":  "Adobe",
                                 "product":  "ColdFusion",
-                                "vulnerabilityName":  "Adobe ColdFusion Improper Access Control Vulnerability",
+                                "vulnerabilityName":  "Adobe ColdFusion Deserialization of Untrusted Data Vulnerability",
                                 "dateAdded":  "2023-03-15",
-                                "shortDescription":  "Adobe ColdFusion contains an improper access control vulnerability that allows for remote code execution.",
+                                "shortDescription":  "Adobe ColdFusion contains a deserialization of untrusted data vulnerability that allows for remote code execution.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2023-04-05",
                                 "notes":  "https://helpx.adobe.com/security/products/coldfusion/apsb23-25.html"
