@@ -1,8 +1,8 @@
 {
     "title":  "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion":  "2023.04.17",
-    "dateReleased":  "2023-04-17T09:53:25.4853Z",
-    "count":  918,
+    "catalogVersion":  "2023.04.19",
+    "dateReleased":  "2023-04-19T09:56:34.8278Z",
+    "count":  919,
     "vulnerabilities":  [
                             {
                                 "cveID":  "CVE-2021-27104",
@@ -10101,6 +10101,17 @@
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2023-05-08",
                                 "notes":  "https://chromereleases.googleblog.com/2023/04/stable-channel-update-for-desktop_14.html"
+                            },
+                            {
+                                "cveID":  "CVE-2017-6742",
+                                "vendorProject":  "Cisco",
+                                "product":  "IOS and IOS XE Software",
+                                "vulnerabilityName":  "Cisco IOS and IOS XE Software SNMP Remote Code Execution Vulnerability",
+                                "dateAdded":  "2023-04-19",
+                                "shortDescription":  "The Simple Network Management Protocol (SNMP) subsystem of Cisco IOS and IOS XE contains a vulnerability that could allow an authenticated, remote attacker to remotely execute code on an affected system or cause an affected system to reload.",
+                                "requiredAction":  "Apply updates per vendor instructions.",
+                                "dueDate":  "2023-05-10",
+                                "notes":  "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20170629-snmp"
                             }
                         ]
 }
