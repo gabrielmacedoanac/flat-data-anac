@@ -325,19 +325,6 @@
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-175@@download/arquivo_norma/RBAC175EMD03.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-175@@download/anexo_norma/CEF RBAC 175.pdf"
   }, 
   {
-    "ementa": "Licenças, habilitações e certificados para pilotos", 
-    "norma": "RBAC 61 EMD 13", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "19/03/2020", 
-    "outros": "", 
-    "tipo_normatico": "RBAC", 
-    "publicacao": "20/03/2020", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 1º de abril de 2020.", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-61@@download/arquivo_norma/RBAC61EMD13.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-61@@download/anexo_norma/ CEF RBAC 61.pdf"
-  }, 
-  {
     "ementa": "Aeródromos - Operação, manutenção e resposta à emergência.", 
     "norma": "RBAC 153 EMD 06", 
     "tornada_sem_efeito": "", 
@@ -653,14 +640,14 @@
     "ementa": "Licenças, habilitações e certificados para pilotos", 
     "norma": "RBAC 61 EMD 14", 
     "tornada_sem_efeito": "", 
-    "alterada": "", 
+    "alterada": "Resolução nº 711, de 31.03.2023", 
     "data": "09/02/2023", 
     "outros": "Retificado no DOU de 14/03/2023, Seção 1, pág. 71", 
     "tipo_normatico": "RBAC", 
     "publicacao": "13/02/2023", 
     "revogada": "", 
     "em_vigor": "Em vigor em 3 de abril de 2023", 
-    "anexos": ", https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-61-emd-14@@download/anexo_norma/_CEF RBAC 61.pdf"
+    "anexos": ", https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-61@@download/anexo_norma/_CEF RBAC 61.pdf"
   }, 
   {
     "ementa": "Licenças e Habilitações para Comissários e Mecânicos de Voo", 
@@ -713,5 +700,31 @@
     "revogada": "", 
     "em_vigor": "Em vigor em 2 de maio de 2023", 
     "anexos": ", https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-e-94-emd-03@@download/anexo_norma/CEF RBAC-E 94.pdf"
+  }, 
+  {
+    "ementa": "Definições, regras de redação e unidades de medida para uso nos normativos da ANAC", 
+    "norma": "RBAC 01 EMD 12", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "14/04/2023", 
+    "outros": "", 
+    "tipo_normatico": "RBAC", 
+    "publicacao": "17/04/2023", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 2 de maio de 2023", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Aeródromos - Operação, Manutenção e Resposta à Emergência", 
+    "norma": "RBAC 153 EMD 07", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "17/04/2023", 
+    "outros": "", 
+    "tipo_normatico": "RBAC", 
+    "publicacao": "17/04/2023", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 2 de maio de 2023", 
+    "anexos": ""
   }
 ]
