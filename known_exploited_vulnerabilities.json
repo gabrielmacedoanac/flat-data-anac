@@ -1,8 +1,8 @@
 {
     "title":  "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion":  "2023.04.21",
-    "dateReleased":  "2023-04-21T09:54:52.3190Z",
-    "count":  922,
+    "catalogVersion":  "2023.05.01",
+    "dateReleased":  "2023-05-01T10:08:53.2701Z",
+    "count":  925,
     "vulnerabilities":  [
                             {
                                 "cveID":  "CVE-2021-27104",
@@ -10145,6 +10145,39 @@
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2023-05-12",
                                 "notes":  "https://chromereleases.googleblog.com/2023/04/stable-channel-update-for-desktop_18.html"
+                            },
+                            {
+                                "cveID":  "CVE-2023-1389",
+                                "vendorProject":  "TP-Link",
+                                "product":  "Archer AX21",
+                                "vulnerabilityName":  "TP-Link Archer AX-21 Command Injection Vulnerability",
+                                "dateAdded":  "2023-05-01",
+                                "shortDescription":  "TP-Link Archer AX-21 contains a command injection vulnerability that allows for remote code execution.",
+                                "requiredAction":  "Apply updates per vendor instructions.",
+                                "dueDate":  "2023-05-22",
+                                "notes":  "https://www.tp-link.com/us/support/download/archer-ax21/v3/#Firmware"
+                            },
+                            {
+                                "cveID":  "CVE-2021-45046",
+                                "vendorProject":  "Apache",
+                                "product":  "Log4j2",
+                                "vulnerabilityName":  "Apache Log4j2 Deserialization of Untrusted Data Vulnerability",
+                                "dateAdded":  "2023-05-01",
+                                "shortDescription":  "Apache Log4j2 contains a deserialization of untrusted data vulnerability due to the incomplete fix of CVE-2021-44228, where the Thread Context Lookup Pattern is vulnerable to remote code execution in certain non-default configurations.",
+                                "requiredAction":  "Apply updates per vendor instructions.",
+                                "dueDate":  "2023-05-22",
+                                "notes":  "https://logging.apache.org/log4j/2.x/security.html"
+                            },
+                            {
+                                "cveID":  "CVE-2023-21839",
+                                "vendorProject":  "Oracle",
+                                "product":  "WebLogic Server",
+                                "vulnerabilityName":  "Oracle WebLogic Server Unspecified Vulnerability",
+                                "dateAdded":  "2023-05-01",
+                                "shortDescription":  "Oracle WebLogic Server contains an unspecified vulnerability that allows an unauthenticated attacker with network access via T3, IIOP, to compromise Oracle WebLogic Server.",
+                                "requiredAction":  "Apply updates per vendor instructions.",
+                                "dueDate":  "2023-05-22",
+                                "notes":  "https://www.oracle.com/security-alerts/cpujan2023.html"
                             }
                         ]
 }
