@@ -1,8 +1,8 @@
 {
     "title":  "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion":  "2023.05.01",
-    "dateReleased":  "2023-05-01T10:08:53.2701Z",
-    "count":  925,
+    "catalogVersion":  "2023.05.09",
+    "dateReleased":  "2023-05-09T13:11:41.8092Z",
+    "count":  926,
     "vulnerabilities":  [
                             {
                                 "cveID":  "CVE-2021-27104",
@@ -10178,6 +10178,17 @@
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2023-05-22",
                                 "notes":  "https://www.oracle.com/security-alerts/cpujan2023.html"
+                            },
+                            {
+                                "cveID":  "CVE-2023-29336",
+                                "vendorProject":  "Microsoft",
+                                "product":  "Win32k",
+                                "vulnerabilityName":  "Microsoft Win32K Privilege Escalation Vulnerability",
+                                "dateAdded":  "2023-05-09",
+                                "shortDescription":  "Microsoft Win32k contains an unspecified vulnerability that allows for privilege escalation up to SYSTEM privileges.",
+                                "requiredAction":  "Apply updates per vendor instructions.",
+                                "dueDate":  "2023-05-30",
+                                "notes":  "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2023-29336"
                             }
                         ]
 }
