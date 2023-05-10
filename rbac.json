@@ -88,7 +88,7 @@
     "publicacao": "02/12/2021", 
     "revogada": "", 
     "em_vigor": "Em vigor em 1º de junho de 2022", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-e-94@@download/arquivo_norma/RBACE94EMD02.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-e-94@@download/anexo_norma/CEF RBAC-E 94.pdf"
+    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-e-94-1@@download/arquivo_norma/RBACE94EMD02.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-e-94-1@@download/anexo_norma/CEF RBAC-E 94.pdf"
   }, 
   {
     "ementa": "Projeto de aeródromos.", 
@@ -148,12 +148,12 @@
     "tornada_sem_efeito": "", 
     "alterada": "", 
     "data": "22/11/2021", 
-    "outros": "", 
+    "outros": "<a class=\"external-link\" href=\"https://www.anac.gov.br/assuntos/legislacao/legislacao-1/portarias/2023/portaria-11158\" target=\"_blank\" title=\"\">Compêndio de Elementos de Fiscalização - CEF</a>", 
     "tipo_normatico": "RBAC", 
     "publicacao": "22/11/2021", 
     "revogada": "", 
     "em_vigor": "Em vigor em 1º de dezembro de 2021.", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-103@@download/arquivo_norma/RBAC103EMD01.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-103@@download/anexo_norma/CEF RBAC 103.pdf"
+    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-103@@download/arquivo_norma/RBAC103EMD01.pdf"
   }, 
   {
     "ementa": "Credenciamento de pessoas.", 
@@ -325,19 +325,6 @@
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-175@@download/arquivo_norma/RBAC175EMD03.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-175@@download/anexo_norma/CEF RBAC 175.pdf"
   }, 
   {
-    "ementa": "Aeródromos - Operação, manutenção e resposta à emergência.", 
-    "norma": "RBAC 153 EMD 06", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "09/03/2021", 
-    "outros": "", 
-    "tipo_normatico": "RBAC", 
-    "publicacao": "15/03/2021", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 1º de abril de 2021.", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-153@@download/arquivo_norma/RBAC153EMD06.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-153@@download/anexo_norma/Anexos RBAC 153.zip"
-  }, 
-  {
     "ementa": "Certificação e requisitos operacionais: operações aeroagrícolas.", 
     "norma": "RBAC 137 EMD 04", 
     "tornada_sem_efeito": "", 
@@ -362,19 +349,6 @@
     "revogada": "", 
     "em_vigor": "Em vigor em 3 de outubro de 2022", 
     "anexos": ", https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-135@@download/anexo_norma/CEF - RBAC 135.pdf"
-  }, 
-  {
-    "ementa": "Definições, regras de redação e unidades de medida para uso nos normativos da ANAC", 
-    "norma": "RBAC 01 EMD 11", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "13/07/2022", 
-    "outros": "", 
-    "tipo_normatico": "RBAC", 
-    "publicacao": "15/07/2022", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 1º de outubro de 2022", 
-    "anexos": ""
   }, 
   {
     "ementa": "Certificação: Operadores de Transporte Aéreo Público.", 
@@ -699,7 +673,7 @@
     "publicacao": "03/04/2023", 
     "revogada": "", 
     "em_vigor": "Em vigor em 2 de maio de 2023", 
-    "anexos": ", https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-e-94-emd-03@@download/anexo_norma/CEF RBAC-E 94.pdf"
+    "anexos": ", https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-e-94@@download/anexo_norma/CEF RBAC-E 94.pdf"
   }, 
   {
     "ementa": "Definições, regras de redação e unidades de medida para uso nos normativos da ANAC", 
@@ -720,11 +694,76 @@
     "tornada_sem_efeito": "", 
     "alterada": "", 
     "data": "17/04/2023", 
-    "outros": "", 
+    "outros": "Ver também:\r\n- <a class=\"external-link\" href=\"https://www.gov.br/anac/pt-br/assuntos/regulados/aerodromos/seguranca-operacional-aerodromos/arquivos/rbac-153-perguntas-e-respostas-emenda-07_03-05-23.pdf\">Perguntas e Respostas (RBAC nº 153, Emenda nº 07)</a>\r\n- Versões do RBAC 153 orientadas para cada tipo de operador:\r\n- <a class=\"external-link\" href=\"https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/anexos/rbac-153-uso-privativo.pdf\">Aeródromo de Uso Privativo</a>\r\n- <a class=\"external-link\" href=\"https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/anexos/rbac-153-uso-publico-classe-i-geral-nao-regida-pelo-rbac-121-e-nem-pelo-rbac-135-regular.pdf\">Aeródromo de Uso Público Classe I - Geral</a>\r\n- <a class=\"external-link\" href=\"https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/anexos/rbac-153-uso-publico-classe-i-rbac-135-regular.pdf\">Aeródromo de Uso Público Classe I - RBAC nº 135 Regular</a>\r\n- <a class=\"external-link\" href=\"https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/anexos/rbac-153-uso-publico-classe-i-rbac-121-certop.pdf\">Aeródromo de Uso Público Classe I - RBAC nº 121 Detentor de Certificado Operacional de Aeroporto</a>\r\n- <a class=\"external-link\" href=\"https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/anexos/rbac-153-uso-publico-classe-i-rbac-121-nao-certop.pdf\">Aeródromo de Uso Público Classe I - RBAC nº 121 NÃO Detentor de Certificado Operacional de Aeroporto</a>\r\n- <a class=\"external-link\" href=\"https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/anexos/rbac-153-uso-publico-classe-ii-certop.pdf\">Aeródromo de Uso Público Classe II - Detentor de Certificado Operacional de Aeroporto</a>\r\n- <a class=\"external-link\" href=\"https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/anexos/rbac-153-uso-publico-classe-ii-nao-certop.pdf\">Aeródromo de Uso Público Classe II - NÃO Detentor de Certificado Operacional de Aeroporto</a>\r\n- <a class=\"external-link\" href=\"https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/anexos/rbac-153-uso-publico-classe-iii-certop.pdf\">Aeródromo de Uso Público Classe III - Detentor de Certificado Operacional de Aeroporto</a>\r\n- <a class=\"external-link\" href=\"https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/anexos/rbac-153-uso-publico-classe-iii-nao-certop.pdf\">Aeródromo de Uso Público Classe III - NÃO Detentor de Certificado Operacional de Aeroporto</a>\r\n- <a class=\"external-link\" href=\"https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/anexos/rbac-153-uso-publico-classe-iv-certop.pdf\">Aeródromo de Uso Público Classe IV - Detentor de Certificado Operacional de Aeroporto</a>\r\n- <a class=\"external-link\" href=\"https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/anexos/rbac-153-uso-publico-classe-iv-nao-certop.pdf\">Aeródromo de Uso Público Classe IV - NÃO Detentor de Certificado Operacional de Aeroporto</a>", 
     "tipo_normatico": "RBAC", 
     "publicacao": "17/04/2023", 
     "revogada": "", 
     "em_vigor": "Em vigor em 2 de maio de 2023", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Definições, regras de redação e unidades de medida para uso nos normativos da ANAC", 
+    "norma": "RBAC 01 EMD 13", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "26/04/2023", 
+    "outros": "", 
+    "tipo_normatico": "RBAC", 
+    "publicacao": "28/04/2023", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 1º de junho de 2023", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Operações de transporte aéreo público com aviões com configuração máxima certificada de assentos para passageiros de mais 19 assentos ou capacidade máxima de carga paga acima de 3.400 kg", 
+    "norma": "RBAC 121 EMD 18", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "26/04/2023", 
+    "outros": "", 
+    "tipo_normatico": "RBAC", 
+    "publicacao": "28/04/2023", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 1º de junho de 2023", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Operações de transporte aéreo público com aviões com configuração máxima certificada de assentos para passageiros de até 19 assentos e capacidade máxima de carga paga de até 3.400 kg (7.500 lb), ou helicópteros", 
+    "norma": "RBAC 135 EMD 13", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "26/04/2023", 
+    "outros": "", 
+    "tipo_normatico": "RBAC", 
+    "publicacao": "28/04/2023", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 1º de junho de 2023", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Organizações de manutenção de produto aeronáutico", 
+    "norma": "RBAC 145 EMD 08", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "26/04/2023", 
+    "outros": "", 
+    "tipo_normatico": "RBAC", 
+    "publicacao": "28/04/2023", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 1º de junho de 2023", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Transporte de artigos perigosos em aeronaves civis", 
+    "norma": "RBAC 175 EMD 04", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "26/04/2023", 
+    "outros": "", 
+    "tipo_normatico": "RBAC", 
+    "publicacao": "28/04/2023", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 1º de junho de 2023", 
     "anexos": ""
   }
 ]

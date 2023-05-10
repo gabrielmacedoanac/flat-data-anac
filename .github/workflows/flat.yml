@@ -170,3 +170,29 @@ jobs:
         with:
           http_url: https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json
           downloaded_filename: known_exploited_vulnerabilities.json
+      - name: Fetch data
+        uses: githubocto/flat@v3
+        with:
+          http_url: https://dedalo.sti.fab.mil.br/dadosabertos/ocorrencia.csv
+          downloaded_filename: cenipa/cenipa-tabela-ocorrencia.csv
+      - name: Fetch data
+        uses: githubocto/flat@v3
+        with:
+          http_url: https://dedalo.sti.fab.mil.br/dadosabertos/ocorrencia_tipo.csv
+          downloaded_filename: cenipa/cenipa-tabela-ocorrencia-tipo.csv       
+      - name: Fetch data
+        uses: githubocto/flat@v3
+        with:
+          http_url: https://dedalo.sti.fab.mil.br/dadosabertos/aeronave.csv
+          downloaded_filename: cenipa/cenipa-tabela-aeronave.csv  
+      - name: Fetch data
+        uses: githubocto/flat@v3
+        with:
+          http_url: https://dedalo.sti.fab.mil.br/dadosabertos/fator_contribuinte.csv
+          downloaded_filename: cenipa/cenipa-tabela-fator-contribuinte.csv
+      - name: Fetch data
+        uses: githubocto/flat@v3
+        with:
+          http_url: https://dedalo.sti.fab.mil.br/dadosabertos/recomendacao.csv
+          downloaded_filename: cenipa/cenipa-tabela-recomendacao.csv              
+         
