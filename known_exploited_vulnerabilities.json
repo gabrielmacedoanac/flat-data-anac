@@ -1,8 +1,8 @@
 {
     "title":  "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion":  "2023.05.09",
-    "dateReleased":  "2023-05-09T13:11:41.8092Z",
-    "count":  926,
+    "catalogVersion":  "2023.05.12",
+    "dateReleased":  "2023-05-12T10:11:45.8506Z",
+    "count":  933,
     "vulnerabilities":  [
                             {
                                 "cveID":  "CVE-2021-27104",
@@ -10095,7 +10095,7 @@
                                 "cveID":  "CVE-2023-2033",
                                 "vendorProject":  "Google",
                                 "product":  "Chromium V8 Engine",
-                                "vulnerabilityName":  "Google Chromium V8 Engine Type Confusion Vulnerability",
+                                "vulnerabilityName":  "Google Chromium V8 Type Confusion Vulnerability",
                                 "dateAdded":  "2023-04-17",
                                 "shortDescription":  "Google Chromium V8 contains a type confusion vulnerability. Specific impacts from exploitation are not available at this time.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
@@ -10189,6 +10189,83 @@
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2023-05-30",
                                 "notes":  "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2023-29336"
+                            },
+                            {
+                                "cveID":  "CVE-2023-25717",
+                                "vendorProject":  "Ruckus Wireless",
+                                "product":  "Multiple Products",
+                                "vulnerabilityName":  "Multiple Ruckus Wireless Products CSRF and RCE Vulnerability",
+                                "dateAdded":  "2023-05-12",
+                                "shortDescription":  "Ruckus Wireless Access Point (AP) software contains an unspecified vulnerability in the web services component. If the web services component is enabled on the AP, an attacker can perform cross-site request forgery (CSRF) or remote code execution (RCE). This vulnerability impacts Ruckus ZoneDirector, SmartZone, and Solo APs.",
+                                "requiredAction":  "Apply updates per vendor instructions or disconnect product if it is end-of-life.",
+                                "dueDate":  "2023-06-02",
+                                "notes":  "https://support.ruckuswireless.com/security_bulletins/315"
+                            },
+                            {
+                                "cveID":  "CVE-2021-3560",
+                                "vendorProject":  "Red Hat",
+                                "product":  "Polkit",
+                                "vulnerabilityName":  "Red Hat Polkit Incorrect Authorization Vulnerability",
+                                "dateAdded":  "2023-05-12",
+                                "shortDescription":  "Red Hat Polkit contains an incorrect authorization vulnerability through the bypassing of credential checks for D-Bus requests, allowing for privilege escalation.",
+                                "requiredAction":  "Apply updates per vendor instructions.",
+                                "dueDate":  "2023-06-02",
+                                "notes":  "https://bugzilla.redhat.com/show_bug.cgi?id=1961710"
+                            },
+                            {
+                                "cveID":  "CVE-2014-0196",
+                                "vendorProject":  "Linux",
+                                "product":  "Kernel",
+                                "vulnerabilityName":  "Linux Kernel Race Condition Vulnerability",
+                                "dateAdded":  "2023-05-12",
+                                "shortDescription":  "Linux Kernel contains a race condition vulnerability within the n_tty_write function that allows local users to cause a denial-of-service or gain privileges via read and write operations with long strings.",
+                                "requiredAction":  "The impacted product is end-of-life and should be disconnected if still in use.",
+                                "dueDate":  "2023-06-02",
+                                "notes":  "https://lkml.iu.edu/hypermail/linux/kernel/1609.1/02103.html"
+                            },
+                            {
+                                "cveID":  "CVE-2010-3904",
+                                "vendorProject":  "Linux",
+                                "product":  "Kernel",
+                                "vulnerabilityName":  "Linux Kernel Improper Input Validation Vulnerability",
+                                "dateAdded":  "2023-05-12",
+                                "shortDescription":  "Linux Kernel contains an improper input validation vulnerability in the Reliable Datagram Sockets (RDS) protocol implementation that allows local users to gain privileges via crafted use of the sendmsg and recvmsg system calls.",
+                                "requiredAction":  "The impacted product is end-of-life and should be disconnected if still in use.",
+                                "dueDate":  "2023-06-02",
+                                "notes":  "https://lkml.iu.edu/hypermail/linux/kernel/1601.3/06474.html"
+                            },
+                            {
+                                "cveID":  "CVE-2015-5317",
+                                "vendorProject":  "Jenkins",
+                                "product":  "Jenkins User Interface (UI)",
+                                "vulnerabilityName":  "Jenkins User Interface (UI) Information Disclosure Vulnerability",
+                                "dateAdded":  "2023-05-12",
+                                "shortDescription":  "Jenkins User Interface (UI) contains an information disclosure vulnerability that allows users to see the names of jobs and builds otherwise inaccessible to them on the \"Fingerprints\" pages.",
+                                "requiredAction":  "Apply updates per vendor instructions.",
+                                "dueDate":  "2023-06-02",
+                                "notes":  "https://www.jenkins.io/security/advisory/2015-11-11/"
+                            },
+                            {
+                                "cveID":  "CVE-2016-3427",
+                                "vendorProject":  "Oracle",
+                                "product":  "Java SE and JRockit",
+                                "vulnerabilityName":  "Oracle Java SE and JRockit Unspecified Vulnerability",
+                                "dateAdded":  "2023-05-12",
+                                "shortDescription":  "Oracle Java SE and JRockit contains an unspecified vulnerability that allows remote attackers to affect confidentiality, integrity, and availability via vectors related to Java Management Extensions (JMX). This vulnerability can be exploited through sandboxed Java Web Start applications and sandboxed Java applets. It can also be exploited by supplying data to APIs in the specified component without using sandboxed Java Web Start applications or sandboxed Java applets, such as through a web service.",
+                                "requiredAction":  "Apply updates per vendor instructions.",
+                                "dueDate":  "2023-06-02",
+                                "notes":  "https://www.oracle.com/security-alerts/cpuapr2016v3.html"
+                            },
+                            {
+                                "cveID":  "CVE-2016-8735",
+                                "vendorProject":  "Apache",
+                                "product":  "Tomcat",
+                                "vulnerabilityName":  "Apache Tomcat Remote Code Execution Vulnerability",
+                                "dateAdded":  "2023-05-12",
+                                "shortDescription":  "Apache Tomcat contains an unspecified vulnerability that allows for remote code execution if JmxRemoteLifecycleListener is used and an attacker can reach Java Management Extension (JMX) ports. This CVE exists because this listener wasn\u0027t updated for consistency with the Oracle patched issues for CVE-2016-3427 which affected credential types.",
+                                "requiredAction":  "Apply updates per vendor instructions.",
+                                "dueDate":  "2023-06-02",
+                                "notes":  "https://tomcat.apache.org/security-9.html"
                             }
                         ]
 }
