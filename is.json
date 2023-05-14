@@ -598,19 +598,6 @@
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-145-163-001@@download/arquivo_norma/IS145.163-001A.pdf"
   }, 
   {
-    "ementa": "Sistema de Orientação e Controle da Movimentação no Solo - SOCMS.", 
-    "norma": "IS 153-109B", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "06/03/2020", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "06/03/2020", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 1º de abril de 2020.", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-153-109@@download/arquivo_norma/IS153-109B.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-153-109@@download/anexo_norma/SOCMS.docx"
-  }, 
-  {
     "ementa": "Projeto de Monitoramento de Ruído", 
     "norma": "IS 161.55-001A", 
     "tornada_sem_efeito": "", 
@@ -2779,6 +2766,19 @@
     "publicacao": "25/04/2023", 
     "revogada": "", 
     "em_vigor": "Em vigor em 2 de maio de 2023", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Auxílios visuais para pistas de pouso e decolagem e pistas de táxi", 
+    "norma": "IS 154-003A", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "09/05/2023", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "11/05/2023", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 1º de junho de 2023", 
     "anexos": ""
   }
 ]
