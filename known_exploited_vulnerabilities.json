@@ -1,8 +1,8 @@
 {
     "title":  "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion":  "2023.05.12",
-    "dateReleased":  "2023-05-12T10:11:45.8506Z",
-    "count":  933,
+    "catalogVersion":  "2023.05.19",
+    "dateReleased":  "2023-05-19T09:48:30.1898Z",
+    "count":  936,
     "vulnerabilities":  [
                             {
                                 "cveID":  "CVE-2021-27104",
@@ -10266,6 +10266,39 @@
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2023-06-02",
                                 "notes":  "https://tomcat.apache.org/security-9.html"
+                            },
+                            {
+                                "cveID":  "CVE-2004-1464",
+                                "vendorProject":  "Cisco",
+                                "product":  "IOS",
+                                "vulnerabilityName":  "Cisco IOS Denial-of-Service Vulnerability",
+                                "dateAdded":  "2023-05-19",
+                                "shortDescription":  "Cisco IOS contains an unspecified vulnerability that may block further telnet, reverse telnet, Remote Shell (RSH), Secure Shell (SSH), and in some cases, Hypertext Transport Protocol (HTTP) access to the Cisco device.",
+                                "requiredAction":  "Apply updates per vendor instructions.",
+                                "dueDate":  "2023-06-09",
+                                "notes":  "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20040827-telnet"
+                            },
+                            {
+                                "cveID":  "CVE-2016-6415",
+                                "vendorProject":  "Cisco",
+                                "product":  "IOS, IOS XR, and IOS XE",
+                                "vulnerabilityName":  "Cisco IOS, IOS XR, and IOS XE IKEv1 Information Disclosure Vulnerability",
+                                "dateAdded":  "2023-05-19",
+                                "shortDescription":  "Cisco IOS, IOS XR, and IOS XE contain insufficient condition checks in the part of the code that handles Internet Key Exchange version 1 (IKEv1) security negotiation requests. contains an information disclosure vulnerability in the Internet Key Exchange version 1 (IKEv1) that could allow an attacker to retrieve memory contents. Successful exploitation could allow the attacker to retrieve memory contents, which can lead to information disclosure.",
+                                "requiredAction":  "Apply updates per vendor instructions.",
+                                "dueDate":  "2023-06-09",
+                                "notes":  "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20160916-ikev1"
+                            },
+                            {
+                                "cveID":  "CVE-2023-21492",
+                                "vendorProject":  "Samsung",
+                                "product":  "Mobile Devices",
+                                "vulnerabilityName":  "Samsung Mobile Devices Insertion of Sensitive Information Into Log File Vulnerability",
+                                "dateAdded":  "2023-05-19",
+                                "shortDescription":  "Samsung mobile devices running Android 11, 12, and 13 contain an insertion of sensitive information into log file vulnerability that allows a privileged, local attacker to conduct an address space layout randomization (ASLR) bypass.",
+                                "requiredAction":  "Apply updates per vendor instructions.",
+                                "dueDate":  "2023-06-09",
+                                "notes":  "https://security.samsungmobile.com/securityUpdate.smsb"
                             }
                         ]
 }
