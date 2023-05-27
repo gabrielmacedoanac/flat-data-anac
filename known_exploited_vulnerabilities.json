@@ -1,8 +1,8 @@
 {
     "title":  "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion":  "2023.05.25",
-    "dateReleased":  "2023-05-25T10:34:36.1029Z",
-    "count":  939,
+    "catalogVersion":  "2023.05.26",
+    "dateReleased":  "2023-05-26T11:43:57.8119Z",
+    "count":  940,
     "vulnerabilities":  [
                             {
                                 "cveID":  "CVE-2021-27104",
@@ -10332,6 +10332,17 @@
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2023-06-12",
                                 "notes":  "https://support.apple.com/HT213757, https://support.apple.com/HT213758, https://support.apple.com/HT213761, https://support.apple.com/HT213762, https://support.apple.com/HT213764, https://support.apple.com/HT213765"
+                            },
+                            {
+                                "cveID":  "CVE-2023-2868",
+                                "vendorProject":  "Barracuda Networks",
+                                "product":  "Email Security Gateway (ESG) Appliance",
+                                "vulnerabilityName":  "Barracuda Networks ESG Appliance Improper Input Validation Vulnerability",
+                                "dateAdded":  "2023-05-26",
+                                "shortDescription":  "Barracuda Email Security Gateway (ESG) appliance contains an improper input validation vulnerability of a user-supplied .tar file, leading to remote command injection.",
+                                "requiredAction":  "Apply updates per vendor instructions.",
+                                "dueDate":  "2023-06-16",
+                                "notes":  "https://status.barracuda.com/incidents/34kx82j5n4q9"
                             }
                         ]
 }
