@@ -1,8 +1,8 @@
 {
     "title":  "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion":  "2023.05.26",
-    "dateReleased":  "2023-05-26T11:43:57.8119Z",
-    "count":  940,
+    "catalogVersion":  "2023.05.31",
+    "dateReleased":  "2023-05-31T10:09:05.7760Z",
+    "count":  941,
     "vulnerabilities":  [
                             {
                                 "cveID":  "CVE-2021-27104",
@@ -10262,7 +10262,7 @@
                                 "product":  "Tomcat",
                                 "vulnerabilityName":  "Apache Tomcat Remote Code Execution Vulnerability",
                                 "dateAdded":  "2023-05-12",
-                                "shortDescription":  "Apache Tomcat contains an unspecified vulnerability that allows for remote code execution if JmxRemoteLifecycleListener is used and an attacker can reach Java Management Extension (JMX) ports. This CVE exists because this listener wasn\u0027t updated for consistency with the Oracle patched issues for CVE-2016-3427 which affected credential types.",
+                                "shortDescription":  "Apache Tomcat contains an unspecified vulnerability that allows for remote code execution if JmxRemoteLifecycleListener is used and an attacker can reach Java Management Extension (JMX) ports. This CVE exists because this listener wasn't updated for consistency with the Oracle patched issues for CVE-2016-3427 which affected credential types.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2023-06-02",
                                 "notes":  "https://tomcat.apache.org/security-9.html"
@@ -10343,6 +10343,17 @@
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2023-06-16",
                                 "notes":  "https://status.barracuda.com/incidents/34kx82j5n4q9"
+                            },
+                            {
+                                "cveID":  "CVE-2023-28771",
+                                "vendorProject":  "Zyxel",
+                                "product":  "Multiple Firewalls",
+                                "vulnerabilityName":  "Zyxel Multiple Firewalls OS Command Injection Vulnerability",
+                                "dateAdded":  "2023-05-31",
+                                "shortDescription":  "Zyxel ATP, USG FLEX, VPN, and ZyWALL/USG firewalls allow for improper error message handling which could allow an unauthenticated attacker to execute OS commands remotely by sending crafted packets to an affected device.",
+                                "requiredAction":  "Apply updates per vendor instructions.",
+                                "dueDate":  "2023-06-21",
+                                "notes":  "https://www.zyxel.com/global/en/support/security-advisories/zyxel-security-advisory-for-remote-command-injection-vulnerability-of-firewalls"
                             }
                         ]
 }
