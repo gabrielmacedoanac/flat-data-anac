@@ -1,8 +1,8 @@
 {
     "title":  "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion":  "2023.05.31",
-    "dateReleased":  "2023-05-31T10:09:05.7760Z",
-    "count":  941,
+    "catalogVersion":  "2023.06.02",
+    "dateReleased":  "2023-06-02T12:48:26.5864Z",
+    "count":  942,
     "vulnerabilities":  [
                             {
                                 "cveID":  "CVE-2021-27104",
@@ -637,7 +637,7 @@
                                 "product":  "HyperFlex HX",
                                 "vulnerabilityName":  "Cisco HyperFlex HX Data Platform Command Injection Vulnerability",
                                 "dateAdded":  "2021-11-03",
-                                "shortDescription":  "Cisco HyperFlex HX Installer Virtual Machine contains an insufficient input validation vulnerability which could allow an attacker to execute commands on an affected device as the�tomcat8�user.",
+                                "shortDescription":  "Cisco HyperFlex HX Installer Virtual Machine contains an insufficient input validation vulnerability which could allow an attacker to execute commands on an affected device as the tomcat8 user.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2021-11-17",
                                 "notes":  ""
@@ -10354,6 +10354,17 @@
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2023-06-21",
                                 "notes":  "https://www.zyxel.com/global/en/support/security-advisories/zyxel-security-advisory-for-remote-command-injection-vulnerability-of-firewalls"
+                            },
+                            {
+                                "cveID":  "CVE-2023-34362",
+                                "vendorProject":  "Progress",
+                                "product":  "MOVEit Transfer",
+                                "vulnerabilityName":  "Progress MOVEit Transfer SQL Injection Vulnerability",
+                                "dateAdded":  "2023-06-02",
+                                "shortDescription":  "Progress MOVEit Transfer contains a SQL injection vulnerability that could allow an unauthenticated attacker to gain unauthorized access to MOVEit Transfer\u0027s database. Depending on the database engine being used (MySQL, Microsoft SQL Server, or Azure SQL), an attacker may be able to infer information about the structure and contents of the database in addition to executing SQL statements that alter or delete database elements.",
+                                "requiredAction":  "Apply updates per vendor instructions.",
+                                "dueDate":  "2023-06-23",
+                                "notes":  "https://community.progress.com/s/article/MOVEit-Transfer-Critical-Vulnerability-31May2023"
                             }
                         ]
 }
