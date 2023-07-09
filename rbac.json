@@ -44,7 +44,7 @@
     "tornada_sem_efeito": "", 
     "alterada": "", 
     "data": "11/06/2021", 
-    "outros": "", 
+    "outros": "<a class=\"external-link\" href=\"https://www.anac.gov.br/assuntos/legislacao/legislacao-1/portarias/2023/portaria-11784\" target=\"_blank\" title=\"\">Compêndio de Elementos de Fiscalização - CEF (em vigor em 1º de agosto de 2023)</a>", 
     "tipo_normatico": "RBAC", 
     "publicacao": "12/02/2021", 
     "revogada": "", 
@@ -713,5 +713,44 @@
     "revogada": "", 
     "em_vigor": "Em vigor em 2 de outubro de 2023", 
     "anexos": ", https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-137-emd-05@@download/anexo_norma/CEF RBAC 137.pdf"
+  }, 
+  {
+    "ementa": "Operações de transporte aéreo público com aviões com configuração máxima certificada de assentos para passageiros de mais 19 assentos ou capacidade máxima de carga paga acima de 3.400 kg", 
+    "norma": "RBAC 121 EMD 19", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "05/07/2023", 
+    "outros": "", 
+    "tipo_normatico": "RBAC", 
+    "publicacao": "07/07/2023", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 1º de agosto de 2023", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Operações de transporte aéreo público com aviões com configuração máxima certificada de assentos para passageiros de mais 19 assentos ou capacidade máxima de carga paga acima de 3.400 kg", 
+    "norma": "RBAC 121 EMD 19", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "05/07/2023", 
+    "outros": "", 
+    "tipo_normatico": "Portaria", 
+    "publicacao": "07/07/2023", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 1º de janeiro de 2024", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Organizações de manutenção de produto aeronáutico", 
+    "norma": "RBAC 145 EMD 09", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "05/07/2023", 
+    "outros": "", 
+    "tipo_normatico": "RBAC", 
+    "publicacao": "07/07/2023", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 1º de dezembro de 2023", 
+    "anexos": ""
   }
 ]
