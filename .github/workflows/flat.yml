@@ -24,7 +24,7 @@ jobs:
         uses: githubocto/flat@v3
         with:
           http_url:  https://sistemas.anac.gov.br/dadosabertos/Aeronaves/ProdutosAeronauticosCertificadosnoBrasil/ProdutosAeronauticos_Fabricantes.json
-          downloaded_filename: /anac/produtos-aeronauticos-fabricantes.json
+          downloaded_filename: anac/produtos-aeronauticos-fabricantes.json
       - name: Fetch data
         uses: githubocto/flat@v3
         with:
