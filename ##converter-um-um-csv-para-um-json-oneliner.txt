@@ -1,5 +1,0 @@
-## Aplicando one-liner para converter csv para json 
-## https://stackoverflow.com/questions/18531624/convert-csv-to-json-in-python
-## https://wiki.python.org/moin/Powerful%20Python%20One-Liners
-
-python -c "import csv,json;print json.dumps(list(csv.reader(open('csv_file.csv'))))"

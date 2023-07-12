@@ -1,4 +1,4 @@
-# Wokflow para baixar dados abertos da ANAC uma vez por dia, de segunda a sexta, às 08 UTC
+# Wokflow para baixar dados abertos da ANAC de segunda a sexta, das 03 as 06 da manhã.
 
 name: flat-data-anac
 on:
@@ -24,7 +24,7 @@ jobs:
         uses: githubocto/flat@v3
         with:
           http_url:  https://sistemas.anac.gov.br/dadosabertos/Aeronaves/ProdutosAeronauticosCertificadosnoBrasil/ProdutosAeronauticos_Fabricantes.json
-          downloaded_filename: produtos-aeronauticos-fabricantes.json
+          downloaded_filename: /anac/produtos-aeronauticos-fabricantes.json
       - name: Fetch data
         uses: githubocto/flat@v3
         with:
