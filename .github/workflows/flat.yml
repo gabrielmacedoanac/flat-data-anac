@@ -170,11 +170,11 @@ jobs:
         with:
           http_url: https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json
           downloaded_filename: known_exploited_vulnerabilities.json
-      - name: Fetch data
-        uses: githubocto/flat@v3
-        with:          
-          http_url: https://cve.mitre.org/data/downloads/allitems.csv
-          downloaded_filename: cve_vulnerabilities.csv
+# large files      - name: Fetch data
+# large files        uses: githubocto/flat@v3
+# large files        with:          
+# large files          http_url: https://cve.mitre.org/data/downloads/allitems.csv
+# large files          downloaded_filename: cve_vulnerabilities.csv
       - name: Fetch data
         uses: githubocto/flat@v3
         with:
