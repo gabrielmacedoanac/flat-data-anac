@@ -538,7 +538,7 @@
     "tornada_sem_efeito": "", 
     "alterada": "", 
     "data": "26/01/2023", 
-    "outros": "<a class=\"external-link\" href=\"https://www.anac.gov.br/assuntos/legislacao/legislacao-1/portarias/2023/portaria-10865\" target=\"_blank\" title=\"\">Compêndio de Elementos de Fiscalização - CEF", 
+    "outros": "Ver também:\r\n-<a class=\"external-link\" href=\"https://www.anac.gov.br/assuntos/legislacao/legislacao-1/portarias/2023/portaria-10865\" target=\"_blank\" title=\"\">Compêndio de Elementos de Fiscalização - CEF", 
     "tipo_normatico": "RBAC", 
     "publicacao": "30/01/2023", 
     "revogada": "", 
@@ -637,19 +637,6 @@
     "anexos": ""
   }, 
   {
-    "ementa": "Operações de transporte aéreo público com aviões com configuração máxima certificada de assentos para passageiros de mais 19 assentos ou capacidade máxima de carga paga acima de 3.400 kg", 
-    "norma": "RBAC 121 EMD 18", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "26/04/2023", 
-    "outros": "", 
-    "tipo_normatico": "RBAC", 
-    "publicacao": "28/04/2023", 
-    "revogada": "", 
-    "em_vigor": "Versão em vigor em 1º de janeiro de 2024", 
-    "anexos": ""
-  }, 
-  {
     "ementa": "Operações de transporte aéreo público com aviões com configuração máxima certificada de assentos para passageiros de até 19 assentos e capacidade máxima de carga paga de até 3.400 kg (7.500 lb), ou helicópteros", 
     "norma": "RBAC 135 EMD 13", 
     "tornada_sem_efeito": "", 
@@ -686,19 +673,6 @@
     "publicacao": "28/04/2023", 
     "revogada": "", 
     "em_vigor": "Em vigor em 1º de junho de 2023", 
-    "anexos": ""
-  }, 
-  {
-    "ementa": "Operações de transporte aéreo público com aviões com configuração máxima certificada de assentos para passageiros de mais 19 assentos ou capacidade máxima de carga paga acima de 3.400 kg", 
-    "norma": "RBAC 121 EMD 18", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "26/04/2023", 
-    "outros": "<a class=\"external-link\" href=\"https://www.anac.gov.br/assuntos/legislacao/legislacao-1/portarias/2023/portaria-10854\">Compêndio de Elementos de Fiscalização - CEF", 
-    "tipo_normatico": "RBAC", 
-    "publicacao": "28/04/2023", 
-    "revogada": "", 
-    "em_vigor": "Versão em vigor em 1º de junho de 2023", 
     "anexos": ""
   }, 
   {
@@ -751,6 +725,32 @@
     "publicacao": "07/07/2023", 
     "revogada": "", 
     "em_vigor": "Em vigor em 1º de dezembro de 2023", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Definições, regras de redação e unidades de medida para uso nos normativos da ANAC", 
+    "norma": "RBAC 01 EMD 14", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "02/08/2023", 
+    "outros": "", 
+    "tipo_normatico": "RBAC", 
+    "publicacao": "07/08/2023", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 1º de setembro de 2023", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Certificação: Operadores de Serviço de Transporte Aéreo", 
+    "norma": "RBAC 119 EMD 09", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "02/08/2023", 
+    "outros": "", 
+    "tipo_normatico": "RBAC", 
+    "publicacao": "07/08/2023", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 1º de setembro de 2023", 
     "anexos": ""
   }
 ]
