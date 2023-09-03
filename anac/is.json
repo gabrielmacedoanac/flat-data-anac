@@ -754,19 +754,6 @@
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-00-001@@download/arquivo_norma/IS00-001B.pdf"
   }, 
   {
-    "ementa": "Procedimentos gerais para elaboração, aprovação, revisão e utilização de programas de treinamento operacional (PTO) de operadores aéreos regidos pelo RBAC nº 121.", 
-    "norma": "IS 121-006C", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "19/02/2021", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "19/02/2021", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 1º de março de 2021.", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-121-006@@download/arquivo_norma/IS121-006C.pdf"
-  }, 
-  {
     "ementa": "Procedimentos para elaboração de programa de treinamento operacional de despachantes operacionais de voo segundo o RBAC nº 121.", 
     "norma": "IS 121-008A", 
     "tornada_sem_efeito": "", 
@@ -973,19 +960,6 @@
     "revogada": "", 
     "em_vigor": "", 
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-137-002@@download/arquivo_norma/IS137-002C.pdf"
-  }, 
-  {
-    "ementa": "Processo de credenciamento de pessoa física na SAR e de examinador de MMA, e orientações de atuação para os profissionais credenciados", 
-    "norma": "IS 183-002G", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "26/04/2022", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "03/05/2022", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 1º de junho de 2022", 
-    "anexos": ""
   }, 
   {
     "ementa": "Orientações relativas a equipamentos dispersores.", 
@@ -1820,19 +1794,6 @@
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-91-013@@download/arquivo_norma/IS91-013A.pdf"
   }, 
   {
-    "ementa": "Orientações sobre certificação de tipo", 
-    "norma": "IS 21-001A", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "04/11/2021", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "12/11/2021", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 1º de dezembro de 2021.", 
-    "anexos": ""
-  }, 
-  {
     "ementa": "Procedimentos para autorização para operações de helicópteros com carga externa segundo o RBAC nº 133.", 
     "norma": "IS 133-001A", 
     "tornada_sem_efeito": "", 
@@ -2067,19 +2028,6 @@
     "anexos": ""
   }, 
   {
-    "ementa": "Classificação de alterações em aeronaves e processo de aprovação simplificada de dados técnicos para grandes alterações", 
-    "norma": "IS 20-001A", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "02/06/2022", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "25/08/2022", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 1º de setembro de 2022", 
-    "anexos": ""
-  }, 
-  {
     "ementa": "Seleção de aeródromos de alternativa, suprimento de combustível e óleo lubrificante e requisitos de condições meteorológicas", 
     "norma": "IS 135-006A", 
     "tornada_sem_efeito": "", 
@@ -2101,19 +2049,6 @@
     "outros": "", 
     "tipo_normatico": "IS", 
     "publicacao": "21/09/2022", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 3 de outubro de 2022", 
-    "anexos": ""
-  }, 
-  {
-    "ementa": "Certificado de aeronavegabilidade para aeronaves categoria leve esportiva / Airworthiness certificate for light sport category aircraft", 
-    "norma": "IS 21-007A", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "20/09/2022", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "23/09/2022", 
     "revogada": "", 
     "em_vigor": "Em vigor em 3 de outubro de 2022", 
     "anexos": ""
@@ -2285,19 +2220,6 @@
     "publicacao": "30/12/2022", 
     "revogada": "", 
     "em_vigor": "", 
-    "anexos": ""
-  }, 
-  {
-    "ementa": "Procedimentos para a aprovação de produtos aeronáuticos civis estrangeiros e importação de quaisquer produtos aeronáuticos civis / Procedures for approval of foreign civil aeronautical products and import of any civil aeronautical product", 
-    "norma": "IS 21-010F", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "02/01/2023", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "10/01/2023", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 1º de fevereiro de 2023", 
     "anexos": ""
   }, 
   {
@@ -2857,6 +2779,19 @@
     "publicacao": "25/08/2023", 
     "revogada": "", 
     "em_vigor": "", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Lista de equipamentos e acessórios de aeronave considerados não essenciais", 
+    "norma": "IS 118-001B", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "25/08/2023", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "30/08/2023", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 2 de outubro de 2023", 
     "anexos": ""
   }
 ]
