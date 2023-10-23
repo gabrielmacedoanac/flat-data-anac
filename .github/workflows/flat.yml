@@ -90,11 +90,11 @@ jobs:
         with:
           http_url: https://sistemas.anac.gov.br/dadosabertos/Organiza%C3%A7%C3%B5es%20de%20Manuten%C3%A7%C3%A3o/Oficinas%20de%20Manuten%C3%A7%C3%A3o/OrganizacoesDeManutencao.json
           downloaded_filename: anac/oficinas.json
-      - name: Fetch data
-        uses: githubocto/flat@v3
-        with:
-          http_url: https://sistemas.anac.gov.br/dadosabertos/Pessoal%20da%20Avia%C3%A7%C3%A3o%20Civil/Profissionais%20Credenciados/ProfissionaisCredenciados.json
-          downloaded_filename: anac/profissionais-credenciados.json
+#      - name: Fetch data
+#        uses: githubocto/flat@v3
+#        with:
+#          http_url: https://sistemas.anac.gov.br/dadosabertos/Pessoal%20da%20Avia%C3%A7%C3%A3o%20Civil/Profissionais%20Credenciados/ProfissionaisCredenciados.json
+#          downloaded_filename: anac/profissionais-credenciados.json
 #      - name: Fetch data
 #        uses: githubocto/flat@v3
 #        with:
