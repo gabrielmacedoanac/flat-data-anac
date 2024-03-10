@@ -260,19 +260,6 @@
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-136@@download/arquivo_norma/RBAC136EMD00.pdf"
   }, 
   {
-    "ementa": "Certificação de produto e artigo aeronáuticos", 
-    "norma": "RBAC 21 EMD 09", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "13/07/2022", 
-    "outros": "", 
-    "tipo_normatico": "RBAC", 
-    "publicacao": "15/07/2022", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 1º de outubro de 2022", 
-    "anexos": ", https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-21@@download/anexo_norma/CEF RBAC 21.pdf"
-  }, 
-  {
     "ementa": "Manutenção, manutenção preventiva, reconstrução e alteração.", 
     "norma": "RBAC 43 EMD 05", 
     "tornada_sem_efeito": "", 
@@ -352,7 +339,7 @@
   }, 
   {
     "ementa": "Requisitos para emissões de CO2 de aviões", 
-    "norma": "RBAC 38 EMD 0", 
+    "norma": "RBAC 38 EMD 01", 
     "tornada_sem_efeito": "", 
     "alterada": "", 
     "data": "03/02/2022", 
@@ -369,12 +356,12 @@
     "tornada_sem_efeito": "", 
     "alterada": "", 
     "data": "21/09/2022", 
-    "outros": "<a class=\"external-link\" href=\"https://www.anac.gov.br/assuntos/legislacao/legislacao-1/portarias/2022/portaria-9386\" target=\"_blank\" title=\"\">Compêndio de Elementos de Fiscalização - CEF", 
+    "outros": "", 
     "tipo_normatico": "RBAC", 
     "publicacao": "26/09/2022", 
     "revogada": "", 
     "em_vigor": "Em vigor em 3 de outubro de 2022", 
-    "anexos": ""
+    "anexos": ", https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-139@@download/anexo_norma/CEF e Perguntas e Respostas - RBAC 139 EMD 06.zip"
   }, 
   {
     "ementa": "Requisitos de aeronavegabilidade: balões livres tripulados.", 
@@ -409,19 +396,6 @@
     "alterada": "", 
     "data": "26/01/2022", 
     "outros": "<a class=\"external-link\" href=\"https://www.anac.gov.br/assuntos/legislacao/legislacao-1/portarias/2023/portaria-10864\">Compêndio de Elementos de Fiscalização - CEF", 
-    "tipo_normatico": "RBAC", 
-    "publicacao": "30/01/2023", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 31 de março de 2023", 
-    "anexos": ""
-  }, 
-  {
-    "ementa": "Segurança da Aviação Civil Contra Atos de Interferência Ilícita – Operador de Aeródromo", 
-    "norma": "RBAC 107 EMD 08", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "26/01/2023", 
-    "outros": "Ver também:\r\n-<a class=\"external-link\" href=\"https://www.anac.gov.br/assuntos/legislacao/legislacao-1/portarias/2023/portaria-10865\" target=\"_blank\" title=\"\">Compêndio de Elementos de Fiscalização - CEF", 
     "tipo_normatico": "RBAC", 
     "publicacao": "30/01/2023", 
     "revogada": "", 
@@ -595,7 +569,7 @@
     "publicacao": "25/01/2024", 
     "revogada": "", 
     "em_vigor": "Em vigor em 1º de março de 2024", 
-    "anexos": ""
+    "anexos": ", https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-107@@download/anexo_norma/CEF 107.pdf"
   }, 
   {
     "ementa": "Segurança da Aviação Civil Contra Atos de Interferência Ilícita – Operador Aéreo", 
@@ -659,7 +633,7 @@
     "tipo_normatico": "RBAC", 
     "publicacao": "", 
     "revogada": "", 
-    "em_vigor": "Eem vigor em 1º de março de 2024", 
+    "em_vigor": "Em vigor em 1º de março de 2024", 
     "anexos": ""
   }, 
   {
