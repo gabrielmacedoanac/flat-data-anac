@@ -1934,7 +1934,7 @@
     "publicacao": "08/12/2022", 
     "revogada": "", 
     "em_vigor": "Em vigor em 2 de janeiro de 2023", 
-    "anexos": ""
+    "anexos": ", https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-129-001@@download/anexo_norma/IS 129-001C - English version.pdf"
   }, 
   {
     "ementa": "Aviões categoria normal, utilidade, acrobática e transporte regional, modificados para transporte de carga", 
@@ -2766,6 +2766,32 @@
     "publicacao": "", 
     "revogada": "", 
     "em_vigor": "Em vigor em 1º de março de 2024", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Manual da Organização de Manutenção e Manual de Controle da Qualidade", 
+    "norma": "IS 145-009E", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "06/03/2024", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "12/03/2024", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 1º de abril de 2024", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Certificação de organizações de manutenção domésticas", 
+    "norma": "IS 145-001G", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "06/03/2024", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "12/03/2024", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 1º de abril de 2024", 
     "anexos": ""
   }
 ]
