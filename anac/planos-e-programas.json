@@ -3,14 +3,14 @@
     "ementa": "Programa de Segurança Operacional Específico da Agência Nacional de Aviação Civil.", 
     "norma": "PSOE - ANAC", 
     "tornada_sem_efeito": "", 
-    "alterada": "", 
+    "alterada": "Resolução nº 716, de 13.06.2023", 
     "data": "18/02/2015", 
     "outros": "", 
     "tipo_normatico": "PSOE - ANAC", 
-    "publicacao": "", 
+    "publicacao": "18/02/2015", 
     "revogada": "", 
     "em_vigor": "", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/planos-e-programas/psoe-anac@@download/arquivo_norma/PSOE-ANAC.pdf"
+    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/planos-e-programas/psoe-anac@@download/arquivo_norma/PSOE-ANAC - Compilado até RA2023-0716.pdf"
   }, 
   {
     "ementa": "Programa de Avaliação Dimensional – Selo ANAC.", 
@@ -50,19 +50,6 @@
     "revogada": "", 
     "em_vigor": "", 
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/planos-e-programas/pniavsec@@download/arquivo_norma/RA2008-0063Novo.pdf"
-  }, 
-  {
-    "ementa": "Programa de Segurança Operacional Específico da Agência Nacional de Aviação Civil.\r\nArquivo substituído em 03/07/2009, por conter erro de numeração nos artigos na versão original.", 
-    "norma": "PSOE - ANAC", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "11/03/2009", 
-    "outros": "", 
-    "tipo_normatico": "PSOE - ANAC", 
-    "publicacao": "", 
-    "revogada": "", 
-    "em_vigor": "", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/planos-e-programas/psoe-anac-1@@download/arquivo_norma/PSOE-ANAC_versao_4.pdf"
   }, 
   {
     "ementa": "Programa Nacional de Segurança da Aviação Civil Contra Atos de Interferência Ilícita (PNAVSEC).", 
