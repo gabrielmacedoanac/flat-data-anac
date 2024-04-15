@@ -234,6 +234,19 @@
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-135-004@@download/arquivo_norma/IS135-004A.pdf"
   }, 
   {
+    "ementa": "Emissão de Certificado de Autorização de Voo Experimental para veículos aéreos não tripulados", 
+    "norma": "IS 21-002A", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "01/01/2014", 
+    "outros": "Retificado no DOU de 23/10/2012", 
+    "tipo_normatico": "IS", 
+    "publicacao": "05/10/2012", 
+    "revogada": "", 
+    "em_vigor": "", 
+    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-21-002@@download/arquivo_norma/IS 21-002A.pdf"
+  }, 
+  {
     "ementa": "Extintores de incêndio portáteis", 
     "norma": "IS 20-003B", 
     "tornada_sem_efeito": "", 
@@ -780,19 +793,6 @@
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-121-010@@download/arquivo_norma/IS121-010A.pdf"
   }, 
   {
-    "ementa": "Instruções para preenchimento completo e adequado do Conhecimento de Transporte eletrônico - CT-e - e do Manifesto de Documentos Fiscais eletrônico - MDF-e.", 
-    "norma": "IS 175-003D", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "17/03/2021", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "17/03/2021", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 1º de abril de 2021.", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-175-003@@download/arquivo_norma/IS175-003D.pdf"
-  }, 
-  {
     "ementa": "Orientações para solicitação e obtenção de aprovação (approval) e isenção (exemption) para transporte de artigos perigosos por via aérea.", 
     "norma": "IS 175-008C", 
     "tornada_sem_efeito": "", 
@@ -884,19 +884,6 @@
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-137-001@@download/arquivo_norma/IS137-001C.pdf"
   }, 
   {
-    "ementa": "Manual de Artigos Perigosos – MAP.", 
-    "norma": "IS 175-006D", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "29/03/2021", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "14/04/2021", 
-    "revogada": "", 
-    "em_vigor": "", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-175-006@@download/arquivo_norma/IS175-006D.pdf"
-  }, 
-  {
     "ementa": "Declaração do expedidor para artigos perigosos.", 
     "norma": "IS 175-011B", 
     "tornada_sem_efeito": "", 
@@ -928,12 +915,12 @@
     "tornada_sem_efeito": "", 
     "alterada": "", 
     "data": "05/04/2018", 
-    "outros": "", 
+    "outros": "Retificado no DOU de 09.04.2024, Seção 1, página 78", 
     "tipo_normatico": "IS", 
     "publicacao": "05/04/2019", 
     "revogada": "", 
     "em_vigor": "", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-43-012@@download/arquivo_norma/IS43-012B.pdf"
+    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-43-012@@download/arquivo_norma/IS43-012B - Retificado 09.04.2024 .pdf"
   }, 
   {
     "ementa": "Aprovação de aeronavegabilidade para exportação", 
@@ -1480,19 +1467,6 @@
     "revogada": "", 
     "em_vigor": "Em vigor em 1º de março de 2021.", 
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-154-201-001@@download/arquivo_norma/IS154.201-001A.pdf"
-  }, 
-  {
-    "ementa": "Aprovação de projeto de embalagem para transporte aéreo de artigos perigosos e aprovação de produção", 
-    "norma": "IS 175-012B", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "15/03/2022", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "23/03/2022", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 1º de abril de 2022, exceto as seções 5.2, 5.3 e 5.4, que serão aplicáveis somente a partir de 2 de maio de 2022", 
-    "anexos": ""
   }, 
   {
     "ementa": "Identificação dos perigos, monitoramento e implementação de técnicas de manejo de fauna.", 
@@ -2080,19 +2054,6 @@
     "anexos": ""
   }, 
   {
-    "ementa": "Processo de credenciamento de instrutores de artigos perigosos", 
-    "norma": "IS 175-013B", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "22/03/2023", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "27/03/2023", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 3 de abril de 2023", 
-    "anexos": ""
-  }, 
-  {
     "ementa": "Manutenção realizada por empresas de transporte aéreo", 
     "norma": "IS 120-016B", 
     "tornada_sem_efeito": "", 
@@ -2340,32 +2301,6 @@
     "anexos": ""
   }, 
   {
-    "ementa": "Programa de treinamento de artigos perigosos - PTAP", 
-    "norma": "IS 175-007E", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "21/07/2023", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "25/07/2023", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 1º de agosto de 2023", 
-    "anexos": ""
-  }, 
-  {
-    "ementa": "Treinamento de artigos perigosos para pessoal envolvido com processos relacionados ao transporte de passageiros, de carga aérea e de artigos perigosos por aeronaves civis", 
-    "norma": "IS 175-002I", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "21/07/2023", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "25/07/2023", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 1º de agosto de 2023", 
-    "anexos": ""
-  }, 
-  {
     "ementa": "Procedimentos para a aprovação de produtos aeronáuticos civis estrangeiros e importação de quaisquer produtos aeronáuticos civis / Procedures for approval of foreign civil aeronautical products and import of any civil aeronautical product", 
     "norma": "IS 21-010G", 
     "tornada_sem_efeito": "", 
@@ -2468,19 +2403,6 @@
     "revogada": "", 
     "em_vigor": "Em vigor em 2 de outubro de 2023", 
     "anexos": ""
-  }, 
-  {
-    "ementa": "Transporte de artigos perigosos em aeronaves civis", 
-    "norma": "IS 175-001J", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "08/08/2023", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "14/09/2023", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 2 de outubro de 2023", 
-    "anexos": ", https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-175-001@@download/anexo_norma/IS_175_001J.pdf"
   }, 
   {
     "ementa": "Procedimentos para elaboração, revisão e utilização do Manual Geral de Operações (MGO) de operadores aéreos regidos pelo RBAC nº 121", 
@@ -2634,32 +2556,6 @@
     "outros": "", 
     "tipo_normatico": "IS", 
     "publicacao": "17/11/2023", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 1º de dezembro de 2023", 
-    "anexos": ""
-  }, 
-  {
-    "ementa": "Certificação de organizações de manutenção domésticas", 
-    "norma": "IS 145-001F", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "21/11/2023", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "23/11/2023", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 1º de dezembro de 2023", 
-    "anexos": ""
-  }, 
-  {
-    "ementa": "Manual da Organização de Manutenção e Manual de Controle da Qualidade", 
-    "norma": "IS 145-009D", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "21/11/2023", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "23/11/2023", 
     "revogada": "", 
     "em_vigor": "Em vigor em 1º de dezembro de 2023", 
     "anexos": ""
@@ -2831,7 +2727,7 @@
     "publicacao": "27/03/2024", 
     "revogada": "", 
     "em_vigor": "Em vigor em 1º de abril de 2024", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-175-001k@@download/arquivo_norma/IS 175-001K.pdf"
+    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-175-001@@download/arquivo_norma/IS 175-001K.pdf"
   }, 
   {
     "ementa": "Instruções para preenchimento completo e adequado do Conhecimento de Transporte eletrônico - CT-e, do Manifesto de Documentos Fiscais eletrônico - MDF-e e do Documento Eletrônico de Transporte - DT-e", 
@@ -2870,7 +2766,7 @@
     "publicacao": "27/03/2024", 
     "revogada": "", 
     "em_vigor": "Em vigor em 1º de abril de 2024", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-175-006e@@download/arquivo_norma/IS 175-006E.pdf"
+    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-175-006@@download/arquivo_norma/IS 175-006E.pdf"
   }, 
   {
     "ementa": "Programa de treinamento de artigos perigosos - PTAP", 
@@ -2896,6 +2792,19 @@
     "publicacao": "03/04/2024", 
     "revogada": "", 
     "em_vigor": "Em vigor em 5 de abril de 2024", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Informações sobre procedimentos para aprovação de artigos aeronáuticos para aplicação em aeronaves, motores e hélices", 
+    "norma": "IS 21-005B", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "21/03/2024", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "09/04/2024", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 2 de maio de 2024", 
     "anexos": ""
   }
 ]
