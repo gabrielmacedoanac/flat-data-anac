@@ -187,12 +187,12 @@
     "tornada_sem_efeito": "", 
     "alterada": "", 
     "data": "19/03/2019", 
-    "outros": "<a class=\"external-link\" href=\"https://www.anac.gov.br/assuntos/legislacao/legislacao-1/portarias/2022/portaria-9999\" target=\"_blank\" title=\"\">Compêndio de Elementos de Fiscalização - CEF</a>", 
+    "outros": "", 
     "tipo_normatico": "RBAC", 
     "publicacao": "19/03/2019", 
     "revogada": "", 
     "em_vigor": "", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-117@@download/arquivo_norma/RBAC117EMD00.pdf"
+    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-117@@download/arquivo_norma/RBAC117EMD00.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-117@@download/anexo_norma/CEF RBAC nº 117.pdf"
   }, 
   {
     "ementa": "Requisitos para Operações Especiais de Aviação Pública", 
@@ -752,5 +752,18 @@
     "revogada": "", 
     "em_vigor": "Em vigor em 2 de janeiro de 2025", 
     "anexos": ""
+  }, 
+  {
+    "ementa": "Requisitos para gerenciamento de risco de fadiga humana", 
+    "norma": "RBAC 117 EMD 01", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "26/06/2024", 
+    "outros": "", 
+    "tipo_normatico": "RBAC", 
+    "publicacao": "28/06/2024", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 1º de agosto de 2024", 
+    "anexos": ", https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-117-emd-01@@download/anexo_norma/CEF RBAC nº 117.pdf"
   }
 ]
