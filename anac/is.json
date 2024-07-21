@@ -52,19 +52,6 @@
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-91-004@@download/arquivo_norma/IS 91-004 Revisão B.pdf"
   }, 
   {
-    "ementa": "Orientações para aplicação do método ACN-PCN.", 
-    "norma": "IS 153.103-001A", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "12/08/2016", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "12/08/2016", 
-    "revogada": "", 
-    "em_vigor": "", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-153-103-001@@download/arquivo_norma/IS153.103-001A.pdf"
-  }, 
-  {
     "ementa": "Método Alternativo de Cumprimento de uma Diretriz de Aeronavegabilidade.", 
     "norma": "IS 39.19-001A", 
     "tornada_sem_efeito": "", 
@@ -2792,6 +2779,19 @@
     "publicacao": "15/05/2024", 
     "revogada": "", 
     "em_vigor": "Em vigor em 1º de junho de 2024", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Orientações para aplicação do método ACR-PCR", 
+    "norma": "IS 154.111-001A", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "11/07/2024", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "15/07/2024", 
+    "revogada": "", 
+    "em_vigor": "", 
     "anexos": ""
   }
 ]
