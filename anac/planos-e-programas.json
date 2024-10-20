@@ -39,30 +39,30 @@
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/planos-e-programas/pso-br@@download/arquivo_norma/PSO_BR.PDF"
   }, 
   {
-    "ementa": "Programa Nacional de Instrução em Segurança da Aviação Civil – PNIAVSEC. ", 
-    "norma": "PNIAVSEC ", 
+    "ementa": "Programa Nacional de Instrução em Segurança da Aviação Civil – PNIAVSEC.", 
+    "norma": "PNIAVSEC", 
     "tornada_sem_efeito": "", 
     "alterada": "", 
-    "data": "27/11/2008", 
+    "data": "01/01/2014", 
     "outros": "", 
     "tipo_normatico": "PNAVSEC", 
     "publicacao": "", 
     "revogada": "", 
     "em_vigor": "", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/planos-e-programas/pniavsec@@download/arquivo_norma/RA2008-0063Novo.pdf"
+    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-110-emd-02"
   }, 
   {
     "ementa": "Programa Nacional de Segurança da Aviação Civil Contra Atos de Interferência Ilícita (PNAVSEC).", 
     "norma": "PNAVSEC", 
     "tornada_sem_efeito": "", 
     "alterada": "", 
-    "data": "05/05/2010", 
+    "data": "01/01/2014", 
     "outros": "", 
     "tipo_normatico": "PNAVSEC", 
     "publicacao": "", 
     "revogada": "", 
     "em_vigor": "", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/planos-e-programas/pnavsec@@download/arquivo_norma/DEC2010-7168 - PNAVSEC.mht"
+    "anexos": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/d11195.htm"
   }, 
   {
     "ementa": "Programa de Fomento à Certificação de Projetos de Aviões de Pequeno Porte.", 
@@ -117,19 +117,6 @@
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/planos-e-programas/davsec-no-03-2019@@download/arquivo_norma/davsec-03-2019a.pdf"
   }, 
   {
-    "ementa": "Estabelece a relação de aeródromos em que há a obrigatoriedade de realizar a inspeção de segurança das bagagens despachadas que partem de uma área restrita de segurança para seguir em voos domésticos e os prazos para aplicação da medida de segurança", 
-    "norma": "DAVSEC nº 04/2021 Revisão A", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "23/07/2021", 
-    "outros": "", 
-    "tipo_normatico": "PSOE - ANAC", 
-    "publicacao": "", 
-    "revogada": "", 
-    "em_vigor": "", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/planos-e-programas/davsec-no-04-2021@@download/arquivo_norma/DAVSEC042021A.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/planos-e-programas/davsec-no-04-2021@@download/anexo_norma/Perguntas e respostas DAVSEC 042021 rev T .vmn.pdf"
-  }, 
-  {
     "ementa": "Diretriz de Segurança da Aviação Civil contra Atos de Interferência Ilícita nº 05-2022 Revisão A - Medidas adicionais de segurança para voos com origem no Brasil e destino ao Catar durante a Copa do Mundo FIFA de 2022", 
     "norma": "DAVSEC Nº 05/2022 Revisão A", 
     "tornada_sem_efeito": "", 
@@ -180,5 +167,18 @@
     "revogada": "", 
     "em_vigor": "", 
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/planos-e-programas/davsec-01-2015@@download/arquivo_norma/DAVSEC 01-2015V.pdf"
+  }, 
+  {
+    "ementa": "Estabelece a relação de aeródromos em que há a obrigatoriedade de realizar a inspeção de segurança das bagagens despachadas que partem de uma área restrita de segurança para seguir em voos domésticos e os prazos para aplicação da medida de segurança", 
+    "norma": "DAVSEC Nº 04/2021 REVISÃO B", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "14/10/2024", 
+    "outros": "", 
+    "tipo_normatico": "CE/SC", 
+    "publicacao": "BPS V.19, Nº 42, 16/10/2024", 
+    "revogada": "", 
+    "em_vigor": "", 
+    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/planos-e-programas/davsec-04-2021@@download/arquivo_norma/DAVSEC 04-2021B.pdf"
   }
 ]

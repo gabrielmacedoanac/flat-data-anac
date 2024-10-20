@@ -2793,5 +2793,31 @@
     "revogada": "", 
     "em_vigor": "", 
     "anexos": ""
+  }, 
+  {
+    "ementa": "Conceitos básicos sobre fadiga humana", 
+    "norma": "IS 117-001A", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "11/10/2024", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "BPS V.19, Nº 42, 15/10/2024", 
+    "revogada": "", 
+    "em_vigor": "", 
+    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-117-001a@@download/arquivo_norma/IS 117-001A.pdf"
+  }, 
+  {
+    "ementa": "Gerenciamento de risco da fadiga para operadores aeromédicos", 
+    "norma": "IS 117-006A", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "11/10/2024", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "BPS V.19, Nº 42, 15/10/2024", 
+    "revogada": "", 
+    "em_vigor": "", 
+    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-117-006a@@download/arquivo_norma/IS 117-006A.pdf"
   }
 ]
