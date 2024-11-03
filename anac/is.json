@@ -2627,15 +2627,15 @@
   }, 
   {
     "ementa": "Certificação de organizações de manutenção domésticas", 
-    "norma": "IS 145-001G", 
+    "norma": "IS 145-001H", 
     "tornada_sem_efeito": "", 
     "alterada": "", 
-    "data": "06/03/2024", 
+    "data": "24/10/2024", 
     "outros": "", 
     "tipo_normatico": "IS", 
-    "publicacao": "12/03/2024", 
+    "publicacao": "01/11/2024", 
     "revogada": "", 
-    "em_vigor": "Em vigor em 1º de abril de 2024", 
+    "em_vigor": "", 
     "anexos": ""
   }, 
   {
@@ -2819,5 +2819,18 @@
     "revogada": "", 
     "em_vigor": "", 
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-117-006a@@download/arquivo_norma/IS 117-006A.pdf"
+  }, 
+  {
+    "ementa": "Gerenciamento de risco da fadiga (GRF) para operações sob Apêndice E – Operações privadas em aviões a jato, com 2 ou mais pilotos", 
+    "norma": "IS 117-007A", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "22/10/2024", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "29/10/2024", 
+    "revogada": "", 
+    "em_vigor": "", 
+    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-117-007@@download/arquivo_norma/IS117-007A.pdf"
   }
 ]
