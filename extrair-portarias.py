@@ -119,7 +119,7 @@ if dados_tabela:
     # Aplica a extração da data à coluna "Norma" e cria a nova coluna "Data"
     df['Data'] = df['Norma'].apply(extrair_data)
 
-    # **Verifica se a coluna "Data" ainda possui valores NaN e extrai da coluna "Publicação" se necessário**
+    # Verifica se a coluna "Data" ainda possui valores NaN e extrai da coluna "Publicação" se necessário
     df.loc[pd.isna(df['Data']), 'Data'] = df.loc[pd.isna(df['Data']), 'Publicação'].apply(extrair_data)
 
     # Converte a coluna "Data" para o formato de dados "Date"
@@ -167,13 +167,12 @@ if dados_tabela:
             ]
             linhas.append("| " + " | ".join(linha_formatada) + " |")
 
-        # Escreve o conteúdo no arquivo
+        # Escreve o conteúdo no arquivo no repositório
         with open(nome_arquivo, "w") as f:
             f.write("\n".join(linhas))
 
-    # Salva o arquivo no repositório GitHub
+    # Exemplo de uso
     exportar_markdown_simples(df, "portarias-anac.md")
-
 
 else:
     print("Nenhuma tabela foi extraída.")
