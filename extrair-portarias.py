@@ -1,9 +1,11 @@
 import asyncio
 import aiohttp
 import pandas as pd
+from pandas.io.formats.style import Styler
 import re
 from bs4 import BeautifulSoup
 import os
+import json
 
 # Prefixo de URL a ser buscada
 prefixo_url = "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/portarias/"
@@ -101,6 +103,72 @@ if dados_tabela:
         print(f"Arquivo CSV gerado com sucesso: {nome_arquivo}")
 
     exportar_csv(df, "portarias-anac.csv")
+
+    # Exporta para TSV
+    def exportar_tsv(df, nome_arquivo):
+        df.to_csv(nome_arquivo, sep='\t', index=False)
+        print(f"Arquivo TSV gerado com sucesso: {nome_arquivo}")
+
+    exportar_tsv(df, "portarias-anac.tsv")
+
+    # Exporta para JSON
+    def exportar_json(df, nome_arquivo):
+        # Cria uma lista de dicionários
+        dados_json = []
+
+        for _, row in df.iterrows():
+            linha_dict = {}
+            for col in df.columns:
+                valor = row[col]
+
+                # Verifica se o valor contém links (mais de um link na célula)
+                if isinstance(valor, str) and '(' in valor and ')' in valor:
+                    # Divide os links presentes na célula
+                    links = re.findall(r'\[([^\]]+)\]\(([^)]+)\)', valor)
+                    linha_dict[col] = [{'titulo': texto, 'url': url} for texto, url in links]
+                else:
+                    linha_dict[col] = valor
+
+            dados_json.append(linha_dict)
+
+        # Salva o arquivo JSON
+        with open(nome_arquivo, 'w', encoding='utf-8') as f:
+            json.dump(dados_json, f, ensure_ascii=False, indent=4)
+
+        print(f"Arquivo JSON gerado com sucesso: {nome_arquivo}")
+
+    exportar_json(df, "portarias-anac.json")
+
+
+    # Salva o arquivo em html
+    def exportar_html(df, nome_arquivo):
+        # Cria uma cópia do DataFrame para evitar modificações diretas no original
+        df_copy = df.copy()
+
+        # Função para formatar células com links
+        def formatar_links(celula):
+            # Se houver múltiplos links, separa-os e adiciona o título de cada link
+            if isinstance(celula, str) and '[' in celula and ']' in celula and '(' in celula and ')' in celula:
+                # Identifica os links no formato Markdown
+                links = re.findall(r'\[([^\]]+)\]\(([^)]+)\)', celula)
+                # Formata cada link no formato HTML <a href="URL">Título</a>
+                return " ".join([f'<a href="{url}">{titulo}</a>' for titulo, url in links])
+            return celula
+
+        # Aplica a formatação de links a todo o DataFrame
+        df_copy = df_copy.applymap(formatar_links)
+
+        # Converte o DataFrame para HTML
+        html = df_copy.to_html(index=False, escape=False)
+
+        # Salva o HTML em um arquivo
+        with open(nome_arquivo, "w") as f:
+            f.write(html)
+
+        print(f"Arquivo HTML gerado com sucesso: {nome_arquivo}")
+
+    # Exemplo de uso
+    exportar_html(df, "portarias-anac.html")
 
 else:
     print("Nenhuma tabela foi extraída.")
