@@ -172,7 +172,7 @@ if dados_tabela:
             f.write("\n".join(linhas))
 
     # Salva o arquivo no repositório GitHub
-    exportar_markdown_simples(df, "tabela_gerada.md")
+    exportar_markdown_simples(df, "portarias-anac.md")
 
 
 else:
