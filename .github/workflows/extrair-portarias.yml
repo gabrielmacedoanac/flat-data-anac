@@ -32,6 +32,6 @@ jobs:
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
-          git add portarias-anac.md
+          git add portarias-anac.md portarias-anac.csv portarias-anac.html portarias-anac.json portarias-anac.tsv
           git commit -m "Atualizar portarias ANAC"
           git push
