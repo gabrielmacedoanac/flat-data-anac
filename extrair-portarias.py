@@ -174,5 +174,6 @@ if dados_tabela:
     # Salva o arquivo no repositório GitHub
     exportar_markdown_simples(df, "tabela_gerada.md")
 
+
 else:
     print("Nenhuma tabela foi extraída.")
