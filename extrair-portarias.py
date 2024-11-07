@@ -1,110 +1,178 @@
+## Extrair dados das portarias da ANAC da área de legislação no site e gerar uma tabela em Markdown
+
 import asyncio
 import aiohttp
 import pandas as pd
 import re
 from bs4 import BeautifulSoup
 
-prefixo_url = 'https://www.anac.gov.br/assuntos/legislacao/legislacao-1/portarias/'
+# Prefixo de url a ser buscada
+prefixo_url = "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/portarias/"
+
+# Define o range de anos
 anos = range(2024, 1970, -1)
+
+# Lista para armazenar os dados das tabelas
 dados_tabela = []
+
+# Conjunto para rastrear as URLs já acessadas
 urls_acessadas = set()
+
+# Define a expressão regular para caracteres não imprimíveis
 regex_nao_imprimiveis = re.compile(r'[\x00-\x1F\x7F]')
 
+################################################################################
+### Parte 1 - Importa os dados de tabelas em HTML
+
+# Função para extrair dados da tabela HTML
 def extrair_dados_tabela(tabela, ano):
-    cabecalho = [th.get_text(strip=True) for th in tabela.find_all('th')]
+    # Extrai os cabeçalhos da tabela
+    cabecalho = [th.get_text(strip=True) for th in tabela.find_all("th")]
+
+    # Ajuste específico para o ano de 2020 na tabela de portarias. Tabela da ANAC é diferente nesse ano
     if ano == 2020:
+        # Troca a posição das colunas 1 e 2 no cabeçalho
         cabecalho[1], cabecalho[2] = cabecalho[2], cabecalho[1]
+
+    # Armazena o cabeçalho como primeira linha apenas uma vez
     if not dados_tabela:
         dados_tabela.append(cabecalho)
-    linhas = tabela.find_all('tr')
+
+    # Itera sobre todas as linhas da tabela, mantendo o cabeçalho
+    linhas = tabela.find_all("tr")
+
     for linha in linhas:
-        colunas = linha.find_all(['th', 'td'])
+        colunas = linha.find_all(["th", "td"])
         valores = []
+
         for coluna in colunas:
-            links = coluna.find_all('a')
+            # Extrai todos os links da célula, se existirem
+            links = coluna.find_all("a")
             if links:
-                texto_links = [f'[{link.get_text(strip=True)}]({link["href"]})' for link in links]
-                valor = ' '.join(texto_links)
+                # Cria uma lista de links no formato Markdown
+                texto_links = [f"[{link.get_text(strip=True)}]({link['href']})" for link in links]
+                valor = " ".join(texto_links)  # Junta os links com espaço
             else:
                 valor = coluna.get_text(strip=True)
-            valor = regex_nao_imprimiveis.sub(' ', str(valor)).replace('|', ' ').replace('  ', ' ').strip()
+        
+            # Garante que valor seja uma string e remove caracteres não imprimíveis, substituindo por espaço
+            valor = regex_nao_imprimiveis.sub(" ", str(valor)).replace("|", " ").replace("  ", " ").strip()
             valores.append(valor)
+
+        # Ignora linhas em branco ou linhas de cabeçalho duplicado
         if not valores or valores == cabecalho:
             continue
+
+        # Ajuste específico para o ano de 2020 (troca de dados na posição 1 e 2)
         if ano == 2020:
             valores[1], valores[2] = valores[2], valores[1]
+
+        # Adiciona os valores à lista de dados
         dados_tabela.append(valores)
 
+# Função assíncrona para acessar a URL e extrair dados
 async def acessar_url(session, ano):
-    url = f'{prefixo_url}{ano}'
+    url = f"{prefixo_url}{ano}"
     if url in urls_acessadas:
         return
     urls_acessadas.add(url)
-    print(f'Acessando {url}...')
+
+    print(f"Acessando {url}...")
     async with session.get(url) as response:
         if response.status != 200:
-            print(f'Página não encontrada para o ano {ano}. Pulando para o próximo ano.')
+            print(f"Página não encontrada para o ano {ano}. Pulando para o próximo ano.")
             return
-        soup = BeautifulSoup(await response.text(), 'html.parser')
-        tabela = soup.find('table', {'id': 'tabela-normas'})
+
+        soup = BeautifulSoup(await response.text(), "html.parser")
+        tabela = soup.find("table", {"id": "tabela-normas"})
+
         if tabela:
             extrair_dados_tabela(tabela, ano)
 
+# Função para fazer requisições assíncronas em paralelo
 async def fetch_all():
     async with aiohttp.ClientSession() as session:
         tasks = [acessar_url(session, ano) for ano in anos]
         await asyncio.gather(*tasks)
 
-async def main():
-    if not asyncio.get_event_loop().is_running():
-        await fetch_all()
-    else:
-        await fetch_all()
+# Executa a função assíncrona
+asyncio.run(fetch_all())
 
-    if dados_tabela:
-        cabecalho = ['Norma', 'Publicação', 'Ementa', 'Arquivo']
-        df = pd.DataFrame(dados_tabela[1:], columns=cabecalho)
-        df = df.dropna(how='all')
-        df = df.drop_duplicates()
+# Cria um DataFrame do Pandas a partir dos dados extraídos
+if dados_tabela:
+    # Assume que o cabeçalho será fornecido por uma linha estática, pois estamos removendo cabeçalhos
+    cabecalho = ["Norma", "Publicação", "Ementa", "Arquivo"]
+    df = pd.DataFrame(dados_tabela[1:], columns=cabecalho)
 
-        def extrair_data(valor):
-            match = re.search(r'(\\d{2}/\\d{2}/\\d{4})', str(valor))
-            return match.group(0) if match else None
+    # Remove linhas em branco
+    df = df.dropna(how='all')
 
-        df['Data'] = df['Norma'].apply(extrair_data)
-        df.loc[pd.isna(df['Data']), 'Data'] = df.loc[pd.isna(df['Data']), 'Publicação'].apply(extrair_data)
-        df['Data'] = pd.to_datetime(df['Data'], format='%d/%m/%Y', errors='coerce')
-        df['Data'] = df['Data'].dt.strftime('%Y-%m-%d')
+    # Remove duplicatas, caso existam
+    df = df.drop_duplicates()
 
-        df = df[~((df['Norma'] == 'Norma') & (df['Publicação'] == 'Data') & (df['Ementa'] == 'Ementa') & (df['Arquivo'] == 'Arquivo'))]
+    # Função para extrair a data de uma string
+    def extrair_data(valor):
+        # Força a conversão para string e aplica a regex para encontrar a data no formato "dd/mm/aaaa"
+        match = re.search(r'(\d{2}/\d{2}/\d{4})', str(valor))
+        return match.group(0) if match else None
 
-        def formatar_data(x):
-            try:
-                return pd.to_datetime(x, format='%d/%m/%Y').strftime('%Y-%m-%d')
-            except ValueError:
-                print(f'Erro ao formatar a data: {x}')
-                return pd.NaT
+    # Aplica a extração da data à coluna "Norma" e cria a nova coluna "Data"
+    df['Data'] = df['Norma'].apply(extrair_data)
 
-        df['Data'] = df['Data'].mask(pd.isna(df['Data']), df['Publicação'].str.extract(r'(\\d{2}/\\d{2}/\\d{4})', expand=False).apply(formatar_data))
+    # **Verifica se a coluna "Data" ainda possui valores NaN e extrai da coluna "Publicação" se necessário**
+    df.loc[pd.isna(df['Data']), 'Data'] = df.loc[pd.isna(df['Data']), 'Publicação'].apply(extrair_data)
 
-        cols = ['Data'] + [col for col in df.columns if col != 'Data']
-        df = df[cols]
+    # Converte a coluna "Data" para o formato de dados "Date"
+    df['Data'] = pd.to_datetime(df['Data'], format='%d/%m/%Y', errors='coerce')
 
-        df = df.sort_values(by=['Data', 'Norma'], ascending=[False, False])
+    # Formata a coluna "Data" para o formato "yyyy-mm-dd" (sem hora)
+    df['Data'] = df['Data'].dt.strftime('%Y-%m-%d')
 
-        def exportar_markdown_simples(df, nome_arquivo):
-            linhas = ['| ' + ' | '.join(df.columns) + ' |']
-            linhas.append('| ' + ' | '.join(['---'] * len(df.columns)) + ' |')
-            for _, row in df.iterrows():
-                linha_formatada = [
-                    regex_nao_imprimiveis.sub(' ', str(valor)).replace('|', ' ').replace('  ', ' ')
-                    for valor in row.values
-                ]
-                linhas.append('| ' + ' | '.join(linha_formatada) + ' |')
+    # Remove linhas onde a coluna 'Norma' e outras contém valores inválidos como o texto "Norma", "Data"
+    df = df[~((df['Norma'] == 'Norma') & (df['Publicação'] == 'Data') & (df['Ementa'] == 'Ementa') & (df['Arquivo'] == 'Arquivo'))]
 
-            with open(nome_arquivo, 'w') as f:
-                f.write('\\n'.join(linhas))
+    def formatar_data(x):
+        try:
+            return pd.to_datetime(x, format='%d/%m/%Y').strftime('%Y-%m-%d')
+        except ValueError:
+            print(f"Erro ao formatar a data: {x}")
+            return pd.NaT
 
-        exportar_markdown_simples(df, 'portarias-anac.md')
+    df['Data'] = df['Data'].mask(
+        pd.isna(df['Data']),
+        df['Publicação'].str.extract(r'(\d{2}/\d{2}/\d{4})', expand=False).apply(formatar_data)
+    )
 
-asyncio.run(main())
+    # Reorganiza o DataFrame para que a coluna "Data" fique como a primeira
+    cols = ['Data'] + [col for col in df.columns if col != 'Data']
+    df = df[cols]
+
+    # Ordena o DataFrame pela coluna "Data" em ordem decrescente e pela coluna "Norma" em ordem decrescente
+    df = df.sort_values(by=['Data', 'Norma'], ascending=[False, False])
+
+################################################################################
+### Parte 2 - Exporta o Dataframe para Markdown
+
+    def exportar_markdown_simples(df, nome_arquivo):
+        # Constrói o cabeçalho Markdown
+        linhas = ["| " + " | ".join(df.columns) + " |"]
+        linhas.append("| " + " | ".join(["---"] * len(df.columns)) + " |")
+
+        # Itera sobre cada linha do DataFrame e adiciona ao Markdown
+        for _, row in df.iterrows():
+            # Limpa caracteres especiais que podem quebrar o Markdown
+            linha_formatada = [
+                regex_nao_imprimiveis.sub(" ", str(valor)).replace("|", " ").replace("  ", " ")
+                for valor in row.values
+            ]
+            linhas.append("| " + " | ".join(linha_formatada) + " |")
+
+        # Escreve o conteúdo no arquivo
+        with open(nome_arquivo, "w") as f:
+            f.write("\n".join(linhas))
+
+    # Salva o arquivo no repositório GitHub
+    exportar_markdown_simples(df, "tabela_gerada.md")
+
+else:
+    print("Nenhuma tabela foi extraída.")
