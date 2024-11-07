@@ -79,19 +79,9 @@ if dados_tabela:
         return match.group(0) if match else None
     df['Data'] = df['Norma'].apply(extrair_data)
     df.loc[pd.isna(df['Data']), 'Data'] = df.loc[pd.isna(df['Data']), 'Publicação'].apply(extrair_data)
+    df['Data'] = df['Data'].mask(pd.isna(df['Data']), df['Publicação'].str.extract(r'(\d{2}/\d{2}/\d{4})', expand=False).apply(lambda x: pd.to_datetime(x, format='%d/%m/%Y', errors='coerce').strftime('%Y-%m-%d') if pd.to_datetime(x, format='%d/%m/%Y', errors='coerce') is not pd.NaT else pd.NaT))
     df['Data'] = pd.to_datetime(df['Data'], format='%d/%m/%Y', errors='coerce').dt.strftime('%Y-%m-%d')
     df = df[~((df['Norma'] == 'Norma') & (df['Publicação'] == 'Data') & (df['Ementa'] == 'Ementa') & (df['Arquivo'] == 'Arquivo'))]
-    def formatar_data(x):
-        try:
-            return pd.to_datetime(x, format='%d/%m/%Y').strftime('%Y-%m-%d')
-        except ValueError:
-            print(f"Erro ao formatar a data: {x}")
-            return pd.NaT
-
-    df['Data'] = df['Data'].mask(
-        pd.isna(df['Data']),
-        df['Publicação'].str.extract(r'(\d{2}/\d{2}/\d{4})', expand=False).apply(formatar_data)
-    )    
     cols = ['Data'] + [col for col in df.columns if col != 'Data']
     df = df[cols]
     df = df.sort_values(by=['Data', 'Norma'], ascending=[False, False])
