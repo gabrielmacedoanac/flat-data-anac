@@ -26,7 +26,7 @@ jobs:
 
       - name: Baixar e rodar o script
         run: |
-          python extrair_portarias.py
+          python extrair-portarias.py
 
       - name: Commit e push do arquivo
         run: |
