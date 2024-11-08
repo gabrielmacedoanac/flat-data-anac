@@ -1,4 +1,4 @@
-name: Run Portarias ANAC Script
+name: Portarias ANAC
 
 on:
   push:
@@ -16,10 +16,10 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v3
 
-      - name: Set up Python 3.8
+      - name: Set up Python 3.9
         uses: actions/setup-python@v4
         with:
-          python-version: '3.8'
+          python-version: '3.9'
 
       - name: Install dependencies
         run: |
@@ -35,7 +35,8 @@ jobs:
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
           git add .
-          git commit -m "Add generated files from script execution"
+          git commit -m "Atualizado de portarias.py"
+          git pull
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
