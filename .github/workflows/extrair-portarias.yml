@@ -34,6 +34,5 @@ jobs:
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
-          git diff --exit-code --quiet || (git add . && git commit -m "Atualizar portarias ANAC" && git push)
-
-          
+          git add -A  # Adiciona todos os arquivos modificados ou novos
+          git diff --exit-code --quiet || (git commit -m "Atualizar portarias ANAC" && git push)
