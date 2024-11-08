@@ -1,0 +1,4 @@
+aiohttp 
+pandas 
+beautifulsoup4 
+jinja2
