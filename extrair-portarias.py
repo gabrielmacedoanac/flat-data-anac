@@ -149,9 +149,8 @@ def exportar_html(df, nome_arquivo):
             return " ".join([f'<a href="{url}">{titulo}</a>' for titulo, url in links])
         return celula
     # Aplica a formatação de links a todo o DataFrame
-    #df_copy = df_copy.applymap(formatar_links)
-    df_copy = df_copy.apply(lambda x: formatar_links(x) if isinstance(x, str) else x)
-
+    df_copy = df_copy.applymap(formatar_links)
+    # df_copy = df_copy.apply(lambda x: formatar_links(x) if isinstance(x, str) else x)
     # Converte o DataFrame para HTML
     html = df_copy.to_html(index=False, escape=False)
     # Salva o HTML em um arquivo
