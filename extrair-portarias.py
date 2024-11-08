@@ -116,36 +116,6 @@ def exportar_json(df, nome_arquivo):
 exportar_json(df, "portarias-anac.json")
 
 # Exporta o arquivo em html
-# def exportar_html(df, nome_arquivo):
-#     # Cria uma cópia do DataFrame para evitar modificações diretas no original
-#     df_copy = df.copy()
-#     # Função para formatar células com links
-#     def formatar_links(celula):
-#         # Se houver múltiplos links, separa-os e adiciona o título de cada link
-#         if isinstance(celula, str) and '[' in celula and ']' in celula and '(' in celula and ')' in celula:
-#             # Identifica os links no formato Markdown
-#             links = re.findall(r'\[([^\]]+)\]\(([^)]+)\)', celula)
-#             # Formata cada link no formato HTML <a href="URL">Título</a>
-#             return " ".join([f'<a href="{url}">{titulo}</a>' for titulo, url in links])
-#         return celula
-#     # Aplica a formatação de links a todo o DataFrame
-#     df_copy = df_copy.applymap(formatar_links)
-#     # df_copy = df_copy.apply(lambda x: formatar_links(x) if isinstance(x, str) else x)
-#     # Converte o DataFrame para HTML
-#     html = df_copy.to_html(index=False, escape=False)
-#     # Salva o HTML em um arquivo
-#     with open(nome_arquivo, "w") as f:
-#         f.write(html)
-#     print(f"Arquivo HTML gerado com sucesso: {nome_arquivo}")
-# exportar_html(df, "portarias-anac.html")
-
-# def exportar_html(df, nome_arquivo):
-#     df = df.apply(lambda col: col.apply(lambda x: " ".join([f'<a href="{u}">{t}</a>' for t, u in re.findall(r'\[([^\]]+)\]\(([^)]+)\)', str(x))]) if isinstance(x, str) and '[' in x and '(' in x else x))
-#     df.to_html(nome_arquivo, index=False, escape=False)
-#     print(f"Arquivo HTML gerado com sucesso: {nome_arquivo}")
-# exportar_html(df, "portarias-anac.html")
-
-# Exporta o arquivo em html
 def exportar_html(df, nome_arquivo):
     df = df.apply(lambda col: col.apply(lambda x: " ".join([f'<a href="{u}">{t}</a>' for t, u in re.findall(r'\[([^\]]+)\]\(([^)]+)\)', str(x))]) if isinstance(x, str) and '[' in x and '(' in x else x))
     html = df.to_html(index=False, escape=False)
