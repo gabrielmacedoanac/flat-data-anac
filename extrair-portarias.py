@@ -139,15 +139,18 @@ exportar_json(df, "portarias-anac.json")
 #     print(f"Arquivo HTML gerado com sucesso: {nome_arquivo}")
 # exportar_html(df, "portarias-anac.html")
 
-def exportar_html(df, nome_arquivo):
-    df = df.apply(lambda col: col.apply(lambda x: " ".join([f'<a href="{u}">{t}</a>' for t, u in re.findall(r'\[([^\]]+)\]\(([^)]+)\)', str(x))]) if isinstance(x, str) and '[' in x and '(' in x else x))
-    df.to_html(nome_arquivo, index=False, escape=False)
-    print(f"Arquivo HTML gerado com sucesso: {nome_arquivo}")
-exportar_html(df, "portarias-anac.html")
+# def exportar_html(df, nome_arquivo):
+#     df = df.apply(lambda col: col.apply(lambda x: " ".join([f'<a href="{u}">{t}</a>' for t, u in re.findall(r'\[([^\]]+)\]\(([^)]+)\)', str(x))]) if isinstance(x, str) and '[' in x and '(' in x else x))
+#     df.to_html(nome_arquivo, index=False, escape=False)
+#     print(f"Arquivo HTML gerado com sucesso: {nome_arquivo}")
+# exportar_html(df, "portarias-anac.html")
 
+# Exporta o arquivo em html
 def exportar_html(df, nome_arquivo):
     df = df.apply(lambda col: col.apply(lambda x: " ".join([f'<a href="{u}">{t}</a>' for t, u in re.findall(r'\[([^\]]+)\]\(([^)]+)\)', str(x))]) if isinstance(x, str) and '[' in x and '(' in x else x))
     html = df.to_html(index=False, escape=False)
     html = f'<meta charset="UTF-8">\n' + html
     with open(nome_arquivo, "w", encoding="utf-8") as f:
-        f.write(html)
+        f.write(html)   
+    print(f"Arquivo HTML gerado com sucesso: {nome_arquivo}")
+exportar_html(df, "portarias-anac.html")
