@@ -6,7 +6,7 @@ on:
       - main
   workflow_dispatch:
   schedule:
-    - cron: '0 3 * * 0'  # Executa todo domingo às 03:00 AM UTC
+    - cron: '0 3 * * 1-5' 
   
 jobs:
   portarias:
@@ -38,5 +38,3 @@ jobs:
           git commit -m "Atualizado de portarias.py"
           git pull
           git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
