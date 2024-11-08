@@ -64,21 +64,19 @@ def extrair_data(df):
 ##     asyncio.run(fetch_all())
 
 async def acessar_url(session, ano):
-    if (url := f"{prefixo_url}{ano}") in urls_acessadas: return
-    urls_acessadas.add(url); print(f"Acessando {url}...")
-
+    url = f"{prefixo_url}{ano}"
+    if url in urls_acessadas: return
+    urls_acessadas.add(url)
     async with session.get(url) as r:
         if r.status == 200 and (t := BeautifulSoup(await r.text(), "html.parser").find("table", {"id": "tabela-normas"})):
             extrair_dados_tabela(t, ano)
-        else: print(f"Não disponível ano {ano}.")
 
-# Função para fazer requisições assíncronas em paralelo
-async def fetch_all():
+async def fetch_all(): 
     async with aiohttp.ClientSession() as session:
         await asyncio.gather(*(acessar_url(session, ano) for ano in anos))
 
-await fetch_all() if asyncio.get_event_loop().is_running() else asyncio.run(fetch_all())
-
+if not asyncio.get_event_loop().is_running():
+    asyncio.run(fetch_all())
 
 # Cria um DataFrame a partir dos dados extraídos
 if dados_tabela:
