@@ -34,7 +34,7 @@ jobs:
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
-          git add . :/
+          git add :/
           COMMIT_MESSAGE="Atualização: $(date +"%Y-%m-%d %H:%M")"
           git commit -m "$COMMIT_MESSAGE" || echo "Nada novo para commitar"
           git pull --rebase
