@@ -32,12 +32,6 @@ jobs:
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
-          git diff --exit-code --quiet
-          if [ $? -ne 0 ]; then          
-            git add portarias-anac.md portarias-anac.csv portarias-anac.html portarias-anac.json portarias-anac.tsv
-            git commit -m "Atualizar portarias ANAC"
-            git push
-          else
-            echo "Nenhuma modificação detectada, commit não realizado."
-          fi
+          git diff --exit-code --quiet || (git add . && git commit -m "Atualizar portarias ANAC" && git push)
+
           
