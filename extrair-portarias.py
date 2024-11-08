@@ -79,6 +79,7 @@ def exportar_markdown_simples(df, nome_arquivo):
         linhas.append("| " + " | ".join(linha_formatada) + " |")
     with open(nome_arquivo, "w") as f:
         f.write("\n".join(linhas))
+    print(f"Arquivo MD gerado com sucesso: {nome_arquivo}")
 exportar_markdown_simples(df, "portarias-anac.md")
 
 # Exporta para CSV
