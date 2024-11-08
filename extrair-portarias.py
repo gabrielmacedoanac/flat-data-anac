@@ -83,7 +83,7 @@ exportar_markdown_simples(df, "portarias-anac.md")
 
 # Exporta para CSV
 def exportar_csv(df, nome_arquivo):
-    df.to_csv(nome_arquivo, index=False, quoting=csv.QUOTE_ALL)
+    df.to_csv(nome_arquivo, index=False, quoting=csv.QUOTE_ALL, quotechar='"')
     print(f"Arquivo CSV gerado com sucesso: {nome_arquivo}")
 exportar_csv(df, "portarias-anac.csv")
 
