@@ -109,8 +109,8 @@ def exportar_html(df, nome_arquivo):
     print(f"Arquivo HTML gerado com sucesso: {nome_arquivo}")
 
 # Gerando os arquivos de exportação
-exportar_markdown(df, "../portarias-anac.md")
-exportar_csv(df, "../portarias-anac.csv")
-exportar_tsv(df, "../portarias-anac.tsv")
-exportar_json(df, "../portarias-anac.json")
-exportar_html(df, "../portarias-anac.html")
+exportar_markdown(df, "portarias-anac.md")
+exportar_csv(df, "portarias-anac.csv")
+exportar_tsv(df, "portarias-anac.tsv")
+exportar_json(df, "portarias-anac.json")
+exportar_html(df, "portarias-anac.html")
