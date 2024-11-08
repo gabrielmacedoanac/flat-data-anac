@@ -42,26 +42,43 @@ def extrair_data(df):
     return df
 
 # Função assíncrona para acessar a URL e extrair dados
-async def acessar_url(session, ano):
-    url = f"{prefixo_url}{ano}"
-    if url in urls_acessadas:
-        return
-    urls_acessadas.add(url)
-    async with session.get(url) as response:
-        if response.status != 200:
-            return
-        soup = BeautifulSoup(await response.text(), "html.parser")
-        tabela = soup.find("table", {"id": "tabela-normas"})
-        if tabela:
-            extrair_dados_tabela(tabela, ano)
+## async def acessar_url(session, ano):
+##     url = f"{prefixo_url}{ano}"
+##     if url in urls_acessadas:
+##         return
+##     urls_acessadas.add(url)
+##     async with session.get(url) as response:
+##         if response.status != 200:
+##             return
+##         soup = BeautifulSoup(await response.text(), "html.parser")
+##         tabela = soup.find("table", {"id": "tabela-normas"})
+##         if tabela:
+##             extrair_dados_tabela(tabela, ano)
+## 
+## async def fetch_all():
+##     async with aiohttp.ClientSession() as session:
+##         tasks = [acessar_url(session, ano) for ano in anos]
+##         await asyncio.gather(*tasks)
+## 
+## if not asyncio.get_event_loop().is_running():
+##     asyncio.run(fetch_all())
 
+async def acessar_url(session, ano):
+    if (url := f"{prefixo_url}{ano}") in urls_acessadas: return
+    urls_acessadas.add(url); print(f"Acessando {url}...")
+
+    async with session.get(url) as r:
+        if r.status == 200 and (t := BeautifulSoup(await r.text(), "html.parser").find("table", {"id": "tabela-normas"})):
+            extrair_dados_tabela(t, ano)
+        else: print(f"Não disponível ano {ano}.")
+
+# Função para fazer requisições assíncronas em paralelo
 async def fetch_all():
     async with aiohttp.ClientSession() as session:
-        tasks = [acessar_url(session, ano) for ano in anos]
-        await asyncio.gather(*tasks)
+        await asyncio.gather(*(acessar_url(session, ano) for ano in anos))
 
-if not asyncio.get_event_loop().is_running():
-    asyncio.run(fetch_all())
+await fetch_all() if asyncio.get_event_loop().is_running() else asyncio.run(fetch_all())
+
 
 # Cria um DataFrame a partir dos dados extraídos
 if dados_tabela:
