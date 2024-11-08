@@ -35,11 +35,18 @@ jobs:
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
           git add .
-          if git diff-index --quiet HEAD; then
-            echo "Nenhuma mudança detectada. Finalizando a ação."
-            exit 0
-          else
-            git commit -m "Atualizado de portarias.py" --allow-empty
-            git pull --rebase
-            git push
-          fi
+          COMMIT_MESSAGE="Atualização - $(date +"%Y-%m-%d %H:%M")"
+          git commit -m "$COMMIT_MESSAGE" || echo "Nada novo para commitar"
+          git pull --rebase
+          git push
+
+
+#          if git diff-index --quiet HEAD; then
+#            echo "Nenhuma mudança detectada. Finalizando a ação."
+#            exit 0
+#          else
+#            COMMIT_MESSAGE="$(date +"%Y-%m-%d %H:%M")"
+#            git commit -m "$COMMIT_MESSAGE" --allow-empty
+#            git pull --rebase
+#            git push
+#          fi
