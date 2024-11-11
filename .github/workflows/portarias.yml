@@ -39,8 +39,10 @@ jobs:
             exit 0
           else
             git add :/
-            COMMIT_MESSAGE="$(date +"%Y-%m-%d %H:%M")"
-            git commit -m "$COMMIT_MESSAGE"
+            timestamp=$(date -u)
+            git commit -m "Latest data: ${timestamp}" || exit 0            
+#            COMMIT_MESSAGE="$(date +"%Y-%m-%d %H:%M")"
+#            git commit -m "$COMMIT_MESSAGE"
             git pull --rebase
             git push
           fi
