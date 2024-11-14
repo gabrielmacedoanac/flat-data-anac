@@ -24,7 +24,7 @@ jobs:
       - name: Instalar dependências
         run: |
           python -m pip install --upgrade pip
-          pip install -r scripts/requirements-portaria.txt
+          pip install aiohttp pandas beautifulsoup4 jinja2
 
       - name: Rodar o script
         run: |
