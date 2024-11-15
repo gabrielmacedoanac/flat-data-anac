@@ -18,8 +18,6 @@ jobs:
           deno-version: v1.x
       - name: Check out repo
         uses: actions/checkout@v4
-      - name: Setup python
-        uses: actions/setup-python@v5
         
 # URL dos dados a serem baixados (http_url) e on nomes dos arquivos (downloaded_filename)      
       - name: Fetch data
