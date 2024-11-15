@@ -14,7 +14,7 @@ jobs:
 
     steps:
       - name: Verificar repositório
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Configurar python
         uses: actions/setup-python@v4
