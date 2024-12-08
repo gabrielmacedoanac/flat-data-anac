@@ -2471,28 +2471,28 @@
   }, 
   {
     "ementa": "Obtenção, alteração, suspensão, revogação e cassação de certificado de empresa de transporte aéreo regida pelo RBAC nº 135", 
-    "norma": "IS 119-004J", 
+    "norma": "IS 119-004K", 
     "tornada_sem_efeito": "", 
     "alterada": "", 
-    "data": "19/10/2023", 
+    "data": "28/11/2024", 
     "outros": "", 
     "tipo_normatico": "IS", 
-    "publicacao": "20/10/2023", 
+    "publicacao": "04/12/2024", 
     "revogada": "", 
-    "em_vigor": "Em vigor em 1º de novembro de 2023", 
+    "em_vigor": "", 
     "anexos": ""
   }, 
   {
     "ementa": "Processo de certificação de empresa de transporte aéreo regida pelo RBAC nº 121", 
-    "norma": "IS 119-001L", 
+    "norma": "IS 119-001M", 
     "tornada_sem_efeito": "", 
     "alterada": "", 
-    "data": "23/10/2023", 
+    "data": "28/11/2024", 
     "outros": "", 
     "tipo_normatico": "IS", 
-    "publicacao": "26/10/2023", 
+    "publicacao": "04/12/2024", 
     "revogada": "", 
-    "em_vigor": "Em vigor em 1º de novembro de 2023", 
+    "em_vigor": "", 
     "anexos": ""
   }, 
   {
@@ -2832,5 +2832,31 @@
     "revogada": "", 
     "em_vigor": "", 
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-117-007@@download/arquivo_norma/IS117-007A.pdf"
+  }, 
+  {
+    "ementa": "Transporte de artigos perigosos em aeronaves civis", 
+    "norma": "IS 175-001L", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "27/11/2024", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "02/12/2024", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 1º de janeiro de 2025", 
+    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-175-001l@@download/arquivo_norma/IS 175-001L.pdf"
+  }, 
+  {
+    "ementa": "Guia de resposta a emergências para incidentes aeronáuticos envolvendo artigos perigosos", 
+    "norma": "IS 175-010D", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "27/11/2024", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "02/12/2024", 
+    "revogada": "", 
+    "em_vigor": "", 
+    "anexos": ""
   }
 ]
