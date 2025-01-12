@@ -1079,17 +1079,17 @@
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-142-003@@download/arquivo_norma/IS142-003B.pdf"
   }, 
   {
-    "ementa": "Procedimentos para credenciamento de piloto examinador no âmbito do RBAC nº 135.", 
-    "norma": "IS 135-001D", 
+    "ementa": "Procedimentos para credenciamento de piloto examinador no âmbito do RBAC nº 135", 
+    "norma": "IS 135-001E", 
     "tornada_sem_efeito": "", 
     "alterada": "", 
-    "data": "28/06/2019", 
+    "data": "31/12/2024", 
     "outros": "", 
     "tipo_normatico": "IS", 
-    "publicacao": "28/06/2019", 
+    "publicacao": "06/01/2025", 
     "revogada": "", 
     "em_vigor": "", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-135-001@@download/arquivo_norma/ IS135-001D.pdf"
+    "anexos": ""
   }, 
   {
     "ementa": "Uso de informação aeronáutica em formato digital -\r\nElectronic Flight Bag (EFB).", 
@@ -2884,5 +2884,18 @@
     "revogada": "", 
     "em_vigor": "Em vigor em 1º de março de 2025", 
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-00-002h@@download/arquivo_norma/IS00-002H.pdf"
+  }, 
+  {
+    "ementa": "Processo de Autorização de Centros de Instrução AVSEC e Manual de Procedimentos do Centro de Instrução (MCPI)", 
+    "norma": "IS 110-001B", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "31/12/2024", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "06/01/2025", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 1º de março de 2025", 
+    "anexos": ""
   }
 ]
