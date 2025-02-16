@@ -17,7 +17,7 @@
     "norma": "RBAC 164 EMD 00", 
     "tornada_sem_efeito": "", 
     "alterada": "", 
-    "data": "30/05/2014", 
+    "data": "01/01/2015", 
     "outros": "", 
     "tipo_normatico": "RBAC", 
     "publicacao": "30/05/2014", 
@@ -91,7 +91,7 @@
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-103@@download/arquivo_norma/RBAC103EMD01.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-103@@download/anexo_norma/CEF RBAC 103.pdf"
   }, 
   {
-    "ementa": "Credenciamento de pessoas.", 
+    "ementa": "Credenciamento de pessoas", 
     "norma": "RBAC 183 EMD 01", 
     "tornada_sem_efeito": "", 
     "alterada": "", 
@@ -105,16 +105,16 @@
   }, 
   {
     "ementa": "Requisitos de Aeronavegabilidade: Hélices.", 
-    "norma": "RBAC 035 EMD 10", 
+    "norma": "RBAC 35 EMD 10", 
     "tornada_sem_efeito": "", 
     "alterada": "", 
-    "data": "07/08/2019", 
+    "data": "02/08/2019", 
     "outros": "", 
     "tipo_normatico": "RBAC", 
     "publicacao": "07/08/2019", 
     "revogada": "", 
     "em_vigor": "", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-035@@download/arquivo_norma/RBAC35EMD10.pdf"
+    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-35@@download/arquivo_norma/RBAC35EMD10.pdf"
   }, 
   {
     "ementa": "Operação de empresas estrangeiras que têm por objetivo o serviço de transporte aéreo internacional no Brasil / operations of foreign air carriers within brazil engaged in common carriage", 
@@ -157,16 +157,16 @@
   }, 
   {
     "ementa": "Requisitos para drenagem de combustível e emissões de motores de aeronaves.", 
-    "norma": "RBAC 034 EMD 07", 
+    "norma": "RBAC 34 EMD 07", 
     "tornada_sem_efeito": "", 
     "alterada": "", 
-    "data": "22/11/2021", 
+    "data": "18/11/2021", 
     "outros": "", 
     "tipo_normatico": "RBAC", 
     "publicacao": "22/11/2021", 
     "revogada": "", 
     "em_vigor": "Em vigor em 1º de dezembro de 2021.", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-034@@download/arquivo_norma/RBAC34EMD07.pdf"
+    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-34@@download/arquivo_norma/RBAC34EMD07.pdf"
   }, 
   {
     "ementa": "Certificação e Requisitos Operacionais: Centros de treinamento de aviação civil.", 
@@ -339,29 +339,16 @@
   }, 
   {
     "ementa": "Requisitos de aeronavegabilidade: balões livres tripulados.", 
-    "norma": "RBAC 031 EMD 07", 
+    "norma": "RBAC 31 EMD 07", 
     "tornada_sem_efeito": "", 
     "alterada": "", 
-    "data": "16/10/2015", 
+    "data": "14/10/2015", 
     "outros": "", 
     "tipo_normatico": "RBAC", 
-    "publicacao": "", 
+    "publicacao": "16/10/2015", 
     "revogada": "", 
     "em_vigor": "", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-031@@download/arquivo_norma/RBAC31EMD07.pdf"
-  }, 
-  {
-    "ementa": "Diretrizes de aeronavegabilidade", 
-    "norma": "RBAC 039 EMD 00", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "01/01/2012", 
-    "outros": "", 
-    "tipo_normatico": "RBAC", 
-    "publicacao": "", 
-    "revogada": "", 
-    "em_vigor": "", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-039@@download/arquivo_norma/RBAC 39.pdf"
+    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-31@@download/arquivo_norma/RBAC31EMD07.pdf"
   }, 
   {
     "ementa": "Licenças e Habilitações para Comissários e Mecânicos de Voo", 
@@ -563,10 +550,10 @@
     "norma": "RBAC 161 EMD 04", 
     "tornada_sem_efeito": "", 
     "alterada": "", 
-    "data": "15/02/2024", 
+    "data": "09/02/2024", 
     "outros": "", 
-    "tipo_normatico": "CE/SC", 
-    "publicacao": "", 
+    "tipo_normatico": "RBAC", 
+    "publicacao": "15/02/2024", 
     "revogada": "", 
     "em_vigor": "Em vigor em 1º de março de 2024", 
     "anexos": ", https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-161@@download/anexo_norma/CEF RBAC nº 161.pdf"
@@ -713,5 +700,18 @@
     "revogada": "", 
     "em_vigor": "", 
     "anexos": ""
+  }, 
+  {
+    "ementa": "Diretrizes de aeronavegabilidade", 
+    "norma": "RBAC 39 EMD 00", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "01/01/2015", 
+    "outros": "", 
+    "tipo_normatico": "RBAC", 
+    "publicacao": "02/03/2011", 
+    "revogada": "", 
+    "em_vigor": "", 
+    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-39@@download/arquivo_norma/RBAC 39.pdf"
   }
 ]
