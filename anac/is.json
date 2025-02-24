@@ -2224,15 +2224,15 @@
   }, 
   {
     "ementa": "Classificação de alterações em aeronaves e processo de aprovação simplificada de dados técnicos para grandes alterações", 
-    "norma": "IS 20-001B", 
+    "norma": "IS 20-001C", 
     "tornada_sem_efeito": "", 
     "alterada": "", 
-    "data": "22/08/2023", 
+    "data": "14/02/2025", 
     "outros": "", 
     "tipo_normatico": "IS", 
-    "publicacao": "25/08/2023", 
+    "publicacao": "20/02/2025", 
     "revogada": "", 
-    "em_vigor": "Em vigor em 1º de setembro de 2023", 
+    "em_vigor": "", 
     "anexos": ""
   }, 
   {
@@ -2289,13 +2289,13 @@
   }, 
   {
     "ementa": "Aprovação de Grandes Modificações e de Dados Técnicos para Grandes Alterações em aeronaves com marcas brasileiras, ou que venham a ter marcas brasileiras", 
-    "norma": "IS 21-004G", 
+    "norma": "IS 21-004H", 
     "tornada_sem_efeito": "", 
     "alterada": "", 
-    "data": "01/09/2023", 
+    "data": "14/02/2025", 
     "outros": "", 
     "tipo_normatico": "IS", 
-    "publicacao": "11/09/2023", 
+    "publicacao": "20/02/2025", 
     "revogada": "", 
     "em_vigor": "Em vigor em 2 de outubro de 2023", 
     "anexos": ""
@@ -2497,15 +2497,15 @@
   }, 
   {
     "ementa": "Certificação de Organização de Projeto", 
-    "norma": "IS 21.231-001C", 
+    "norma": "IS 21.231-001D", 
     "tornada_sem_efeito": "", 
     "alterada": "", 
-    "data": "29/01/2024", 
+    "data": "14/02/2025", 
     "outros": "", 
-    "tipo_normatico": "CE/SC", 
-    "publicacao": "29/01/2024", 
+    "tipo_normatico": "IS", 
+    "publicacao": "20/02/2025", 
     "revogada": "", 
-    "em_vigor": "Em vigor em 1º de março de 2024", 
+    "em_vigor": "", 
     "anexos": ""
   }, 
   {
