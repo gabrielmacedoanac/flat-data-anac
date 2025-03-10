@@ -416,19 +416,6 @@
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-91-409-001@@download/arquivo_norma/IS91.409-001B.pdf"
   }, 
   {
-    "ementa": "Processo de autorização de centros de instrução e Manual de Procedimentos do Centro de Instrução (MPCI).", 
-    "norma": "IS 110-001A", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "29/10/2015", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "29/10/2015", 
-    "revogada": "", 
-    "em_vigor": "", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-110-001@@download/arquivo_norma/IS110-001A.pdf"
-  }, 
-  {
     "ementa": "Guia para a elaboração de SGSO de empresa aérea certificada de acordo com o RBAC 119.", 
     "norma": "IS 119-002D", 
     "tornada_sem_efeito": "", 
@@ -1209,19 +1196,6 @@
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-154-001@@download/arquivo_norma/Anexo IV - IS154-001A.pdf"
   }, 
   {
-    "ementa": "Treinamento de Gerenciamento de Recursos de Equipes (Corporate Resource Management - CRM).", 
-    "norma": "IS 00-010A", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "12/06/2020", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "12/06/2020", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 1º de julho de 2020.", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-00-010@@download/arquivo_norma/IS00-010A.pdf"
-  }, 
-  {
     "ementa": "Procedimentos para elaboração e efetivação de programas de treinamento operacional (PrTrnOp) para operações conduzidas segundo o RBAC nº 135.", 
     "norma": "IS 135-003D", 
     "tornada_sem_efeito": "", 
@@ -1246,19 +1220,6 @@
     "revogada": "", 
     "em_vigor": "", 
     "anexos": ""
-  }, 
-  {
-    "ementa": "Padrões para a realização de exames de proficiência de pilotos.", 
-    "norma": "IS 00-002G", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "13/07/2021", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "26/07/2021", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 2 de agosto de 2021.", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-00-002@@download/arquivo_norma/IS00-002G.pdf"
   }, 
   {
     "ementa": "Instruções para Preenchimento do Formulário F-400-04 (SEGVOO 001).", 
@@ -2870,7 +2831,7 @@
     "publicacao": "31/12/2024", 
     "revogada": "", 
     "em_vigor": "Em vigor em 1º de março de 2025", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-00-002h@@download/arquivo_norma/IS00-002H.pdf"
+    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-00-002@@download/arquivo_norma/IS00-002H.pdf"
   }, 
   {
     "ementa": "Processo de Autorização de Centros de Instrução AVSEC e Manual de Procedimentos do Centro de Instrução (MCPI)", 
@@ -2897,5 +2858,18 @@
     "revogada": "", 
     "em_vigor": "", 
     "anexos": ""
+  }, 
+  {
+    "ementa": "Treinamento de Gerenciamento de Recursos de Equipes (Corporate Resource Management - CRM)", 
+    "norma": "IS 00-010B", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "26/02/2025", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "06/03/2025", 
+    "revogada": "", 
+    "em_vigor": "", 
+    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-00-010@@download/arquivo_norma/IS00-010B.pdf"
   }
 ]
