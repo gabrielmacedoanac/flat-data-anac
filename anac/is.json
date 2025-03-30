@@ -2254,7 +2254,7 @@
     "tornada_sem_efeito": "", 
     "alterada": "", 
     "data": "14/02/2025", 
-    "outros": "", 
+    "outros": "Retificado no DOU de 27.03.2025, Seção 1, página 66", 
     "tipo_normatico": "IS", 
     "publicacao": "20/02/2025", 
     "revogada": "", 
@@ -2774,7 +2774,7 @@
     "tornada_sem_efeito": "", 
     "alterada": "", 
     "data": "27/12/2024", 
-    "outros": "", 
+    "outros": "Retificado no DOU de 26.03.2025, Seção 1, página 77", 
     "tipo_normatico": "IS", 
     "publicacao": "31/12/2024", 
     "revogada": "", 
@@ -2884,5 +2884,18 @@
     "revogada": "", 
     "em_vigor": "", 
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-120-017@@download/arquivo_norma/IS120-017A.pdf"
+  }, 
+  {
+    "ementa": "Autorização Especial de Voo (AEV)", 
+    "norma": "IS 21.197-001A", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "26/03/2025", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "28/03/2025", 
+    "revogada": "", 
+    "em_vigor": "", 
+    "anexos": ""
   }
 ]
