@@ -1,4 +1,4 @@
-name: Processar regulamentos da ANAC
+name: Regulamentos ANAC
 
 on:
   workflow_dispatch:
