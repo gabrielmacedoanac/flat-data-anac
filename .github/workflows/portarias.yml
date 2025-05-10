@@ -1,12 +1,9 @@
 name: Portarias ANAC
 
 on:
-  push:
-    branches:
-      - main
   workflow_dispatch:
   schedule:
-    - cron: '0 3 * * 1-5' 
+    - cron: '0 0 1 * *' 
 
 jobs:
   portarias:
