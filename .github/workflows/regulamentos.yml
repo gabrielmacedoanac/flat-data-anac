@@ -1,0 +1,149 @@
+name: Processar regulamentos da ANAC
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 1 * *'  # Executa diariamente à meia-noite
+
+jobs:
+  processar-dados:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout do código
+      uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
+        
+    - name: Configurar Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+        
+    - name: Instalar dependências
+      run: |
+        python -m pip install --upgrade pip
+        pip install pandas requests openpyxl
+        
+    - name: Executar script Python
+      run: |
+        cat << 'EOF' > processar_dados.py
+        import concurrent.futures
+        import requests
+        import re
+        import pandas as pd
+        import io
+        import random
+
+        dfs = []
+        url = 'https://raw.githubusercontent.com/gabrielmacedoanac/flat-data-anac/main/regulamentos-url-json.csv'
+        buscar_substituir = 'https://raw.githubusercontent.com/gabrielmacedoanac/flat-data-anac/main/buscar_substituir_valores.xlsx'
+
+        dns_servers = [
+            '8.8.8.8', '8.8.4.4', # Google
+        ]
+
+        def baixar_arquivos(url):
+            dns = random.choice(dns_servers)
+            proxies = {"https://": f"http://{dns}:443"}
+            response = requests.get(url.strip(), proxies=proxies)
+            content = response.content.decode('utf-8')
+            df = pd.read_json(io.StringIO(content))
+            return df
+
+        def criar_dataframe(url=url):
+            urls = requests.get(url).text.split()
+            with concurrent.futures.ThreadPoolExecutor() as executor:
+                results = [executor.submit(baixar_arquivos, item) for item in urls]
+                for i, f in enumerate(concurrent.futures.as_completed(results)):
+                    try:
+                        df = f.result()
+                        if df is not None and not df.empty:
+                            dfs.append(df)
+                        else:
+                            print(f"Empty DataFrame for URL {urls[i]}")
+                    except Exception as e:
+                        print(f"Error processing URL {urls[i]}: {str(e)}")
+            if dfs:
+                df = pd.concat(dfs, ignore_index=True)
+                return df
+            else:
+                return None
+
+        def limpar_dataframe(df):
+            df.dropna(how='all', inplace=True)
+            df.drop_duplicates(keep='last', inplace=True)
+            for col in df.select_dtypes(include=[object]).columns:
+                df[col] = df[col].map(lambda x: x.replace('\r', ' ').replace('\n', ' ').replace('\t', ' ').strip() if isinstance(x, str) else x)
+            df['anexos'] = df['anexos'].str.replace('portalhomolog2', 'www').str.replace('@@download/', '/@@display-file/').str.replace(' , ', '|').str.replace(', ', '|').str.replace('||', '|').str.replace(' ', '%20').str.replace('|', ' ')
+            return df
+
+        def criar_tags(df):
+            df['dados_nao_estruturados'] = df[['ementa','norma']].agg(' | '.join, axis=1)
+            df['dados_nao_estruturados'] = df['dados_nao_estruturados'].str.casefold()
+            buscar_substituir_valores = pd.read_excel(buscar_substituir)
+            buscar_regex = '(?i)' + '|'.join(buscar_substituir_valores['buscar'])
+            buscar_compiled = re.compile(buscar_regex)
+            df['tags'] = df['dados_nao_estruturados'].str.findall(buscar_compiled)
+
+            def substituir_valores(valor, buscar_substituir_valores):
+                for i, row in buscar_substituir_valores.iterrows():
+                    buscar = row['buscar']
+                    substituir = row['substituir']
+                    if not pd.isnull(substituir):
+                        valor = re.sub(buscar, str(substituir), valor)
+                return valor
+
+            df['tags'] = df['tags'].astype(str)
+            df['tags'] = df['tags'].apply(substituir_valores, args=(buscar_substituir_valores,))
+            df['tags'] = df['tags'].str.findall(buscar_compiled)
+            df['tags'] = df['tags'].apply(set).str.join("|")
+            df['tags'] = df['tags'].str.replace("|", ", ", regex=False).str.split(', ').tolist()
+            df['tags'] = df['tags'].apply(sorted)
+            df.drop(columns=['dados_nao_estruturados'], inplace=True)
+
+        def ordenar_dados(df):
+            df['data'] = pd.to_datetime(df['data'], format='%d/%m/%Y')
+            df = df.sort_values(['data', 'tipo_normatico', 'ementa'], ascending=[False, True, True])
+            df['data'] = df['data'].dt.strftime('%Y-%m-%d')
+            return df
+
+        def salvar_arquivos_github(df):
+            csv_path = 'regulamentos-anac-tags.csv'
+            tsv_path = 'regulamentos-anac-tags.tsv'
+            json_path = 'regulamentos-anac-tags.json'
+
+            df.to_csv(csv_path, index=False, encoding='utf-8-sig')
+            df.to_csv(tsv_path, sep='\t', index=False, encoding='utf-8-sig')
+            df.to_json(json_path, orient='records', force_ascii=False)
+
+            return csv_path, tsv_path, json_path
+
+        df = criar_dataframe()
+        if df is not None:
+            df_copia = df.copy()
+            df = limpar_dataframe(df)
+            criar_tags(df)
+            df = ordenar_dados(df)
+            paths = salvar_arquivos_github(df)
+            print("Arquivos gerados com sucesso:", paths)
+        else:
+            print("Falha ao criar DataFrame - nenhum dado foi processado")
+        EOF
+        
+        python processar_dados.py
+        
+    - name: Verificar alterações nos arquivos
+      id: changes
+      run: |
+        echo "Verificando diferenças nos arquivos processados..."
+        git diff --quiet regulamentos-anac-tags.csv regulamentos-anac-tags.tsv regulamentos-anac-tags.json || echo "changes_detected=true" >> $GITHUB_OUTPUT
+        
+    - name: Commit e push das alterações
+      if: steps.changes.outputs.changes_detected == 'true'
+      run: |
+        git config --global user.name "GitHub Actions"
+        git config --global user.email "actions@github.com"
+        git add regulamentos-anac-tags.*
+        git commit -m "$(date +'%Y-%m-%d %H:%M UTC') Atualização automática"
+        git push
