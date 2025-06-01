@@ -2197,19 +2197,6 @@
     "anexos": ""
   }, 
   {
-    "ementa": "Processo de credenciamento de pessoa física na SAR e de examinador de MMA, e orientações de atuação para os profissionais credenciados", 
-    "norma": "IS 183-002H", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "22/08/2023", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "25/08/2023", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 1º de setembro de 2023", 
-    "anexos": ""
-  }, 
-  {
     "ementa": "Procedimentos gerais para elaboração, aprovação, revisão e utilização de programas de treinamento operacional (PTO) de operadores aéreos regidos pelo RBAC nº 121", 
     "norma": "IS 121-006D", 
     "tornada_sem_efeito": "", 
@@ -2920,6 +2907,32 @@
     "outros": "", 
     "tipo_normatico": "IS", 
     "publicacao": "11/04/2025", 
+    "revogada": "", 
+    "em_vigor": "", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Processo de credenciamento de pessoa física na SAR e orientações de atuação para os profissionais credenciados", 
+    "norma": "IS 183-002I", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "23/05/2025", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "27/05/2025", 
+    "revogada": "", 
+    "em_vigor": "", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Processo de credenciamento de profissional qualificado para aplicação do exame de proficiência em Mecânicos de Manutenção Aeronáutica", 
+    "norma": "IS 183-003B", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "23/05/2025", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "27/05/2025", 
     "revogada": "", 
     "em_vigor": "", 
     "anexos": ""
