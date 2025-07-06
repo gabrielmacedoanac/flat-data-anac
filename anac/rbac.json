@@ -434,7 +434,7 @@
     "tornada_sem_efeito": "", 
     "alterada": "", 
     "data": "13/06/2023", 
-    "outros": "<a class=\"external-link\" href=\"https://www.anac.gov.br/assuntos/legislacao/legislacao-1/portarias/2023/portaria-11656\" target=\"_blank\" title=\"\">Compêndio de Elementos de Fiscalização - CEF</a>", 
+    "outros": "", 
     "tipo_normatico": "RBAC", 
     "publicacao": "14/06/2023", 
     "revogada": "", 
@@ -586,16 +586,16 @@
   }, 
   {
     "ementa": "Requisitos gerais de operação para aeronaves civis", 
-    "norma": "RBAC 91 EMD 05", 
+    "norma": "RBAC 91 EMD 06", 
     "tornada_sem_efeito": "", 
     "alterada": "", 
-    "data": "05/02/2025", 
+    "data": "25/06/2025", 
     "outros": "", 
     "tipo_normatico": "RBAC", 
-    "publicacao": "07/02/2025", 
+    "publicacao": "30/06/2025", 
     "revogada": "", 
-    "em_vigor": "Versão em vigor em 1º de janeiro de 2026", 
-    "anexos": ", https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-91-emd-05@@download/anexo_norma/PA2025-16.523 CEF RBAC 91.pdf"
+    "em_vigor": "Em vigor em 1º de janeiro de 2026", 
+    "anexos": ", https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-91-emd-06@@download/anexo_norma/PA2025-16.523 CEF RBAC 91.pdf"
   }, 
   {
     "ementa": "Definições, regras de redação e unidades de medida para uso nos normativos da ANAC", 
@@ -726,5 +726,18 @@
     "revogada": "", 
     "em_vigor": "Versão em vigor em 01.01.2026", 
     "anexos": ""
+  }, 
+  {
+    "ementa": "Cadastro e requisitos operacionais: operações aeroagrícolas", 
+    "norma": "RBAC 137 EMD 06", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "25/06/2025", 
+    "outros": "", 
+    "tipo_normatico": "RBAC", 
+    "publicacao": "30/06/2025", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 1º de janeiro de 2026", 
+    "anexos": ", https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-137-emd-06@@download/anexo_norma/CEF RBAC 137.pdf"
   }
 ]

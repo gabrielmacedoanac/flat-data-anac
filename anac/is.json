@@ -429,19 +429,6 @@
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-119-002@@download/arquivo_norma/IS 119-002D.pdf"
   }, 
   {
-    "ementa": "Procedimentos para elaboração e utilização de Manual de Procedimentos Operacionais Padronizados (SOP). ", 
-    "norma": "IS 119-003A", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "17/05/2013", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "17/05/2013\r\n", 
-    "revogada": "", 
-    "em_vigor": "", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-119-003@@download/arquivo_norma/IS119-003A.pdf"
-  }, 
-  {
     "ementa": "Programa de reporte voluntário de empresa aérea certificada de acordo com o RBAC nº 121. ", 
     "norma": "IS 121.1225-001A", 
     "tornada_sem_efeito": "", 
@@ -2949,5 +2936,31 @@
     "revogada": "", 
     "em_vigor": "", 
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-121-022@@download/arquivo_norma/IS121-022A.pdf"
+  }, 
+  {
+    "ementa": "Procedimentos para a elaboração do Manual de Operações da Aeronave (Aircraft Operating Manual - AOM) por operadores certificados sob o RBAC nº 135", 
+    "norma": "IS 135-009A", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "24/06/2025", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "30/06/2025", 
+    "revogada": "", 
+    "em_vigor": "", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Procedimentos para a elaboração dos procedimentos operacionais padronizados (SOP) de operadores certificados sob o RBAC n º 135", 
+    "norma": "IS 135-008A", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "24/06/2025", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "30/06/2025", 
+    "revogada": "", 
+    "em_vigor": "", 
+    "anexos": ""
   }
 ]
