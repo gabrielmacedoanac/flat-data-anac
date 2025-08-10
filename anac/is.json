@@ -442,19 +442,6 @@
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-121-1225-001@@download/arquivo_norma/IS121.1225-001A.pdf"
   }, 
   {
-    "ementa": "Instruções para elaboração do Manual Geral de Manutenção (MGM) - táxis aéreos operando exclusivamente aeronaves com configuração máxima para passageiros igual ou inferior a 9 (nove) assentos.", 
-    "norma": "IS 135.21-001A", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "17/08/2012", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "17/08/2012", 
-    "revogada": "", 
-    "em_vigor": "", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-135-21-001@@download/arquivo_norma/IS 135.21-001A.pdf"
-  }, 
-  {
     "ementa": "Situações em que deve ocorrer a análise e aceitação dos Manuais de Procedimentos de Inspeção (MPI) de empresas certificadas RBHA 145.", 
     "norma": "IS 145-003B", 
     "tornada_sem_efeito": "", 
@@ -466,19 +453,6 @@
     "revogada": "", 
     "em_vigor": "", 
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-145-003@@download/arquivo_norma/IS 145-003B.pdf"
-  }, 
-  {
-    "ementa": "Programa de Treinamento em Organizações de Manutenção.", 
-    "norma": "IS 145-010B", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "24/01/2020", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "24/01/2020", 
-    "revogada": "", 
-    "em_vigor": "", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-145-010@@download/arquivo_norma/IS145-010B.pdf"
   }, 
   {
     "ementa": "Uso de etanol em aeronaves agrícolas.", 
@@ -1470,15 +1444,15 @@
   }, 
   {
     "ementa": "Lista de Equipamentos Mínimos (MEL) e operação com equipamentos e instrumentos inoperantes", 
-    "norma": "IS 91-012B", 
+    "norma": "IS 91-012C", 
     "tornada_sem_efeito": "", 
     "alterada": "", 
-    "data": "03/02/2022", 
+    "data": "31/07/2025", 
     "outros": "", 
     "tipo_normatico": "IS", 
-    "publicacao": "07/02/2022", 
+    "publicacao": "04/08/2025", 
     "revogada": "", 
-    "em_vigor": "Em vigor em 2 de março de 2022", 
+    "em_vigor": "", 
     "anexos": ""
   }, 
   {
@@ -1899,15 +1873,15 @@
   }, 
   {
     "ementa": "Manutenção realizada por empresas de transporte aéreo", 
-    "norma": "IS 120-016B", 
+    "norma": "IS 120-016C", 
     "tornada_sem_efeito": "", 
     "alterada": "", 
-    "data": "30/03/2023", 
+    "data": "25/07/2025", 
     "outros": "", 
     "tipo_normatico": "IS", 
-    "publicacao": "04/04/2023", 
+    "publicacao": "07/08/2025", 
     "revogada": "", 
-    "em_vigor": "Em vigor em 2 de maio de 2023", 
+    "em_vigor": "", 
     "anexos": ""
   }, 
   {
@@ -2959,6 +2933,45 @@
     "outros": "", 
     "tipo_normatico": "IS", 
     "publicacao": "30/06/2025", 
+    "revogada": "", 
+    "em_vigor": "", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Programa de treinamento de manutenção e manutenção preventiva de operadores de serviço de transporte aéreo", 
+    "norma": "IS 119-010A", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "25/07/2025", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "07/08/2025", 
+    "revogada": "", 
+    "em_vigor": "", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Programa de treinamento de organizações de manutenção", 
+    "norma": "IS 145-010C", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "25/07/2025", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "07/08/2025", 
+    "revogada": "", 
+    "em_vigor": "", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Instruções para a Elaboração do Manual Geral de Manutenção (MGM) – Operadores sob o RBAC nº 135 operando exclusivamente aeronaves com configuração máxima certificada de assentos para passageiros de até 9 (nove) assentos", 
+    "norma": "IS 135.21-001B", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "06/08/2025", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "08/08/2025", 
     "revogada": "", 
     "em_vigor": "", 
     "anexos": ""
