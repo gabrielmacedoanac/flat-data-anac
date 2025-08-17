@@ -91,19 +91,6 @@
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/iac/iac-200-1001@@download/arquivo_norma/IAC200_1001.pdf"
   }, 
   {
-    "ementa": "F iscalização e controle da contribuição devida ao fundo aeroviário. ", 
-    "norma": "IAC 0201", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "07/02/1997", 
-    "outros": "", 
-    "tipo_normatico": "IAC", 
-    "publicacao": "", 
-    "revogada": "", 
-    "em_vigor": "", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/iac/iac-0201@@download/arquivo_norma/IAC0201.pdf"
-  }, 
-  {
     "ementa": "Constituição e atribuições específicas das Seções de Aviação Civil (Última atualização EMD 01 - 04/1991).", 
     "norma": "IAC 2306", 
     "tornada_sem_efeito": "", 
@@ -143,19 +130,6 @@
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/iac/iac-3252@@download/arquivo_norma/IAC3252.pdf"
   }, 
   {
-    "ementa": "Procedimentos para celebração de convênio para repasse de recursos financeiros. ", 
-    "norma": "IAC 3316", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "19/03/2002", 
-    "outros": "", 
-    "tipo_normatico": "IAC", 
-    "publicacao": "", 
-    "revogada": "", 
-    "em_vigor": "", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/iac/iac-3316@@download/arquivo_norma/IAC3316.pdf"
-  }, 
-  {
     "ementa": "Sistemática de controle e fiscalização do programa federal de auxílio a aeroportos. ", 
     "norma": "IAC 4201A", 
     "tornada_sem_efeito": "", 
@@ -167,19 +141,6 @@
     "revogada": "", 
     "em_vigor": "", 
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/iac/iac-4201a@@download/arquivo_norma/IAC4201A.pdf"
-  }, 
-  {
-    "ementa": "Planejamento integrado de investimentos na infra-estrutura aeronáutica. ", 
-    "norma": "IAC 5001", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "09/08/1999", 
-    "outros": "", 
-    "tipo_normatico": "IAC", 
-    "publicacao": "", 
-    "revogada": "", 
-    "em_vigor": "", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/iac/iac-5001@@download/arquivo_norma/IAC5001.pdf"
   }, 
   {
     "ementa": "Instalações para as Seções de Aviação Civil (SAC) nos aeroportos. ", 
@@ -219,5 +180,57 @@
     "revogada": "", 
     "em_vigor": "", 
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/iac/iac-160-1003@@download/arquivo_norma/IAC 160-1003 - Compilado até RA2017-0432.pdf"
+  }, 
+  {
+    "ementa": "Composição de Tripulação.", 
+    "norma": "IAC 3206", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "01/01/2015", 
+    "outros": "", 
+    "tipo_normatico": "IAC", 
+    "publicacao": "", 
+    "revogada": "", 
+    "em_vigor": "", 
+    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/iac/iac-3206@@download/arquivo_norma/IAC3206.pdf"
+  }, 
+  {
+    "ementa": "Normas e procedimentos para a confecção e aprovação de listas mestras de equipamentos mínimos (MMEL) e de listas de equipamentos mínimos (MEL).", 
+    "norma": "IAC 3507", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "01/01/2015", 
+    "outros": "", 
+    "tipo_normatico": "IAC", 
+    "publicacao": "", 
+    "revogada": "", 
+    "em_vigor": "", 
+    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/iac/iac-3507@@download/arquivo_norma/IAC3507ED1998.pdf"
+  }, 
+  {
+    "ementa": "Transporte de Cadáveres por via aérea.", 
+    "norma": "IAC 2211", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "01/01/2015", 
+    "outros": "", 
+    "tipo_normatico": "IAC", 
+    "publicacao": "", 
+    "revogada": "", 
+    "em_vigor": "", 
+    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/iac/iac-2211@@download/arquivo_norma/IAC2211.pdf"
+  }, 
+  {
+    "ementa": "Translado para o Brasil, de aeronaves civis adquiridas no exterior.", 
+    "norma": "IAC 2214", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "01/01/2015", 
+    "outros": "", 
+    "tipo_normatico": "IAC", 
+    "publicacao": "", 
+    "revogada": "", 
+    "em_vigor": "", 
+    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/iac/iac-2214@@download/arquivo_norma/IAC2214.pdf"
   }
 ]
