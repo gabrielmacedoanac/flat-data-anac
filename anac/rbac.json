@@ -287,16 +287,16 @@
   }, 
   {
     "ementa": "Requisitos de Aeronavegabilidade: Aviões Categoria Transporte", 
-    "norma": "RBAC 25 EMD 146", 
+    "norma": "RBAC 25 EMD 150", 
     "tornada_sem_efeito": "", 
     "alterada": "", 
-    "data": "25/04/2022", 
+    "data": "21/08/2025", 
     "outros": "", 
     "tipo_normatico": "RBAC", 
-    "publicacao": "28/04/2022", 
+    "publicacao": "28/08/2025", 
     "revogada": "", 
-    "em_vigor": "Em vigor em 1º de junho de 2022", 
-    "anexos": ", https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-25@@download/anexo_norma/Anexo 14 CFR Part 25 Amdt. 146.pdf"
+    "em_vigor": "", 
+    "anexos": ", https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-25@@download/anexo_norma/CFR 14 CFR Part 25 Amdt 150.pdf"
   }, 
   {
     "ementa": "Requisitos de Aeronavegabilidade: Motores Aeronáuticos", 
@@ -529,7 +529,7 @@
     "tipo_normatico": "RBAC", 
     "publicacao": "08/08/2025", 
     "revogada": "", 
-    "em_vigor": "", 
+    "em_vigor": "Em vigor até 31 de dezembro de 2025", 
     "anexos": ", https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-121@@download/anexo_norma/CEF RBAC 121.pdf"
   }, 
   {

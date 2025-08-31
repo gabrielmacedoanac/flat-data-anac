@@ -520,19 +520,6 @@
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-164-001@@download/arquivo_norma/IS164-001A.pdf"
   }, 
   {
-    "ementa": "Examinadores credenciados no âmbito dos operadores aéreos regidos pelo RBAC nº 121.", 
-    "norma": "IS 121-002A", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "15/12/2017", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "15/12/2017", 
-    "revogada": "", 
-    "em_vigor": "", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-121-002@@download/arquivo_norma/IS121-002A.pdf"
-  }, 
-  {
     "ementa": "Currículo mínimo para a formação teórica e prática do Despachante Operacional de Voo (DOV).", 
     "norma": "IS 141-003A", 
     "tornada_sem_efeito": "", 
@@ -1808,7 +1795,7 @@
   }, 
   {
     "ementa": "Procedimentos para autorização do uso de comunicação por enlace de dados controlador-piloto (CPDLC) e de vigilância dependente automática-contrato (ADS-C)", 
-    "norma": "IS 91-010B", 
+    "norma": "IS 91-010C", 
     "tornada_sem_efeito": "", 
     "alterada": "", 
     "data": "31/12/2024", 
@@ -2987,6 +2974,19 @@
     "publicacao": "11/08/2025", 
     "revogada": "", 
     "em_vigor": "Em vigor em 10 de setembro de 2025", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Examinadores credenciados no âmbito dos operadores aéreos regidos pelo RBAC nº 121", 
+    "norma": "IS 121-002B", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "22/08/2025", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "29/08/2025", 
+    "revogada": "", 
+    "em_vigor": "", 
     "anexos": ""
   }
 ]
