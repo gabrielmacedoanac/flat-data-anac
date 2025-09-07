@@ -364,19 +364,6 @@
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-67-004@@download/arquivo_norma/IS67-004B.pdf"
   }, 
   {
-    "ementa": "Aprovação operacional para aproximações ILS CAT I com autorização requerida e decolagens com baixa visibilidade mediante o emprego do Head Up Guidance System (HGS). ", 
-    "norma": "IS 91-003A", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "18/10/2015", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "18/09/2015", 
-    "revogada": "", 
-    "em_vigor": "", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-91-003@@download/arquivo_norma/IS91-003A.pdf"
-  }, 
-  {
     "ementa": "Aeronaves históricas.", 
     "norma": "IS 21.191-002A", 
     "tornada_sem_efeito": "", 
@@ -1795,28 +1782,28 @@
   }, 
   {
     "ementa": "Procedimentos para autorização do uso de comunicação por enlace de dados controlador-piloto (CPDLC) e de vigilância dependente automática-contrato (ADS-C)", 
-    "norma": "IS 91-010C", 
+    "norma": "IS 91-010D", 
     "tornada_sem_efeito": "", 
     "alterada": "", 
-    "data": "31/12/2024", 
+    "data": "27/08/2025", 
     "outros": "", 
     "tipo_normatico": "IS", 
-    "publicacao": "03/01/2025", 
+    "publicacao": "02/09/2025", 
     "revogada": "", 
     "em_vigor": "", 
     "anexos": ""
   }, 
   {
     "ementa": "Aprovação de aproximação por instrumento utilizando créditos operacionais mediante o uso de um EFVS - Enhanced Flight Vision System", 
-    "norma": "IS 91-011B", 
+    "norma": "IS 91-011C", 
     "tornada_sem_efeito": "", 
     "alterada": "", 
-    "data": "17/02/2023", 
+    "data": "28/08/2025", 
     "outros": "", 
     "tipo_normatico": "IS", 
-    "publicacao": "23/02/2023", 
+    "publicacao": "03/09/2025", 
     "revogada": "", 
-    "em_vigor": "Em vigor em 1º de março de 2023", 
+    "em_vigor": "", 
     "anexos": ""
   }, 
   {
@@ -2146,15 +2133,15 @@
   }, 
   {
     "ementa": "Procedimentos gerais para elaboração, aprovação, revisão e utilização de programas de treinamento operacional (PTO) de operadores aéreos regidos pelo RBAC nº 121", 
-    "norma": "IS 121-006D", 
+    "norma": "IS 121-006E", 
     "tornada_sem_efeito": "", 
     "alterada": "", 
-    "data": "24/08/2023", 
+    "data": "28/08/2025", 
     "outros": "", 
     "tipo_normatico": "IS", 
-    "publicacao": "25/08/2023", 
+    "publicacao": "03/09/2025", 
     "revogada": "", 
-    "em_vigor": "Em vigor em 1º de setembro de 2023", 
+    "em_vigor": "", 
     "anexos": ""
   }, 
   {
@@ -2367,15 +2354,15 @@
   }, 
   {
     "ementa": "Procedimentos para elaboração de programa de treinamento operacional de comissários de voo segundo o RBAC nº 121", 
-    "norma": "IS 121-011C", 
+    "norma": "IS 121-011D", 
     "tornada_sem_efeito": "", 
     "alterada": "", 
-    "data": "20/12/2023", 
+    "data": "28/08/2025", 
     "outros": "Retificado no DOU de 03.01.2024, Seção 1, página 132\r\nRetificado no DOU de 19.01.2024, Seção 1, página 47", 
     "tipo_normatico": "IS", 
-    "publicacao": "26/12/2023", 
+    "publicacao": "03/09/2025", 
     "revogada": "", 
-    "em_vigor": "Em vigor em 2 de janeiro de 2024", 
+    "em_vigor": "", 
     "anexos": ""
   }, 
   {
@@ -2985,6 +2972,19 @@
     "outros": "", 
     "tipo_normatico": "IS", 
     "publicacao": "29/08/2025", 
+    "revogada": "", 
+    "em_vigor": "", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Aprovação operacional para aproximações ILS CAT I com autorização requerida e decolagens com baixa visibilidade mediante o emprego do Head Up Guidance System (HGS)", 
+    "norma": "IS 91-003B", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "28/08/2025", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "03/09/2025", 
     "revogada": "", 
     "em_vigor": "", 
     "anexos": ""
