@@ -429,19 +429,6 @@
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-121-1225-001@@download/arquivo_norma/IS121.1225-001A.pdf"
   }, 
   {
-    "ementa": "Situações em que deve ocorrer a análise e aceitação dos Manuais de Procedimentos de Inspeção (MPI) de empresas certificadas RBHA 145.", 
-    "norma": "IS 145-003B", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "27/07/2012", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "27/07/2012", 
-    "revogada": "", 
-    "em_vigor": "", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-145-003@@download/arquivo_norma/IS 145-003B.pdf"
-  }, 
-  {
     "ementa": "Uso de etanol em aeronaves agrícolas.", 
     "norma": "IS 137.201-001E", 
     "tornada_sem_efeito": "", 
@@ -466,6 +453,19 @@
     "revogada": "", 
     "em_vigor": "Em vigor em 1º de novembro de 2022", 
     "anexos": ""
+  }, 
+  {
+    "ementa": "Situações em que deve ocorrer a análise e aceitação dos Manuais de Procedimentos de Inspeção (MPI) de empresas certificadas RBHA 145.", 
+    "norma": "IS 145-003B", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "01/01/2015", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "27/07/2012", 
+    "revogada": "Portaria nº 17.881/SPO, de 16.09.2025", 
+    "em_vigor": "", 
+    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-145-003@@download/arquivo_norma/IS 145-003B.pdf"
   }, 
   {
     "ementa": "Qualificação e Autorização em Ensaios não destrutivos na manutenção de produto aeronáutico ", 
