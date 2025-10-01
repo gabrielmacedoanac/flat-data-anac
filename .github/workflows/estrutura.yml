@@ -1,0 +1,31 @@
+name: Atualiza Estrutura ANAC
+
+on:
+  schedule:
+    - cron: '0 0 1 * *'  # todo dia 1 de cada mês à meia-noite
+  workflow_dispatch:     # permite rodar manualmente
+
+jobs:
+  atualiza:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout do repositório
+        uses: actions/checkout@v3
+
+      - name: Setup Deno
+        uses: denoland/setup-deno@v1
+        with:
+          deno-version: v1.x
+
+      - name: Atualiza a estrutura da ANAC em arquivo tsv
+        run: |
+          deno run -A https://raw.githubusercontent.com/gabrielmacedoanac/flat-data-anac/main/scripts/estrutura.ts
+
+      - name: Commit & Push se houver alterações
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add anac-estrutura.tsv
+          git diff --cached --quiet || git commit -m "$(date +'%Y-%m-%d %H:%M UTC') Atualização automática"
+          git push
