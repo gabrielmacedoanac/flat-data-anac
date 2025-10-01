@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - name: Checkout do repositório
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Setup Deno
         uses: denoland/setup-deno@v1
@@ -19,9 +19,8 @@ jobs:
           deno-version: v1.x
 
       - name: Atualiza a estrutura da ANAC em arquivo tsv
-        run: |
-          deno run -A https://raw.githubusercontent.com/gabrielmacedoanac/flat-data-anac/main/scripts/estrutura.ts
-
+        run: deno run --allow-net --allow-read --allow-write --unsafely-ignore-certificate-errors --allow-run scripts/estrutura.ts
+        
       - name: Commit & Push se houver alterações
         run: |
           git config user.name "github-actions"
