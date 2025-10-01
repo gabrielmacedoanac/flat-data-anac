@@ -1,4 +1,4 @@
-import { table } from "https://deno.land/x/flat@0.0.20/mod.ts";
+import { table } from "https://deno.land/x/flat@0.0.15/mod.ts";
 await (async()=>{
   const r=await fetch("https://estruturaorganizacional.dados.gov.br/doc/estrutura-organizacional/completa.xml?codigoPoder=1&codigoEsfera=1&codigoUnidade=86144&retornarOrgaoEntidadeVinculados=SIM");
   if(!r.ok) throw r.status;
