@@ -1,64 +1,34 @@
-await (async () => {
-  const r = await fetch(
-    "https://estruturaorganizacional.dados.gov.br/doc/estrutura-organizacional/completa.xml?codigoPoder=1&codigoEsfera=1&codigoUnidade=86144&retornarOrgaoEntidadeVinculados=SIM"
-  );
-  if (!r.ok) throw r.status;
+import { DOMParser } from "https://deno.land/x/deno_dom/deno-dom-wasm.ts";
 
-  const x = [
-    ...new DOMParser()
-      .parseFromString(await r.text(), "application/xml")
-      .querySelectorAll("unidades"),
-  ].map((u) => ({
-    s: u.querySelector("sigla")?.textContent || "",
-    n: u.querySelector("nome")?.textContent || "",
-    c: u.querySelector("competencia")?.textContent.replace(/\s+/g, " ") || "",
-    f: u.querySelector("endereco>uf")?.textContent || "",
-    m: u.querySelector("endereco>municipio")?.textContent || "",
-    z: u.querySelector("endereco>cep")?.textContent || "",
-    i: u.querySelector("codigoUnidade")?.textContent.split("/").pop() || "",
-    p: u.querySelector("codigoUnidadePai")?.textContent.split("/").pop() || "",
-  }));
+const r = await fetch("https://estruturaorganizacional.dados.gov.br/doc/estrutura-organizacional/completa.xml?codigoPoder=1&codigoEsfera=1&codigoUnidade=86144&retornarOrgaoEntidadeVinculados=SIM");
+if (!r.ok) throw r.status;
 
-  x.forEach((u) => {
-    let S: string[] = [], y = u;
-    while (y) {
-      S.unshift(y.s || y.n);
-      y = x.find((z) => z.i === y.p);
-    }
-    u.siglaCompleta = S.join("/");
-    if (u.s.startsWith("NURAC")) {
-      const a = u.n.split(" ");
-      u.s = `NURAC ${a[6] || ""} ${a[7] || ""}`;
-    }
-  });
+const text = await r.text();
+const doc = new DOMParser().parseFromString(text, "text/xml");
+if (!doc) throw "Erro ao parsear XML";
 
-  const header = [
-    "Sigla",
-    "Sigla Completa",
-    "Nome",
-    "Competencia",
-    "UF",
-    "Municipio",
-    "CEP",
-    "CodigoUnidade",
-    "CodigoUnidadePai",
-  ].join("\t");
+const u = [...doc.querySelectorAll("unidades")].map(x => ({
+  s: x.querySelector("sigla")?.textContent || "",
+  n: x.querySelector("nome")?.textContent || "",
+  c: x.querySelector("competencia")?.textContent.replace(/\s+/g," ") || "",
+  f: x.querySelector("endereco>uf")?.textContent || "",
+  m: x.querySelector("endereco>municipio")?.textContent || "",
+  z: x.querySelector("endereco>cep")?.textContent || "",
+  i: x.querySelector("codigoUnidade")?.textContent.split("/").pop() || "",
+  p: x.querySelector("codigoUnidadePai")?.textContent.split("/").pop() || ""
+}));
 
-  const rows = x
-    .map((u) =>
-      [
-        u.s,
-        u.siglaCompleta,
-        u.n,
-        u.c,
-        u.f,
-        u.m,
-        u.z,
-        u.i,
-        u.p,
-      ].join("\t")
-    )
-    .join("\n");
+u.forEach(x=>{
+  let S=[], y=x;
+  while(y){ S.unshift(y.s||y.n); y=u.find(z=>z.i===y.p); }
+  x.siglaCompleta = S.join("/");
+  if(x.s.startsWith("NURAC")) {
+    const a=x.n.split(" ");
+    x.s=`NURAC ${a[6]||""} ${a[7]||""}`;
+  }
+});
 
-  await Deno.writeTextFile("anac-estrutura.tsv", `${header}\n${rows}`);
-})();
+const header=["Sigla","Sigla Completa","Nome","Competencia","UF","Municipio","CEP","CodigoUnidade","CodigoUnidadePai"].join("\t");
+const rows=u.map(x=>[x.s,x.siglaCompleta,x.n,x.c,x.f,x.m,x.z,x.i,x.p].join("\t")).join("\n");
+
+await Deno.writeTextFile("anac-estrutura.tsv", `${header}\n${rows}`);
