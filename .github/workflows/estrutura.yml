@@ -1,69 +1,46 @@
-name: Atualizar Estrutura ANAC
+name: Estrutura ANAC
 
 on:
   schedule:
-    - cron: '0 0 1 * *' # roda todo dia 1 do mês
+    - cron: '0 0 1 * *' # roda dia 1 todo mês
   workflow_dispatch:
 
 jobs:
-  gerar-estrutura:
+  gerar:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout do repositório
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
 
-      - name: Gerar TSV ANAC
+      - name: Gerar TSV com Bash + xmllint
         run: |
-          deno run --allow-net --allow-write <<'EOF'
-          import { parse } from "https://deno.land/x/xmlp@v0.2.7/mod.ts";
+          URL="https://estruturaorganizacional.dados.gov.br/doc/estrutura-organizacional/completa.xml?codigoPoder=1&codigoEsfera=1&codigoUnidade=86144&retornarOrgaoEntidadeVinculados=SIM"
+          curl -s "$URL" -o estrutura.xml
+          {
+            echo -e "Sigla\tNome\tCompetencia\tUF\tMunicipio\tCEP\tCodigoUnidade\tCodigoUnidadePai"
+            xmllint --xpath "//unidades" estrutura.xml | \
+            xmllint --format - | \
+            awk -F'[<>]' '
+              /<sigla>/        {sigla=$3}
+              /<nome>/         {nome=$3}
+              /<competencia>/  {gsub(/\n/," ",$3); gsub(/\t/," ",$3); comp=$3}
+              /<uf>/           {uf=$3}
+              /<municipio>/    {mun=$3}
+              /<cep>/          {cep=$3}
+              /<codigoUnidade>/    {cod=$3; sub(".*/","",cod)}
+              /<codigoUnidadePai>/ {pai=$3; sub(".*/","",pai)}
+              /<\/unidades>/ {
+                print sigla "\t" nome "\t" comp "\t" uf "\t" mun "\t" cep "\t" cod "\t" pai;
+                sigla=nome=comp=uf=mun=cep=cod=pai="";
+              }'
+          } > anac-estrutura.tsv
 
-          const url = "https://estruturaorganizacional.dados.gov.br/doc/estrutura-organizacional/completa.xml?codigoPoder=1&codigoEsfera=1&codigoUnidade=86144&retornarOrgaoEntidadeVinculados=SIM";
-          const xml = await (await fetch(url)).text();
-          const obj = parse(xml);
-          const unidades = obj?.unidades?.unidades || [];
-
-          const dados = unidades.map(u => ({
-            sigla: u.sigla ?? "",
-            nome: u.nome ?? "",
-            competencia: (u.competencia ?? "").replace(/\s+/g, " "),
-            uf: u.endereco?.uf ?? "",
-            municipio: u.endereco?.municipio ?? "",
-            cep: u.endereco?.cep ?? "",
-            codigoUnidade: u.codigoUnidade?.split("/").pop() ?? "",
-            codigoUnidadePai: u.codigoUnidadePai?.split("/").pop() ?? "",
-          }));
-
-          dados.forEach(d => {
-            let caminho = [], a = d;
-            while (a) {
-              caminho.unshift(a.sigla || a.nome);
-              a = dados.find(x => x.codigoUnidade === a.codigoUnidadePai);
-            }
-            d.siglaCompleta = caminho.join("/");
-            if (d.sigla.startsWith("NURAC")) {
-              const p = d.nome.split(" ");
-              d.sigla = `NURAC ${p[6] || ""} ${p[7] || ""}`.trim();
-            }
-          });
-
-          dados.sort((a, b) => a.siglaCompleta.localeCompare(b.siglaCompleta));
-
-          const header = ["Sigla", "Sigla Completa", "Nome", "Competencia", "UF", "Municipio", "CEP", "CodigoUnidade", "CodigoUnidadePai"];
-          const tsv = [header.join("\t"), ...dados.map(d =>
-            [d.sigla, d.siglaCompleta, d.nome, d.competencia, d.uf, d.municipio, d.cep, d.codigoUnidade, d.codigoUnidadePai].join("\t")
-          )].join("\n");
-
-          await Deno.writeTextFile("anac-estrutura.tsv", tsv);
-          console.log("✅ Arquivo salvo: anac-estrutura.tsv");
-          EOF
-
-      - name: Commit e Push se houver alterações
+      - name: Commit e Push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add anac-estrutura.tsv
           if ! git diff --cached --quiet; then
-            git commit -m "Atualizar ANAC Estrutura"
+            git commit -m "Atualização automática da estrutura ANAC"
             git push
           else
-            echo "Sem alterações no arquivo"
+            echo "✅ Sem mudanças"
