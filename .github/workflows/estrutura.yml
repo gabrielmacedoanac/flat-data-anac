@@ -1,64 +1,89 @@
-name: Estrutura ANAC TSV
+name: Atualizar Estrutura ANAC
 
 on:
-  workflow_dispatch:
   schedule:
-    - cron: "0 0 1 * *" # roda todo dia 1 de cada mês
+    - cron: "0 0 1 * *"   # roda todo dia 1 do mês, à meia-noite UTC
+  workflow_dispatch:       # permite rodar manualmente também
 
 jobs:
-  gerar:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - name: Gerar TSV (Python)
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Run Python script
         run: |
-          URL="https://estruturaorganizacional.dados.gov.br/doc/estrutura-organizacional/completa.xml?codigoPoder=1&codigoEsfera=1&codigoUnidade=86144&retornarOrgaoEntidadeVinculados=SIM"
-          curl -s "$URL" -o estrutura.xml
           python3 - <<'EOF'
-      import xml.etree.ElementTree as ET
-      tree = ET.parse("estrutura.xml")
-      root = tree.getroot()
-      with open("anac-estrutura.tsv", "w", encoding="utf-8") as f:
-          f.write("Sigla\tNome\tCompetencia\tUF\tMunicipio\tCEP\tCodigoUnidade\tCodigoUnidadePai\n")
-          for unidade in root.findall(".//unidades"):
-              sigla = unidade.findtext("sigla","")
-              nome = unidade.findtext("nome","")
-              comp = unidade.findtext("competencia","").replace("\n"," ").replace("\t"," ")
-              uf = unidade.findtext("uf","")
-              mun = unidade.findtext("municipio","")
-              cep = unidade.findtext("cep","")
-              cod = unidade.findtext("codigoUnidade","").split("/")[-1]
-              pai = unidade.findtext("codigoUnidadePai","").split("/")[-1]
-              f.write(f"{sigla}\t{nome}\t{comp}\t{uf}\t{mun}\t{cep}\t{cod}\t{pai}\n")
-      EOF
+          from urllib.request import Request, urlopen
+          import xml.etree.ElementTree as ET
+          from pathlib import Path
 
-      # ========================================================
-      # 🔹 OPÇÃO 3: Perl (rápido, texto direto)
-      # ========================================================
-      # - name: Gerar TSV (Perl)
-      #   run: |
-      #     URL="https://estruturaorganizacional.dados.gov.br/doc/estrutura-organizacional/completa.xml?codigoPoder=1&codigoEsfera=1&codigoUnidade=86144&retornarOrgaoEntidadeVinculados=SIM"
-      #     curl -s "$URL" -o estrutura.xml
-      #     echo -e "Sigla\tNome\tCompetencia\tUF\tMunicipio\tCEP\tCodigoUnidade\tCodigoUnidadePai" > anac-estrutura.tsv
-      #     perl -0777 -ne '
-      #       while(/<unidades>(.*?)<\/unidades>/sg){
-      #         $b=$1;
-      #         ($sigla)=$b=~/<sigla>(.*?)<\/sigla>/s;
-      #         ($nome)=$b=~/<nome>(.*?)<\/nome>/s;
-      #         ($comp)=$b=~/<competencia>(.*?)<\/competencia>/s;
-      #         ($uf)=$b=~/<uf>(.*?)<\/uf>/s;
-      #         ($mun)=$b=~/<municipio>(.*?)<\/municipio>/s;
-      #         ($cep)=$b=~/<cep>(.*?)<\/cep>/s;
-      #         ($cod)=$b=~/<codigoUnidade>(.*?)<\/codigoUnidade>/s; $cod=~s!.*/!!;
-      #         ($pai)=$b=~/<codigoUnidadePai>(.*?)<\/codigoUnidadePai>/s; $pai=~s!.*/!!;
-      #         $comp=~s/\n/ /g; $comp=~s/\t/ /g;
-      #         print "$sigla\t$nome\t$comp\t$uf\t$mun\t$cep\t$cod\t$pai\n";
-      #       }' estrutura.xml >> anac-estrutura.tsv
+          URL = "https://estruturaorganizacional.dados.gov.br/doc/estrutura-organizacional/completa.xml?codigoPoder=1&codigoEsfera=1&codigoUnidade=86144&retornarOrgaoEntidadeVinculados=SIM"
 
-      # ========================================================
-      # Commit final
-      # ========================================================
-      - name: Commit e Push
+          req = Request(URL, headers={"User-Agent":"Mozilla/5.0"})
+          xml_bytes = urlopen(req).read()
+          root = ET.fromstring(xml_bytes)
+
+          nodes = root.findall(".//unidades")
+          data = []
+
+          for u in nodes:
+              end = u.find("endereco")
+              cod = (u.findtext("codigoUnidade") or "").strip()
+              cod_pai = (u.findtext("codigoUnidadePai") or "").strip()
+              data.append({
+                  "sigla": (u.findtext("sigla") or "").strip(),
+                  "nome": (u.findtext("nome") or "").strip(),
+                  "competencia": (u.findtext("competencia") or "").replace("\n"," ").replace("\t"," "),
+                  "uf": end.findtext("uf").strip() if end is not None and end.findtext("uf") else "",
+                  "municipio": end.findtext("municipio").strip() if end is not None and end.findtext("municipio") else "",
+                  "cep": end.findtext("cep").strip() if end is not None and end.findtext("cep") else "",
+                  "codigoUnidade": cod.split("/")[-1] if cod else "",
+                  "codigoUnidadePai": cod_pai.split("/")[-1] if cod_pai else ""
+              })
+
+          by_code = {d["codigoUnidade"]: d for d in data if d["codigoUnidade"]}
+
+          for d in data:
+              path, cur, seen = [], d, set()
+              while cur and cur.get("codigoUnidade") and cur["codigoUnidade"] not in seen:
+                  seen.add(cur["codigoUnidade"])
+                  path.insert(0, cur["sigla"] or cur["nome"])
+                  cur = by_code.get(cur.get("codigoUnidadePai"))
+              d["siglaCompleta"] = "/".join(path)
+
+              if d["sigla"].startswith("NURAC"):
+                  parts = d["nome"].split()
+                  city, state = (parts[6] if len(parts) > 6 else ""), (parts[7] if len(parts) > 7 else "")
+                  new_sigla = f"NURAC {city} {state}".strip()
+                  d["sigla"] = new_sigla or d["sigla"]
+                  pcs = d["siglaCompleta"].split("/")
+                  pcs[-1] = d["sigla"]
+                  d["siglaCompleta"] = "/".join(pcs)
+
+          data.sort(key=lambda x: (x["siglaCompleta"] or "").lower())
+
+          header = ["Sigla","Sigla Completa","Nome","Competencia","UF","Municipio","CEP","CodigoUnidade","CodigoUnidadePai"]
+          out = Path("anac-estrutura.tsv")
+          with out.open("w", encoding="utf-8") as f:
+              f.write("\t".join(header) + "\n")
+              for d in data:
+                  row = [
+                      d.get("sigla",""),
+                      d.get("siglaCompleta",""),
+                      d.get("nome",""),
+                      d.get("competencia",""),
+                      d.get("uf",""),
+                      d.get("municipio",""),
+                      d.get("cep",""),
+                      d.get("codigoUnidade",""),
+                      d.get("codigoUnidadePai",""),
+                  ]
+                  f.write("\t".join(row).rstrip() + "\n")
+          EOF
+
+      - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
