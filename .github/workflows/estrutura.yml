@@ -1,30 +1,75 @@
-name: Estrutura ANAC
+name: Atualizar Estrutura ANAC
 
 on:
   schedule:
-    - cron: '0 0 1 * *'  # todo dia 1 de cada mês à meia-noite
-  workflow_dispatch:     # permite rodar manualmente
+    # Executa todo dia 1 do mês à meia-noite
+    - cron: '0 0 1 * *'
+  workflow_dispatch:
 
 jobs:
-  atualiza:
+  gerar-estrutura:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout do repositório
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
-      - name: Setup Deno
-        uses: denoland/setup-deno@v1
-        with:
-          deno-version: v1.x
-
-      - name: Atualiza a estrutura da ANAC em arquivo tsv
-        run: deno run --allow-net --allow-read --allow-write --unsafely-ignore-certificate-errors --allow-run scripts/estrutura.ts
-        
-      - name: Commit & Push se houver alterações
+      - name: Instalar dependências Deno
         run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
+          curl -fsSL https://deno.land/x/install/install.sh | sh
+          export DENO_INSTALL="$HOME/.deno"
+          export PATH="$DENO_INSTALL/bin:$PATH"
+
+      - name: Gerar TSV ANAC
+        run: |
+          deno run --allow-net --allow-write --unstable - <<'EOF'
+          import { parse } from "https://cdn.skypack.dev/fast-xml-parser@4.3.9?dts";
+
+          const url = "https://estruturaorganizacional.dados.gov.br/doc/estrutura-organizacional/completa.xml?codigoPoder=1&codigoEsfera=1&codigoUnidade=86144&retornarOrgaoEntidadeVinculados=SIM";
+          const xml = await (await fetch(url)).text();
+          const obj = parse(xml, { ignoreAttributes: false, attributeNamePrefix: "" });
+          const unidades = obj.unidades?.unidades ?? [];
+
+          const dados = unidades.map(u => ({
+            sigla: u.sigla||"",
+            nome: u.nome||"",
+            competencia: (u.competencia||"").replace(/\s+/g," "),
+            uf: u.endereco?.uf||"",
+            municipio: u.endereco?.municipio||"",
+            cep: u.endereco?.cep||"",
+            codigoUnidade: u.codigoUnidade?.split("/").pop()||"",
+            codigoUnidadePai: u.codigoUnidadePai?.split("/").pop()||"",
+          }));
+
+          // Calcular Sigla Completa
+          dados.forEach(d=>{
+            let caminho=[],a=d;
+            while(a){caminho.unshift(a.sigla||a.nome);a=dados.find(x=>x.codigoUnidade===a.codigoUnidadePai)}
+            d.siglaCompleta=caminho.join("/");
+            if(d.sigla.startsWith("NURAC")){
+              const p=d.nome.split(" ");
+              d.sigla=`NURAC ${p[6]||""} ${p[7]||""}`;
+            }
+          });
+
+          // Ordenar por Sigla Completa
+          dados.sort((a,b)=>a.siglaCompleta.localeCompare(b.siglaCompleta));
+
+          const header=["Sigla","Sigla Completa","Nome","Competencia","UF","Municipio","CEP","CodigoUnidade","CodigoUnidadePai"];
+          const tsv=[header.join("\t"), ...dados.map(d=>[d.sigla,d.siglaCompleta,d.nome,d.competencia,d.uf,d.municipio,d.cep,d.codigoUnidade,d.codigoUnidadePai].join("\t"))].join("\n");
+
+          await Deno.writeTextFile("anac-estrutura.tsv", tsv);
+          console.log("✅ Arquivo 'anac-estrutura.tsv' gerado com sucesso!");
+          EOF
+
+      - name: Commit e Push se houver alterações
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
           git add anac-estrutura.tsv
-          git diff --cached --quiet || git commit -m "$(date +'%Y-%m-%d %H:%M UTC') Atualização automática"
-          git push
+          if ! git diff --cached --quiet; then
+            git commit -m "Atualizar ANAC Estrutura"
+            git push
+          else
+            echo "Sem alterações no arquivo"
+
+  
