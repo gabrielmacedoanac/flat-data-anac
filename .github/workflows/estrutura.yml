@@ -1,9 +1,9 @@
-name: Estrutura ANAC
+name: Estrutura ANAC TSV
 
 on:
-  schedule:
-    - cron: '0 0 1 * *' # roda dia 1 todo mês
   workflow_dispatch:
+  schedule:
+    - cron: "0 0 1 * *" # roda todo dia 1 de cada mês
 
 jobs:
   gerar:
@@ -11,29 +11,95 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Gerar TSV com Bash + xmllint
+      # ========================================================
+      # 🔹 OPÇÃO 1: Bash puro (grep + awk + sed)
+      # ========================================================
+      - name: Gerar TSV (Bash puro)
         run: |
           URL="https://estruturaorganizacional.dados.gov.br/doc/estrutura-organizacional/completa.xml?codigoPoder=1&codigoEsfera=1&codigoUnidade=86144&retornarOrgaoEntidadeVinculados=SIM"
-          curl -s "$URL" -o estrutura.xml
-          {
-            echo -e "Sigla\tNome\tCompetencia\tUF\tMunicipio\tCEP\tCodigoUnidade\tCodigoUnidadePai"
-            xmllint --xpath "//unidades" estrutura.xml | \
-            xmllint --format - | \
-            awk -F'[<>]' '
-              /<sigla>/        {sigla=$3}
-              /<nome>/         {nome=$3}
-              /<competencia>/  {gsub(/\n/," ",$3); gsub(/\t/," ",$3); comp=$3}
-              /<uf>/           {uf=$3}
-              /<municipio>/    {mun=$3}
-              /<cep>/          {cep=$3}
-              /<codigoUnidade>/    {cod=$3; sub(".*/","",cod)}
-              /<codigoUnidadePai>/ {pai=$3; sub(".*/","",pai)}
-              /<\/unidades>/ {
-                print sigla "\t" nome "\t" comp "\t" uf "\t" mun "\t" cep "\t" cod "\t" pai;
-                sigla=nome=comp=uf=mun=cep=cod=pai="";
-              }'
-          } > anac-estrutura.tsv
+          curl -s "$URL" > estrutura.xml
 
+          echo -e "Sigla\tNome\tCompetencia\tUF\tMunicipio\tCEP\tCodigoUnidade\tCodigoUnidadePai" > anac-estrutura.tsv
+
+          awk '/<unidades>/{flag=1;next}/<\/unidades>/{flag=0;print;next}flag' estrutura.xml | \
+          awk '
+            BEGIN {RS="</unidades>"; FS="\n"}
+            {
+              sigla=nome=comp=uf=mun=cep=cod=pai=""
+              for(i=1;i<=NF;i++) {
+                if($i ~ /<sigla>/) sigla=$i
+                if($i ~ /<nome>/) nome=$i
+                if($i ~ /<competencia>/) comp=$i
+                if($i ~ /<uf>/) uf=$i
+                if($i ~ /<municipio>/) mun=$i
+                if($i ~ /<cep>/) cep=$i
+                if($i ~ /<codigoUnidade>/) cod=$i
+                if($i ~ /<codigoUnidadePai>/) pai=$i
+              }
+              gsub(/.*<sigla>|<\/sigla>.*/,"",sigla)
+              gsub(/.*<nome>|<\/nome>.*/,"",nome)
+              gsub(/.*<competencia>|<\/competencia>.*/,"",comp)
+              gsub(/.*<uf>|<\/uf>.*/,"",uf)
+              gsub(/.*<municipio>|<\/municipio>.*/,"",mun)
+              gsub(/.*<cep>|<\/cep>.*/,"",cep)
+              gsub(/.*<codigoUnidade>|<\/codigoUnidade>.*/,"",cod)
+              gsub(/.*<codigoUnidadePai>|<\/codigoUnidadePai>.*/,"",pai)
+              if(sigla!="")
+                print sigla "\t" nome "\t" comp "\t" uf "\t" mun "\t" cep "\t" cod "\t" pai
+            }
+          ' >> anac-estrutura.tsv
+
+      # ========================================================
+      # 🔹 OPÇÃO 2: Python (mais robusto para XML)
+      # ========================================================
+      # - name: Gerar TSV (Python)
+      #   run: |
+      #     URL="https://estruturaorganizacional.dados.gov.br/doc/estrutura-organizacional/completa.xml?codigoPoder=1&codigoEsfera=1&codigoUnidade=86144&retornarOrgaoEntidadeVinculados=SIM"
+      #     curl -s "$URL" -o estrutura.xml
+      #     python3 - <<'EOF'
+      # import xml.etree.ElementTree as ET
+      # tree = ET.parse("estrutura.xml")
+      # root = tree.getroot()
+      # with open("anac-estrutura.tsv", "w", encoding="utf-8") as f:
+      #     f.write("Sigla\tNome\tCompetencia\tUF\tMunicipio\tCEP\tCodigoUnidade\tCodigoUnidadePai\n")
+      #     for unidade in root.findall(".//unidades"):
+      #         sigla = unidade.findtext("sigla","")
+      #         nome = unidade.findtext("nome","")
+      #         comp = unidade.findtext("competencia","").replace("\n"," ").replace("\t"," ")
+      #         uf = unidade.findtext("uf","")
+      #         mun = unidade.findtext("municipio","")
+      #         cep = unidade.findtext("cep","")
+      #         cod = unidade.findtext("codigoUnidade","").split("/")[-1]
+      #         pai = unidade.findtext("codigoUnidadePai","").split("/")[-1]
+      #         f.write(f"{sigla}\t{nome}\t{comp}\t{uf}\t{mun}\t{cep}\t{cod}\t{pai}\n")
+      # EOF
+
+      # ========================================================
+      # 🔹 OPÇÃO 3: Perl (rápido, texto direto)
+      # ========================================================
+      # - name: Gerar TSV (Perl)
+      #   run: |
+      #     URL="https://estruturaorganizacional.dados.gov.br/doc/estrutura-organizacional/completa.xml?codigoPoder=1&codigoEsfera=1&codigoUnidade=86144&retornarOrgaoEntidadeVinculados=SIM"
+      #     curl -s "$URL" -o estrutura.xml
+      #     echo -e "Sigla\tNome\tCompetencia\tUF\tMunicipio\tCEP\tCodigoUnidade\tCodigoUnidadePai" > anac-estrutura.tsv
+      #     perl -0777 -ne '
+      #       while(/<unidades>(.*?)<\/unidades>/sg){
+      #         $b=$1;
+      #         ($sigla)=$b=~/<sigla>(.*?)<\/sigla>/s;
+      #         ($nome)=$b=~/<nome>(.*?)<\/nome>/s;
+      #         ($comp)=$b=~/<competencia>(.*?)<\/competencia>/s;
+      #         ($uf)=$b=~/<uf>(.*?)<\/uf>/s;
+      #         ($mun)=$b=~/<municipio>(.*?)<\/municipio>/s;
+      #         ($cep)=$b=~/<cep>(.*?)<\/cep>/s;
+      #         ($cod)=$b=~/<codigoUnidade>(.*?)<\/codigoUnidade>/s; $cod=~s!.*/!!;
+      #         ($pai)=$b=~/<codigoUnidadePai>(.*?)<\/codigoUnidadePai>/s; $pai=~s!.*/!!;
+      #         $comp=~s/\n/ /g; $comp=~s/\t/ /g;
+      #         print "$sigla\t$nome\t$comp\t$uf\t$mun\t$cep\t$cod\t$pai\n";
+      #       }' estrutura.xml >> anac-estrutura.tsv
+
+      # ========================================================
+      # Commit final
+      # ========================================================
       - name: Commit e Push
         run: |
           git config user.name "github-actions[bot]"
