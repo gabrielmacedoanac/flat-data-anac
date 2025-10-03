@@ -1,4 +1,4 @@
-name: Atualizar Estrutura ANAC
+name: Estrutura ANAC
 
 on:
   schedule:
