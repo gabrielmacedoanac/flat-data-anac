@@ -93,3 +93,4 @@ jobs:
             git push
           else
             echo "✅ Sem mudanças"
+          fi
