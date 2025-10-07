@@ -1,34 +1,72 @@
-import { parse } from "https://cdn.skypack.dev/fast-xml-parser@4.3.9?dts";
+const inputFile = Deno.args[0];
+if (!inputFile) {
+  console.error("❌ Arquivo de entrada não informado. Passe o arquivo JSON como argumento.");
+  Deno.exit(1);
+}
 
-const r = await fetch("https://estruturaorganizacional.dados.gov.br/doc/estrutura-organizacional/completa.xml?codigoPoder=1&codigoEsfera=1&codigoUnidade=86144&retornarOrgaoEntidadeVinculados=SIM");
-if (!r.ok) throw r.status;
-const xml = await r.text();
+const outputFile = inputFile; // sobrescreve o mesmo arquivo
 
-const obj = parse(xml, { ignoreAttributes: false, attributeNamePrefix: "", parseNodeValue: true });
-const unidades = obj.unidades.unidades ?? [];
+interface Unidade {
+  sigla?: string;
+  nome?: string;
+  competencia?: string;
+  municipio?: string;
+  cep?: string;
+  uf?: string;
+  codigoUnidade?: string;
+  codigoUnidadePai?: string;
+  [key: string]: any;
+  siglaCompleta?: string;
+}
 
-const u = unidades.map(x=>({
-  s: x.sigla || "",
-  n: x.nome || "",
-  c: (x.competencia||"").replace(/\s+/g," "),
-  f: x.endereco?.uf||"",
-  m: x.endereco?.municipio||"",
-  z: x.endereco?.cep||"",
-  i: x.codigoUnidade.split("/").pop()||"",
-  p: x.codigoUnidadePai.split("/").pop()||""
-}));
-
-u.forEach(x=>{
-  let S=[], y=x;
-  while(y){ S.unshift(y.s||y.n); y=u.find(z=>z.i===y.p); }
-  x.siglaCompleta = S.join("/");
-  if(x.s.startsWith("NURAC")){
-    const a=x.n.split(" ");
-    x.s=`NURAC ${a[6]||""} ${a[7]||""}`;
+function buildSiglaCompleta(u: Unidade, byCode: Record<string, Unidade>): string {
+  const path: string[] = [];
+  const seen = new Set<string>();
+  let cur: Unidade | undefined = u;
+  while (cur && cur.codigoUnidade && !seen.has(cur.codigoUnidade)) {
+    seen.add(cur.codigoUnidade);
+    path.unshift(cur.sigla || cur.nome || "");
+    cur = byCode[cur.codigoUnidadePai ?? ""];
   }
+  return path.filter(Boolean).join("/");
+}
+
+async function processar() {
+  const raw = await Deno.readTextFile(inputFile);
+  const unidades: Unidade[] = JSON.parse(raw);
+
+  const byCode: Record<string, Unidade> = {};
+  unidades.forEach(u => {
+    if (u.codigoUnidade) byCode[u.codigoUnidade] = u;
+  });
+
+  const result = unidades.map(u => {
+    let sigla = u.sigla ?? "";
+    let siglaCompleta = buildSiglaCompleta(u, byCode);
+
+    // Ajuste NURAC
+    if (sigla.toUpperCase().startsWith("NURAC")) {
+      const partes = (u.nome ?? "").split(" ");
+      const cidade = partes[6] ?? "";
+      const estado = partes[7] ?? "";
+      sigla = `NURAC ${cidade} ${estado}`;
+      const pcs = siglaCompleta.split("/");
+      if (pcs.length >= 3) pcs[pcs.length - 1] = sigla;
+      siglaCompleta = pcs.join("/");
+    }
+
+    return {
+      ...u,
+      sigla,
+      siglaCompleta,
+    };
+  });
+
+  await Deno.writeTextFile(outputFile, JSON.stringify(result, null, 2));
+  console.log(`💾 JSON pós-processado salvo: ${outputFile} (${result.length} registros)`);
+}
+
+processar().catch(err => {
+  console.error("❌ Erro no pós-processamento:", err);
+  Deno.exit(1);
 });
-
-const header = ["Sigla","Sigla Completa","Nome","Competencia","UF","Municipio","CEP","CodigoUnidade","CodigoUnidadePai"].join("\t");
-const rows = u.map(x=>[x.s,x.siglaCompleta,x.n,x.c,x.f,x.m,x.z,x.i,x.p].join("\t")).join("\n");
-
-await Deno.writeTextFile("anac-estrutura.tsv", `${header}\n${rows}`);
