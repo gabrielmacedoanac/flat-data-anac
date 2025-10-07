@@ -1,0 +1,119 @@
+name: 'Processamento com PYTHON'
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build-with-python:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Instalar dependências
+        run: pip install requests
+
+      - name: Executar Script Python para Baixar e Processar
+        run: |
+          python -c """
+import requests
+import json
+import os
+
+# Etapa 1: Baixar os dados
+print('Baixando o arquivo JSON...')
+url = 'https://estruturaorganizacional.dados.gov.br/doc/estrutura-organizacional/completa.json?codigoPoder=1&codigoEsfera=1&codigoUnidade=86144&retornarOrgaoEntidadeVinculados=SIM'
+response = requests.get(url)
+response.raise_for_status()
+source_data = response.json()
+
+# Etapa 2: Pré-processar os dados em uma lista de dicionários mais simples
+print('Pré-processando JSON...')
+unidades = source_data.get('unidades', [])
+dados = [
+    {
+        'sigla': u.get('sigla', ''),
+        'nome': u.get('nome', ''),
+        'competencia': u.get('competencia', ''),
+        'municipio': u.get('endereco', {}).get('municipio', ''),
+        'uf': u.get('endereco', {}).get('uf', ''),
+        'cep': u.get('endereco', {}).get('cep', ''),
+        'codigoUnidade': u.get('codigoUnidade', '').split('/')[-1],
+        'codigoUnidadePai': u.get('codigoUnidadePai', '').split('/')[-1] if u.get('codigoUnidadePai') else None
+    }
+    for u in unidades
+]
+
+# Função auxiliar para encontrar o caminho completo
+def caminho_completo(unidade, lista_completa):
+    caminho = []
+    atual = unidade
+    while atual:
+        caminho.insert(0, atual.get('sigla') or atual.get('nome'))
+        codigo_pai = atual.get('codigoUnidadePai')
+        if not codigo_pai:
+            break
+        # Encontra o próximo pai na lista
+        atual = next((x for x in lista_completa if x.get('codigoUnidade') == codigo_pai), None)
+    return '/'.join(caminho)
+
+# Etapa 3: Processar cada unidade para adicionar os campos finais
+print('Processando cada unidade...')
+dados_completos = []
+for u in dados:
+    sigla_completa = caminho_completo(u, dados)
+    
+    # Lógica especial para NURACs
+    if u['sigla'].startswith('NURAC'):
+        partes_nome = u['nome'].split(' ')
+        cidade = partes_nome[6] if len(partes_nome) > 6 else ''
+        estado = partes_nome[7].replace('(', '').replace(')', '') if len(partes_nome) > 7 else ''
+        sigla_corrigida = f'NURAC {cidade} {estado}'
+        
+        partes_caminho = sigla_completa.split('/')
+        if len(partes_caminho) >= 3:
+            sigla_completa_corrigida = f'{partes_caminho[0]}/{partes_caminho[1]}/{partes_caminho[2]}/{sigla_corrigida}'
+        else:
+            sigla_completa_corrigida = sigla_completa # Fallback
+    else:
+        sigla_corrigida = u['sigla']
+        sigla_completa_corrigida = sigla_completa
+    
+    # Adiciona os novos campos
+    u['siglaCorrigida'] = sigla_corrigida
+    u['siglaCompletaCorrigida'] = sigla_completa_corrigida
+    dados_completos.append(u)
+
+# Etapa 4: Salvar o JSON processado
+with open('estrutura-py.json', 'w', encoding='utf-8') as f:
+    json.dump(dados_completos, f, ensure_ascii=False, indent=2)
+print('Arquivo estrutura-py.json gerado.')
+
+# Etapa 5: Gerar o arquivo HTML
+print('Gerando arquivo HTML...')
+html_content = '''
+<!DOCTYPE html><html lang="pt-BR"><head><meta charset="UTF-8"><title>Estrutura ANAC (Python)</title></head><body>
+<h1>Estrutura Organizacional ANAC (Gerado com Python)</h1>
+<table border="1"><thead><tr><th>Sigla</th><th>Sigla Completa</th><th>Nome</th><th>UF</th></tr></thead><tbody>
+'''
+for item in dados_completos:
+    html_content += f"<tr><td>{item.get('siglaCorrigida', '')}</td><td>{item.get('siglaCompletaCorrigida', '')}</td><td>{item.get('nome', '')}</td><td>{item.get('uf', '')}</td></tr>\\n"
+
+html_content += '</tbody></table></body></html>'
+
+with open('estrutura-py.html', 'w', encoding='utf-8') as f:
+    f.write(html_content)
+print('Arquivo estrutura-py.html gerado.')
+"""
+      - name: Salvar Artefatos (Python)
+        uses: actions/upload-artifact@v4
+        with:
+          name: resultado-python
+          path: |
+            estrutura-py.json
+            estrutura-py.html
