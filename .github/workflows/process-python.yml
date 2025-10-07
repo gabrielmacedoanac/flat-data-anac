@@ -1,4 +1,4 @@
-name: Processamento com PYTHON
+name: 'Processamento com PYTHON'
 
 on:
   workflow_dispatch:
