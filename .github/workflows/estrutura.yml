@@ -20,8 +20,6 @@ jobs:
           # A URL da API
           http_url: 'https://estruturaorganizacional.dados.gov.br/doc/estrutura-organizacional/completa.json?codigoPoder=1&codigoEsfera=1&codigoUnidade=86144&retornarOrgaoEntidadeVinculados=SIM'
           downloaded_filename: 'anac/estrutura.json'
-          # NOVO E IMPORTANTE: Garante que o JSON seja salvo em seu formato original, sem processamento.
-          flatten: 'false'
 
       - name: Commit e push de arquivos, se houver mudanças
         run: |
