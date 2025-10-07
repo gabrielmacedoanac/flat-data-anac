@@ -3,14 +3,19 @@ on:
   workflow_dispatch:
 
 jobs:
-  download-file:
+  schedule:
     runs-on: ubuntu-latest
     steps:
+      - name: Setup deno
+        uses: denoland/setup-deno@main
+        with:
+          deno-version: v1.x
       - name: Check out repo
         uses: actions/checkout@v4
-
-      - name: Baixar arquivo JSON da API
-        uses: githubocto/flat@v4
+        
+# URL dos dados a serem baixados (http_url) e on nomes dos arquivos (downloaded_filename)      
+      - name: Fetch data
+        uses: githubocto/flat@v3
         with:
           # A URL da API
           http_url: 'https://estruturaorganizacional.dados.gov.br/doc/estrutura-organizacional/completa.json?codigoPoder=1&codigoEsfera=1&codigoUnidade=86144&retornarOrgaoEntidadeVinculados=SIM'
