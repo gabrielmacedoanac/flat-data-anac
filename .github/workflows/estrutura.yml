@@ -5,7 +5,8 @@ on:
     paths:
       - .github/workflows/estrutura.yml
   schedule:
-    - cron: 0 3-6 * * 0-6
+    - cron: "0 3-6 * * 0-6"
+
 jobs:
   schedule:
     runs-on: ubuntu-latest
@@ -14,14 +15,16 @@ jobs:
         uses: denoland/setup-deno@main
         with:
           deno-version: v1.x
+
       - name: Check out repo
         uses: actions/checkout@v4
-        
-# URL dos dados a serem baixados (http_url) e on nomes dos arquivos (downloaded_filename)      
+
       - name: Fetch data
         uses: githubocto/flat@v3
         with:
-          http_url: https://estruturaorganizacional.dados.gov.br/doc/estrutura-organizacional/completa.json?codigoPoder=1&codigoEsfera=1&codigoUnidade=86144&retornarOrgaoEntidadeVinculados=SIM
-          downloaded_filename: anac/estrutura.json
-         
-         
+          http_url: "https://estruturaorganizacional.dados.gov.br/doc/estrutura-organizacional/completa.json?codigoPoder=1&codigoEsfera=1&codigoUnidade=86144&retornarOrgaoEntidadeVinculados=SIM"
+          downloaded_filename: "anac/estrutura.json"
+          flatten: "false"
+
+      - name: Pós-processamento JSON (Deno)
+        run: deno run --allow-read --allow-write ./scripts/estrutura.ts anac/estrutura.json
