@@ -2,8 +2,6 @@ name: Estrutura ANAC
 on:
   workflow_dispatch: {}
   push:
-#    paths:
-#      - .github/workflows/estrutura.yml
   schedule:
     - cron: '0 0 1 * *'
 jobs:
