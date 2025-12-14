@@ -2470,19 +2470,6 @@
     "anexos": ""
   }, 
   {
-    "ementa": "Instruções para preenchimento completo e adequado do Conhecimento de Transporte eletrônico - CT-e, do Manifesto de Documentos Fiscais eletrônico - MDF-e e do Documento Eletrônico de Transporte - DT-e", 
-    "norma": "IS 175-003E", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "22/03/2024", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "27/03/2024", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 1º de abril de 2024", 
-    "anexos": ""
-  }, 
-  {
     "ementa": "Processo de credenciamento de instrutores de artigos perigosos", 
     "norma": "IS 175-013C", 
     "tornada_sem_efeito": "", 
@@ -3011,6 +2998,19 @@
     "outros": "", 
     "tipo_normatico": "IS", 
     "publicacao": "21/11/2025", 
+    "revogada": "", 
+    "em_vigor": "", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Instruções para preenchimento completo e adequado do Conhecimento de Transporte eletrônico – CT-e, Conhecimento de Transporte eletrônico Simplificado – CT-e Simplificado, do Manifesto de Documentos Fiscais eletrônico – MDF-e e do Documento Eletrônico de Transporte – DT-e", 
+    "norma": "IS 175-003F", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "02/12/2025", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "08/12/2025", 
     "revogada": "", 
     "em_vigor": "", 
     "anexos": ""
