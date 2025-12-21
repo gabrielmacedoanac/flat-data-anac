@@ -2275,19 +2275,6 @@
     "anexos": ""
   }, 
   {
-    "ementa": "Obtenção, alteração, suspensão, revogação e cassação de certificado de empresa de transporte aéreo regida pelo RBAC nº 135", 
-    "norma": "IS 119-004K", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "28/11/2024", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "04/12/2024", 
-    "revogada": "", 
-    "em_vigor": "", 
-    "anexos": ""
-  }, 
-  {
     "ementa": "Processo de certificação de empresa de transporte aéreo regida pelo RBAC nº 121", 
     "norma": "IS 119-001M", 
     "tornada_sem_efeito": "", 
@@ -2322,19 +2309,6 @@
     "outros": "", 
     "tipo_normatico": "IS", 
     "publicacao": "14/11/2023", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 1º de dezembro de 2023", 
-    "anexos": ""
-  }, 
-  {
-    "ementa": "Certificado de aeronavegabilidade para aeronaves categoria leve esportiva / Airworthiness certificate for light-sport category aircraft", 
-    "norma": "IS 21-007C", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "22/11/2023", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "27/11/2023", 
     "revogada": "", 
     "em_vigor": "Em vigor em 1º de dezembro de 2023", 
     "anexos": ""
@@ -2986,7 +2960,7 @@
     "tipo_normatico": "IS", 
     "publicacao": "BPS V.20, Nº 42, 20/10/2025", 
     "revogada": "", 
-    "em_vigor": "Em vigor em 22 de dezembro de 2025", 
+    "em_vigor": "Em vigor em 27 de fevereiro de 2026", 
     "anexos": ""
   }, 
   {
@@ -3011,6 +2985,45 @@
     "outros": "", 
     "tipo_normatico": "IS", 
     "publicacao": "08/12/2025", 
+    "revogada": "", 
+    "em_vigor": "", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Atuação e limitações referentes à aprovação de retorno ao serviço por mecânicos de manutenção aeronáutica (MMA) e regras gerais de execução de manutenção associadas", 
+    "norma": "IS 43-002A", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "12/12/2025", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "18/12/2025", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 2 de janeiro de 2026", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Obtenção, alteração, suspensão, revogação e cassação de certificado de empresa de transporte aéreo regida pelo RBAC nº 135", 
+    "norma": "IS 119-004L", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "12/12/2025", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "18/12/2025", 
+    "revogada": "", 
+    "em_vigor": "", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Certificado de aeronavegabilidade para aeronaves categoria leve esportiva\r\n\r\nAirworthiness certificate for light-sport category aircraft", 
+    "norma": "IS 21-007D", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "18/12/2025", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "19/12/2025", 
     "revogada": "", 
     "em_vigor": "", 
     "anexos": ""
