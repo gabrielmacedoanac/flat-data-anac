@@ -390,17 +390,17 @@
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-91-21-001@@download/arquivo_norma/IS9121-001A.PDF"
   }, 
   {
-    "ementa": "Manutenção de aeronaves, tempo recomendado entre as revisões gerais.", 
-    "norma": "IS 91.409-001B", 
+    "ementa": "Manutenção de aeronaves, tempo recomendado entre as revisões gerais", 
+    "norma": "IS 91.409-001C", 
     "tornada_sem_efeito": "", 
     "alterada": "", 
-    "data": "14/09/2020", 
+    "data": "15/12/2025", 
     "outros": "", 
     "tipo_normatico": "IS", 
-    "publicacao": "18/09/2020", 
+    "publicacao": "22/12/2025", 
     "revogada": "", 
-    "em_vigor": "Em vigor em 1º de outubro de 2020.", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-91-409-001@@download/arquivo_norma/IS91.409-001B.pdf"
+    "em_vigor": "", 
+    "anexos": ""
   }, 
   {
     "ementa": "Guia para a elaboração de SGSO de empresa aérea certificada de acordo com o RBAC 119.", 
@@ -1534,19 +1534,6 @@
     "anexos": ""
   }, 
   {
-    "ementa": "Padrões mínimos de desempenho para testes AVSEC de operadores de aeródromos", 
-    "norma": "IS 107-002B", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "22/12/2023", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "26/12/2023", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 2 de janeiro de 2024", 
-    "anexos": ""
-  }, 
-  {
     "ementa": "Seleção de aeródromos de alternativa e requisitos de condições meteorológicas", 
     "norma": "IS 121-016A", 
     "tornada_sem_efeito": "", 
@@ -1674,19 +1661,6 @@
     "publicacao": "17/11/2022", 
     "revogada": "", 
     "em_vigor": "Em vigor em 1º de dezembro de 2022", 
-    "anexos": ""
-  }, 
-  {
-    "ementa": "Verificação de Aeronavegabilidade", 
-    "norma": "IS 91.403-001D", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "25/11/2022", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "06/12/2022", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 2 de janeiro de 2023", 
     "anexos": ""
   }, 
   {
@@ -3024,6 +2998,32 @@
     "outros": "", 
     "tipo_normatico": "IS", 
     "publicacao": "23/12/2025", 
+    "revogada": "", 
+    "em_vigor": "", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Padrões mínimos de desempenho para testes AVSEC de operadores de aeródromos", 
+    "norma": "IS 107-002C", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "18/12/2025", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "29/12/2025", 
+    "revogada": "", 
+    "em_vigor": "", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Verificação de Aeronavegabilidade", 
+    "norma": "IS 91.403-001E", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "19/12/2025", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "29/12/2025", 
     "revogada": "", 
     "em_vigor": "", 
     "anexos": ""
