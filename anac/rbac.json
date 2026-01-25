@@ -494,19 +494,6 @@
     "anexos": ", https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-110-emd-02@@download/anexo_norma/CEF RBAC 110.pdf"
   }, 
   {
-    "ementa": "Operações de transporte aéreo público com aviões com configuração máxima certificada de assentos para passageiros de mais de 19 assentos ou capacidade máxima de carga paga acima de 3.400 kg", 
-    "norma": "RBAC 121 EMD 22", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "05/08/2025", 
-    "outros": "", 
-    "tipo_normatico": "RBAC", 
-    "publicacao": "08/08/2025", 
-    "revogada": "", 
-    "em_vigor": "Em vigor até 31 de dezembro de 2025", 
-    "anexos": ", https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-121@@download/anexo_norma/CEF RBAC 121.pdf"
-  }, 
-  {
     "ementa": "Helipontos", 
     "norma": "RBAC 155 EMD 01", 
     "tornada_sem_efeito": "", 
@@ -736,6 +723,45 @@
     "outros": "", 
     "tipo_normatico": "RBAC", 
     "publicacao": "19/12/2025", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 19 de fevereiro de 2026", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Requisitos para Operações Especiais de Aviação Pública", 
+    "norma": "RBAC 90 EMD 03", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "19/01/2026", 
+    "outros": "", 
+    "tipo_normatico": "RBAC", 
+    "publicacao": "20/01/2026", 
+    "revogada": "", 
+    "em_vigor": "", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Requisitos gerais de operação para aeronaves civis", 
+    "norma": "RBAC 91 EMD 07", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "19/01/2026", 
+    "outros": "", 
+    "tipo_normatico": "RBAC", 
+    "publicacao": "20/01/2026", 
+    "revogada": "", 
+    "em_vigor": "", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Regras gerais para petição de emissão, alteração, revogação e isenção de cumprimento de regra", 
+    "norma": "RBAC 11 EMD 04", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "19/01/2026", 
+    "outros": "", 
+    "tipo_normatico": "RBAC", 
+    "publicacao": "21/01/2026", 
     "revogada": "", 
     "em_vigor": "", 
     "anexos": ""

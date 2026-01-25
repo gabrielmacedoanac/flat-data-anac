@@ -1,18 +1,5 @@
 [
   {
-    "ementa": "Certificação de organização de manutenção estrangeira.", 
-    "norma": "IS 145-002B", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "15/04/2016", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "15/04/2016", 
-    "revogada": "", 
-    "em_vigor": "", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-145-002b@@download/arquivo_norma/IS145-002Bp.pdf"
-  }, 
-  {
     "ementa": "Procedimentos para preenchimento online dos dados do Certificado Médico Aeronáutico no Sistema de Aviação Civil.", 
     "norma": "IS 67-003C", 
     "tornada_sem_efeito": "", 
@@ -27,16 +14,16 @@
   }, 
   {
     "ementa": "Certification of Foreign Maintenance Organization", 
-    "norma": "IS 145-002B", 
+    "norma": "IS 145-002C", 
     "tornada_sem_efeito": "", 
     "alterada": "", 
-    "data": "15/04/2016", 
+    "data": "16/01/2026", 
     "outros": "", 
     "tipo_normatico": "IS", 
-    "publicacao": "15/04/2016", 
+    "publicacao": "21/01/2026", 
     "revogada": "", 
     "em_vigor": "", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-145-002@@download/arquivo_norma/IS145-002B - Inglês.pdf"
+    "anexos": ""
   }, 
   {
     "ementa": "Instruções e procedimentos para autorização de operações de aproximação de precisão ILS categorias II e III por operadores aéreos regidos pelo RBHA 91.", 
@@ -1079,17 +1066,17 @@
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-43-9-004@@download/arquivo_norma/IS43.9-004A.pdf"
   }, 
   {
-    "ementa": "Nível básico do gerenciamento da fadiga – NB.", 
-    "norma": "IS 117-002A", 
+    "ementa": "Nível básico do gerenciamento da fadiga – NB", 
+    "norma": "IS 117-002B", 
     "tornada_sem_efeito": "", 
     "alterada": "", 
-    "data": "06/12/2019", 
+    "data": "16/01/2026", 
     "outros": "", 
     "tipo_normatico": "IS", 
-    "publicacao": "06/12/2019", 
+    "publicacao": "21/01/2026", 
     "revogada": "", 
     "em_vigor": "", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-117-002@@download/arquivo_norma/IS117-002A.pdf"
+    "anexos": ""
   }, 
   {
     "ementa": "Orientações para implementação de um SGRF para operadores que tenham um GRF aceito pela ANAC", 
@@ -3037,6 +3024,19 @@
     "outros": "", 
     "tipo_normatico": "IS", 
     "publicacao": "29/12/2025", 
+    "revogada": "", 
+    "em_vigor": "", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Certificação de Organizações de Manutenção Estrangeira", 
+    "norma": "IS 145-002C", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "16/01/2026", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "21/01/2026", 
     "revogada": "", 
     "em_vigor": "", 
     "anexos": ""
