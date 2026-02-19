@@ -184,11 +184,11 @@ jobs:
           http_url: https://sistemas.anac.gov.br/dadosabertos/regulamentacao/Normas%20Publicadas/planos-e-programas/planos-e-programas.json
           downloaded_filename: anac/planos-e-programas.json
 
-      - name: Fetch data
-        uses: githubocto/flat@v3
-        with:
-          http_url: https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json
-          downloaded_filename: known_exploited_vulnerabilities.json
+#      - name: Fetch data
+#        uses: githubocto/flat@v3
+#        with:
+#          http_url: https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json
+#          downloaded_filename: known_exploited_vulnerabilities.json
 
 # large files      - name: Fetch data
 # large files        uses: githubocto/flat@v3
