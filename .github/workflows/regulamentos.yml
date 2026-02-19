@@ -147,3 +147,4 @@ jobs:
         git add regulamentos-anac-tags.*
         git commit -m "$(date +'%Y-%m-%d %H:%M UTC') Atualização automática"
         git push
+        
