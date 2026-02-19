@@ -9,7 +9,7 @@ from bs4 import BeautifulSoup
 
 # Prefixo da URL para a pesquisa
 prefixo_url = "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/portarias/"
-anos = range(2025, 1973, -1)
+anos = range(2026, 1973, -1)
 dados_tabela = []
 urls_acessadas = set()
 regex_nao_imprimiveis = re.compile(r'[\x00-\x1F\x7F]')
@@ -114,3 +114,4 @@ exportar_csv(df, "portarias-anac.csv")
 exportar_tsv(df, "portarias-anac.tsv")
 exportar_json(df, "portarias-anac.json")
 exportar_html(df, "portarias-anac.html")
+
