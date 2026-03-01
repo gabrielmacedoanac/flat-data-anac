@@ -464,7 +464,7 @@
     "tipo_normatico": "RBAC", 
     "publicacao": "26/01/2026", 
     "revogada": "", 
-    "em_vigor": "Versão em vigor de 26 de janeiro a 18 de fevereiro de 2026", 
+    "em_vigor": "Versão em vigor de 26 de janeiro a 18 de junho de 2026", 
     "anexos": ""
   }, 
   {
@@ -646,7 +646,7 @@
     "tipo_normatico": "RBAC", 
     "publicacao": "26/01/2026", 
     "revogada": "", 
-    "em_vigor": "Versão em vigor em 19 de fevereiro de 2026", 
+    "em_vigor": "Versão em vigor em 19 de junho de 2026", 
     "anexos": ""
   }, 
   {
@@ -686,6 +686,32 @@
     "publicacao": "21/01/2026", 
     "revogada": "", 
     "em_vigor": "", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Segurança da Aviação Civil Contra Atos de Interferência Ilícita – Operador de Aeródromo", 
+    "norma": "RBAC 107 EMD 11", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "23/02/2026", 
+    "outros": "", 
+    "tipo_normatico": "RBAC", 
+    "publicacao": "23/02/2026", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 23 de fevereiro de 2027", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Segurança da Aviação Civil Contra Atos de Interferência Ilícita – Operador Aéreo", 
+    "norma": "RBAC 108 EMD 09", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "19/02/2026", 
+    "outros": "", 
+    "tipo_normatico": "RBAC", 
+    "publicacao": "23/02/2026", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 23 de fevereiro de 2027", 
     "anexos": ""
   }
 ]
