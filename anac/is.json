@@ -1379,15 +1379,15 @@
   }, 
   {
     "ementa": "Estações de linha para operações segundo o RBAC nº 121", 
-    "norma": "IS 121-013A", 
+    "norma": "IS 121-013B", 
     "tornada_sem_efeito": "", 
     "alterada": "", 
-    "data": "24/01/2022", 
+    "data": "07/04/2026", 
     "outros": "", 
     "tipo_normatico": "IS", 
-    "publicacao": "28/01/2022", 
+    "publicacao": "10/04/2026", 
     "revogada": "", 
-    "em_vigor": "Em vigor em 1º de abril de 2022", 
+    "em_vigor": "", 
     "anexos": ""
   }, 
   {
@@ -2133,15 +2133,15 @@
   }, 
   {
     "ementa": "Procedimentos para elaboração, revisão e utilização do Manual Geral de Operações (MGO) de operadores aéreos regidos pelo RBAC nº 121", 
-    "norma": "IS 121-005E", 
+    "norma": "IS 121-005F", 
     "tornada_sem_efeito": "", 
     "alterada": "", 
-    "data": "21/09/2023", 
+    "data": "07/04/2026", 
     "outros": "", 
     "tipo_normatico": "IS", 
-    "publicacao": "22/09/2023", 
+    "publicacao": "10/04/2026", 
     "revogada": "", 
-    "em_vigor": "Em vigor em 2 de outubro de 2023", 
+    "em_vigor": "", 
     "anexos": ""
   }, 
   {
@@ -2523,16 +2523,16 @@
   }, 
   {
     "ementa": "Transporte de artigos perigosos em aeronaves civis", 
-    "norma": "IS 175-001L", 
+    "norma": "IS 175-001M", 
     "tornada_sem_efeito": "", 
     "alterada": "", 
-    "data": "27/11/2024", 
-    "outros": "Retificado no DOU de 29.01.2025, Seção 1, pág. 86", 
+    "data": "01/04/2026", 
+    "outros": "", 
     "tipo_normatico": "IS", 
-    "publicacao": "02/12/2024", 
+    "publicacao": "06/04/2026", 
     "revogada": "", 
-    "em_vigor": "Em vigor em 1º de janeiro de 2025", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-175-001@@download/arquivo_norma/IS 175-001L - Retificado 29.01.2025.pdf"
+    "em_vigor": "", 
+    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-175-001@@download/arquivo_norma/IS 175-001M.pdf"
   }, 
   {
     "ementa": "Guia de resposta a emergências para incidentes aeronáuticos envolvendo artigos perigosos", 
@@ -3065,6 +3065,19 @@
     "publicacao": "20/03/2026", 
     "revogada": "", 
     "em_vigor": "Em vigor em 23 de fevereiro de 2027", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Procedimentos para elaboração, revisão e utilização do Manual Geral de Manutenção (MGM) de operadores aéreos regidos pelo RBAC nº 121", 
+    "norma": "IS 121-024A", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "06/04/2026", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "10/04/2026", 
+    "revogada": "", 
+    "em_vigor": "", 
     "anexos": ""
   }
 ]
