@@ -442,19 +442,6 @@
     "anexos": ""
   }, 
   {
-    "ementa": "Situações em que deve ocorrer a análise e aceitação dos Manuais de Procedimentos de Inspeção (MPI) de empresas certificadas RBHA 145.", 
-    "norma": "IS 145-003B", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "01/01/2015", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "27/07/2012", 
-    "revogada": "Portaria nº 17.881/SPO, de 16.09.2025", 
-    "em_vigor": "", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-145-003@@download/arquivo_norma/IS 145-003B.pdf"
-  }, 
-  {
     "ementa": "Qualificação e Autorização em Ensaios não destrutivos na manutenção de produto aeronáutico ", 
     "norma": "IS 145.163-001A", 
     "tornada_sem_efeito": "", 
@@ -1071,7 +1058,7 @@
     "tornada_sem_efeito": "", 
     "alterada": "", 
     "data": "16/01/2026", 
-    "outros": "", 
+    "outros": "Retificado no DOU de 05.05.2026, Seção 1, pág. 124", 
     "tipo_normatico": "IS", 
     "publicacao": "21/01/2026", 
     "revogada": "", 
@@ -2042,15 +2029,15 @@
   }, 
   {
     "ementa": "Procedimentos para a aprovação de produtos aeronáuticos civis estrangeiros e importação de quaisquer produtos aeronáuticos civis / Procedures for approval of foreign civil aeronautical products and import of any civil aeronautical product", 
-    "norma": "IS 21-010G", 
+    "norma": "IS 21-010H", 
     "tornada_sem_efeito": "", 
     "alterada": "", 
-    "data": "20/07/2023", 
+    "data": "30/04/2026", 
     "outros": "", 
     "tipo_normatico": "IS", 
-    "publicacao": "31/07/2023", 
+    "publicacao": "07/05/2026", 
     "revogada": "", 
-    "em_vigor": "Em vigor em 1º de setembro de 2023", 
+    "em_vigor": "", 
     "anexos": ""
   }, 
   {
@@ -3078,6 +3065,19 @@
     "publicacao": "10/04/2026", 
     "revogada": "", 
     "em_vigor": "", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Comunicação de perigos, falhas, mau funcionamento e defeitos", 
+    "norma": "IS 21.3-001A", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "17/04/2026", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "07/05/2026", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 8 de abril de 2027", 
     "anexos": ""
   }
 ]
