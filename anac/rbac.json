@@ -36,7 +36,7 @@
     "publicacao": "22/05/2026", 
     "revogada": "", 
     "em_vigor": "", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-154@@download/arquivo_norma/RBAC154EMD09 - Retificado.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-154@@download/anexo_norma/Perguntas e Respostas RBAC154-EMD05.pdf"
+    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-154@@download/arquivo_norma/RBAC154EMD09 - Retificado.pdf"
   }, 
   {
     "ementa": "Requisitos de Aeronavegabilidade: Aviões Categoria Normal", 
@@ -338,16 +338,16 @@
     "anexos": ", https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-141@@download/anexo_norma/CEF RBAC 141.pdf"
   }, 
   {
-    "ementa": "Requisitos Gerais para aeronaves não tripuladas de uso civil", 
-    "norma": "RBAC-E 94 EMD 03", 
+    "ementa": "Requisitos gerais para aeronaves não tripuladas de uso civil", 
+    "norma": "RBAC 100 EMD 00", 
     "tornada_sem_efeito": "", 
     "alterada": "", 
-    "data": "03/04/2023", 
+    "data": "15/06/2026", 
     "outros": "", 
     "tipo_normatico": "RBAC", 
-    "publicacao": "03/04/2023", 
+    "publicacao": "16/06/2026", 
     "revogada": "", 
-    "em_vigor": "Em vigor em 2 de maio de 2023", 
+    "em_vigor": "", 
     "anexos": ""
   }, 
   {
@@ -586,15 +586,15 @@
   }, 
   {
     "ementa": "Cadastro e requisitos operacionais: operações aeroagrícolas", 
-    "norma": "RBAC 137 EMD 06", 
+    "norma": "RBAC 137 EMD 07", 
     "tornada_sem_efeito": "", 
     "alterada": "", 
-    "data": "25/06/2025", 
+    "data": "15/06/2026", 
     "outros": "", 
     "tipo_normatico": "RBAC", 
-    "publicacao": "30/06/2025", 
+    "publicacao": "16/06/2026", 
     "revogada": "", 
-    "em_vigor": "Em vigor em 1º de janeiro de 2026", 
+    "em_vigor": "", 
     "anexos": ""
   }, 
   {
@@ -651,13 +651,13 @@
   }, 
   {
     "ementa": "Requisitos para Operações Especiais de Aviação Pública", 
-    "norma": "RBAC 90 EMD 03", 
+    "norma": "RBAC 90 EMD 04", 
     "tornada_sem_efeito": "", 
     "alterada": "", 
-    "data": "19/01/2026", 
+    "data": "15/06/2026", 
     "outros": "", 
     "tipo_normatico": "RBAC", 
-    "publicacao": "20/01/2026", 
+    "publicacao": "16/06/2026", 
     "revogada": "", 
     "em_vigor": "", 
     "anexos": ""
