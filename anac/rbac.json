@@ -118,16 +118,16 @@
   }, 
   {
     "ementa": "Marcas de Identificação, de Nacionalidade e de Matrícula.", 
-    "norma": "RBAC 45  EMD 04", 
+    "norma": "RBAC 45  EMD 05", 
     "tornada_sem_efeito": "", 
     "alterada": "", 
-    "data": "24/06/2020", 
+    "data": "08/07/2026", 
     "outros": "", 
     "tipo_normatico": "RBAC", 
-    "publicacao": "24/06/2020", 
+    "publicacao": "08/07/2026", 
     "revogada": "", 
-    "em_vigor": "Em vigor em 1º de julho de 2020.", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-045@@download/arquivo_norma/RBAC45EMD04.pdf"
+    "em_vigor": "", 
+    "anexos": ""
   }, 
   {
     "ementa": "Requisitos para drenagem de combustível e emissões de motores de aeronaves.", 
@@ -638,13 +638,13 @@
   }, 
   {
     "ementa": "Certificação de produto e artigo aeronáuticos", 
-    "norma": "RBAC 21 EMD 13", 
+    "norma": "RBAC 21 EMD 15", 
     "tornada_sem_efeito": "", 
     "alterada": "", 
-    "data": "19/12/2025", 
+    "data": "08/07/2026", 
     "outros": "", 
     "tipo_normatico": "RBAC", 
-    "publicacao": "19/12/2025", 
+    "publicacao": "08/07/2026", 
     "revogada": "", 
     "em_vigor": "", 
     "anexos": ""
@@ -744,7 +744,7 @@
     "ementa": "Certificação de produto e artigo aeronáuticos", 
     "norma": "RBAC 21 EMD 14", 
     "tornada_sem_efeito": "", 
-    "alterada": "", 
+    "alterada": "pela Resolução nº 808, de 06.07.2026", 
     "data": "06/04/2026", 
     "outros": "", 
     "tipo_normatico": "RBAC", 
