@@ -442,19 +442,6 @@
     "anexos": ""
   }, 
   {
-    "ementa": "Qualificação e Autorização em Ensaios não destrutivos na manutenção de produto aeronáutico ", 
-    "norma": "IS 145.163-001A", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "27/09/2013", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "27/09/2013", 
-    "revogada": "", 
-    "em_vigor": "", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-145-163-001@@download/arquivo_norma/IS145.163-001A.pdf"
-  }, 
-  {
     "ementa": "Projeto de Monitoramento de Ruído", 
     "norma": "IS 161.55-001A", 
     "tornada_sem_efeito": "", 
@@ -635,19 +622,6 @@
     "revogada": "", 
     "em_vigor": "", 
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-183-004@@download/arquivo_norma/ IS183-004A.pdf"
-  }, 
-  {
-    "ementa": "Orientações para a elaboração de análise de risco com vistas à demonstração de nível aceitável de segurança operacional.", 
-    "norma": "IS 154.5-001A", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "04/07/2018", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "04/07/2018", 
-    "revogada": "", 
-    "em_vigor": "", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-154-5-001@@download/arquivo_norma/IS154.5-001A.pdf"
   }, 
   {
     "ementa": "Sistema de documentos de segurança operacional.", 
@@ -1079,19 +1053,6 @@
     "anexos": ""
   }, 
   {
-    "ementa": "Auxílios visuais para pátios de aeronaves.", 
-    "norma": "IS 154-001A", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "06/03/2020", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "06/03/2020", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 1º de abril de 2020.", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-154-001@@download/arquivo_norma/Anexo IV - IS154-001A.pdf"
-  }, 
-  {
     "ementa": "Procedimentos para elaboração e efetivação de programas de treinamento operacional (PrTrnOp) para operações conduzidas segundo o RBAC nº 135.", 
     "norma": "IS 135-003D", 
     "tornada_sem_efeito": "", 
@@ -1311,19 +1272,6 @@
     "revogada": "", 
     "em_vigor": "Em vigor em 1° de julho de 2021.", 
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-91-319-001@@download/arquivo_norma/IS91.319-001A.pdf"
-  }, 
-  {
-    "ementa": "Características físicas de aeródromos", 
-    "norma": "IS 154-002B", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "24/10/2024", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "06/11/2024", 
-    "revogada": "", 
-    "em_vigor": "", 
-    "anexos": ""
   }, 
   {
     "ementa": "Critérios psicofísicos para desempenho de atividades AVSEC.", 
@@ -1586,19 +1534,6 @@
     "anexos": ""
   }, 
   {
-    "ementa": "Produção sob o RBAC 21 subpartes F, G, K e O", 
-    "norma": "IS 21-006C", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "07/08/2020", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "07/08/2020", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 1º de setembro de 2020", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-21-006@@download/arquivo_norma/IS21-006C.pdf"
-  }, 
-  {
     "ementa": "AVSEC - Treinamento em Serviço", 
     "norma": "IS 110-002A", 
     "tornada_sem_efeito": "", 
@@ -1833,19 +1768,6 @@
     "anexos": ""
   }, 
   {
-    "ementa": "Critérios de movimentação no solo", 
-    "norma": "IS 153-001A", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "20/04/2023", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "24/04/2023", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 2 de maio de 2023", 
-    "anexos": ""
-  }, 
-  {
     "ementa": "Manutenção aeroportuária", 
     "norma": "IS 153-002A", 
     "tornada_sem_efeito": "", 
@@ -1989,19 +1911,6 @@
     "anexos": ""
   }, 
   {
-    "ementa": "Auxílios visuais para pistas de pouso e decolagem e pistas de táxi", 
-    "norma": "IS 154-003A", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "09/05/2023", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "11/05/2023", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 1º de junho de 2023", 
-    "anexos": ""
-  }, 
-  {
     "ementa": "Procedimentos para Reconstituição de Diários de Bordo, Cadernetas e Restauração da Condição Aeronavegável", 
     "norma": "IS 91-015B", 
     "tornada_sem_efeito": "", 
@@ -2129,19 +2038,6 @@
     "publicacao": "10/04/2026", 
     "revogada": "", 
     "em_vigor": "", 
-    "anexos": ""
-  }, 
-  {
-    "ementa": "Procedimentos para elaboração do manual geral de operações (MGO) dos operadores aéreos regidos pelo RBAC nº 135", 
-    "norma": "IS 135-002F", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "21/09/2023", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "22/09/2023", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 2 de outubro de 2023", 
     "anexos": ""
   }, 
   {
@@ -3089,6 +2985,136 @@
     "outros": "", 
     "tipo_normatico": "IS", 
     "publicacao": "10/06/2026", 
+    "revogada": "", 
+    "em_vigor": "", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Qualificação e Autorização em Ensaios Não Destrutivos na Manutenção de Produto Aeronáutico", 
+    "norma": "IS 145.163-001B", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "09/07/2026", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "15/07/2026", 
+    "revogada": "", 
+    "em_vigor": "", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Produção sob o RBAC 21 subpartes F, G, K e O", 
+    "norma": "IS 21-006D", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "29/06/2026", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "15/07/2026", 
+    "revogada": "", 
+    "em_vigor": "", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Procedimentos aceitáveis para determinação do nível adequado de serviço de prevenção, salvamento e combate a incêndio em aeródromos civis", 
+    "norma": "IS 91-017A", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "13/07/2027", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "16/07/2026", 
+    "revogada": "", 
+    "em_vigor": "", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Procedimentos para elaboração do manual geral de operações (MGO) dos operadores aéreos regidos pelo RBAC nº 135", 
+    "norma": "IS 135-002G", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "16/07/2026", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "16/07/2026", 
+    "revogada": "", 
+    "em_vigor": "", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Conceitos básicos sobre fadiga humana", 
+    "norma": "IS 117-001C", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "16/07/2026", 
+    "outros": "", 
+    "tipo_normatico": "Instrução Normativa", 
+    "publicacao": "16/07/2026", 
+    "revogada": "", 
+    "em_vigor": "", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Auxílios visuais para pátios de aeronaves", 
+    "norma": "IS 154-001B", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "07/07/2026", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "17/07/2026", 
+    "revogada": "", 
+    "em_vigor": "", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Critérios de movimentação no solo", 
+    "norma": "IS 153-001B", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "17/07/2026", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "17/07/2026", 
+    "revogada": "", 
+    "em_vigor": "", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Características físicas de aeródromos", 
+    "norma": "IS 154-002C", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "17/07/2026", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "17/07/2026", 
+    "revogada": "", 
+    "em_vigor": "", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Auxílios visuais para pistas de pouso e decolagem e pistas de táxi", 
+    "norma": "IS 154-003B", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "17/07/2026", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "17/07/2026", 
+    "revogada": "", 
+    "em_vigor": "", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Orientações para a elaboração de análise de risco com vistas à demonstração de nível aceitável de segurança operacional.", 
+    "norma": "IS 154.5-001B", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "17/07/2026", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "17/07/2026", 
     "revogada": "", 
     "em_vigor": "", 
     "anexos": ""
