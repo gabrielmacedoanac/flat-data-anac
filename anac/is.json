@@ -1859,19 +1859,6 @@
     "anexos": ""
   }, 
   {
-    "ementa": "Monitoramento da irregularidade longitudinal, atrito e macrotextura do pavimento da pista pouso e decolagem", 
-    "norma": "IS 153.205-001C", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "24/04/2023", 
-    "outros": "", 
-    "tipo_normatico": "IS", 
-    "publicacao": "24/04/2023", 
-    "revogada": "", 
-    "em_vigor": "Em vigor em 2 de maio de 2023", 
-    "anexos": ", https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-153-205-001@@download/anexo_norma/Apêndices B a D à IS 153.205-001C.pdf"
-  }, 
-  {
     "ementa": "CAT – Categoria Contraincêndio de Aeródromo", 
     "norma": "IS 153.403-001B", 
     "tornada_sem_efeito": "", 
@@ -3115,6 +3102,19 @@
     "outros": "", 
     "tipo_normatico": "IS", 
     "publicacao": "17/07/2026", 
+    "revogada": "", 
+    "em_vigor": "", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Monitoramento da irregularidade longitudinal, atrito e macrotextura do pavimento da pista pouso e decolagem", 
+    "norma": "IS 153.205-001D", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "24/07/2026", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "24/07/2026", 
     "revogada": "", 
     "em_vigor": "", 
     "anexos": ""
