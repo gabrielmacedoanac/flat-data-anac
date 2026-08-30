@@ -26,17 +26,17 @@
     "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-164@@download/arquivo_norma/RBAC164EMD00.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-164@@download/anexo_norma/CEF RBAC 164.pdf"
   }, 
   {
-    "ementa": "Requisitos gerais para aeronaves não tripuladas de uso civil.", 
-    "norma": "RBAC-E 94 EMD 02", 
+    "ementa": "Requisitos gerais para aeronaves não tripuladas de uso civil", 
+    "norma": "RBAC-E 94 EMD 03", 
     "tornada_sem_efeito": "", 
     "alterada": "", 
-    "data": "30/11/2021", 
-    "outros": "Retificado no Diário Oficial da União de 10 de maio de 2022, Seção 1, pág.81.", 
+    "data": "01/03/2023", 
+    "outros": "", 
     "tipo_normatico": "RBAC-E", 
-    "publicacao": "02/12/2021", 
+    "publicacao": "03/04/2023", 
     "revogada": "Resolução nº 805, de 15.06.2026", 
-    "em_vigor": "Em vigor em 1º de junho de 2022", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-e-94-1@@download/arquivo_norma/RBACE94EMD02.pdf"
+    "em_vigor": "Em vigor em 2 de maio de 2023", 
+    "anexos": ""
   }, 
   {
     "ementa": "Projeto de aeródromos", 
@@ -646,7 +646,7 @@
     "tipo_normatico": "RBAC", 
     "publicacao": "08/07/2026", 
     "revogada": "", 
-    "em_vigor": "", 
+    "em_vigor": "Versão em vigor até 7 de abril de 2027", 
     "anexos": ""
   }, 
   {
@@ -750,7 +750,7 @@
     "tipo_normatico": "RBAC", 
     "publicacao": "08/07/2026", 
     "revogada": "", 
-    "em_vigor": "Em vigor em 8 de abril de 2027", 
+    "em_vigor": "Versão em vigor em 8 de abril de 2027", 
     "anexos": ""
   }
 ]
