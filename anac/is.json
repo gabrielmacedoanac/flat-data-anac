@@ -2575,13 +2575,13 @@
   }, 
   {
     "ementa": "Processo de credenciamento de pessoa física na SAR e orientações de atuação para os profissionais credenciados", 
-    "norma": "IS 183-002I", 
+    "norma": "IS 183-002J", 
     "tornada_sem_efeito": "", 
     "alterada": "", 
-    "data": "23/05/2025", 
+    "data": "28/10/2026", 
     "outros": "", 
     "tipo_normatico": "IS", 
-    "publicacao": "27/05/2025", 
+    "publicacao": "28/10/2026", 
     "revogada": "", 
     "em_vigor": "", 
     "anexos": ""
@@ -3017,13 +3017,13 @@
   }, 
   {
     "ementa": "Critérios de movimentação no solo", 
-    "norma": "IS 153-001B", 
+    "norma": "IS 153-001C", 
     "tornada_sem_efeito": "", 
     "alterada": "", 
-    "data": "17/07/2026", 
+    "data": "28/10/2026", 
     "outros": "", 
     "tipo_normatico": "IS", 
-    "publicacao": "17/07/2026", 
+    "publicacao": "28/10/2026", 
     "revogada": "", 
     "em_vigor": "", 
     "anexos": ""
@@ -3091,6 +3091,19 @@
     "publicacao": "27/07/2026", 
     "revogada": "", 
     "em_vigor": "Em vigor em 24 de agosto de 2026", 
+    "anexos": ""
+  }, 
+  {
+    "ementa": "Segurança da aviação contra atos de interferência ilícita - operador de aeródromo", 
+    "norma": "IS 107-001N", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "28/10/2026", 
+    "outros": "", 
+    "tipo_normatico": "IS", 
+    "publicacao": "28/10/2026", 
+    "revogada": "", 
+    "em_vigor": "Em vigor em 23 de fevereiro de 2027", 
     "anexos": ""
   }
 ]
